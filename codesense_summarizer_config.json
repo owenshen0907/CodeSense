@@ -1,6 +1,6 @@
 {
   "max_context_length": 100000,
-  "max_invocations": 20,
+  "max_invocations": 100,
   "scenarios": {
     "direct": {
       "description": "直接生成 readme，不参考原始 readme",
