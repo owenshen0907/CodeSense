@@ -22,6 +22,38 @@ pip install -r requirements.txt
 
 **配置文件**：确保 `config.ini` 中正确填写了大模型 API 的 Key、URL 等参数。
 
+
+
+```markdown
+# 项目依赖安装与配置指南
+
+## 一、安装项目依赖
+```bash
+pip install -r requirements.txt
+```
+
+## 二、配置文件设置
+1. **生成配置文件**  
+   执行以下命令复制配置模板：
+   ```bash
+   cp config.ini.template config.ini  # Linux/macOS
+   copy config.ini.template config.ini  # Windows
+   ```
+
+2. **填写API参数**  
+   打开 `config.ini`，按照以下格式填写大模型API信息：
+   ```ini
+   [step_api_prod]
+   key = <YOUR_API_KEY>  # 在 stepfun 平台获取
+   url = <API_SERVER_URL>  # 默认提供方地址
+   ```
+
+## 三、获取API Key
+1. 访问 [StepFun 平台](https://platform.stepfun.com)  
+2. 使用手机号注册账号  
+3. 进入控制台创建新应用  
+4. 在安全设置中生成 API Key  
+5. 将获取的 Key 填入 `config.ini` 的 `key` 字段
 ---
 
 ## 主要功能介绍

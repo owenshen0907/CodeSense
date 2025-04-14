@@ -1,0 +1,7 @@
+[logging]
+level = DEBUG
+displayLLM = True
+
+[step_api_prod]
+key = your_stepfun_apikey
+url = https://api.stepfun.com/v1
