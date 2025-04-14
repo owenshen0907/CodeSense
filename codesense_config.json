@@ -33,7 +33,7 @@
         "dependency": ["pom.xml", "build.gradle", "Cargo.toml", "composer.json"],
         "runtime": ["next.config.js", ".env"]
     },
-    "exclude_dirs": ["node_modules", "dist", "build", ".git", "__pycache__"],
+    "exclude_dirs": ["node_modules", "scan_results","logs","dist", "build", ".git", "__pycache__"],
     "binary_extensions": [
         ".png", ".jpg", ".jpeg", ".gif", ".bmp", ".pdf", ".mp4", ".avi", ".exe", ".dll", ".zip", ".rar"
     ]

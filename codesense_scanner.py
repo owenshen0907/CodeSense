@@ -79,7 +79,7 @@ def scan_directory(path, config, rel_path="", is_root=False):
     递归扫描目录，返回目录结构描述字典：
       - 目录节点包含： type, name, relative_path, children
       - 文件节点包含： type, name, relative_path, language, category, is_text, character_count,
-                         traversal_order, summaries
+                         need_traverse, summaries
     参数 is_root 用于第一次调用时，避免将项目根目录名称加入相对路径中。
     """
     basename = os.path.basename(path)
@@ -129,8 +129,8 @@ def scan_directory(path, config, rel_path="", is_root=False):
             file_info["character_count"] = count_file_characters(path)
         file_info["language"] = detect_language(basename, config.get("languages", {}))
         file_info["category"] = detect_category(basename, config.get("file_categories", {}))
-        # 为每个文件增加预留字段，供后续大模型分析使用
-        file_info["traversal_order"] = None
+        # 为每个文件增加预留字段，表示是否需要遍历文件内容，默认值为 True（是）
+        file_info["need_traverse"] = True
         file_info["summaries"] = {}
         return file_info
 
@@ -181,6 +181,50 @@ def setup_logging():
     )
     logging.info(f"日志记录初始化：日志文件 -> {log_file}")
 
+def merge_summaries(old_node, new_node):
+    """
+    递归合并旧结构和新结构：
+      - 如果新节点为文件且旧节点已有 summaries，则保留旧 summaries，
+        同时如果旧节点的 need_traverse 为 False，则更新新节点状态为 False
+      - 对于目录，递归合并子节点
+    """
+    if new_node.get("type") == "file":
+        if old_node:
+            if old_node.get("summaries"):
+                new_node["summaries"] = old_node["summaries"]
+            if old_node.get("need_traverse") is False:
+                new_node["need_traverse"] = False
+    elif new_node.get("type") == "dir":
+        old_children = {}
+        if old_node and "children" in old_node:
+            for child in old_node["children"]:
+                old_children[child.get("relative_path")] = child
+        for child in new_node.get("children", []):
+            rel = child.get("relative_path")
+            if rel in old_children:
+                merge_summaries(old_children[rel], child)
+    return new_node
+
+def save_scan_json_with_merge(scan_json_path, new_data):
+    """
+    如果已有扫描结果文件存在，则先加载旧数据，并将旧数据（例如 summaries 和 need_traverse 状态）合并到 new_data，
+    然后写入 scan_json_path。
+    """
+    if os.path.exists(scan_json_path):
+        try:
+            with open(scan_json_path, "r", encoding="utf-8") as f:
+                old_data = json.load(f)
+            if "structure" in new_data and "structure" in old_data:
+                new_data["structure"] = merge_summaries(old_data["structure"], new_data["structure"])
+            if "summaries" in old_data:
+                new_data["summaries"].update(old_data["summaries"])
+            logging.info("成功合并已有的扫描结果")
+        except Exception as e:
+            logging.error(f"合并已有扫描结果失败：{e}")
+    with open(scan_json_path, "w", encoding="utf-8") as f:
+        json.dump(new_data, f, ensure_ascii=False, indent=4)
+    logging.info(f"保存扫描结果至 {scan_json_path}")
+
 def main():
     parser = argparse.ArgumentParser(
         description="CodeSense 代码扫描工具：生成项目目录结构及文件属性"
@@ -208,7 +252,7 @@ def main():
         logging.error(f"加载全局配置文件失败，将使用默认配置。错误信息：{e}")
         config = DEFAULT_CONFIG
 
-    # 检查待扫描项目根目录下是否存在项目级配置文件 codesense_project_config.json
+    # 检查项目根目录下是否存在项目级配置文件 codesense_project_config.json
     project_config_path = os.path.join(args.path, "codesense_project_config.json")
     if os.path.exists(project_config_path):
         try:
@@ -223,7 +267,7 @@ def main():
         logging.error(f"错误：提供的待扫描路径 {args.path} 不存在。")
         return
 
-    # 确定输出目录：在 CodeSense 根目录下创建 scan_results 文件夹，再创建以项目名称命名的子文件夹
+    # 确定输出目录
     code_root = os.path.dirname(os.path.abspath(__file__))
     base_output = os.path.join(code_root, "scan_results")
     if not os.path.exists(base_output):
@@ -232,23 +276,20 @@ def main():
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
 
-    # 扫描指定的项目目录，第一次调用时 is_root=True（不将项目根目录名加入相对路径）
+    # 扫描指定项目目录（第一次调用时 is_root=True，不将项目根目录名称加入相对路径）
     directory_structure = scan_directory(args.path, config, rel_path="", is_root=True)
 
-    # 构造最终的项目结构 JSON，其中每个文件节点中预留 "traversal_order" 和 "summaries" 字段
+    # 构造最终项目结构 JSON，其中每个文件节点包含预留字段 need_traverse 和 summaries
     project_structure = {
         "project_name": args.project_name,
         "structure": directory_structure,
-        "traversal_order": None,
-        "summaries": {}  # 顶层预留，可选；但每个文件节点中已有预留字段
+        "need_traverse": True,
+        "summaries": {}
     }
 
-    print("生成的项目结构：")
-    print(json.dumps(project_structure, indent=4, ensure_ascii=False))
-
     json_output_path = os.path.join(output_dir, args.output)
-    with open(json_output_path, "w", encoding="utf-8") as f:
-        json.dump(project_structure, f, ensure_ascii=False, indent=4)
+    # 使用合并策略保存扫描结果，避免覆盖之前的记录
+    save_scan_json_with_merge(json_output_path, project_structure)
     print(f"项目结构及文件信息已保存至 {json_output_path}")
 
     file_list = collect_file_names(directory_structure)
