@@ -1,0 +1,40 @@
+{
+    "scan_hidden": false,
+    "languages": {
+        "python": [".py"],
+        "javascript": [".js", ".jsx"],
+        "typescript": [".ts", ".tsx"],
+        "go": [".go"],
+        "java": [".java"],
+        "c": [".c", ".h"],
+        "cpp": [".cpp", ".hpp", ".cc", ".cxx"],
+        "ruby": [".rb"],
+        "php": [".php"],
+        "swift": [".swift"],
+        "kotlin": [".kt"],
+        "scala": [".scala"],
+        "r": [".r"],
+        "csharp": [".cs"],
+        "objective-c": [".m", ".mm"]
+    },
+    "file_categories": {
+        "config": [
+            "package.json",
+            "requirements.txt",
+            "Pipfile",
+            "yarn.lock",
+            "Makefile",
+            "webpack.config.js",
+            "next.config.js",
+            ".babelrc",
+            ".eslintrc",
+            ".prettierrc"
+        ],
+        "dependency": ["pom.xml", "build.gradle", "Cargo.toml", "composer.json"],
+        "runtime": ["next.config.js", ".env"]
+    },
+    "exclude_dirs": ["node_modules", "dist", "build", ".git", "__pycache__"],
+    "binary_extensions": [
+        ".png", ".jpg", ".jpeg", ".gif", ".bmp", ".pdf", ".mp4", ".avi", ".exe", ".dll", ".zip", ".rar"
+    ]
+}

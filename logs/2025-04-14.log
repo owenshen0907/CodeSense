@@ -1,0 +1,3 @@
+2025-04-14 05:50:20,461 [INFO] 日志记录初始化：日志文件 -> /Users/shenting/PycharmProjects/PythonProject/CodeSense/logs/2025-04-14.log
+2025-04-14 05:50:20,462 [INFO] 加载全局配置文件：codesense_config.json
+2025-04-14 05:50:20,500 [INFO] 文件列表已保存至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/OpenManus/project_files.txt
