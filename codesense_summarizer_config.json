@@ -1,0 +1,34 @@
+{
+  "max_context_length": 100000,
+  "max_invocations": 20,
+  "scenarios": {
+    "direct": {
+      "description": "直接生成 readme，不参考原始 readme",
+      "use_initial_readme": false,
+      "final_summary_prompt": "请根据以下代码文件摘要生成项目的 readme，要求简明扼要且不参考原有的 readme 内容。\n\n代码摘要合集：\n{code_summaries}\n\n请输出最终的项目 readme。",
+      "batch_summary_prompt": "请针对以下多个代码文件内容，生成每个文件的代码摘要。请严格以 JSON 格式输出结果，格式要求如下：\n{{{{\n  \"文件路径1\": {{{{\"functions\": [{{{{\"name\": \"...\", \"purpose\": \"...\", \"parameters\": \"...\"}}}}], \"summary\": \"...\"}}}},\n  \"文件路径2\": {{{{\"functions\": [{{{{\"name\": \"...\", \"purpose\": \"...\", \"parameters\": \"...\"}}}}], \"summary\": \"...\"}}}},\n  ...\n}}}}\n\n文件之间使用 '===FILE_SEPARATOR===' 分隔，以下是多个代码文件的内容：\n{batch_content}",
+      "md_path": "direct_readme.md"
+    },
+    "correct": {
+      "description": "纠正原始 readme，指出问题并整改",
+      "use_initial_readme": true,
+      "final_summary_prompt": "请将以下原始 readme 与代码文件摘要进行整合，指出其中存在的问题并给出整改建议，生成改进后的 readme。\n\n原始 readme：\n{initial_summary}\n\n代码摘要合集：\n{code_summaries}\n\n请输出改进后的项目 readme。",
+      "batch_summary_prompt": "请针对以下多个代码文件内容，生成每个文件的代码摘要，格式严格以 JSON 输出，格式要求如下：\n{{{{\n  \"文件路径1\": {{{{\"functions\": [{{{{\"name\": \"...\", \"purpose\": \"...\", \"parameters\": \"...\"}}}}], \"summary\": \"...\"}}}},\n  \"文件路径2\": {{{{\"functions\": [{{{{\"name\": \"...\", \"purpose\": \"...\", \"parameters\": \"...\"}}}}], \"summary\": \"...\"}}}},\n  ...\n}}}}\n\n文件之间使用 '===FILE_SEPARATOR===' 分隔，以下是多个代码文件的内容：\n{batch_content}",
+      "md_path": "correct_readme.md"
+    },
+    "usage": {
+      "description": "生成项目使用说明和开发指引",
+      "use_initial_readme": true,
+      "final_summary_prompt": "请根据以下原始 readme（如果存在）与代码文件摘要生成项目的使用说明和开发指引，要求详细描述安装步骤、使用方法、常见问题和故障排除等内容。\n\n原始 readme：\n{initial_summary}\n\n代码摘要合集：\n{code_summaries}\n\n请输出完整的项目使用说明。",
+      "batch_summary_prompt": "请针对以下多个代码文件内容，生成每个文件的代码摘要，格式严格以 JSON 输出，格式要求如下：\n{{{{\n  \"文件路径1\": {{{{\"functions\": [{{{{\"name\": \"...\", \"purpose\": \"...\", \"parameters\": \"...\"}}}}], \"summary\": \"...\"}}}},\n  \"文件路径2\": {{{{\"functions\": [{{{{\"name\": \"...\", \"purpose\": \"...\", \"parameters\": \"...\"}}}}], \"summary\": \"...\"}}}},\n  ...\n}}}}\n\n文件之间使用 '===FILE_SEPARATOR===' 分隔，以下是多个代码文件的内容：\n{batch_content}",
+      "md_path": "usage_instructions.md"
+    },
+    "custom": {
+      "description": "自定义场景，提示词由用户自定义，可选择是否参考原始 readme",
+      "use_initial_readme": false,
+      "final_summary_prompt": "请按照自定义要求生成项目的 readme。请参照以下提示：\n\n{custom_prompt}",
+      "batch_summary_prompt": "自定义文件摘要提示词，请根据以下代码生成摘要：\n{batch_content}",
+      "md_path": "custom_readme.md"
+    }
+  }
+}
