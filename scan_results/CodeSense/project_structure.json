@@ -1,0 +1,389 @@
+{
+    "project_name": "CodeSense",
+    "structure": {
+        "type": "dir",
+        "name": "CodeSense",
+        "relative_path": "",
+        "children": [
+            {
+                "type": "file",
+                "name": "codesense_config.json",
+                "relative_path": "codesense_config.json",
+                "is_text": true,
+                "character_count": 1203,
+                "language": "unknown",
+                "category": "code",
+                "need_traverse": false,
+                "summaries": {
+                    "functions": [],
+                    "summary": "配置项目扫描规则，包括支持的语言及其扩展名、文件类别、排除目录和二进制文件扩展名。"
+                }
+            },
+            {
+                "type": "file",
+                "name": "codesense_scanner.py",
+                "relative_path": "codesense_scanner.py",
+                "is_text": true,
+                "character_count": 10847,
+                "language": "python",
+                "category": "code",
+                "need_traverse": false,
+                "summaries": {
+                    "functions": [
+                        {
+                            "name": "is_binary_file",
+                            "purpose": "根据文件扩展名判断是否为二进制文件",
+                            "parameters": "file_path, binary_extensions"
+                        },
+                        {
+                            "name": "detect_language",
+                            "purpose": "根据文件扩展名判断所属语言",
+                            "parameters": "file_name, languages_config"
+                        },
+                        {
+                            "name": "detect_category",
+                            "purpose": "根据文件名判断文件类别（配置、依赖、运行时或代码）",
+                            "parameters": "file_name, file_categories"
+                        },
+                        {
+                            "name": "count_file_characters",
+                            "purpose": "读取文件并返回字符数（UTF-8编码）",
+                            "parameters": "file_path"
+                        },
+                        {
+                            "name": "scan_directory",
+                            "purpose": "递归扫描目录，生成目录结构JSON",
+                            "parameters": "path, config, rel_path, is_root"
+                        },
+                        {
+                            "name": "generate_tree_markdown",
+                            "purpose": "递归生成目录结构的Markdown字符串",
+                            "parameters": "node, indent"
+                        },
+                        {
+                            "name": "collect_file_names",
+                            "purpose": "收集所有文件的相对路径列表",
+                            "parameters": "node, file_list"
+                        },
+                        {
+                            "name": "setup_logging",
+                            "purpose": "配置日志系统，记录到logs目录",
+                            "parameters": ""
+                        },
+                        {
+                            "name": "merge_summaries",
+                            "purpose": "合并旧新扫描结果结构",
+                            "parameters": "old_node, new_node"
+                        },
+                        {
+                            "name": "save_scan_json_with_merge",
+                            "purpose": "保存扫描结果并合并旧数据",
+                            "parameters": "scan_json_path, new_data"
+                        }
+                    ],
+                    "summary": "项目扫描核心脚本，递归分析目录结构，生成文件属性（语言、类别、字符数等），支持二进制文件过滤和日志记录。"
+                }
+            },
+            {
+                "type": "file",
+                "name": "codesense_summarizer_config.json",
+                "relative_path": "codesense_summarizer_config.json",
+                "is_text": true,
+                "character_count": 2607,
+                "language": "unknown",
+                "category": "code",
+                "need_traverse": false,
+                "summaries": {
+                    "functions": [],
+                    "summary": "配置项目总结场景参数，包括最大上下文长度、调用次数限制及不同场景（直接生成、修正、使用说明等）的提示词模板。"
+                }
+            },
+            {
+                "type": "file",
+                "name": "README.md",
+                "relative_path": "README.md",
+                "is_text": true,
+                "character_count": 2111,
+                "language": "unknown",
+                "category": "code",
+                "need_traverse": true,
+                "summaries": {}
+            },
+            {
+                "type": "file",
+                "name": "config.ini",
+                "relative_path": "config.ini",
+                "is_text": true,
+                "character_count": 505,
+                "language": "unknown",
+                "category": "code",
+                "need_traverse": false,
+                "summaries": {
+                    "functions": [],
+                    "summary": "存储API服务配置（Key、URL）和日志显示选项，支持生产/测试环境切换。"
+                }
+            },
+            {
+                "type": "file",
+                "name": "model_api_client.py",
+                "relative_path": "model_api_client.py",
+                "is_text": true,
+                "character_count": 6346,
+                "language": "python",
+                "category": "code",
+                "need_traverse": false,
+                "summaries": {
+                    "functions": [
+                        {
+                            "name": "flush_reasoning_line",
+                            "purpose": "将模型响应按行断开，保留合理标点",
+                            "parameters": "buffer, width, threshold"
+                        },
+                        {
+                            "name": "read_model_api_config",
+                            "purpose": "读取config.ini配置API参数",
+                            "parameters": "config_file"
+                        },
+                        {
+                            "name": "call_model_api",
+                            "purpose": "调用模型API并处理响应（流式或非流式）",
+                            "parameters": "messages, model, stream, timeout, big_model_log_path"
+                        }
+                    ],
+                    "summary": "模型API客户端，处理请求发送、响应解析和日志记录，支持流式输出及错误处理。"
+                }
+            },
+            {
+                "type": "file",
+                "name": "big_model_calls.log",
+                "relative_path": "big_model_calls.log",
+                "is_text": true,
+                "character_count": 6878,
+                "language": "unknown",
+                "category": "code",
+                "need_traverse": true,
+                "summaries": {}
+            },
+            {
+                "type": "file",
+                "name": "codesense_run_all.py",
+                "relative_path": "codesense_run_all.py",
+                "is_text": true,
+                "character_count": 2960,
+                "language": "python",
+                "category": "code",
+                "need_traverse": false,
+                "summaries": {
+                    "functions": [
+                        {
+                            "name": "main",
+                            "purpose": "执行扫描和总结全流程",
+                            "parameters": ""
+                        }
+                    ],
+                    "summary": "自动化脚本，串联codesense_scanner和codesense_project_summarizer，支持命令行参数配置路径和输出。"
+                }
+            },
+            {
+                "type": "file",
+                "name": "codesense_project_summarizer.py",
+                "relative_path": "codesense_project_summarizer.py",
+                "is_text": true,
+                "character_count": 15835,
+                "language": "python",
+                "category": "code",
+                "need_traverse": false,
+                "summaries": {
+                    "functions": [
+                        {
+                            "name": "setup_logging",
+                            "purpose": "配置日志系统",
+                            "parameters": "log_dir"
+                        },
+                        {
+                            "name": "summarize_files_batch",
+                            "purpose": "批量生成文件摘要",
+                            "parameters": "file_paths, project_path, prompt_template"
+                        },
+                        {
+                            "name": "aggregate_final_summary",
+                            "purpose": "整合初始总结和代码摘要生成最终报告",
+                            "parameters": "initial_summary, code_summaries, prompt_template"
+                        },
+                        {
+                            "name": "update_structure_summary",
+                            "purpose": "将摘要回填到目录结构节点",
+                            "parameters": "node, file_rel, summary"
+                        },
+                        {
+                            "name": "estimate_invocations",
+                            "purpose": "估算模型调用次数",
+                            "parameters": "file_list, get_file_char_count, batch_threshold"
+                        },
+                        {
+                            "name": "extract_files",
+                            "purpose": "提取待处理文件列表",
+                            "parameters": "node, flist"
+                        },
+                        {
+                            "name": "collect_pending_files",
+                            "purpose": "收集未处理的文件",
+                            "parameters": "node, pending_list"
+                        },
+                        {
+                            "name": "main",
+                            "purpose": "项目总结主程序，处理文件摘要和最终报告生成",
+                            "parameters": ""
+                        }
+                    ],
+                    "summary": "项目总结核心程序，批量调用大模型生成代码文件摘要，整合为最终报告，支持进度保存和断点续跑。"
+                }
+            }
+        ]
+    },
+    "need_traverse": true,
+    "summaries": {
+        "codesense_config.json": {
+            "functions": [],
+            "summary": "配置项目扫描规则，包括支持的语言及其扩展名、文件类别、排除目录和二进制文件扩展名。"
+        },
+        "codesense_scanner.py": {
+            "functions": [
+                {
+                    "name": "is_binary_file",
+                    "purpose": "根据文件扩展名判断是否为二进制文件",
+                    "parameters": "file_path, binary_extensions"
+                },
+                {
+                    "name": "detect_language",
+                    "purpose": "根据文件扩展名判断所属语言",
+                    "parameters": "file_name, languages_config"
+                },
+                {
+                    "name": "detect_category",
+                    "purpose": "根据文件名判断文件类别（配置、依赖、运行时或代码）",
+                    "parameters": "file_name, file_categories"
+                },
+                {
+                    "name": "count_file_characters",
+                    "purpose": "读取文件并返回字符数（UTF-8编码）",
+                    "parameters": "file_path"
+                },
+                {
+                    "name": "scan_directory",
+                    "purpose": "递归扫描目录，生成目录结构JSON",
+                    "parameters": "path, config, rel_path, is_root"
+                },
+                {
+                    "name": "generate_tree_markdown",
+                    "purpose": "递归生成目录结构的Markdown字符串",
+                    "parameters": "node, indent"
+                },
+                {
+                    "name": "collect_file_names",
+                    "purpose": "收集所有文件的相对路径列表",
+                    "parameters": "node, file_list"
+                },
+                {
+                    "name": "setup_logging",
+                    "purpose": "配置日志系统，记录到logs目录",
+                    "parameters": ""
+                },
+                {
+                    "name": "merge_summaries",
+                    "purpose": "合并旧新扫描结果结构",
+                    "parameters": "old_node, new_node"
+                },
+                {
+                    "name": "save_scan_json_with_merge",
+                    "purpose": "保存扫描结果并合并旧数据",
+                    "parameters": "scan_json_path, new_data"
+                }
+            ],
+            "summary": "项目扫描核心脚本，递归分析目录结构，生成文件属性（语言、类别、字符数等），支持二进制文件过滤和日志记录。"
+        },
+        "codesense_summarizer_config.json": {
+            "functions": [],
+            "summary": "配置项目总结场景参数，包括最大上下文长度、调用次数限制及不同场景（直接生成、修正、使用说明等）的提示词模板。"
+        },
+        "config.ini": {
+            "functions": [],
+            "summary": "存储API服务配置（Key、URL）和日志显示选项，支持生产/测试环境切换。"
+        },
+        "model_api_client.py": {
+            "functions": [
+                {
+                    "name": "flush_reasoning_line",
+                    "purpose": "将模型响应按行断开，保留合理标点",
+                    "parameters": "buffer, width, threshold"
+                },
+                {
+                    "name": "read_model_api_config",
+                    "purpose": "读取config.ini配置API参数",
+                    "parameters": "config_file"
+                },
+                {
+                    "name": "call_model_api",
+                    "purpose": "调用模型API并处理响应（流式或非流式）",
+                    "parameters": "messages, model, stream, timeout, big_model_log_path"
+                }
+            ],
+            "summary": "模型API客户端，处理请求发送、响应解析和日志记录，支持流式输出及错误处理。"
+        },
+        "codesense_run_all.py": {
+            "functions": [
+                {
+                    "name": "main",
+                    "purpose": "执行扫描和总结全流程",
+                    "parameters": ""
+                }
+            ],
+            "summary": "自动化脚本，串联codesense_scanner和codesense_project_summarizer，支持命令行参数配置路径和输出。"
+        },
+        "codesense_project_summarizer.py": {
+            "functions": [
+                {
+                    "name": "setup_logging",
+                    "purpose": "配置日志系统",
+                    "parameters": "log_dir"
+                },
+                {
+                    "name": "summarize_files_batch",
+                    "purpose": "批量生成文件摘要",
+                    "parameters": "file_paths, project_path, prompt_template"
+                },
+                {
+                    "name": "aggregate_final_summary",
+                    "purpose": "整合初始总结和代码摘要生成最终报告",
+                    "parameters": "initial_summary, code_summaries, prompt_template"
+                },
+                {
+                    "name": "update_structure_summary",
+                    "purpose": "将摘要回填到目录结构节点",
+                    "parameters": "node, file_rel, summary"
+                },
+                {
+                    "name": "estimate_invocations",
+                    "purpose": "估算模型调用次数",
+                    "parameters": "file_list, get_file_char_count, batch_threshold"
+                },
+                {
+                    "name": "extract_files",
+                    "purpose": "提取待处理文件列表",
+                    "parameters": "node, flist"
+                },
+                {
+                    "name": "collect_pending_files",
+                    "purpose": "收集未处理的文件",
+                    "parameters": "node, pending_list"
+                },
+                {
+                    "name": "main",
+                    "purpose": "项目总结主程序，处理文件摘要和最终报告生成",
+                    "parameters": ""
+                }
+            ],
+            "summary": "项目总结核心程序，批量调用大模型生成代码文件摘要，整合为最终报告，支持进度保存和断点续跑。"
+        }
+    }
+}

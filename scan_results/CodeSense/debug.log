@@ -1,0 +1,56 @@
+2025-04-15 02:19:32,259 [INFO] 日志系统初始化完成，日志文件：/Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/CodeSense/debug.log
+2025-04-15 02:19:32,259 [INFO] 成功加载扫描结果 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/CodeSense/project_structure.json
+2025-04-15 02:19:32,259 [INFO] 提取 readme.md 成功：README.md (字符数：2111)
+2025-04-15 02:19:32,259 [INFO] 加载总结工具配置文件：codesense_summarizer_config.json
+2025-04-15 02:19:32,263 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 02:19:33,386 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 02:19:57,781 [INFO] 最终项目总结报告生成完成
+2025-04-15 02:19:57,782 [INFO] 最终项目总结报告已保存至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/CodeSense/direct_readme_20250415_021957.md
+2025-04-15 02:31:59,429 [DEBUG] 日志系统初始化完成，日志文件：/Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/CodeSense/debug.log
+2025-04-15 02:31:59,430 [INFO] 成功加载扫描结果 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/CodeSense/project_structure.json
+2025-04-15 02:31:59,430 [INFO] 提取 readme.md 成功：README.md (字符数：2111)
+2025-04-15 02:31:59,430 [INFO] 加载总结工具配置文件：codesense_summarizer_config.json
+2025-04-15 02:31:59,430 [INFO] 待处理文件数量（不包含 .md 文件且 need_traverse 为 True）：8
+2025-04-15 02:31:59,430 [INFO] 预估大模型调用总次数：1，总步骤数：3
+2025-04-15 02:31:59,430 [INFO] 进度：初步总结步骤完成，占总进度 33.3%
+2025-04-15 02:31:59,430 [DEBUG] 读取文件 /Users/shenting/PycharmProjects/PythonProject/CodeSense/codesense_config.json 成功，字符数：1203
+2025-04-15 02:31:59,430 [DEBUG] 读取文件 /Users/shenting/PycharmProjects/PythonProject/CodeSense/codesense_scanner.py 成功，字符数：10847
+2025-04-15 02:31:59,431 [DEBUG] 读取文件 /Users/shenting/PycharmProjects/PythonProject/CodeSense/codesense_summarizer_config.json 成功，字符数：2496
+2025-04-15 02:31:59,431 [DEBUG] 读取文件 /Users/shenting/PycharmProjects/PythonProject/CodeSense/config.ini 成功，字符数：505
+2025-04-15 02:31:59,431 [DEBUG] 读取文件 /Users/shenting/PycharmProjects/PythonProject/CodeSense/model_api_client.py 成功，字符数：6346
+2025-04-15 02:31:59,431 [DEBUG] 读取文件 /Users/shenting/PycharmProjects/PythonProject/CodeSense/big_model_calls.log 成功，字符数：6878
+2025-04-15 02:31:59,431 [DEBUG] 读取文件 /Users/shenting/PycharmProjects/PythonProject/CodeSense/codesense_run_all.py 成功，字符数：2960
+2025-04-15 02:31:59,431 [DEBUG] 读取文件 /Users/shenting/PycharmProjects/PythonProject/CodeSense/codesense_project_summarizer.py 成功，字符数：16852
+2025-04-15 02:35:32,704 [DEBUG] 日志系统初始化完成，日志文件：/Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/CodeSense/debug.log
+2025-04-15 02:35:32,705 [INFO] 成功加载扫描结果 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/CodeSense/project_structure.json
+2025-04-15 02:35:32,705 [INFO] 提取 readme.md 成功：README.md (字符数：2111)
+2025-04-15 02:35:32,706 [INFO] 加载总结工具配置文件：codesense_summarizer_config.json
+2025-04-15 02:35:32,706 [INFO] 待处理文件数量（不包含 .md 文件且 need_traverse 为 True）：8
+2025-04-15 02:35:32,706 [INFO] 预估大模型调用总次数：1，总步骤数：3
+2025-04-15 02:35:32,706 [INFO] 进度：初步总结步骤完成，占总进度 33.3%
+2025-04-15 02:35:32,706 [DEBUG] 读取文件 /Users/shenting/PycharmProjects/PythonProject/CodeSense/codesense_config.json 成功，字符数：1203
+2025-04-15 02:35:32,706 [DEBUG] 读取文件 /Users/shenting/PycharmProjects/PythonProject/CodeSense/codesense_scanner.py 成功，字符数：10847
+2025-04-15 02:35:32,706 [DEBUG] 读取文件 /Users/shenting/PycharmProjects/PythonProject/CodeSense/codesense_summarizer_config.json 成功，字符数：2607
+2025-04-15 02:35:32,707 [DEBUG] 读取文件 /Users/shenting/PycharmProjects/PythonProject/CodeSense/config.ini 成功，字符数：505
+2025-04-15 02:35:32,707 [DEBUG] 读取文件 /Users/shenting/PycharmProjects/PythonProject/CodeSense/model_api_client.py 成功，字符数：6346
+2025-04-15 02:35:32,707 [DEBUG] 读取文件 /Users/shenting/PycharmProjects/PythonProject/CodeSense/big_model_calls.log 成功，字符数：6878
+2025-04-15 02:35:32,707 [DEBUG] 读取文件 /Users/shenting/PycharmProjects/PythonProject/CodeSense/codesense_run_all.py 成功，字符数：2960
+2025-04-15 02:35:32,707 [DEBUG] 读取文件 /Users/shenting/PycharmProjects/PythonProject/CodeSense/codesense_project_summarizer.py 成功，字符数：15835
+2025-04-15 02:35:32,714 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 02:35:37,439 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 02:36:21,410 [INFO] 批量文件摘要生成完成
+2025-04-15 02:36:21,410 [INFO] 回填摘要到结构节点：codesense_config.json，并将 need_traverse 设置为 False
+2025-04-15 02:36:21,410 [INFO] 回填摘要到结构节点：codesense_scanner.py，并将 need_traverse 设置为 False
+2025-04-15 02:36:21,410 [INFO] 回填摘要到结构节点：codesense_summarizer_config.json，并将 need_traverse 设置为 False
+2025-04-15 02:36:21,411 [INFO] 回填摘要到结构节点：config.ini，并将 need_traverse 设置为 False
+2025-04-15 02:36:21,411 [INFO] 回填摘要到结构节点：model_api_client.py，并将 need_traverse 设置为 False
+2025-04-15 02:36:21,411 [INFO] 回填摘要到结构节点：codesense_run_all.py，并将 need_traverse 设置为 False
+2025-04-15 02:36:21,411 [INFO] 回填摘要到结构节点：codesense_project_summarizer.py，并将 need_traverse 设置为 False
+2025-04-15 02:36:21,411 [INFO] 进度：已完成 66.7%
+2025-04-15 02:36:21,412 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/CodeSense/project_structure.json
+2025-04-15 02:36:21,413 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/CodeSense/project_structure.json
+2025-04-15 02:36:21,415 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 02:36:22,408 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 02:36:35,915 [INFO] 最终项目总结报告生成完成
+2025-04-15 02:36:35,915 [INFO] 进度：已完成 100.0%
+2025-04-15 02:36:35,915 [INFO] 最终项目总结报告已保存至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/CodeSense/direct_readme_20250415_023635.md

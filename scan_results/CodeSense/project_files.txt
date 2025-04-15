@@ -1,0 +1,9 @@
+codesense_config.json
+codesense_scanner.py
+codesense_summarizer_config.json
+README.md
+config.ini
+model_api_client.py
+big_model_calls.log
+codesense_run_all.py
+codesense_project_summarizer.py

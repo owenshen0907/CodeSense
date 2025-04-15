@@ -1,0 +1,376 @@
+2025-04-15 01:18:24,196 [DEBUG] 日志系统初始化完成，日志文件：/Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/OpenManus/debug.log
+2025-04-15 01:18:24,196 [INFO] 成功加载扫描结果 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/OpenManus/project_structure.json
+2025-04-15 01:18:24,196 [INFO] 提取 readme.md 成功：README.md (字符数：7509)
+2025-04-15 01:18:24,197 [INFO] 共计待处理 82 个文件（不包含 .md 文件，且 need_traverse 为 True）
+2025-04-15 01:18:24,197 [INFO] 预估大模型调用总次数：8，总步骤数：10
+2025-04-15 01:18:24,197 [INFO] 进度：初步总结步骤完成，占总进度 10.0%
+2025-04-15 01:18:24,197 [DEBUG] 读取文件 ../../OpenManus/run_mcp.py 成功，字符数：3620
+2025-04-15 01:18:24,197 [DEBUG] 读取文件 ../../OpenManus/app/config.py 成功，字符数：9414
+2025-04-15 01:18:24,197 [DEBUG] 读取文件 ../../OpenManus/app/__init__.py 成功，字符数：270
+2025-04-15 01:18:24,197 [DEBUG] 读取文件 ../../OpenManus/app/llm.py 成功，字符数：30064
+2025-04-15 01:18:24,197 [DEBUG] 读取文件 ../../OpenManus/app/agent/react.py 成功，字符数：1012
+2025-04-15 01:18:24,198 [DEBUG] 读取文件 ../../OpenManus/app/agent/swe.py 成功，字符数：771
+2025-04-15 01:18:24,201 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 01:18:28,102 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 01:19:28,495 [INFO] 批量文件摘要生成完成
+2025-04-15 01:19:28,495 [INFO] 回填摘要到结构节点：run_mcp.py，并将 need_traverse 设置为 False
+2025-04-15 01:19:28,496 [INFO] 回填摘要到结构节点：app/config.py，并将 need_traverse 设置为 False
+2025-04-15 01:19:28,496 [INFO] 回填摘要到结构节点：app/llm.py，并将 need_traverse 设置为 False
+2025-04-15 01:19:28,496 [INFO] 回填摘要到结构节点：app/agent/react.py，并将 need_traverse 设置为 False
+2025-04-15 01:19:28,496 [INFO] 回填摘要到结构节点：app/agent/swe.py，并将 need_traverse 设置为 False
+2025-04-15 01:19:28,496 [INFO] 进度：已完成 20.0%
+2025-04-15 01:19:28,499 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/OpenManus/project_structure.json
+2025-04-15 01:19:28,499 [DEBUG] 读取文件 ../../OpenManus/app/agent/toolcall.py 成功，字符数：10097
+2025-04-15 01:19:28,500 [DEBUG] 读取文件 ../../OpenManus/app/agent/__init__.py 成功，字符数：358
+2025-04-15 01:19:28,500 [DEBUG] 读取文件 ../../OpenManus/app/agent/browser.py 成功，字符数：5041
+2025-04-15 01:19:28,500 [DEBUG] 读取文件 ../../OpenManus/app/agent/mcp.py 成功，字符数：7155
+2025-04-15 01:19:28,500 [DEBUG] 读取文件 ../../OpenManus/app/agent/base.py 成功，字符数：7026
+2025-04-15 01:19:28,501 [DEBUG] 读取文件 ../../OpenManus/app/agent/manus.py 成功，字符数：2355
+2025-04-15 01:19:28,501 [DEBUG] 读取文件 ../../OpenManus/app/mcp/server.py 成功，字符数：6682
+2025-04-15 01:19:28,501 [DEBUG] 读取文件 ../../OpenManus/app/mcp/__init__.py 成功，字符数：0
+2025-04-15 01:19:28,501 [DEBUG] 读取文件 ../../OpenManus/app/logger.py 成功，字符数：1074
+2025-04-15 01:19:28,501 [DEBUG] 读取文件 ../../OpenManus/app/prompt/swe.py 成功，字符数：1591
+2025-04-15 01:19:28,501 [DEBUG] 读取文件 ../../OpenManus/app/prompt/toolcall.py 成功，字符数：162
+2025-04-15 01:19:28,501 [DEBUG] 读取文件 ../../OpenManus/app/prompt/__init__.py 成功，字符数：0
+2025-04-15 01:19:28,502 [DEBUG] 读取文件 ../../OpenManus/app/prompt/browser.py 成功，字符数：5454
+2025-04-15 01:19:28,502 [DEBUG] 读取文件 ../../OpenManus/app/prompt/mcp.py 成功，字符数：2168
+2025-04-15 01:19:28,504 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 01:19:32,683 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 01:20:44,061 [DEBUG] 日志系统初始化完成，日志文件：/Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/OpenManus/debug.log
+2025-04-15 01:20:44,061 [INFO] 成功加载扫描结果 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/OpenManus/project_structure.json
+2025-04-15 01:20:44,061 [INFO] 提取 readme.md 成功：README.md (字符数：7509)
+2025-04-15 01:20:44,061 [INFO] 共计待处理 82 个文件（不包含 .md 文件，且 need_traverse 为 True）
+2025-04-15 01:20:44,062 [INFO] 预估大模型调用总次数：8，总步骤数：10
+2025-04-15 01:20:44,062 [INFO] 进度：初步总结步骤完成，占总进度 10.0%
+2025-04-15 01:20:44,062 [DEBUG] 读取文件 ../../OpenManus/run_mcp.py 成功，字符数：3620
+2025-04-15 01:20:44,062 [DEBUG] 读取文件 ../../OpenManus/app/config.py 成功，字符数：9414
+2025-04-15 01:20:44,062 [DEBUG] 读取文件 ../../OpenManus/app/__init__.py 成功，字符数：270
+2025-04-15 01:20:44,062 [DEBUG] 读取文件 ../../OpenManus/app/llm.py 成功，字符数：30064
+2025-04-15 01:20:44,062 [DEBUG] 读取文件 ../../OpenManus/app/agent/react.py 成功，字符数：1012
+2025-04-15 01:20:44,062 [DEBUG] 读取文件 ../../OpenManus/app/agent/swe.py 成功，字符数：771
+2025-04-15 01:20:44,066 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 01:20:47,650 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 01:21:43,613 [INFO] 批量文件摘要生成完成
+2025-04-15 01:21:43,613 [INFO] 回填摘要到结构节点：run_mcp.py，并将 need_traverse 设置为 False
+2025-04-15 01:21:43,613 [INFO] 回填摘要到结构节点：app/config.py，并将 need_traverse 设置为 False
+2025-04-15 01:21:43,613 [INFO] 回填摘要到结构节点：app/__init__.py，并将 need_traverse 设置为 False
+2025-04-15 01:21:43,613 [INFO] 回填摘要到结构节点：app/llm.py，并将 need_traverse 设置为 False
+2025-04-15 01:21:43,613 [INFO] 回填摘要到结构节点：app/agent/react.py，并将 need_traverse 设置为 False
+2025-04-15 01:21:43,613 [INFO] 回填摘要到结构节点：app/agent/swe.py，并将 need_traverse 设置为 False
+2025-04-15 01:21:43,614 [INFO] 进度：已完成 20.0%
+2025-04-15 01:21:43,616 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/OpenManus/project_structure.json
+2025-04-15 01:21:43,617 [DEBUG] 读取文件 ../../OpenManus/app/agent/toolcall.py 成功，字符数：10097
+2025-04-15 01:21:43,617 [DEBUG] 读取文件 ../../OpenManus/app/agent/__init__.py 成功，字符数：358
+2025-04-15 01:21:43,617 [DEBUG] 读取文件 ../../OpenManus/app/agent/browser.py 成功，字符数：5041
+2025-04-15 01:21:43,618 [DEBUG] 读取文件 ../../OpenManus/app/agent/mcp.py 成功，字符数：7155
+2025-04-15 01:21:43,618 [DEBUG] 读取文件 ../../OpenManus/app/agent/base.py 成功，字符数：7026
+2025-04-15 01:21:43,618 [DEBUG] 读取文件 ../../OpenManus/app/agent/manus.py 成功，字符数：2355
+2025-04-15 01:21:43,618 [DEBUG] 读取文件 ../../OpenManus/app/mcp/server.py 成功，字符数：6682
+2025-04-15 01:21:43,618 [DEBUG] 读取文件 ../../OpenManus/app/mcp/__init__.py 成功，字符数：0
+2025-04-15 01:21:43,619 [DEBUG] 读取文件 ../../OpenManus/app/logger.py 成功，字符数：1074
+2025-04-15 01:21:43,619 [DEBUG] 读取文件 ../../OpenManus/app/prompt/swe.py 成功，字符数：1591
+2025-04-15 01:21:43,619 [DEBUG] 读取文件 ../../OpenManus/app/prompt/toolcall.py 成功，字符数：162
+2025-04-15 01:21:43,619 [DEBUG] 读取文件 ../../OpenManus/app/prompt/__init__.py 成功，字符数：0
+2025-04-15 01:21:43,620 [DEBUG] 读取文件 ../../OpenManus/app/prompt/browser.py 成功，字符数：5454
+2025-04-15 01:21:43,620 [DEBUG] 读取文件 ../../OpenManus/app/prompt/mcp.py 成功，字符数：2168
+2025-04-15 01:21:43,622 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 01:21:47,185 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 01:22:56,291 [INFO] 批量文件摘要生成完成
+2025-04-15 01:22:56,291 [INFO] 回填摘要到结构节点：app/agent/toolcall.py，并将 need_traverse 设置为 False
+2025-04-15 01:22:56,292 [INFO] 回填摘要到结构节点：app/agent/__init__.py，并将 need_traverse 设置为 False
+2025-04-15 01:22:56,292 [INFO] 回填摘要到结构节点：app/agent/browser.py，并将 need_traverse 设置为 False
+2025-04-15 01:22:56,292 [INFO] 回填摘要到结构节点：app/agent/mcp.py，并将 need_traverse 设置为 False
+2025-04-15 01:22:56,292 [INFO] 回填摘要到结构节点：app/agent/base.py，并将 need_traverse 设置为 False
+2025-04-15 01:22:56,292 [INFO] 回填摘要到结构节点：app/agent/manus.py，并将 need_traverse 设置为 False
+2025-04-15 01:22:56,292 [INFO] 回填摘要到结构节点：app/mcp/server.py，并将 need_traverse 设置为 False
+2025-04-15 01:22:56,292 [INFO] 回填摘要到结构节点：app/logger.py，并将 need_traverse 设置为 False
+2025-04-15 01:22:56,292 [INFO] 回填摘要到结构节点：app/prompt/swe.py，并将 need_traverse 设置为 False
+2025-04-15 01:22:56,293 [INFO] 回填摘要到结构节点：app/prompt/toolcall.py，并将 need_traverse 设置为 False
+2025-04-15 01:22:56,293 [INFO] 回填摘要到结构节点：app/prompt/browser.py，并将 need_traverse 设置为 False
+2025-04-15 01:22:56,293 [INFO] 回填摘要到结构节点：app/prompt/mcp.py，并将 need_traverse 设置为 False
+2025-04-15 01:22:56,293 [INFO] 进度：已完成 30.0%
+2025-04-15 01:22:56,298 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/OpenManus/project_structure.json
+2025-04-15 01:22:56,298 [DEBUG] 读取文件 ../../OpenManus/app/prompt/cot.py 成功，字符数：937
+2025-04-15 01:22:56,299 [DEBUG] 读取文件 ../../OpenManus/app/prompt/planning.py 成功，字符数：1199
+2025-04-15 01:22:56,299 [DEBUG] 读取文件 ../../OpenManus/app/prompt/manus.py 成功，字符数：777
+2025-04-15 01:22:56,299 [DEBUG] 读取文件 ../../OpenManus/app/sandbox/core/terminal.py 成功，字符数：10943
+2025-04-15 01:22:56,300 [DEBUG] 读取文件 ../../OpenManus/app/sandbox/core/sandbox.py 成功，字符数：15839
+2025-04-15 01:22:56,300 [DEBUG] 读取文件 ../../OpenManus/app/sandbox/core/exceptions.py 成功，字符数：471
+2025-04-15 01:22:56,300 [DEBUG] 读取文件 ../../OpenManus/app/sandbox/core/manager.py 成功，字符数：10581
+2025-04-15 01:22:56,300 [DEBUG] 读取文件 ../../OpenManus/app/sandbox/client.py 成功，字符数：5647
+2025-04-15 01:22:56,300 [DEBUG] 读取文件 ../../OpenManus/app/sandbox/__init__.py 成功，字符数：685
+2025-04-15 01:22:56,301 [DEBUG] 读取文件 ../../OpenManus/app/exceptions.py 成功，字符数：332
+2025-04-15 01:22:56,302 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 01:22:59,470 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 01:23:41,335 [INFO] 批量文件摘要生成完成
+2025-04-15 01:23:41,335 [INFO] 回填摘要到结构节点：app/prompt/cot.py，并将 need_traverse 设置为 False
+2025-04-15 01:23:41,336 [INFO] 回填摘要到结构节点：app/prompt/planning.py，并将 need_traverse 设置为 False
+2025-04-15 01:23:41,336 [INFO] 回填摘要到结构节点：app/prompt/manus.py，并将 need_traverse 设置为 False
+2025-04-15 01:23:41,336 [INFO] 回填摘要到结构节点：app/sandbox/core/terminal.py，并将 need_traverse 设置为 False
+2025-04-15 01:23:41,336 [INFO] 回填摘要到结构节点：app/sandbox/core/sandbox.py，并将 need_traverse 设置为 False
+2025-04-15 01:23:41,337 [INFO] 回填摘要到结构节点：app/sandbox/core/exceptions.py，并将 need_traverse 设置为 False
+2025-04-15 01:23:41,337 [INFO] 回填摘要到结构节点：app/sandbox/core/manager.py，并将 need_traverse 设置为 False
+2025-04-15 01:23:41,337 [INFO] 回填摘要到结构节点：app/sandbox/client.py，并将 need_traverse 设置为 False
+2025-04-15 01:23:41,337 [INFO] 回填摘要到结构节点：app/sandbox/__init__.py，并将 need_traverse 设置为 False
+2025-04-15 01:23:41,337 [INFO] 回填摘要到结构节点：app/exceptions.py，并将 need_traverse 设置为 False
+2025-04-15 01:23:41,337 [INFO] 进度：已完成 40.0%
+2025-04-15 01:23:41,341 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/OpenManus/project_structure.json
+2025-04-15 01:23:41,341 [DEBUG] 读取文件 ../../OpenManus/app/bedrock.py 成功，字符数：13106
+2025-04-15 01:23:41,342 [DEBUG] 读取文件 ../../OpenManus/app/tool/browser_use_tool.py 成功，字符数：24691
+2025-04-15 01:23:41,342 [DEBUG] 读取文件 ../../OpenManus/app/tool/tool_collection.py 成功，字符数：1723
+2025-04-15 01:23:41,343 [DEBUG] 读取文件 ../../OpenManus/app/tool/bash.py 成功，字符数：5754
+2025-04-15 01:23:41,343 [DEBUG] 读取文件 ../../OpenManus/app/tool/__init__.py 成功，字符数：681
+2025-04-15 01:23:41,344 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 01:23:44,216 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 01:24:14,557 [DEBUG] 日志系统初始化完成，日志文件：/Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/OpenManus/debug.log
+2025-04-15 01:24:14,557 [INFO] 成功加载扫描结果 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/OpenManus/project_structure.json
+2025-04-15 01:24:14,557 [INFO] 提取 readme.md 成功：README.md (字符数：7509)
+2025-04-15 01:24:14,557 [INFO] 共计待处理 82 个文件（不包含 .md 文件，且 need_traverse 为 True）
+2025-04-15 01:24:14,558 [INFO] 预估大模型调用总次数：8，总步骤数：10
+2025-04-15 01:24:14,558 [INFO] 进度：初步总结步骤完成，占总进度 10.0%
+2025-04-15 01:24:14,558 [DEBUG] 读取文件 ../../OpenManus/run_mcp.py 成功，字符数：3620
+2025-04-15 01:24:14,558 [DEBUG] 读取文件 ../../OpenManus/app/config.py 成功，字符数：9414
+2025-04-15 01:24:14,558 [DEBUG] 读取文件 ../../OpenManus/app/__init__.py 成功，字符数：270
+2025-04-15 01:24:14,558 [DEBUG] 读取文件 ../../OpenManus/app/llm.py 成功，字符数：30064
+2025-04-15 01:24:14,558 [DEBUG] 读取文件 ../../OpenManus/app/agent/react.py 成功，字符数：1012
+2025-04-15 01:24:14,558 [DEBUG] 读取文件 ../../OpenManus/app/agent/swe.py 成功，字符数：771
+2025-04-15 01:24:14,562 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 01:24:17,918 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 01:26:35,474 [INFO] 批量文件摘要生成完成
+2025-04-15 01:26:35,475 [INFO] 回填摘要到结构节点：run_mcp.py，并将 need_traverse 设置为 False
+2025-04-15 01:26:35,475 [INFO] 回填摘要到结构节点：app/__init__.py，并将 need_traverse 设置为 False
+2025-04-15 01:26:35,475 [INFO] 回填摘要到结构节点：app/llm.py，并将 need_traverse 设置为 False
+2025-04-15 01:26:35,475 [INFO] 回填摘要到结构节点：app/agent/react.py，并将 need_traverse 设置为 False
+2025-04-15 01:26:35,475 [INFO] 回填摘要到结构节点：app/agent/swe.py，并将 need_traverse 设置为 False
+2025-04-15 01:26:35,475 [INFO] 进度：已完成 20.0%
+2025-04-15 01:26:35,476 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/OpenManus/project_structure.json
+2025-04-15 01:26:35,477 [DEBUG] 读取文件 ../../OpenManus/app/agent/toolcall.py 成功，字符数：10097
+2025-04-15 01:26:35,477 [DEBUG] 读取文件 ../../OpenManus/app/agent/__init__.py 成功，字符数：358
+2025-04-15 01:26:35,477 [DEBUG] 读取文件 ../../OpenManus/app/agent/browser.py 成功，字符数：5041
+2025-04-15 01:26:35,477 [DEBUG] 读取文件 ../../OpenManus/app/agent/mcp.py 成功，字符数：7155
+2025-04-15 01:26:35,478 [DEBUG] 读取文件 ../../OpenManus/app/agent/base.py 成功，字符数：7026
+2025-04-15 01:26:35,478 [DEBUG] 读取文件 ../../OpenManus/app/agent/manus.py 成功，字符数：2355
+2025-04-15 01:26:35,478 [DEBUG] 读取文件 ../../OpenManus/app/mcp/server.py 成功，字符数：6682
+2025-04-15 01:26:35,478 [DEBUG] 读取文件 ../../OpenManus/app/mcp/__init__.py 成功，字符数：0
+2025-04-15 01:26:35,478 [DEBUG] 读取文件 ../../OpenManus/app/logger.py 成功，字符数：1074
+2025-04-15 01:26:35,478 [DEBUG] 读取文件 ../../OpenManus/app/prompt/swe.py 成功，字符数：1591
+2025-04-15 01:26:35,479 [DEBUG] 读取文件 ../../OpenManus/app/prompt/toolcall.py 成功，字符数：162
+2025-04-15 01:26:35,479 [DEBUG] 读取文件 ../../OpenManus/app/prompt/__init__.py 成功，字符数：0
+2025-04-15 01:26:35,479 [DEBUG] 读取文件 ../../OpenManus/app/prompt/browser.py 成功，字符数：5454
+2025-04-15 01:26:35,479 [DEBUG] 读取文件 ../../OpenManus/app/prompt/mcp.py 成功，字符数：2168
+2025-04-15 01:26:35,480 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 01:26:38,843 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 01:27:55,131 [INFO] 批量文件摘要生成完成
+2025-04-15 01:27:55,131 [INFO] 回填摘要到结构节点：app/agent/toolcall.py，并将 need_traverse 设置为 False
+2025-04-15 01:27:55,131 [INFO] 回填摘要到结构节点：app/agent/__init__.py，并将 need_traverse 设置为 False
+2025-04-15 01:27:55,132 [INFO] 回填摘要到结构节点：app/agent/browser.py，并将 need_traverse 设置为 False
+2025-04-15 01:27:55,132 [INFO] 回填摘要到结构节点：app/agent/mcp.py，并将 need_traverse 设置为 False
+2025-04-15 01:27:55,132 [INFO] 回填摘要到结构节点：app/agent/base.py，并将 need_traverse 设置为 False
+2025-04-15 01:27:55,132 [INFO] 回填摘要到结构节点：app/agent/manus.py，并将 need_traverse 设置为 False
+2025-04-15 01:27:55,132 [INFO] 回填摘要到结构节点：app/mcp/server.py，并将 need_traverse 设置为 False
+2025-04-15 01:27:55,132 [INFO] 回填摘要到结构节点：app/logger.py，并将 need_traverse 设置为 False
+2025-04-15 01:27:55,132 [INFO] 回填摘要到结构节点：app/prompt/swe.py，并将 need_traverse 设置为 False
+2025-04-15 01:27:55,133 [INFO] 回填摘要到结构节点：app/prompt/toolcall.py，并将 need_traverse 设置为 False
+2025-04-15 01:27:55,133 [INFO] 回填摘要到结构节点：app/prompt/browser.py，并将 need_traverse 设置为 False
+2025-04-15 01:27:55,133 [INFO] 回填摘要到结构节点：app/prompt/mcp.py，并将 need_traverse 设置为 False
+2025-04-15 01:27:55,133 [INFO] 进度：已完成 30.0%
+2025-04-15 01:27:55,137 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/OpenManus/project_structure.json
+2025-04-15 01:27:55,138 [DEBUG] 读取文件 ../../OpenManus/app/prompt/cot.py 成功，字符数：937
+2025-04-15 01:27:55,138 [DEBUG] 读取文件 ../../OpenManus/app/prompt/planning.py 成功，字符数：1199
+2025-04-15 01:27:55,139 [DEBUG] 读取文件 ../../OpenManus/app/prompt/manus.py 成功，字符数：777
+2025-04-15 01:27:55,139 [DEBUG] 读取文件 ../../OpenManus/app/sandbox/core/terminal.py 成功，字符数：10943
+2025-04-15 01:27:55,139 [DEBUG] 读取文件 ../../OpenManus/app/sandbox/core/sandbox.py 成功，字符数：15839
+2025-04-15 01:27:55,140 [DEBUG] 读取文件 ../../OpenManus/app/sandbox/core/exceptions.py 成功，字符数：471
+2025-04-15 01:27:55,140 [DEBUG] 读取文件 ../../OpenManus/app/sandbox/core/manager.py 成功，字符数：10581
+2025-04-15 01:27:55,140 [DEBUG] 读取文件 ../../OpenManus/app/sandbox/client.py 成功，字符数：5647
+2025-04-15 01:27:55,140 [DEBUG] 读取文件 ../../OpenManus/app/sandbox/__init__.py 成功，字符数：685
+2025-04-15 01:27:55,140 [DEBUG] 读取文件 ../../OpenManus/app/exceptions.py 成功，字符数：332
+2025-04-15 01:27:55,141 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 01:27:58,366 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 01:29:11,550 [INFO] 批量文件摘要生成完成
+2025-04-15 01:29:11,550 [INFO] 回填摘要到结构节点：app/prompt/cot.py，并将 need_traverse 设置为 False
+2025-04-15 01:29:11,551 [INFO] 回填摘要到结构节点：app/prompt/planning.py，并将 need_traverse 设置为 False
+2025-04-15 01:29:11,551 [INFO] 回填摘要到结构节点：app/prompt/manus.py，并将 need_traverse 设置为 False
+2025-04-15 01:29:11,551 [INFO] 回填摘要到结构节点：app/sandbox/core/terminal.py，并将 need_traverse 设置为 False
+2025-04-15 01:29:11,551 [INFO] 回填摘要到结构节点：app/sandbox/core/sandbox.py，并将 need_traverse 设置为 False
+2025-04-15 01:29:11,551 [INFO] 回填摘要到结构节点：app/sandbox/core/exceptions.py，并将 need_traverse 设置为 False
+2025-04-15 01:29:11,551 [INFO] 回填摘要到结构节点：app/sandbox/core/manager.py，并将 need_traverse 设置为 False
+2025-04-15 01:29:11,551 [INFO] 回填摘要到结构节点：app/sandbox/client.py，并将 need_traverse 设置为 False
+2025-04-15 01:29:11,551 [INFO] 回填摘要到结构节点：app/exceptions.py，并将 need_traverse 设置为 False
+2025-04-15 01:29:11,552 [INFO] 进度：已完成 40.0%
+2025-04-15 01:29:11,557 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/OpenManus/project_structure.json
+2025-04-15 01:29:11,558 [DEBUG] 读取文件 ../../OpenManus/app/bedrock.py 成功，字符数：13106
+2025-04-15 01:29:11,558 [DEBUG] 读取文件 ../../OpenManus/app/tool/browser_use_tool.py 成功，字符数：24691
+2025-04-15 01:29:11,559 [DEBUG] 读取文件 ../../OpenManus/app/tool/tool_collection.py 成功，字符数：1723
+2025-04-15 01:29:11,560 [DEBUG] 读取文件 ../../OpenManus/app/tool/bash.py 成功，字符数：5754
+2025-04-15 01:29:11,560 [DEBUG] 读取文件 ../../OpenManus/app/tool/__init__.py 成功，字符数：681
+2025-04-15 01:29:11,561 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 01:29:14,356 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 01:31:03,532 [INFO] 批量文件摘要生成完成
+2025-04-15 01:31:03,532 [INFO] 回填摘要到结构节点：app/bedrock.py，并将 need_traverse 设置为 False
+2025-04-15 01:31:03,533 [INFO] 回填摘要到结构节点：app/tool/browser_use_tool.py，并将 need_traverse 设置为 False
+2025-04-15 01:31:03,534 [INFO] 回填摘要到结构节点：app/tool/tool_collection.py，并将 need_traverse 设置为 False
+2025-04-15 01:31:03,534 [INFO] 回填摘要到结构节点：app/tool/bash.py，并将 need_traverse 设置为 False
+2025-04-15 01:31:03,534 [INFO] 回填摘要到结构节点：app/tool/__init__.py，并将 need_traverse 设置为 False
+2025-04-15 01:31:03,534 [INFO] 进度：已完成 50.0%
+2025-04-15 01:31:03,539 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/OpenManus/project_structure.json
+2025-04-15 01:31:03,540 [DEBUG] 读取文件 ../../OpenManus/app/tool/create_chat_completion.py 成功，字符数：5621
+2025-04-15 01:31:03,541 [DEBUG] 读取文件 ../../OpenManus/app/tool/search/__init__.py 成功，字符数：439
+2025-04-15 01:31:03,541 [DEBUG] 读取文件 ../../OpenManus/app/tool/search/bing_search.py 成功，字符数：5313
+2025-04-15 01:31:03,541 [DEBUG] 读取文件 ../../OpenManus/app/tool/search/google_search.py 成功，字符数：987
+2025-04-15 01:31:03,541 [DEBUG] 读取文件 ../../OpenManus/app/tool/search/base.py 成功，字符数：1305
+2025-04-15 01:31:03,542 [DEBUG] 读取文件 ../../OpenManus/app/tool/search/baidu_search.py 成功，字符数：1921
+2025-04-15 01:31:03,542 [DEBUG] 读取文件 ../../OpenManus/app/tool/search/duckduckgo_search.py 成功，字符数：1987
+2025-04-15 01:31:03,542 [DEBUG] 读取文件 ../../OpenManus/app/tool/mcp.py 成功，字符数：4177
+2025-04-15 01:31:03,542 [DEBUG] 读取文件 ../../OpenManus/app/tool/terminate.py 成功，字符数：833
+2025-04-15 01:31:03,543 [DEBUG] 读取文件 ../../OpenManus/app/tool/planning.py 成功，字符数：13617
+2025-04-15 01:31:03,543 [DEBUG] 读取文件 ../../OpenManus/app/tool/python_execute.py 成功，字符数：2497
+2025-04-15 01:31:03,543 [DEBUG] 读取文件 ../../OpenManus/app/tool/file_operators.py 成功，字符数：5618
+2025-04-15 01:31:03,545 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 01:31:07,674 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 01:33:13,517 [DEBUG] 日志系统初始化完成，日志文件：/Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/OpenManus/debug.log
+2025-04-15 01:33:13,518 [INFO] 成功加载扫描结果 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/OpenManus/project_structure.json
+2025-04-15 01:33:13,518 [INFO] 提取 readme.md 成功：README.md (字符数：7509)
+2025-04-15 01:33:13,518 [INFO] 共计待处理 51 个文件（不包含 .md 文件，且 need_traverse 为 True）
+2025-04-15 01:33:13,519 [INFO] 预估大模型调用总次数：4，总步骤数：6
+2025-04-15 01:33:13,519 [INFO] 进度：初步总结步骤完成，占总进度 16.7%
+2025-04-15 01:33:13,519 [DEBUG] 读取文件 ../../OpenManus/app/config.py 成功，字符数：9414
+2025-04-15 01:33:13,519 [DEBUG] 读取文件 ../../OpenManus/app/mcp/__init__.py 成功，字符数：0
+2025-04-15 01:33:13,519 [DEBUG] 读取文件 ../../OpenManus/app/prompt/__init__.py 成功，字符数：0
+2025-04-15 01:33:13,519 [DEBUG] 读取文件 ../../OpenManus/app/sandbox/__init__.py 成功，字符数：685
+2025-04-15 01:33:13,519 [DEBUG] 读取文件 ../../OpenManus/app/tool/create_chat_completion.py 成功，字符数：5621
+2025-04-15 01:33:13,519 [DEBUG] 读取文件 ../../OpenManus/app/tool/search/__init__.py 成功，字符数：439
+2025-04-15 01:33:13,519 [DEBUG] 读取文件 ../../OpenManus/app/tool/search/bing_search.py 成功，字符数：5313
+2025-04-15 01:33:13,519 [DEBUG] 读取文件 ../../OpenManus/app/tool/search/google_search.py 成功，字符数：987
+2025-04-15 01:33:13,519 [DEBUG] 读取文件 ../../OpenManus/app/tool/search/base.py 成功，字符数：1305
+2025-04-15 01:33:13,519 [DEBUG] 读取文件 ../../OpenManus/app/tool/search/baidu_search.py 成功，字符数：1921
+2025-04-15 01:33:13,519 [DEBUG] 读取文件 ../../OpenManus/app/tool/search/duckduckgo_search.py 成功，字符数：1987
+2025-04-15 01:33:13,519 [DEBUG] 读取文件 ../../OpenManus/app/tool/mcp.py 成功，字符数：4177
+2025-04-15 01:33:13,519 [DEBUG] 读取文件 ../../OpenManus/app/tool/terminate.py 成功，字符数：833
+2025-04-15 01:33:13,519 [DEBUG] 读取文件 ../../OpenManus/app/tool/planning.py 成功，字符数：13617
+2025-04-15 01:33:13,519 [DEBUG] 读取文件 ../../OpenManus/app/tool/python_execute.py 成功，字符数：2497
+2025-04-15 01:33:13,523 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 01:33:20,387 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 01:34:23,135 [INFO] 批量文件摘要生成完成
+2025-04-15 01:34:23,136 [INFO] 回填摘要到结构节点：app/config.py，并将 need_traverse 设置为 False
+2025-04-15 01:34:23,136 [INFO] 回填摘要到结构节点：app/mcp/__init__.py，并将 need_traverse 设置为 False
+2025-04-15 01:34:23,136 [INFO] 回填摘要到结构节点：app/prompt/__init__.py，并将 need_traverse 设置为 False
+2025-04-15 01:34:23,136 [INFO] 回填摘要到结构节点：app/sandbox/__init__.py，并将 need_traverse 设置为 False
+2025-04-15 01:34:23,136 [INFO] 回填摘要到结构节点：app/tool/create_chat_completion.py，并将 need_traverse 设置为 False
+2025-04-15 01:34:23,136 [INFO] 回填摘要到结构节点：app/tool/search/__init__.py，并将 need_traverse 设置为 False
+2025-04-15 01:34:23,136 [INFO] 回填摘要到结构节点：app/tool/search/bing_search.py，并将 need_traverse 设置为 False
+2025-04-15 01:34:23,136 [INFO] 回填摘要到结构节点：app/tool/search/google_search.py，并将 need_traverse 设置为 False
+2025-04-15 01:34:23,136 [INFO] 回填摘要到结构节点：app/tool/search/base.py，并将 need_traverse 设置为 False
+2025-04-15 01:34:23,136 [INFO] 回填摘要到结构节点：app/tool/search/baidu_search.py，并将 need_traverse 设置为 False
+2025-04-15 01:34:23,136 [INFO] 回填摘要到结构节点：app/tool/search/duckduckgo_search.py，并将 need_traverse 设置为 False
+2025-04-15 01:34:23,136 [INFO] 回填摘要到结构节点：app/tool/mcp.py，并将 need_traverse 设置为 False
+2025-04-15 01:34:23,136 [INFO] 回填摘要到结构节点：app/tool/terminate.py，并将 need_traverse 设置为 False
+2025-04-15 01:34:23,136 [INFO] 回填摘要到结构节点：app/tool/planning.py，并将 need_traverse 设置为 False
+2025-04-15 01:34:23,136 [INFO] 回填摘要到结构节点：app/tool/python_execute.py，并将 need_traverse 设置为 False
+2025-04-15 01:34:23,136 [INFO] 进度：已完成 33.3%
+2025-04-15 01:34:23,142 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/OpenManus/project_structure.json
+2025-04-15 01:34:23,142 [DEBUG] 读取文件 ../../OpenManus/app/tool/file_operators.py 成功，字符数：5618
+2025-04-15 01:34:23,142 [DEBUG] 读取文件 ../../OpenManus/app/tool/web_search.py 成功，字符数：14834
+2025-04-15 01:34:23,142 [DEBUG] 读取文件 ../../OpenManus/app/tool/str_replace_editor.py 成功，字符数：17148
+2025-04-15 01:34:23,142 [DEBUG] 读取文件 ../../OpenManus/app/tool/base.py 成功，字符数：2457
+2025-04-15 01:34:23,144 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 01:34:27,027 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 01:35:07,887 [INFO] 批量文件摘要生成完成
+2025-04-15 01:35:07,888 [INFO] 回填摘要到结构节点：app/tool/file_operators.py，并将 need_traverse 设置为 False
+2025-04-15 01:35:07,888 [INFO] 回填摘要到结构节点：app/tool/web_search.py，并将 need_traverse 设置为 False
+2025-04-15 01:35:07,888 [INFO] 回填摘要到结构节点：app/tool/str_replace_editor.py，并将 need_traverse 设置为 False
+2025-04-15 01:35:07,888 [INFO] 回填摘要到结构节点：app/tool/base.py，并将 need_traverse 设置为 False
+2025-04-15 01:35:07,888 [INFO] 进度：已完成 50.0%
+2025-04-15 01:35:07,893 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/OpenManus/project_structure.json
+2025-04-15 01:35:07,894 [DEBUG] 读取文件 ../../OpenManus/app/tool/deep_research.py 成功，字符数：20400
+2025-04-15 01:35:07,894 [DEBUG] 读取文件 ../../OpenManus/app/schema.py 成功，字符数：5667
+2025-04-15 01:35:07,894 [DEBUG] 读取文件 ../../OpenManus/app/flow/flow_factory.py 成功，字符数：771
+2025-04-15 01:35:07,894 [DEBUG] 读取文件 ../../OpenManus/app/flow/__init__.py 成功，字符数：0
+2025-04-15 01:35:07,894 [DEBUG] 读取文件 ../../OpenManus/app/flow/planning.py 成功，字符数：17441
+2025-04-15 01:35:07,894 [DEBUG] 读取文件 ../../OpenManus/app/flow/base.py 成功，字符数：1820
+2025-04-15 01:35:07,894 [DEBUG] 读取文件 ../../OpenManus/LICENSE 成功，字符数：1071
+2025-04-15 01:35:07,894 [DEBUG] 读取文件 ../../OpenManus/requirements.txt 成功，字符数：594
+2025-04-15 01:35:07,895 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 01:35:11,115 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 01:35:51,387 [INFO] 批量文件摘要生成完成
+2025-04-15 01:35:51,387 [INFO] 回填摘要到结构节点：app/tool/deep_research.py，并将 need_traverse 设置为 False
+2025-04-15 01:35:51,387 [INFO] 回填摘要到结构节点：app/schema.py，并将 need_traverse 设置为 False
+2025-04-15 01:35:51,387 [INFO] 回填摘要到结构节点：app/flow/flow_factory.py，并将 need_traverse 设置为 False
+2025-04-15 01:35:51,388 [INFO] 回填摘要到结构节点：app/flow/planning.py，并将 need_traverse 设置为 False
+2025-04-15 01:35:51,388 [INFO] 回填摘要到结构节点：app/flow/base.py，并将 need_traverse 设置为 False
+2025-04-15 01:35:51,388 [INFO] 进度：已完成 66.7%
+2025-04-15 01:35:51,395 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/OpenManus/project_structure.json
+2025-04-15 01:35:51,396 [DEBUG] 读取文件 ../../OpenManus/config/config.example.toml 成功，字符数：3687
+2025-04-15 01:35:51,396 [DEBUG] 读取文件 ../../OpenManus/config/config.example-model-google.toml 成功，字符数：1119
+2025-04-15 01:35:51,396 [DEBUG] 读取文件 ../../OpenManus/config/config.example-model-anthropic.toml 成功，字符数：833
+2025-04-15 01:35:51,396 [DEBUG] 读取文件 ../../OpenManus/config/config.example-model-azure.toml 成功，字符数：1202
+2025-04-15 01:35:51,396 [DEBUG] 读取文件 ../../OpenManus/config/config.example-model-ollama.toml 成功，字符数：1081
+2025-04-15 01:35:51,396 [DEBUG] 读取文件 ../../OpenManus/Dockerfile 成功，字符数：305
+2025-04-15 01:35:51,396 [DEBUG] 读取文件 ../../OpenManus/workspace/example.txt 成功，字符数：97
+2025-04-15 01:35:51,396 [DEBUG] 读取文件 ../../OpenManus/tests/sandbox/test_sandbox_manager.py 成功，字符数：4001
+2025-04-15 01:35:51,396 [DEBUG] 读取文件 ../../OpenManus/tests/sandbox/test_docker_terminal.py 成功，字符数：3344
+2025-04-15 01:35:51,397 [DEBUG] 读取文件 ../../OpenManus/tests/sandbox/test_sandbox.py 成功，字符数：4477
+2025-04-15 01:35:51,397 [DEBUG] 读取文件 ../../OpenManus/tests/sandbox/test_client.py 成功，字符数：3494
+2025-04-15 01:35:51,397 [DEBUG] 读取文件 ../../OpenManus/setup.py 成功，字符数：1440
+2025-04-15 01:35:51,397 [WARNING] 读取文件 ../../OpenManus/examples/use_case/pictures/japan-travel-plan-2.png 失败：'utf-8' codec can't decode byte 0x89 in position 0: invalid start byte
+2025-04-15 01:35:51,398 [WARNING] 读取文件 ../../OpenManus/examples/use_case/pictures/japan-travel-plan-1.png 失败：'utf-8' codec can't decode byte 0x89 in position 0: invalid start byte
+2025-04-15 01:35:51,398 [DEBUG] 读取文件 ../../OpenManus/examples/use_case/japan-travel-plan/japan_travel_handbook_mobile.html 成功，字符数：8138
+2025-04-15 01:35:51,398 [DEBUG] 读取文件 ../../OpenManus/examples/use_case/japan-travel-plan/japan_travel_guide_instructions.txt 成功，字符数：1871
+2025-04-15 01:35:51,398 [DEBUG] 读取文件 ../../OpenManus/examples/use_case/japan-travel-plan/japan_travel_handbook_print.html 成功，字符数：5782
+2025-04-15 01:35:51,398 [DEBUG] 读取文件 ../../OpenManus/examples/use_case/japan-travel-plan/japan_travel_handbook.html 成功，字符数：5940
+2025-04-15 01:35:51,398 [DEBUG] 读取文件 ../../OpenManus/examples/benchmarks/__init__.py 成功，字符数：70
+2025-04-15 01:35:51,398 [DEBUG] 读取文件 ../../OpenManus/run_mcp_server.py 成功，字符数：342
+2025-04-15 01:35:51,398 [DEBUG] 读取文件 ../../OpenManus/run_flow.py 成功，字符数：1394
+2025-04-15 01:35:51,398 [DEBUG] 读取文件 ../../OpenManus/main.py 成功，字符数：655
+2025-04-15 01:35:51,399 [WARNING] 读取文件 ../../OpenManus/assets/community_group.jpg 失败：'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
+2025-04-15 01:35:51,399 [WARNING] 读取文件 ../../OpenManus/assets/logo.jpg 失败：'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
+2025-04-15 01:35:51,400 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 01:35:55,702 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 01:37:27,738 [INFO] 批量文件摘要生成完成
+2025-04-15 01:37:27,738 [INFO] 回填摘要到结构节点：config/config.example.toml，并将 need_traverse 设置为 False
+2025-04-15 01:37:27,738 [INFO] 回填摘要到结构节点：config/config.example-model-google.toml，并将 need_traverse 设置为 False
+2025-04-15 01:37:27,739 [INFO] 回填摘要到结构节点：config/config.example-model-anthropic.toml，并将 need_traverse 设置为 False
+2025-04-15 01:37:27,739 [INFO] 回填摘要到结构节点：config/config.example-model-azure.toml，并将 need_traverse 设置为 False
+2025-04-15 01:37:27,739 [INFO] 回填摘要到结构节点：config/config.example-model-ollama.toml，并将 need_traverse 设置为 False
+2025-04-15 01:37:27,739 [INFO] 回填摘要到结构节点：Dockerfile，并将 need_traverse 设置为 False
+2025-04-15 01:37:27,739 [INFO] 回填摘要到结构节点：workspace/example.txt，并将 need_traverse 设置为 False
+2025-04-15 01:37:27,739 [INFO] 回填摘要到结构节点：tests/sandbox/test_sandbox_manager.py，并将 need_traverse 设置为 False
+2025-04-15 01:37:27,739 [INFO] 回填摘要到结构节点：tests/sandbox/test_docker_terminal.py，并将 need_traverse 设置为 False
+2025-04-15 01:37:27,739 [INFO] 回填摘要到结构节点：tests/sandbox/test_sandbox.py，并将 need_traverse 设置为 False
+2025-04-15 01:37:27,740 [INFO] 回填摘要到结构节点：tests/sandbox/test_client.py，并将 need_traverse 设置为 False
+2025-04-15 01:37:27,740 [INFO] 回填摘要到结构节点：setup.py，并将 need_traverse 设置为 False
+2025-04-15 01:37:27,740 [INFO] 回填摘要到结构节点：examples/use_case/pictures/japan-travel-plan-2.png，并将 need_traverse 设置为 False
+2025-04-15 01:37:27,740 [INFO] 回填摘要到结构节点：examples/use_case/pictures/japan-travel-plan-1.png，并将 need_traverse 设置为 False
+2025-04-15 01:37:27,740 [INFO] 回填摘要到结构节点：examples/use_case/japan-travel-plan/japan_travel_handbook_mobile.html，并将 need_traverse 设置为 False
+2025-04-15 01:37:27,741 [INFO] 回填摘要到结构节点：examples/use_case/japan-travel-plan/japan_travel_guide_instructions.txt，并将 need_traverse 设置为 False
+2025-04-15 01:37:27,741 [INFO] 回填摘要到结构节点：examples/use_case/japan-travel-plan/japan_travel_handbook_print.html，并将 need_traverse 设置为 False
+2025-04-15 01:37:27,741 [INFO] 回填摘要到结构节点：examples/use_case/japan-travel-plan/japan_travel_handbook.html，并将 need_traverse 设置为 False
+2025-04-15 01:37:27,741 [INFO] 回填摘要到结构节点：run_mcp_server.py，并将 need_traverse 设置为 False
+2025-04-15 01:37:27,741 [INFO] 回填摘要到结构节点：run_flow.py，并将 need_traverse 设置为 False
+2025-04-15 01:37:27,741 [INFO] 回填摘要到结构节点：main.py，并将 need_traverse 设置为 False
+2025-04-15 01:37:27,742 [INFO] 回填摘要到结构节点：assets/community_group.jpg，并将 need_traverse 设置为 False
+2025-04-15 01:37:27,742 [INFO] 回填摘要到结构节点：assets/logo.jpg，并将 need_traverse 设置为 False
+2025-04-15 01:37:27,742 [INFO] 进度：已完成 83.3%
+2025-04-15 01:37:27,749 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/OpenManus/project_structure.json
+2025-04-15 01:37:27,755 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/OpenManus/project_structure.json
+2025-04-15 01:37:27,756 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 01:37:31,700 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 01:38:13,146 [INFO] 最终项目总结报告生成完成
+2025-04-15 01:38:13,147 [INFO] 进度：已完成 100.0%
+2025-04-15 01:38:13,147 [INFO] 最终项目总结报告已保存至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/OpenManus/final_project_summary.md
+2025-04-15 02:09:31,714 [INFO] 日志系统初始化完成，日志文件：/Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/OpenManus/debug.log
+2025-04-15 02:09:31,715 [INFO] 成功加载扫描结果 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/OpenManus/project_structure.json
+2025-04-15 02:09:31,715 [INFO] 提取 readme.md 成功：README.md (字符数：7509)
+2025-04-15 02:09:31,715 [INFO] 加载总结工具配置文件：codesense_summarizer_config.json
+2025-04-15 02:09:31,719 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 02:09:36,807 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 02:10:27,605 [INFO] 最终项目总结报告生成完成
+2025-04-15 02:10:27,606 [INFO] 最终项目总结报告已保存至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/OpenManus/correct_readme_20250415_021027.md
+2025-04-15 02:16:11,370 [INFO] 日志系统初始化完成，日志文件：/Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/OpenManus/debug.log
+2025-04-15 02:16:11,371 [INFO] 成功加载扫描结果 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/OpenManus/project_structure.json
+2025-04-15 02:16:11,371 [INFO] 提取 readme.md 成功：README.md (字符数：7509)
+2025-04-15 02:16:11,371 [INFO] 加载总结工具配置文件：codesense_summarizer_config.json
+2025-04-15 02:16:11,375 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 02:16:15,773 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 02:16:59,910 [INFO] 最终项目总结报告生成完成
+2025-04-15 02:16:59,911 [INFO] 最终项目总结报告已保存至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/OpenManus/direct_readme_20250415_021659.md

@@ -6,7 +6,7 @@ import subprocess
 projects = [
     # {"name": "OpenManus", "path": "../../OpenManus"},
     {"name": "yolov5",   "path": "../../yolov5"},
-    {"name": "dify",     "path": "../../dify"},
+    # {"name": "dify",     "path": "../../dify"},
     {"name": "tensorflow", "path": "../../tensorflow"}
 ]
 

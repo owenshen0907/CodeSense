@@ -1,0 +1,867 @@
+2025-04-15 03:40:25,431 [DEBUG] 日志系统初始化完成，日志文件：/Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/debug.log
+2025-04-15 03:40:25,437 [INFO] 成功加载扫描结果 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:40:25,437 [INFO] 提取 readme.md 成功：README.md (字符数：49895)
+2025-04-15 03:40:25,438 [INFO] 加载总结工具配置文件：codesense_summarizer_config.json
+2025-04-15 03:40:25,438 [INFO] 待处理文件数量（不包含 .md 文件且 need_traverse 为 True）：125
+2025-04-15 03:40:25,439 [INFO] 预估大模型调用总次数：27，总步骤数：29
+2025-04-15 03:40:25,439 [INFO] 进度：初步总结步骤完成，占总进度 3.4%
+2025-04-15 03:40:25,439 [DEBUG] 读取文件 ../../yolov5/classify/val.py 成功，字符数：8226
+2025-04-15 03:40:25,439 [DEBUG] 读取文件 ../../yolov5/classify/predict.py 成功，字符数：12119
+2025-04-15 03:40:25,439 [DEBUG] 读取文件 ../../yolov5/classify/train.py 成功，字符数：16503
+2025-04-15 03:40:25,445 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:40:28,533 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 03:40:36,826 [INFO] 批量文件摘要生成完成
+2025-04-15 03:40:36,826 [ERROR] 解析批量摘要 JSON 失败：Expecting value: line 1 column 1 (char 0)
+2025-04-15 03:40:36,826 [ERROR] 大模型返回的文本为：
+2025-04-15 03:40:36,826 [ERROR] 
+2025-04-15 03:40:36,826 [INFO] 进度：已完成 6.9%
+2025-04-15 03:40:36,830 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:40:36,831 [DEBUG] 读取文件 ../../yolov5/classify/tutorial.ipynb 成功，字符数：95884
+2025-04-15 03:40:36,834 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:41:04,242 [DEBUG] 日志系统初始化完成，日志文件：/Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/debug.log
+2025-04-15 03:41:04,242 [INFO] 成功加载扫描结果 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:41:04,243 [INFO] 提取 readme.md 成功：README.md (字符数：49895)
+2025-04-15 03:41:04,243 [INFO] 加载总结工具配置文件：codesense_summarizer_config.json
+2025-04-15 03:41:04,243 [INFO] 待处理文件数量（不包含 .md 文件且 need_traverse 为 True）：125
+2025-04-15 03:41:04,244 [INFO] 预估大模型调用总次数：27，总步骤数：29
+2025-04-15 03:41:04,244 [INFO] 进度：初步总结步骤完成，占总进度 3.4%
+2025-04-15 03:41:04,244 [DEBUG] 读取文件 ../../yolov5/classify/val.py 成功，字符数：8226
+2025-04-15 03:41:04,244 [DEBUG] 读取文件 ../../yolov5/classify/predict.py 成功，字符数：12119
+2025-04-15 03:41:04,244 [DEBUG] 读取文件 ../../yolov5/classify/train.py 成功，字符数：16503
+2025-04-15 03:41:04,249 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:41:07,085 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 03:41:29,079 [DEBUG] 日志系统初始化完成，日志文件：/Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/debug.log
+2025-04-15 03:41:29,080 [INFO] 成功加载扫描结果 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:41:29,080 [INFO] 提取 readme.md 成功：README.md (字符数：49895)
+2025-04-15 03:41:29,080 [INFO] 加载总结工具配置文件：codesense_summarizer_config.json
+2025-04-15 03:41:29,080 [INFO] 待处理文件数量（不包含 .md 文件且 need_traverse 为 True）：125
+2025-04-15 03:41:29,082 [INFO] 预估大模型调用总次数：27，总步骤数：29
+2025-04-15 03:41:29,082 [INFO] 进度：初步总结步骤完成，占总进度 3.4%
+2025-04-15 03:41:29,082 [DEBUG] 读取文件 ../../yolov5/classify/val.py 成功，字符数：8226
+2025-04-15 03:41:29,082 [DEBUG] 读取文件 ../../yolov5/classify/predict.py 成功，字符数：12119
+2025-04-15 03:41:29,082 [DEBUG] 读取文件 ../../yolov5/classify/train.py 成功，字符数：16503
+2025-04-15 03:41:29,088 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:41:32,440 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 03:41:52,131 [INFO] 批量文件摘要生成完成
+2025-04-15 03:41:52,132 [INFO] 回填摘要到结构节点：classify/val.py，并将 need_traverse 设置为 False
+2025-04-15 03:41:52,132 [INFO] 回填摘要到结构节点：classify/predict.py，并将 need_traverse 设置为 False
+2025-04-15 03:41:52,132 [INFO] 回填摘要到结构节点：classify/train.py，并将 need_traverse 设置为 False
+2025-04-15 03:41:52,132 [INFO] 进度：已完成 6.9%
+2025-04-15 03:41:52,136 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:41:52,136 [DEBUG] 读取文件 ../../yolov5/classify/tutorial.ipynb 成功，字符数：95884
+2025-04-15 03:41:52,138 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:41:59,184 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 03:42:35,666 [INFO] 批量文件摘要生成完成
+2025-04-15 03:42:35,666 [ERROR] 解析批量摘要 JSON 失败：Invalid control character at: line 20 column 153 (char 1064)
+2025-04-15 03:42:35,666 [ERROR] 大模型返回的文本为：
+2025-04-15 03:42:35,666 [ERROR] {
+  "classify/tutorial.ipynb": {
+    "functions": [
+      {
+        "name": "predict",
+        "purpose": "运行YOLOv5分类模型进行推理，支持图像、视频、摄像头、屏幕截图等输入源，自动下载模型并保存结果。",
+        "parameters": "--weights 模型权重文件路径, --img 图像大小（如224）, --source 输入源（文件路径、摄像头、视频流等）, --view_img 显示图像, --save_txt 保存结果到文本文件, 其他参数如--nosave、--device等。"
+      },
+      {
+        "name": "val",
+        "purpose": "在验证集上评估YOLOv5分类模型的准确率（top1和top5），支持显示按类别详细结果。",
+        "parameters": "--weights 模型权重文件路径, --data 数据集配置文件路径, --imgsz 图像大小（如224）, --half 使用半精度推理, --verbose 显示按类别详细结果, 其他参数如--batch-size、--device等。"
+      },
+      {
+        "name": "train",
+        "purpose": "使用自定义数据集训练YOLOv5分类模型，支持数据增强、多种日志记录工具（Comet、ClearML、TensorBoard）和模型导出。",
+        "parameters": "--model 预训练模型文件路径, --data 数据集配置文件路径, --epochs 训练轮数, --batch-size 批大小, --imgsz 图像大小（如224）, --cache 数据加载方式（如ram），--project 保存路径, --name 实验名称, 其他参数如--device、--optimizer等。"
+      }
+    ],
+    "summary": "本教程Notebook展示了YOLOv5分类模型的核心功能，包括预测、验证、训练和可视化。通过代码示例演示了如何使用预训练模型进行多源推理、在验证集上评估模型性能、训练自定义数据集，并整合Comet、ClearML等实验管理工具。内容涵盖数据准备、参数配置、结果分析及9,
+ ( (
+: ( ( ( ( (, ( ( (: ( ( ( ( (,
+2025-04-15 03:42:35,666 [INFO] 回填摘要到结构节点：classify/tutorial.ipynb，并将 need_traverse 设置为 False
+2025-04-15 03:42:35,666 [INFO] 进度：已完成 10.3%
+2025-04-15 03:42:35,670 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:42:35,671 [DEBUG] 读取文件 ../../yolov5/LICENSE 成功，字符数：34523
+2025-04-15 03:42:35,671 [DEBUG] 读取文件 ../../yolov5/requirements.txt 成功，字符数：1598
+2025-04-15 03:42:35,671 [DEBUG] 读取文件 ../../yolov5/CITATION.cff 成功，字符数：393
+2025-04-15 03:42:35,672 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:42:36,813 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 429 103
+2025-04-15 03:42:36,816 [ERROR] 批量文件摘要生成失败，返回结果为 None
+2025-04-15 03:42:36,816 [INFO] 进度：已完成 13.8%
+2025-04-15 03:42:36,820 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:42:36,820 [DEBUG] 读取文件 ../../yolov5/val.py 成功，字符数：30434
+2025-04-15 03:42:36,822 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:42:37,742 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 429 103
+2025-04-15 03:42:37,744 [ERROR] 批量文件摘要生成失败，返回结果为 None
+2025-04-15 03:42:37,745 [INFO] 进度：已完成 17.2%
+2025-04-15 03:42:37,750 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:42:37,750 [DEBUG] 读取文件 ../../yolov5/segment/val.py 成功，字符数：24386
+2025-04-15 03:42:37,751 [DEBUG] 读取文件 ../../yolov5/segment/predict.py 成功，字符数：16311
+2025-04-15 03:42:37,752 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:42:39,045 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 429 103
+2025-04-15 03:42:39,046 [ERROR] 批量文件摘要生成失败，返回结果为 None
+2025-04-15 03:42:39,046 [INFO] 进度：已完成 20.7%
+2025-04-15 03:42:39,048 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:42:39,048 [DEBUG] 读取文件 ../../yolov5/segment/train.py 成功，字符数：35198
+2025-04-15 03:42:39,049 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:42:40,138 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 429 103
+2025-04-15 03:42:40,141 [ERROR] 批量文件摘要生成失败，返回结果为 None
+2025-04-15 03:42:40,141 [INFO] 进度：已完成 24.1%
+2025-04-15 03:42:40,147 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:42:40,148 [DEBUG] 读取文件 ../../yolov5/segment/tutorial.ipynb 成功，字符数：41029
+2025-04-15 03:42:40,148 [DEBUG] 读取文件 ../../yolov5/pyproject.toml 成功，字符数：5400
+2025-04-15 03:42:40,150 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:42:41,493 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 429 103
+2025-04-15 03:42:41,496 [ERROR] 批量文件摘要生成失败，返回结果为 None
+2025-04-15 03:42:41,496 [INFO] 进度：已完成 27.6%
+2025-04-15 03:42:41,500 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:42:41,500 [DEBUG] 读取文件 ../../yolov5/utils/metrics.py 成功，字符数：15514
+2025-04-15 03:42:41,501 [DEBUG] 读取文件 ../../yolov5/utils/docker/Dockerfile-arm64 成功，字符数：1592
+2025-04-15 03:42:41,501 [DEBUG] 读取文件 ../../yolov5/utils/docker/Dockerfile 成功，字符数：2581
+2025-04-15 03:42:41,501 [DEBUG] 读取文件 ../../yolov5/utils/docker/Dockerfile-cpu 成功，字符数：1845
+2025-04-15 03:42:41,501 [DEBUG] 读取文件 ../../yolov5/utils/loggers/__init__.py 成功，字符数：20265
+2025-04-15 03:42:41,501 [DEBUG] 读取文件 ../../yolov5/utils/loggers/comet/optimizer_config.json 成功，字符数：2427
+2025-04-15 03:42:41,503 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:42:42,776 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 429 103
+2025-04-15 03:42:42,779 [ERROR] 批量文件摘要生成失败，返回结果为 None
+2025-04-15 03:42:42,779 [INFO] 进度：已完成 31.0%
+2025-04-15 03:42:42,783 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:42:42,783 [DEBUG] 读取文件 ../../yolov5/utils/loggers/comet/__init__.py 成功，字符数：21515
+2025-04-15 03:42:42,784 [DEBUG] 读取文件 ../../yolov5/utils/loggers/comet/comet_utils.py 成功，字符数：4846
+2025-04-15 03:42:42,784 [DEBUG] 读取文件 ../../yolov5/utils/loggers/comet/hpo.py 成功，字符数：6953
+2025-04-15 03:42:42,784 [DEBUG] 读取文件 ../../yolov5/utils/loggers/clearml/__init__.py 成功，字符数：67
+2025-04-15 03:42:42,784 [DEBUG] 读取文件 ../../yolov5/utils/loggers/clearml/clearml_utils.py 成功，字符数：9706
+2025-04-15 03:42:42,785 [DEBUG] 读取文件 ../../yolov5/utils/loggers/clearml/hpo.py 成功，字符数：5312
+2025-04-15 03:42:42,785 [DEBUG] 读取文件 ../../yolov5/utils/loggers/wandb/__init__.py 成功，字符数：67
+2025-04-15 03:42:42,787 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:42:44,109 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 429 103
+2025-04-15 03:42:44,111 [ERROR] 批量文件摘要生成失败，返回结果为 None
+2025-04-15 03:42:44,112 [INFO] 进度：已完成 34.5%
+2025-04-15 03:42:44,115 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:42:44,115 [DEBUG] 读取文件 ../../yolov5/utils/loggers/wandb/wandb_utils.py 成功，字符数：8159
+2025-04-15 03:42:44,116 [DEBUG] 读取文件 ../../yolov5/utils/triton.py 成功，字符数：3813
+2025-04-15 03:42:44,116 [DEBUG] 读取文件 ../../yolov5/utils/activations.py 成功，字符数：5035
+2025-04-15 03:42:44,116 [DEBUG] 读取文件 ../../yolov5/utils/autobatch.py 成功，字符数：3055
+2025-04-15 03:42:44,116 [DEBUG] 读取文件 ../../yolov5/utils/google_app_engine/app.yaml 成功，字符数：242
+2025-04-15 03:42:44,116 [DEBUG] 读取文件 ../../yolov5/utils/google_app_engine/Dockerfile 成功，字符数：821
+2025-04-15 03:42:44,116 [DEBUG] 读取文件 ../../yolov5/utils/google_app_engine/additional_requirements.txt 成功，字符数：264
+2025-04-15 03:42:44,117 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:42:45,080 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 429 103
+2025-04-15 03:42:45,083 [ERROR] 批量文件摘要生成失败，返回结果为 None
+2025-04-15 03:42:45,083 [INFO] 进度：已完成 37.9%
+2025-04-15 03:42:45,087 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:42:45,088 [DEBUG] 读取文件 ../../yolov5/utils/dataloaders.py 成功，字符数：60496
+2025-04-15 03:42:45,090 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:42:46,463 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 429 103
+2025-04-15 03:42:46,465 [ERROR] 批量文件摘要生成失败，返回结果为 None
+2025-04-15 03:42:46,465 [INFO] 回填摘要到结构节点：utils/dataloaders.py，并将 need_traverse 设置为 False
+2025-04-15 03:42:46,466 [INFO] 进度：已完成 41.4%
+2025-04-15 03:42:46,469 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:42:46,470 [DEBUG] 读取文件 ../../yolov5/utils/segment/metrics.py 成功，字符数：6044
+2025-04-15 03:42:46,470 [DEBUG] 读取文件 ../../yolov5/utils/segment/dataloaders.py 成功，字符数：13709
+2025-04-15 03:42:46,470 [DEBUG] 读取文件 ../../yolov5/utils/segment/__init__.py 成功，字符数：67
+2025-04-15 03:42:46,470 [DEBUG] 读取文件 ../../yolov5/utils/segment/loss.py 成功，字符数：9209
+2025-04-15 03:42:46,471 [DEBUG] 读取文件 ../../yolov5/utils/segment/plots.py 成功，字符数：6709
+2025-04-15 03:42:46,471 [DEBUG] 读取文件 ../../yolov5/utils/segment/general.py 成功，字符数：5967
+2025-04-15 03:42:46,471 [DEBUG] 读取文件 ../../yolov5/utils/segment/augmentations.py 成功，字符数：3555
+2025-04-15 03:42:46,471 [DEBUG] 读取文件 ../../yolov5/utils/__init__.py 成功，字符数：3267
+2025-04-15 03:42:46,473 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:42:47,740 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 429 103
+2025-04-15 03:42:47,743 [ERROR] 批量文件摘要生成失败，返回结果为 None
+2025-04-15 03:42:47,743 [INFO] 进度：已完成 44.8%
+2025-04-15 03:42:47,747 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:42:47,747 [DEBUG] 读取文件 ../../yolov5/utils/downloads.py 成功，字符数：5259
+2025-04-15 03:42:47,747 [DEBUG] 读取文件 ../../yolov5/utils/loss.py 成功，字符数：11154
+2025-04-15 03:42:47,747 [DEBUG] 读取文件 ../../yolov5/utils/plots.py 成功，字符数：20709
+2025-04-15 03:42:47,747 [DEBUG] 读取文件 ../../yolov5/utils/callbacks.py 成功，字符数：2735
+2025-04-15 03:42:47,747 [DEBUG] 读取文件 ../../yolov5/utils/aws/resume.py 成功，字符数：1266
+2025-04-15 03:42:47,747 [DEBUG] 读取文件 ../../yolov5/utils/aws/userdata.sh 成功，字符数：1315
+2025-04-15 03:42:47,747 [DEBUG] 读取文件 ../../yolov5/utils/aws/__init__.py 成功，字符数：67
+2025-04-15 03:42:47,748 [DEBUG] 读取文件 ../../yolov5/utils/aws/mime.sh 成功，字符数：848
+2025-04-15 03:42:47,748 [DEBUG] 读取文件 ../../yolov5/utils/flask_rest_api/example_request.py 成功，字符数：388
+2025-04-15 03:42:47,748 [DEBUG] 读取文件 ../../yolov5/utils/flask_rest_api/restapi.py 成功，字符数：1595
+2025-04-15 03:42:47,749 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:42:49,040 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 429 103
+2025-04-15 03:42:49,042 [ERROR] 批量文件摘要生成失败，返回结果为 None
+2025-04-15 03:42:49,042 [INFO] 进度：已完成 48.3%
+2025-04-15 03:42:49,046 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:42:49,046 [DEBUG] 读取文件 ../../yolov5/utils/autoanchor.py 成功，字符数：7938
+2025-04-15 03:42:49,046 [DEBUG] 读取文件 ../../yolov5/utils/torch_utils.py 成功，字符数：21676
+2025-04-15 03:42:49,047 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:42:50,083 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 429 103
+2025-04-15 03:42:50,085 [ERROR] 批量文件摘要生成失败，返回结果为 None
+2025-04-15 03:42:50,086 [INFO] 进度：已完成 51.7%
+2025-04-15 03:42:50,090 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:42:50,090 [DEBUG] 读取文件 ../../yolov5/utils/general.py 成功，字符数：51401
+2025-04-15 03:42:50,092 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:42:51,476 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 429 103
+2025-04-15 03:42:51,478 [ERROR] 批量文件摘要生成失败，返回结果为 None
+2025-04-15 03:42:51,478 [INFO] 回填摘要到结构节点：utils/general.py，并将 need_traverse 设置为 False
+2025-04-15 03:42:51,478 [INFO] 进度：已完成 55.2%
+2025-04-15 03:42:51,482 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:42:51,483 [DEBUG] 读取文件 ../../yolov5/utils/augmentations.py 成功，字符数：18728
+2025-04-15 03:42:51,483 [DEBUG] 读取文件 ../../yolov5/models/yolov5s.yaml 成功，字符数：1443
+2025-04-15 03:42:51,483 [DEBUG] 读取文件 ../../yolov5/models/experimental.py 成功，字符数：5176
+2025-04-15 03:42:51,484 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:42:52,991 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 429 103
+2025-04-15 03:42:52,993 [ERROR] 批量文件摘要生成失败，返回结果为 None
+2025-04-15 03:42:52,993 [INFO] 进度：已完成 58.6%
+2025-04-15 03:42:52,997 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:42:52,997 [DEBUG] 读取文件 ../../yolov5/models/tf.py 成功，字符数：33787
+2025-04-15 03:42:52,998 [DEBUG] 读取文件 ../../yolov5/models/segment/yolov5s-seg.yaml 成功，字符数：1452
+2025-04-15 03:42:52,998 [DEBUG] 读取文件 ../../yolov5/models/segment/yolov5x-seg.yaml 成功，字符数：1453
+2025-04-15 03:42:52,998 [DEBUG] 读取文件 ../../yolov5/models/segment/yolov5l-seg.yaml 成功，字符数：1451
+2025-04-15 03:42:52,998 [DEBUG] 读取文件 ../../yolov5/models/segment/yolov5m-seg.yaml 成功，字符数：1453
+2025-04-15 03:42:52,998 [DEBUG] 读取文件 ../../yolov5/models/segment/yolov5n-seg.yaml 成功，字符数：1453
+2025-04-15 03:42:52,999 [DEBUG] 读取文件 ../../yolov5/models/yolov5l.yaml 成功，字符数：1441
+2025-04-15 03:42:52,999 [DEBUG] 读取文件 ../../yolov5/models/yolov5m.yaml 成功，字符数：1443
+2025-04-15 03:42:52,999 [DEBUG] 读取文件 ../../yolov5/models/__init__.py 成功，字符数：67
+2025-04-15 03:42:52,999 [DEBUG] 读取文件 ../../yolov5/models/yolov5x.yaml 成功，字符数：1443
+2025-04-15 03:42:52,999 [DEBUG] 读取文件 ../../yolov5/models/yolov5n.yaml 成功，字符数：1443
+2025-04-15 03:42:53,000 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:42:54,276 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 429 103
+2025-04-15 03:42:54,278 [ERROR] 批量文件摘要生成失败，返回结果为 None
+2025-04-15 03:42:54,278 [INFO] 进度：已完成 62.1%
+2025-04-15 03:42:54,283 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:42:54,283 [DEBUG] 读取文件 ../../yolov5/models/common.py 成功，字符数：52690
+2025-04-15 03:42:54,285 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:42:56,092 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 429 103
+2025-04-15 03:42:56,095 [ERROR] 批量文件摘要生成失败，返回结果为 None
+2025-04-15 03:42:56,095 [INFO] 回填摘要到结构节点：models/common.py，并将 need_traverse 设置为 False
+2025-04-15 03:42:56,095 [INFO] 进度：已完成 65.5%
+2025-04-15 03:42:56,099 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:42:56,100 [DEBUG] 读取文件 ../../yolov5/models/yolo.py 成功，字符数：21053
+2025-04-15 03:42:56,100 [DEBUG] 读取文件 ../../yolov5/models/hub/anchors.yaml 成功，字符数：3360
+2025-04-15 03:42:56,100 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov5s-ghost.yaml 成功，字符数：1523
+2025-04-15 03:42:56,100 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov5x6.yaml 成功，字符数：1860
+2025-04-15 03:42:56,100 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov3-spp.yaml 成功，字符数：1612
+2025-04-15 03:42:56,101 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov5-panet.yaml 成功，字符数：1447
+2025-04-15 03:42:56,101 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov5-bifpn.yaml 成功，字符数：1463
+2025-04-15 03:42:56,101 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov5-p2.yaml 成功，字符数：1723
+2025-04-15 03:42:56,101 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov5-fpn.yaml 成功，字符数：1252
+2025-04-15 03:42:56,101 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov5s6.yaml 成功，字符数：1860
+2025-04-15 03:42:56,101 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov5l6.yaml 成功，字符数：1858
+2025-04-15 03:42:56,101 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov3-tiny.yaml 成功，字符数：1269
+2025-04-15 03:42:56,101 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov3.yaml 成功，字符数：1603
+2025-04-15 03:42:56,101 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov5n6.yaml 成功，字符数：1860
+2025-04-15 03:42:56,101 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov5-p7.yaml 成功，字符数：2163
+2025-04-15 03:42:56,101 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov5s-LeakyReLU.yaml 成功，字符数：1536
+2025-04-15 03:42:56,101 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov5-p34.yaml 成功，字符数：1263
+2025-04-15 03:42:56,103 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:42:57,732 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 429 103
+2025-04-15 03:42:57,735 [ERROR] 批量文件摘要生成失败，返回结果为 None
+2025-04-15 03:42:57,735 [INFO] 进度：已完成 69.0%
+2025-04-15 03:42:57,739 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:42:57,740 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov5m6.yaml 成功，字符数：1860
+2025-04-15 03:42:57,740 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov5s-transformer.yaml 成功，字符数：1480
+2025-04-15 03:42:57,740 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov5-p6.yaml 成功，字符数：1778
+2025-04-15 03:42:57,742 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:42:58,713 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 429 103
+2025-04-15 03:42:58,715 [ERROR] 批量文件摘要生成失败，返回结果为 None
+2025-04-15 03:42:58,715 [INFO] 进度：已完成 72.4%
+2025-04-15 03:42:58,720 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:42:58,720 [DEBUG] 读取文件 ../../yolov5/export.py 成功，字符数：68554
+2025-04-15 03:42:58,722 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:43:03,465 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 03:43:43,882 [INFO] 批量文件摘要生成完成
+2025-04-15 03:43:43,882 [INFO] 回填摘要到结构节点：export.py，并将 need_traverse 设置为 False
+2025-04-15 03:43:43,883 [INFO] 进度：已完成 75.9%
+2025-04-15 03:43:43,887 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:43:43,887 [DEBUG] 读取文件 ../../yolov5/train.py 成功，字符数：47149
+2025-04-15 03:43:43,889 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:43:48,213 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 03:44:08,532 [INFO] 批量文件摘要生成完成
+2025-04-15 03:44:08,532 [INFO] 回填摘要到结构节点：train.py，并将 need_traverse 设置为 False
+2025-04-15 03:44:08,532 [INFO] 进度：已完成 79.3%
+2025-04-15 03:44:08,536 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:44:08,536 [DEBUG] 读取文件 ../../yolov5/hubconf.py 成功，字符数：23983
+2025-04-15 03:44:08,537 [DEBUG] 读取文件 ../../yolov5/data/hyps/hyp.VOC.yaml 成功，字符数：1178
+2025-04-15 03:44:08,537 [DEBUG] 读取文件 ../../yolov5/data/hyps/hyp.Objects365.yaml 成功，字符数：695
+2025-04-15 03:44:08,537 [DEBUG] 读取文件 ../../yolov5/data/hyps/hyp.no-augmentation.yaml 成功，字符数：1677
+2025-04-15 03:44:08,537 [DEBUG] 读取文件 ../../yolov5/data/hyps/hyp.scratch-low.yaml 成功，字符数：1685
+2025-04-15 03:44:08,537 [DEBUG] 读取文件 ../../yolov5/data/hyps/hyp.scratch-med.yaml 成功，字符数：1679
+2025-04-15 03:44:08,537 [DEBUG] 读取文件 ../../yolov5/data/hyps/hyp.scratch-high.yaml 成功，字符数：1677
+2025-04-15 03:44:08,538 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:44:11,061 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 03:44:48,767 [DEBUG] 日志系统初始化完成，日志文件：/Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/debug.log
+2025-04-15 03:44:48,768 [INFO] 成功加载扫描结果 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:44:48,768 [INFO] 提取 readme.md 成功：README.md (字符数：49895)
+2025-04-15 03:44:48,768 [INFO] 加载总结工具配置文件：codesense_summarizer_config.json
+2025-04-15 03:44:48,768 [INFO] 待处理文件数量（不包含 .md 文件且 need_traverse 为 True）：116
+2025-04-15 03:44:48,769 [INFO] 预估大模型调用总次数：18，总步骤数：20
+2025-04-15 03:44:48,769 [INFO] 进度：初步总结步骤完成，占总进度 5.0%
+2025-04-15 03:44:48,770 [DEBUG] 读取文件 ../../yolov5/LICENSE 成功，字符数：34523
+2025-04-15 03:44:48,770 [DEBUG] 读取文件 ../../yolov5/requirements.txt 成功，字符数：1598
+2025-04-15 03:44:48,770 [DEBUG] 读取文件 ../../yolov5/CITATION.cff 成功，字符数：393
+2025-04-15 03:44:48,775 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:44:52,005 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 03:45:07,875 [INFO] 批量文件摘要生成完成
+2025-04-15 03:45:07,875 [INFO] 回填摘要到结构节点：LICENSE，并将 need_traverse 设置为 False
+2025-04-15 03:45:07,875 [INFO] 回填摘要到结构节点：requirements.txt，并将 need_traverse 设置为 False
+2025-04-15 03:45:07,875 [INFO] 回填摘要到结构节点：CITATION.cff，并将 need_traverse 设置为 False
+2025-04-15 03:45:07,875 [INFO] 进度：已完成 10.0%
+2025-04-15 03:45:07,878 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:45:07,878 [DEBUG] 读取文件 ../../yolov5/val.py 成功，字符数：30434
+2025-04-15 03:45:07,879 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:45:10,597 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 03:45:20,019 [DEBUG] 日志系统初始化完成，日志文件：/Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/debug.log
+2025-04-15 03:45:20,020 [INFO] 成功加载扫描结果 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:45:20,020 [INFO] 提取 readme.md 成功：README.md (字符数：49895)
+2025-04-15 03:45:20,020 [INFO] 加载总结工具配置文件：codesense_summarizer_config.json
+2025-04-15 03:45:20,020 [INFO] 待处理文件数量（不包含 .md 文件且 need_traverse 为 True）：113
+2025-04-15 03:45:20,021 [INFO] 预估大模型调用总次数：17，总步骤数：19
+2025-04-15 03:45:20,021 [INFO] 进度：初步总结步骤完成，占总进度 5.3%
+2025-04-15 03:45:20,021 [DEBUG] 读取文件 ../../yolov5/val.py 成功，字符数：30434
+2025-04-15 03:45:20,026 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:45:23,750 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 03:46:05,614 [INFO] 批量文件摘要生成完成
+2025-04-15 03:46:05,614 [INFO] 回填摘要到结构节点：val.py，并将 need_traverse 设置为 False
+2025-04-15 03:46:05,614 [INFO] 进度：已完成 10.5%
+2025-04-15 03:46:05,619 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:46:05,619 [DEBUG] 读取文件 ../../yolov5/segment/val.py 成功，字符数：24386
+2025-04-15 03:46:05,619 [DEBUG] 读取文件 ../../yolov5/segment/predict.py 成功，字符数：16311
+2025-04-15 03:46:05,621 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:46:10,118 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 03:46:39,000 [INFO] 批量文件摘要生成完成
+2025-04-15 03:46:39,000 [INFO] 回填摘要到结构节点：segment/val.py，并将 need_traverse 设置为 False
+2025-04-15 03:46:39,000 [INFO] 回填摘要到结构节点：segment/predict.py，并将 need_traverse 设置为 False
+2025-04-15 03:46:39,000 [INFO] 进度：已完成 15.8%
+2025-04-15 03:46:39,003 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:46:39,004 [DEBUG] 读取文件 ../../yolov5/segment/train.py 成功，字符数：35198
+2025-04-15 03:46:39,005 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:46:42,558 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 03:47:05,939 [INFO] 批量文件摘要生成完成
+2025-04-15 03:47:05,939 [INFO] 回填摘要到结构节点：segment/train.py，并将 need_traverse 设置为 False
+2025-04-15 03:47:05,939 [INFO] 进度：已完成 21.1%
+2025-04-15 03:47:05,943 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:47:05,944 [DEBUG] 读取文件 ../../yolov5/segment/tutorial.ipynb 成功，字符数：41029
+2025-04-15 03:47:05,944 [DEBUG] 读取文件 ../../yolov5/pyproject.toml 成功，字符数：5400
+2025-04-15 03:47:05,945 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:47:11,011 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 03:48:02,907 [INFO] 批量文件摘要生成完成
+2025-04-15 03:48:02,907 [INFO] 回填摘要到结构节点：segment/tutorial.ipynb，并将 need_traverse 设置为 False
+2025-04-15 03:48:02,907 [INFO] 回填摘要到结构节点：pyproject.toml，并将 need_traverse 设置为 False
+2025-04-15 03:48:02,907 [INFO] 进度：已完成 26.3%
+2025-04-15 03:48:02,911 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:48:02,912 [DEBUG] 读取文件 ../../yolov5/utils/metrics.py 成功，字符数：15514
+2025-04-15 03:48:02,912 [DEBUG] 读取文件 ../../yolov5/utils/docker/Dockerfile-arm64 成功，字符数：1592
+2025-04-15 03:48:02,912 [DEBUG] 读取文件 ../../yolov5/utils/docker/Dockerfile 成功，字符数：2581
+2025-04-15 03:48:02,912 [DEBUG] 读取文件 ../../yolov5/utils/docker/Dockerfile-cpu 成功，字符数：1845
+2025-04-15 03:48:02,912 [DEBUG] 读取文件 ../../yolov5/utils/loggers/__init__.py 成功，字符数：20265
+2025-04-15 03:48:02,912 [DEBUG] 读取文件 ../../yolov5/utils/loggers/comet/optimizer_config.json 成功，字符数：2427
+2025-04-15 03:48:02,914 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:48:06,942 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 03:48:42,725 [INFO] 批量文件摘要生成完成
+2025-04-15 03:48:42,727 [INFO] 回填摘要到结构节点：utils/metrics.py，并将 need_traverse 设置为 False
+2025-04-15 03:48:42,727 [INFO] 回填摘要到结构节点：utils/docker/Dockerfile-arm64，并将 need_traverse 设置为 False
+2025-04-15 03:48:42,727 [INFO] 回填摘要到结构节点：utils/docker/Dockerfile，并将 need_traverse 设置为 False
+2025-04-15 03:48:42,727 [INFO] 回填摘要到结构节点：utils/docker/Dockerfile-cpu，并将 need_traverse 设置为 False
+2025-04-15 03:48:42,727 [INFO] 回填摘要到结构节点：utils/loggers/__init__.py，并将 need_traverse 设置为 False
+2025-04-15 03:48:42,727 [INFO] 回填摘要到结构节点：utils/loggers/comet/optimizer_config.json，并将 need_traverse 设置为 False
+2025-04-15 03:48:42,727 [INFO] 进度：已完成 31.6%
+2025-04-15 03:48:42,729 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:48:42,729 [DEBUG] 读取文件 ../../yolov5/utils/loggers/comet/__init__.py 成功，字符数：21515
+2025-04-15 03:48:42,729 [DEBUG] 读取文件 ../../yolov5/utils/loggers/comet/comet_utils.py 成功，字符数：4846
+2025-04-15 03:48:42,729 [DEBUG] 读取文件 ../../yolov5/utils/loggers/comet/hpo.py 成功，字符数：6953
+2025-04-15 03:48:42,729 [DEBUG] 读取文件 ../../yolov5/utils/loggers/clearml/__init__.py 成功，字符数：67
+2025-04-15 03:48:42,729 [DEBUG] 读取文件 ../../yolov5/utils/loggers/clearml/clearml_utils.py 成功，字符数：9706
+2025-04-15 03:48:42,729 [DEBUG] 读取文件 ../../yolov5/utils/loggers/clearml/hpo.py 成功，字符数：5312
+2025-04-15 03:48:42,729 [DEBUG] 读取文件 ../../yolov5/utils/loggers/wandb/__init__.py 成功，字符数：67
+2025-04-15 03:48:42,730 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:48:45,175 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 429 103
+2025-04-15 03:48:45,176 [ERROR] 批量文件摘要生成失败，返回结果为 None
+2025-04-15 03:48:45,176 [INFO] 进度：已完成 36.8%
+2025-04-15 03:48:45,178 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:48:45,178 [DEBUG] 读取文件 ../../yolov5/utils/loggers/wandb/wandb_utils.py 成功，字符数：8159
+2025-04-15 03:48:45,178 [DEBUG] 读取文件 ../../yolov5/utils/triton.py 成功，字符数：3813
+2025-04-15 03:48:45,178 [DEBUG] 读取文件 ../../yolov5/utils/activations.py 成功，字符数：5035
+2025-04-15 03:48:45,178 [DEBUG] 读取文件 ../../yolov5/utils/autobatch.py 成功，字符数：3055
+2025-04-15 03:48:45,178 [DEBUG] 读取文件 ../../yolov5/utils/google_app_engine/app.yaml 成功，字符数：242
+2025-04-15 03:48:45,178 [DEBUG] 读取文件 ../../yolov5/utils/google_app_engine/Dockerfile 成功，字符数：821
+2025-04-15 03:48:45,178 [DEBUG] 读取文件 ../../yolov5/utils/google_app_engine/additional_requirements.txt 成功，字符数：264
+2025-04-15 03:48:45,178 [DEBUG] 读取文件 ../../yolov5/utils/segment/metrics.py 成功，字符数：6044
+2025-04-15 03:48:45,178 [DEBUG] 读取文件 ../../yolov5/utils/segment/dataloaders.py 成功，字符数：13709
+2025-04-15 03:48:45,178 [DEBUG] 读取文件 ../../yolov5/utils/segment/__init__.py 成功，字符数：67
+2025-04-15 03:48:45,178 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:48:46,570 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 429 103
+2025-04-15 03:48:46,573 [ERROR] 批量文件摘要生成失败，返回结果为 None
+2025-04-15 03:48:46,574 [INFO] 进度：已完成 42.1%
+2025-04-15 03:48:46,578 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:48:46,579 [DEBUG] 读取文件 ../../yolov5/utils/segment/loss.py 成功，字符数：9209
+2025-04-15 03:48:46,579 [DEBUG] 读取文件 ../../yolov5/utils/segment/plots.py 成功，字符数：6709
+2025-04-15 03:48:46,579 [DEBUG] 读取文件 ../../yolov5/utils/segment/general.py 成功，字符数：5967
+2025-04-15 03:48:46,579 [DEBUG] 读取文件 ../../yolov5/utils/segment/augmentations.py 成功，字符数：3555
+2025-04-15 03:48:46,579 [DEBUG] 读取文件 ../../yolov5/utils/__init__.py 成功，字符数：3267
+2025-04-15 03:48:46,579 [DEBUG] 读取文件 ../../yolov5/utils/downloads.py 成功，字符数：5259
+2025-04-15 03:48:46,579 [DEBUG] 读取文件 ../../yolov5/utils/loss.py 成功，字符数：11154
+2025-04-15 03:48:46,580 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:48:47,898 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 429 103
+2025-04-15 03:48:47,901 [ERROR] 批量文件摘要生成失败，返回结果为 None
+2025-04-15 03:48:47,901 [INFO] 进度：已完成 47.4%
+2025-04-15 03:48:47,907 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:48:47,907 [DEBUG] 读取文件 ../../yolov5/utils/plots.py 成功，字符数：20709
+2025-04-15 03:48:47,907 [DEBUG] 读取文件 ../../yolov5/utils/callbacks.py 成功，字符数：2735
+2025-04-15 03:48:47,907 [DEBUG] 读取文件 ../../yolov5/utils/aws/resume.py 成功，字符数：1266
+2025-04-15 03:48:47,907 [DEBUG] 读取文件 ../../yolov5/utils/aws/userdata.sh 成功，字符数：1315
+2025-04-15 03:48:47,907 [DEBUG] 读取文件 ../../yolov5/utils/aws/__init__.py 成功，字符数：67
+2025-04-15 03:48:47,908 [DEBUG] 读取文件 ../../yolov5/utils/aws/mime.sh 成功，字符数：848
+2025-04-15 03:48:47,908 [DEBUG] 读取文件 ../../yolov5/utils/flask_rest_api/example_request.py 成功，字符数：388
+2025-04-15 03:48:47,908 [DEBUG] 读取文件 ../../yolov5/utils/flask_rest_api/restapi.py 成功，字符数：1595
+2025-04-15 03:48:47,908 [DEBUG] 读取文件 ../../yolov5/utils/autoanchor.py 成功，字符数：7938
+2025-04-15 03:48:47,909 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:48:49,165 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 429 103
+2025-04-15 03:48:49,167 [ERROR] 批量文件摘要生成失败，返回结果为 None
+2025-04-15 03:48:49,167 [INFO] 进度：已完成 52.6%
+2025-04-15 03:48:49,171 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:48:49,171 [DEBUG] 读取文件 ../../yolov5/utils/torch_utils.py 成功，字符数：21676
+2025-04-15 03:48:49,171 [DEBUG] 读取文件 ../../yolov5/utils/augmentations.py 成功，字符数：18728
+2025-04-15 03:48:49,171 [DEBUG] 读取文件 ../../yolov5/models/yolov5s.yaml 成功，字符数：1443
+2025-04-15 03:48:49,171 [DEBUG] 读取文件 ../../yolov5/models/experimental.py 成功，字符数：5176
+2025-04-15 03:48:49,173 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:48:50,571 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 429 103
+2025-04-15 03:48:50,573 [ERROR] 批量文件摘要生成失败，返回结果为 None
+2025-04-15 03:48:50,573 [INFO] 进度：已完成 57.9%
+2025-04-15 03:48:50,579 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:48:50,579 [DEBUG] 读取文件 ../../yolov5/models/tf.py 成功，字符数：33787
+2025-04-15 03:48:50,579 [DEBUG] 读取文件 ../../yolov5/models/segment/yolov5s-seg.yaml 成功，字符数：1452
+2025-04-15 03:48:50,579 [DEBUG] 读取文件 ../../yolov5/models/segment/yolov5x-seg.yaml 成功，字符数：1453
+2025-04-15 03:48:50,580 [DEBUG] 读取文件 ../../yolov5/models/segment/yolov5l-seg.yaml 成功，字符数：1451
+2025-04-15 03:48:50,580 [DEBUG] 读取文件 ../../yolov5/models/segment/yolov5m-seg.yaml 成功，字符数：1453
+2025-04-15 03:48:50,580 [DEBUG] 读取文件 ../../yolov5/models/segment/yolov5n-seg.yaml 成功，字符数：1453
+2025-04-15 03:48:50,580 [DEBUG] 读取文件 ../../yolov5/models/yolov5l.yaml 成功，字符数：1441
+2025-04-15 03:48:50,580 [DEBUG] 读取文件 ../../yolov5/models/yolov5m.yaml 成功，字符数：1443
+2025-04-15 03:48:50,580 [DEBUG] 读取文件 ../../yolov5/models/__init__.py 成功，字符数：67
+2025-04-15 03:48:50,580 [DEBUG] 读取文件 ../../yolov5/models/yolov5x.yaml 成功，字符数：1443
+2025-04-15 03:48:50,580 [DEBUG] 读取文件 ../../yolov5/models/yolov5n.yaml 成功，字符数：1443
+2025-04-15 03:48:50,582 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:48:52,144 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 429 103
+2025-04-15 03:48:52,145 [ERROR] 批量文件摘要生成失败，返回结果为 None
+2025-04-15 03:48:52,145 [INFO] 进度：已完成 63.2%
+2025-04-15 03:48:52,148 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:48:52,148 [DEBUG] 读取文件 ../../yolov5/models/yolo.py 成功，字符数：21053
+2025-04-15 03:48:52,148 [DEBUG] 读取文件 ../../yolov5/models/hub/anchors.yaml 成功，字符数：3360
+2025-04-15 03:48:52,148 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov5s-ghost.yaml 成功，字符数：1523
+2025-04-15 03:48:52,148 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov5x6.yaml 成功，字符数：1860
+2025-04-15 03:48:52,148 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov3-spp.yaml 成功，字符数：1612
+2025-04-15 03:48:52,148 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov5-panet.yaml 成功，字符数：1447
+2025-04-15 03:48:52,148 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov5-bifpn.yaml 成功，字符数：1463
+2025-04-15 03:48:52,148 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov5-p2.yaml 成功，字符数：1723
+2025-04-15 03:48:52,148 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov5-fpn.yaml 成功，字符数：1252
+2025-04-15 03:48:52,148 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov5s6.yaml 成功，字符数：1860
+2025-04-15 03:48:52,148 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov5l6.yaml 成功，字符数：1858
+2025-04-15 03:48:52,148 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov3-tiny.yaml 成功，字符数：1269
+2025-04-15 03:48:52,149 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov3.yaml 成功，字符数：1603
+2025-04-15 03:48:52,149 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov5n6.yaml 成功，字符数：1860
+2025-04-15 03:48:52,149 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov5-p7.yaml 成功，字符数：2163
+2025-04-15 03:48:52,149 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov5s-LeakyReLU.yaml 成功，字符数：1536
+2025-04-15 03:48:52,149 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov5-p34.yaml 成功，字符数：1263
+2025-04-15 03:48:52,150 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:48:53,931 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 429 103
+2025-04-15 03:48:53,933 [ERROR] 批量文件摘要生成失败，返回结果为 None
+2025-04-15 03:48:53,934 [INFO] 进度：已完成 68.4%
+2025-04-15 03:48:53,939 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:48:53,940 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov5m6.yaml 成功，字符数：1860
+2025-04-15 03:48:53,940 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov5s-transformer.yaml 成功，字符数：1480
+2025-04-15 03:48:53,940 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov5-p6.yaml 成功，字符数：1778
+2025-04-15 03:48:53,940 [DEBUG] 读取文件 ../../yolov5/hubconf.py 成功，字符数：23983
+2025-04-15 03:48:53,940 [DEBUG] 读取文件 ../../yolov5/data/hyps/hyp.VOC.yaml 成功，字符数：1178
+2025-04-15 03:48:53,941 [DEBUG] 读取文件 ../../yolov5/data/hyps/hyp.Objects365.yaml 成功，字符数：695
+2025-04-15 03:48:53,941 [DEBUG] 读取文件 ../../yolov5/data/hyps/hyp.no-augmentation.yaml 成功，字符数：1677
+2025-04-15 03:48:53,941 [DEBUG] 读取文件 ../../yolov5/data/hyps/hyp.scratch-low.yaml 成功，字符数：1685
+2025-04-15 03:48:53,941 [DEBUG] 读取文件 ../../yolov5/data/hyps/hyp.scratch-med.yaml 成功，字符数：1679
+2025-04-15 03:48:53,941 [DEBUG] 读取文件 ../../yolov5/data/hyps/hyp.scratch-high.yaml 成功，字符数：1677
+2025-04-15 03:48:53,942 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:48:55,531 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 429 103
+2025-04-15 03:48:55,534 [ERROR] 批量文件摘要生成失败，返回结果为 None
+2025-04-15 03:48:55,534 [INFO] 进度：已完成 73.7%
+2025-04-15 03:48:55,539 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:48:55,540 [DEBUG] 读取文件 ../../yolov5/data/ImageNet1000.yaml 成功，字符数：18869
+2025-04-15 03:48:55,540 [DEBUG] 读取文件 ../../yolov5/data/coco128.yaml 成功，字符数：1889
+2025-04-15 03:48:55,540 [DEBUG] 读取文件 ../../yolov5/data/coco.yaml 成功，字符数：2493
+2025-04-15 03:48:55,540 [DEBUG] 读取文件 ../../yolov5/data/coco128-seg.yaml 成功，字符数：1905
+2025-04-15 03:48:55,541 [WARNING] 读取文件 ../../yolov5/data/images/zidane.jpg 失败：'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
+2025-04-15 03:48:55,542 [WARNING] 读取文件 ../../yolov5/data/images/bus.jpg 失败：'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
+2025-04-15 03:48:55,542 [DEBUG] 读取文件 ../../yolov5/data/GlobalWheat2020.yaml 成功，字符数：1886
+2025-04-15 03:48:55,542 [DEBUG] 读取文件 ../../yolov5/data/VisDrone.yaml 成功，字符数：2975
+2025-04-15 03:48:55,542 [DEBUG] 读取文件 ../../yolov5/data/SKU-110K.yaml 成功，字符数：2337
+2025-04-15 03:48:55,542 [DEBUG] 读取文件 ../../yolov5/data/Objects365.yaml 成功，字符数：9200
+2025-04-15 03:48:55,542 [DEBUG] 读取文件 ../../yolov5/data/ImageNet10.yaml 成功，字符数：933
+2025-04-15 03:48:55,542 [DEBUG] 读取文件 ../../yolov5/data/xView.yaml 成功，字符数：5167
+2025-04-15 03:48:55,542 [DEBUG] 读取文件 ../../yolov5/data/scripts/get_coco.sh 成功，字符数：1568
+2025-04-15 03:48:55,542 [DEBUG] 读取文件 ../../yolov5/data/scripts/get_imagenet1000.sh 成功，字符数：743
+2025-04-15 03:48:55,544 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:48:57,058 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 429 103
+2025-04-15 03:48:57,060 [ERROR] 批量文件摘要生成失败，返回结果为 None
+2025-04-15 03:48:57,061 [INFO] 进度：已完成 78.9%
+2025-04-15 03:48:57,066 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:48:57,067 [DEBUG] 读取文件 ../../yolov5/data/scripts/get_imagenet.sh 成功，字符数：1673
+2025-04-15 03:48:57,067 [DEBUG] 读取文件 ../../yolov5/data/scripts/get_imagenet100.sh 成功，字符数：739
+2025-04-15 03:48:57,067 [DEBUG] 读取文件 ../../yolov5/data/scripts/download_weights.sh 成功，字符数：636
+2025-04-15 03:48:57,067 [DEBUG] 读取文件 ../../yolov5/data/scripts/get_imagenet10.sh 成功，字符数：735
+2025-04-15 03:48:57,067 [DEBUG] 读取文件 ../../yolov5/data/scripts/get_coco128.sh 成功，字符数：620
+2025-04-15 03:48:57,067 [DEBUG] 读取文件 ../../yolov5/data/ImageNet100.yaml 成功，字符数：2650
+2025-04-15 03:48:57,067 [DEBUG] 读取文件 ../../yolov5/data/Argoverse.yaml 成功，字符数：2729
+2025-04-15 03:48:57,067 [DEBUG] 读取文件 ../../yolov5/data/ImageNet.yaml 成功，字符数：18867
+2025-04-15 03:48:57,067 [DEBUG] 读取文件 ../../yolov5/data/VOC.yaml 成功，字符数：3495
+2025-04-15 03:48:57,069 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:48:58,278 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 429 103
+2025-04-15 03:48:58,279 [ERROR] 批量文件摘要生成失败，返回结果为 None
+2025-04-15 03:48:58,279 [INFO] 进度：已完成 84.2%
+2025-04-15 03:48:58,283 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:48:58,283 [DEBUG] 读取文件 ../../yolov5/detect.py 成功，字符数：23758
+2025-04-15 03:48:58,284 [DEBUG] 读取文件 ../../yolov5/benchmarks.py 成功，字符数：14139
+2025-04-15 03:48:58,285 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:48:59,536 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 429 103
+2025-04-15 03:48:59,537 [ERROR] 批量文件摘要生成失败，返回结果为 None
+2025-04-15 03:48:59,537 [INFO] 进度：已完成 89.5%
+2025-04-15 03:48:59,542 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:48:59,542 [DEBUG] 读取文件 ../../yolov5/tutorial.ipynb 成功，字符数：41350
+2025-04-15 03:48:59,544 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:51:26,056 [DEBUG] 日志系统初始化完成，日志文件：/Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/debug.log
+2025-04-15 03:51:26,056 [INFO] 成功加载扫描结果 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:51:26,056 [INFO] 提取 readme.md 成功：README.md (字符数：49895)
+2025-04-15 03:51:26,056 [INFO] 加载总结工具配置文件：codesense_summarizer_config.json
+2025-04-15 03:51:26,056 [INFO] 待处理文件数量（不包含 .md 文件且 need_traverse 为 True）：101
+2025-04-15 03:51:26,058 [INFO] 预估大模型调用总次数：12，总步骤数：14
+2025-04-15 03:51:26,058 [INFO] 进度：初步总结步骤完成，占总进度 7.1%
+2025-04-15 03:51:26,058 [DEBUG] 读取文件 ../../yolov5/utils/loggers/comet/__init__.py 成功，字符数：21515
+2025-04-15 03:51:26,058 [DEBUG] 读取文件 ../../yolov5/utils/loggers/comet/comet_utils.py 成功，字符数：4846
+2025-04-15 03:51:26,058 [DEBUG] 读取文件 ../../yolov5/utils/loggers/comet/hpo.py 成功，字符数：6953
+2025-04-15 03:51:26,058 [DEBUG] 读取文件 ../../yolov5/utils/loggers/clearml/__init__.py 成功，字符数：67
+2025-04-15 03:51:26,058 [DEBUG] 读取文件 ../../yolov5/utils/loggers/clearml/clearml_utils.py 成功，字符数：9706
+2025-04-15 03:51:26,058 [DEBUG] 读取文件 ../../yolov5/utils/loggers/clearml/hpo.py 成功，字符数：5312
+2025-04-15 03:51:26,058 [DEBUG] 读取文件 ../../yolov5/utils/loggers/wandb/__init__.py 成功，字符数：67
+2025-04-15 03:51:26,063 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:51:30,418 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 03:51:51,086 [DEBUG] 日志系统初始化完成，日志文件：/Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/debug.log
+2025-04-15 03:51:51,086 [INFO] 成功加载扫描结果 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:51:51,086 [INFO] 提取 readme.md 成功：README.md (字符数：49895)
+2025-04-15 03:51:51,086 [INFO] 加载总结工具配置文件：codesense_summarizer_config.json
+2025-04-15 03:51:51,086 [INFO] 待处理文件数量（不包含 .md 文件且 need_traverse 为 True）：101
+2025-04-15 03:51:51,088 [INFO] 预估大模型调用总次数：12，总步骤数：14
+2025-04-15 03:51:51,088 [INFO] 进度：初步总结步骤完成，占总进度 7.1%
+2025-04-15 03:51:51,088 [DEBUG] 读取文件 ../../yolov5/utils/loggers/comet/__init__.py 成功，字符数：21515
+2025-04-15 03:51:51,088 [DEBUG] 读取文件 ../../yolov5/utils/loggers/comet/comet_utils.py 成功，字符数：4846
+2025-04-15 03:51:51,088 [DEBUG] 读取文件 ../../yolov5/utils/loggers/comet/hpo.py 成功，字符数：6953
+2025-04-15 03:51:51,088 [DEBUG] 读取文件 ../../yolov5/utils/loggers/clearml/__init__.py 成功，字符数：67
+2025-04-15 03:51:51,088 [DEBUG] 读取文件 ../../yolov5/utils/loggers/clearml/clearml_utils.py 成功，字符数：9706
+2025-04-15 03:51:51,088 [DEBUG] 读取文件 ../../yolov5/utils/loggers/clearml/hpo.py 成功，字符数：5312
+2025-04-15 03:51:51,088 [DEBUG] 读取文件 ../../yolov5/utils/loggers/wandb/__init__.py 成功，字符数：67
+2025-04-15 03:51:51,094 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:51:54,173 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 03:53:26,753 [INFO] 批量文件摘要生成完成
+2025-04-15 03:53:26,754 [INFO] 回填摘要到结构节点：utils/loggers/comet/__init__.py，并将 need_traverse 设置为 False
+2025-04-15 03:53:26,754 [INFO] 回填摘要到结构节点：utils/loggers/comet/comet_utils.py，并将 need_traverse 设置为 False
+2025-04-15 03:53:26,754 [INFO] 回填摘要到结构节点：utils/loggers/comet/hpo.py，并将 need_traverse 设置为 False
+2025-04-15 03:53:26,754 [INFO] 回填摘要到结构节点：utils/loggers/clearml/__init__.py，并将 need_traverse 设置为 False
+2025-04-15 03:53:26,754 [INFO] 回填摘要到结构节点：utils/loggers/clearml/clearml_utils.py，并将 need_traverse 设置为 False
+2025-04-15 03:53:26,754 [INFO] 回填摘要到结构节点：utils/loggers/clearml/hpo.py，并将 need_traverse 设置为 False
+2025-04-15 03:53:26,754 [INFO] 回填摘要到结构节点：utils/loggers/wandb/__init__.py，并将 need_traverse 设置为 False
+2025-04-15 03:53:26,754 [INFO] 进度：已完成 14.3%
+2025-04-15 03:53:26,758 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:53:26,759 [DEBUG] 读取文件 ../../yolov5/utils/loggers/wandb/wandb_utils.py 成功，字符数：8159
+2025-04-15 03:53:26,759 [DEBUG] 读取文件 ../../yolov5/utils/triton.py 成功，字符数：3813
+2025-04-15 03:53:26,760 [DEBUG] 读取文件 ../../yolov5/utils/activations.py 成功，字符数：5035
+2025-04-15 03:53:26,760 [DEBUG] 读取文件 ../../yolov5/utils/autobatch.py 成功，字符数：3055
+2025-04-15 03:53:26,760 [DEBUG] 读取文件 ../../yolov5/utils/google_app_engine/app.yaml 成功，字符数：242
+2025-04-15 03:53:26,761 [DEBUG] 读取文件 ../../yolov5/utils/google_app_engine/Dockerfile 成功，字符数：821
+2025-04-15 03:53:26,761 [DEBUG] 读取文件 ../../yolov5/utils/google_app_engine/additional_requirements.txt 成功，字符数：264
+2025-04-15 03:53:26,761 [DEBUG] 读取文件 ../../yolov5/utils/segment/metrics.py 成功，字符数：6044
+2025-04-15 03:53:26,761 [DEBUG] 读取文件 ../../yolov5/utils/segment/dataloaders.py 成功，字符数：13709
+2025-04-15 03:53:26,761 [DEBUG] 读取文件 ../../yolov5/utils/segment/__init__.py 成功，字符数：67
+2025-04-15 03:53:26,764 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:53:35,655 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 03:54:24,598 [INFO] 批量文件摘要生成完成
+2025-04-15 03:54:24,599 [INFO] 回填摘要到结构节点：utils/loggers/wandb/wandb_utils.py，并将 need_traverse 设置为 False
+2025-04-15 03:54:24,599 [INFO] 回填摘要到结构节点：utils/triton.py，并将 need_traverse 设置为 False
+2025-04-15 03:54:24,599 [INFO] 回填摘要到结构节点：utils/activations.py，并将 need_traverse 设置为 False
+2025-04-15 03:54:24,599 [INFO] 回填摘要到结构节点：utils/autobatch.py，并将 need_traverse 设置为 False
+2025-04-15 03:54:24,599 [INFO] 回填摘要到结构节点：utils/google_app_engine/app.yaml，并将 need_traverse 设置为 False
+2025-04-15 03:54:24,599 [INFO] 回填摘要到结构节点：utils/google_app_engine/Dockerfile，并将 need_traverse 设置为 False
+2025-04-15 03:54:24,599 [INFO] 回填摘要到结构节点：utils/google_app_engine/additional_requirements.txt，并将 need_traverse 设置为 False
+2025-04-15 03:54:24,599 [INFO] 回填摘要到结构节点：utils/segment/metrics.py，并将 need_traverse 设置为 False
+2025-04-15 03:54:24,599 [INFO] 回填摘要到结构节点：utils/segment/dataloaders.py，并将 need_traverse 设置为 False
+2025-04-15 03:54:24,599 [INFO] 回填摘要到结构节点：utils/segment/__init__.py，并将 need_traverse 设置为 False
+2025-04-15 03:54:24,599 [INFO] 进度：已完成 21.4%
+2025-04-15 03:54:24,603 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:54:24,603 [DEBUG] 读取文件 ../../yolov5/utils/segment/loss.py 成功，字符数：9209
+2025-04-15 03:54:24,604 [DEBUG] 读取文件 ../../yolov5/utils/segment/plots.py 成功，字符数：6709
+2025-04-15 03:54:24,604 [DEBUG] 读取文件 ../../yolov5/utils/segment/general.py 成功，字符数：5967
+2025-04-15 03:54:24,604 [DEBUG] 读取文件 ../../yolov5/utils/segment/augmentations.py 成功，字符数：3555
+2025-04-15 03:54:24,605 [DEBUG] 读取文件 ../../yolov5/utils/__init__.py 成功，字符数：3267
+2025-04-15 03:54:24,605 [DEBUG] 读取文件 ../../yolov5/utils/downloads.py 成功，字符数：5259
+2025-04-15 03:54:24,605 [DEBUG] 读取文件 ../../yolov5/utils/loss.py 成功，字符数：11154
+2025-04-15 03:54:24,606 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:54:28,071 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 03:55:20,067 [INFO] 批量文件摘要生成完成
+2025-04-15 03:55:20,068 [INFO] 回填摘要到结构节点：utils/segment/loss.py，并将 need_traverse 设置为 False
+2025-04-15 03:55:20,068 [INFO] 回填摘要到结构节点：utils/segment/plots.py，并将 need_traverse 设置为 False
+2025-04-15 03:55:20,068 [INFO] 回填摘要到结构节点：utils/segment/general.py，并将 need_traverse 设置为 False
+2025-04-15 03:55:20,068 [INFO] 回填摘要到结构节点：utils/segment/augmentations.py，并将 need_traverse 设置为 False
+2025-04-15 03:55:20,068 [INFO] 回填摘要到结构节点：utils/__init__.py，并将 need_traverse 设置为 False
+2025-04-15 03:55:20,068 [INFO] 回填摘要到结构节点：utils/downloads.py，并将 need_traverse 设置为 False
+2025-04-15 03:55:20,068 [INFO] 进度：已完成 28.6%
+2025-04-15 03:55:20,074 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:55:20,075 [DEBUG] 读取文件 ../../yolov5/utils/plots.py 成功，字符数：20709
+2025-04-15 03:55:20,075 [DEBUG] 读取文件 ../../yolov5/utils/callbacks.py 成功，字符数：2735
+2025-04-15 03:55:20,076 [DEBUG] 读取文件 ../../yolov5/utils/aws/resume.py 成功，字符数：1266
+2025-04-15 03:55:20,076 [DEBUG] 读取文件 ../../yolov5/utils/aws/userdata.sh 成功，字符数：1315
+2025-04-15 03:55:20,076 [DEBUG] 读取文件 ../../yolov5/utils/aws/__init__.py 成功，字符数：67
+2025-04-15 03:55:20,076 [DEBUG] 读取文件 ../../yolov5/utils/aws/mime.sh 成功，字符数：848
+2025-04-15 03:55:20,077 [DEBUG] 读取文件 ../../yolov5/utils/flask_rest_api/example_request.py 成功，字符数：388
+2025-04-15 03:55:20,077 [DEBUG] 读取文件 ../../yolov5/utils/flask_rest_api/restapi.py 成功，字符数：1595
+2025-04-15 03:55:20,077 [DEBUG] 读取文件 ../../yolov5/utils/autoanchor.py 成功，字符数：7938
+2025-04-15 03:55:20,078 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:55:23,891 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 03:56:17,859 [INFO] 批量文件摘要生成完成
+2025-04-15 03:56:17,859 [INFO] 回填摘要到结构节点：utils/plots.py，并将 need_traverse 设置为 False
+2025-04-15 03:56:17,860 [INFO] 回填摘要到结构节点：utils/callbacks.py，并将 need_traverse 设置为 False
+2025-04-15 03:56:17,860 [INFO] 回填摘要到结构节点：utils/aws/resume.py，并将 need_traverse 设置为 False
+2025-04-15 03:56:17,860 [INFO] 回填摘要到结构节点：utils/aws/userdata.sh，并将 need_traverse 设置为 False
+2025-04-15 03:56:17,860 [INFO] 回填摘要到结构节点：utils/aws/__init__.py，并将 need_traverse 设置为 False
+2025-04-15 03:56:17,860 [INFO] 回填摘要到结构节点：utils/aws/mime.sh，并将 need_traverse 设置为 False
+2025-04-15 03:56:17,860 [INFO] 回填摘要到结构节点：utils/flask_rest_api/example_request.py，并将 need_traverse 设置为 False
+2025-04-15 03:56:17,860 [INFO] 回填摘要到结构节点：utils/flask_rest_api/restapi.py，并将 need_traverse 设置为 False
+2025-04-15 03:56:17,860 [INFO] 回填摘要到结构节点：utils/autoanchor.py，并将 need_traverse 设置为 False
+2025-04-15 03:56:17,860 [INFO] 进度：已完成 35.7%
+2025-04-15 03:56:17,866 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:56:17,867 [DEBUG] 读取文件 ../../yolov5/utils/torch_utils.py 成功，字符数：21676
+2025-04-15 03:56:17,867 [DEBUG] 读取文件 ../../yolov5/utils/augmentations.py 成功，字符数：18728
+2025-04-15 03:56:17,867 [DEBUG] 读取文件 ../../yolov5/models/yolov5s.yaml 成功，字符数：1443
+2025-04-15 03:56:17,868 [DEBUG] 读取文件 ../../yolov5/models/experimental.py 成功，字符数：5176
+2025-04-15 03:56:17,869 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:56:21,643 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 03:58:56,168 [INFO] 批量文件摘要生成完成
+2025-04-15 03:58:56,169 [INFO] 回填摘要到结构节点：utils/torch_utils.py，并将 need_traverse 设置为 False
+2025-04-15 03:58:56,169 [INFO] 回填摘要到结构节点：utils/augmentations.py，并将 need_traverse 设置为 False
+2025-04-15 03:58:56,169 [INFO] 回填摘要到结构节点：models/yolov5s.yaml，并将 need_traverse 设置为 False
+2025-04-15 03:58:56,169 [INFO] 回填摘要到结构节点：models/experimental.py，并将 need_traverse 设置为 False
+2025-04-15 03:58:56,169 [INFO] 进度：已完成 42.9%
+2025-04-15 03:58:56,175 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:58:56,175 [DEBUG] 读取文件 ../../yolov5/models/tf.py 成功，字符数：33787
+2025-04-15 03:58:56,176 [DEBUG] 读取文件 ../../yolov5/models/segment/yolov5s-seg.yaml 成功，字符数：1452
+2025-04-15 03:58:56,176 [DEBUG] 读取文件 ../../yolov5/models/segment/yolov5x-seg.yaml 成功，字符数：1453
+2025-04-15 03:58:56,176 [DEBUG] 读取文件 ../../yolov5/models/segment/yolov5l-seg.yaml 成功，字符数：1451
+2025-04-15 03:58:56,176 [DEBUG] 读取文件 ../../yolov5/models/segment/yolov5m-seg.yaml 成功，字符数：1453
+2025-04-15 03:58:56,177 [DEBUG] 读取文件 ../../yolov5/models/segment/yolov5n-seg.yaml 成功，字符数：1453
+2025-04-15 03:58:56,177 [DEBUG] 读取文件 ../../yolov5/models/yolov5l.yaml 成功，字符数：1441
+2025-04-15 03:58:56,177 [DEBUG] 读取文件 ../../yolov5/models/yolov5m.yaml 成功，字符数：1443
+2025-04-15 03:58:56,177 [DEBUG] 读取文件 ../../yolov5/models/__init__.py 成功，字符数：67
+2025-04-15 03:58:56,177 [DEBUG] 读取文件 ../../yolov5/models/yolov5x.yaml 成功，字符数：1443
+2025-04-15 03:58:56,177 [DEBUG] 读取文件 ../../yolov5/models/yolov5n.yaml 成功，字符数：1443
+2025-04-15 03:58:56,178 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:59:00,563 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 03:59:40,305 [INFO] 批量文件摘要生成完成
+2025-04-15 03:59:40,305 [INFO] 回填摘要到结构节点：models/tf.py，并将 need_traverse 设置为 False
+2025-04-15 03:59:40,305 [INFO] 回填摘要到结构节点：models/segment/yolov5s-seg.yaml，并将 need_traverse 设置为 False
+2025-04-15 03:59:40,305 [INFO] 回填摘要到结构节点：models/segment/yolov5x-seg.yaml，并将 need_traverse 设置为 False
+2025-04-15 03:59:40,305 [INFO] 回填摘要到结构节点：models/segment/yolov5l-seg.yaml，并将 need_traverse 设置为 False
+2025-04-15 03:59:40,306 [INFO] 回填摘要到结构节点：models/segment/yolov5m-seg.yaml，并将 need_traverse 设置为 False
+2025-04-15 03:59:40,306 [INFO] 回填摘要到结构节点：models/segment/yolov5n-seg.yaml，并将 need_traverse 设置为 False
+2025-04-15 03:59:40,306 [INFO] 回填摘要到结构节点：models/yolov5l.yaml，并将 need_traverse 设置为 False
+2025-04-15 03:59:40,306 [INFO] 回填摘要到结构节点：models/yolov5m.yaml，并将 need_traverse 设置为 False
+2025-04-15 03:59:40,306 [INFO] 回填摘要到结构节点：models/yolov5x.yaml，并将 need_traverse 设置为 False
+2025-04-15 03:59:40,306 [INFO] 回填摘要到结构节点：models/yolov5n.yaml，并将 need_traverse 设置为 False
+2025-04-15 03:59:40,306 [INFO] 进度：已完成 50.0%
+2025-04-15 03:59:40,312 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 03:59:40,313 [DEBUG] 读取文件 ../../yolov5/models/yolo.py 成功，字符数：21053
+2025-04-15 03:59:40,313 [DEBUG] 读取文件 ../../yolov5/models/hub/anchors.yaml 成功，字符数：3360
+2025-04-15 03:59:40,313 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov5s-ghost.yaml 成功，字符数：1523
+2025-04-15 03:59:40,313 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov5x6.yaml 成功，字符数：1860
+2025-04-15 03:59:40,314 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov3-spp.yaml 成功，字符数：1612
+2025-04-15 03:59:40,314 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov5-panet.yaml 成功，字符数：1447
+2025-04-15 03:59:40,314 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov5-bifpn.yaml 成功，字符数：1463
+2025-04-15 03:59:40,314 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov5-p2.yaml 成功，字符数：1723
+2025-04-15 03:59:40,314 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov5-fpn.yaml 成功，字符数：1252
+2025-04-15 03:59:40,314 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov5s6.yaml 成功，字符数：1860
+2025-04-15 03:59:40,314 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov5l6.yaml 成功，字符数：1858
+2025-04-15 03:59:40,314 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov3-tiny.yaml 成功，字符数：1269
+2025-04-15 03:59:40,314 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov3.yaml 成功，字符数：1603
+2025-04-15 03:59:40,315 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov5n6.yaml 成功，字符数：1860
+2025-04-15 03:59:40,315 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov5-p7.yaml 成功，字符数：2163
+2025-04-15 03:59:40,315 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov5s-LeakyReLU.yaml 成功，字符数：1536
+2025-04-15 03:59:40,315 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov5-p34.yaml 成功，字符数：1263
+2025-04-15 03:59:40,316 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 03:59:45,317 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 04:02:41,978 [INFO] 批量文件摘要生成完成
+2025-04-15 04:02:41,979 [INFO] 回填摘要到结构节点：models/yolo.py，并将 need_traverse 设置为 False
+2025-04-15 04:02:41,979 [INFO] 回填摘要到结构节点：models/hub/anchors.yaml，并将 need_traverse 设置为 False
+2025-04-15 04:02:41,979 [INFO] 回填摘要到结构节点：models/hub/yolov5s-ghost.yaml，并将 need_traverse 设置为 False
+2025-04-15 04:02:41,979 [INFO] 回填摘要到结构节点：models/hub/yolov5x6.yaml，并将 need_traverse 设置为 False
+2025-04-15 04:02:41,980 [INFO] 回填摘要到结构节点：models/hub/yolov3-spp.yaml，并将 need_traverse 设置为 False
+2025-04-15 04:02:41,980 [INFO] 回填摘要到结构节点：models/hub/yolov5-panet.yaml，并将 need_traverse 设置为 False
+2025-04-15 04:02:41,980 [INFO] 回填摘要到结构节点：models/hub/yolov5-bifpn.yaml，并将 need_traverse 设置为 False
+2025-04-15 04:02:41,980 [INFO] 回填摘要到结构节点：models/hub/yolov5-p2.yaml，并将 need_traverse 设置为 False
+2025-04-15 04:02:41,980 [INFO] 回填摘要到结构节点：models/hub/yolov5-fpn.yaml，并将 need_traverse 设置为 False
+2025-04-15 04:02:41,980 [INFO] 回填摘要到结构节点：models/hub/yolov5s6.yaml，并将 need_traverse 设置为 False
+2025-04-15 04:02:41,980 [INFO] 回填摘要到结构节点：models/hub/yolov5l6.yaml，并将 need_traverse 设置为 False
+2025-04-15 04:02:41,981 [INFO] 回填摘要到结构节点：models/hub/yolov3-tiny.yaml，并将 need_traverse 设置为 False
+2025-04-15 04:02:41,981 [INFO] 回填摘要到结构节点：models/hub/yolov3.yaml，并将 need_traverse 设置为 False
+2025-04-15 04:02:41,981 [INFO] 回填摘要到结构节点：models/hub/yolov5n6.yaml，并将 need_traverse 设置为 False
+2025-04-15 04:02:41,981 [INFO] 回填摘要到结构节点：models/hub/yolov5-p7.yaml，并将 need_traverse 设置为 False
+2025-04-15 04:02:41,981 [INFO] 回填摘要到结构节点：models/hub/yolov5s-LeakyReLU.yaml，并将 need_traverse 设置为 False
+2025-04-15 04:02:41,981 [INFO] 回填摘要到结构节点：models/hub/yolov5-p34.yaml，并将 need_traverse 设置为 False
+2025-04-15 04:02:41,981 [INFO] 进度：已完成 57.1%
+2025-04-15 04:02:41,988 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 04:02:41,988 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov5m6.yaml 成功，字符数：1860
+2025-04-15 04:02:41,989 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov5s-transformer.yaml 成功，字符数：1480
+2025-04-15 04:02:41,989 [DEBUG] 读取文件 ../../yolov5/models/hub/yolov5-p6.yaml 成功，字符数：1778
+2025-04-15 04:02:41,989 [DEBUG] 读取文件 ../../yolov5/hubconf.py 成功，字符数：23983
+2025-04-15 04:02:41,989 [DEBUG] 读取文件 ../../yolov5/data/hyps/hyp.VOC.yaml 成功，字符数：1178
+2025-04-15 04:02:41,990 [DEBUG] 读取文件 ../../yolov5/data/hyps/hyp.Objects365.yaml 成功，字符数：695
+2025-04-15 04:02:41,990 [DEBUG] 读取文件 ../../yolov5/data/hyps/hyp.no-augmentation.yaml 成功，字符数：1677
+2025-04-15 04:02:41,990 [DEBUG] 读取文件 ../../yolov5/data/hyps/hyp.scratch-low.yaml 成功，字符数：1685
+2025-04-15 04:02:41,990 [DEBUG] 读取文件 ../../yolov5/data/hyps/hyp.scratch-med.yaml 成功，字符数：1679
+2025-04-15 04:02:41,990 [DEBUG] 读取文件 ../../yolov5/data/hyps/hyp.scratch-high.yaml 成功，字符数：1677
+2025-04-15 04:02:41,991 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 04:02:46,151 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 04:03:43,628 [INFO] 批量文件摘要生成完成
+2025-04-15 04:03:43,628 [INFO] 回填摘要到结构节点：models/hub/yolov5m6.yaml，并将 need_traverse 设置为 False
+2025-04-15 04:03:43,628 [INFO] 回填摘要到结构节点：models/hub/yolov5s-transformer.yaml，并将 need_traverse 设置为 False
+2025-04-15 04:03:43,628 [INFO] 回填摘要到结构节点：models/hub/yolov5-p6.yaml，并将 need_traverse 设置为 False
+2025-04-15 04:03:43,629 [INFO] 回填摘要到结构节点：hubconf.py，并将 need_traverse 设置为 False
+2025-04-15 04:03:43,629 [INFO] 回填摘要到结构节点：data/hyps/hyp.VOC.yaml，并将 need_traverse 设置为 False
+2025-04-15 04:03:43,629 [INFO] 回填摘要到结构节点：data/hyps/hyp.Objects365.yaml，并将 need_traverse 设置为 False
+2025-04-15 04:03:43,629 [INFO] 回填摘要到结构节点：data/hyps/hyp.no-augmentation.yaml，并将 need_traverse 设置为 False
+2025-04-15 04:03:43,629 [INFO] 回填摘要到结构节点：data/hyps/hyp.scratch-low.yaml，并将 need_traverse 设置为 False
+2025-04-15 04:03:43,629 [INFO] 回填摘要到结构节点：data/hyps/hyp.scratch-med.yaml，并将 need_traverse 设置为 False
+2025-04-15 04:03:43,629 [INFO] 回填摘要到结构节点：data/hyps/hyp.scratch-high.yaml，并将 need_traverse 设置为 False
+2025-04-15 04:03:43,629 [INFO] 进度：已完成 64.3%
+2025-04-15 04:03:43,637 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 04:03:43,638 [DEBUG] 读取文件 ../../yolov5/data/ImageNet1000.yaml 成功，字符数：18869
+2025-04-15 04:03:43,638 [DEBUG] 读取文件 ../../yolov5/data/coco128.yaml 成功，字符数：1889
+2025-04-15 04:03:43,638 [DEBUG] 读取文件 ../../yolov5/data/coco.yaml 成功，字符数：2493
+2025-04-15 04:03:43,639 [DEBUG] 读取文件 ../../yolov5/data/coco128-seg.yaml 成功，字符数：1905
+2025-04-15 04:03:43,639 [WARNING] 读取文件 ../../yolov5/data/images/zidane.jpg 失败：'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
+2025-04-15 04:03:43,639 [WARNING] 读取文件 ../../yolov5/data/images/bus.jpg 失败：'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
+2025-04-15 04:03:43,640 [DEBUG] 读取文件 ../../yolov5/data/GlobalWheat2020.yaml 成功，字符数：1886
+2025-04-15 04:03:43,640 [DEBUG] 读取文件 ../../yolov5/data/VisDrone.yaml 成功，字符数：2975
+2025-04-15 04:03:43,640 [DEBUG] 读取文件 ../../yolov5/data/SKU-110K.yaml 成功，字符数：2337
+2025-04-15 04:03:43,640 [DEBUG] 读取文件 ../../yolov5/data/Objects365.yaml 成功，字符数：9200
+2025-04-15 04:03:43,640 [DEBUG] 读取文件 ../../yolov5/data/ImageNet10.yaml 成功，字符数：933
+2025-04-15 04:03:43,640 [DEBUG] 读取文件 ../../yolov5/data/xView.yaml 成功，字符数：5167
+2025-04-15 04:03:43,641 [DEBUG] 读取文件 ../../yolov5/data/scripts/get_coco.sh 成功，字符数：1568
+2025-04-15 04:03:43,641 [DEBUG] 读取文件 ../../yolov5/data/scripts/get_imagenet1000.sh 成功，字符数：743
+2025-04-15 04:03:43,642 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 04:03:48,863 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 04:04:45,455 [INFO] 批量文件摘要生成完成
+2025-04-15 04:04:45,455 [INFO] 回填摘要到结构节点：data/ImageNet1000.yaml，并将 need_traverse 设置为 False
+2025-04-15 04:04:45,455 [INFO] 回填摘要到结构节点：data/coco128.yaml，并将 need_traverse 设置为 False
+2025-04-15 04:04:45,455 [INFO] 回填摘要到结构节点：data/coco.yaml，并将 need_traverse 设置为 False
+2025-04-15 04:04:45,456 [INFO] 回填摘要到结构节点：data/coco128-seg.yaml，并将 need_traverse 设置为 False
+2025-04-15 04:04:45,456 [INFO] 回填摘要到结构节点：data/images/zidane.jpg，并将 need_traverse 设置为 False
+2025-04-15 04:04:45,456 [INFO] 回填摘要到结构节点：data/images/bus.jpg，并将 need_traverse 设置为 False
+2025-04-15 04:04:45,456 [INFO] 回填摘要到结构节点：data/GlobalWheat2020.yaml，并将 need_traverse 设置为 False
+2025-04-15 04:04:45,456 [INFO] 回填摘要到结构节点：data/VisDrone.yaml，并将 need_traverse 设置为 False
+2025-04-15 04:04:45,456 [INFO] 回填摘要到结构节点：data/SKU-110K.yaml，并将 need_traverse 设置为 False
+2025-04-15 04:04:45,456 [INFO] 回填摘要到结构节点：data/Objects365.yaml，并将 need_traverse 设置为 False
+2025-04-15 04:04:45,456 [INFO] 回填摘要到结构节点：data/ImageNet10.yaml，并将 need_traverse 设置为 False
+2025-04-15 04:04:45,456 [INFO] 回填摘要到结构节点：data/xView.yaml，并将 need_traverse 设置为 False
+2025-04-15 04:04:45,456 [INFO] 回填摘要到结构节点：data/scripts/get_coco.sh，并将 need_traverse 设置为 False
+2025-04-15 04:04:45,456 [INFO] 回填摘要到结构节点：data/scripts/get_imagenet1000.sh，并将 need_traverse 设置为 False
+2025-04-15 04:04:45,457 [INFO] 进度：已完成 71.4%
+2025-04-15 04:04:45,464 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 04:04:45,465 [DEBUG] 读取文件 ../../yolov5/data/scripts/get_imagenet.sh 成功，字符数：1673
+2025-04-15 04:04:45,465 [DEBUG] 读取文件 ../../yolov5/data/scripts/get_imagenet100.sh 成功，字符数：739
+2025-04-15 04:04:45,465 [DEBUG] 读取文件 ../../yolov5/data/scripts/download_weights.sh 成功，字符数：636
+2025-04-15 04:04:45,466 [DEBUG] 读取文件 ../../yolov5/data/scripts/get_imagenet10.sh 成功，字符数：735
+2025-04-15 04:04:45,466 [DEBUG] 读取文件 ../../yolov5/data/scripts/get_coco128.sh 成功，字符数：620
+2025-04-15 04:04:45,466 [DEBUG] 读取文件 ../../yolov5/data/ImageNet100.yaml 成功，字符数：2650
+2025-04-15 04:04:45,466 [DEBUG] 读取文件 ../../yolov5/data/Argoverse.yaml 成功，字符数：2729
+2025-04-15 04:04:45,466 [DEBUG] 读取文件 ../../yolov5/data/ImageNet.yaml 成功，字符数：18867
+2025-04-15 04:04:45,466 [DEBUG] 读取文件 ../../yolov5/data/VOC.yaml 成功，字符数：3495
+2025-04-15 04:04:45,468 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 04:04:49,654 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 04:05:31,420 [INFO] 批量文件摘要生成完成
+2025-04-15 04:05:31,420 [INFO] 回填摘要到结构节点：data/scripts/get_imagenet.sh，并将 need_traverse 设置为 False
+2025-04-15 04:05:31,420 [INFO] 回填摘要到结构节点：data/scripts/get_imagenet100.sh，并将 need_traverse 设置为 False
+2025-04-15 04:05:31,420 [INFO] 回填摘要到结构节点：data/scripts/download_weights.sh，并将 need_traverse 设置为 False
+2025-04-15 04:05:31,420 [INFO] 回填摘要到结构节点：data/scripts/get_imagenet10.sh，并将 need_traverse 设置为 False
+2025-04-15 04:05:31,421 [INFO] 回填摘要到结构节点：data/scripts/get_coco128.sh，并将 need_traverse 设置为 False
+2025-04-15 04:05:31,421 [INFO] 回填摘要到结构节点：data/ImageNet100.yaml，并将 need_traverse 设置为 False
+2025-04-15 04:05:31,421 [INFO] 回填摘要到结构节点：data/Argoverse.yaml，并将 need_traverse 设置为 False
+2025-04-15 04:05:31,421 [INFO] 回填摘要到结构节点：data/ImageNet.yaml，并将 need_traverse 设置为 False
+2025-04-15 04:05:31,421 [INFO] 回填摘要到结构节点：data/VOC.yaml，并将 need_traverse 设置为 False
+2025-04-15 04:05:31,421 [INFO] 进度：已完成 78.6%
+2025-04-15 04:05:31,428 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 04:05:31,429 [DEBUG] 读取文件 ../../yolov5/detect.py 成功，字符数：23758
+2025-04-15 04:05:31,429 [DEBUG] 读取文件 ../../yolov5/benchmarks.py 成功，字符数：14139
+2025-04-15 04:05:31,431 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 04:05:34,170 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 04:05:58,893 [INFO] 批量文件摘要生成完成
+2025-04-15 04:05:58,893 [INFO] 回填摘要到结构节点：detect.py，并将 need_traverse 设置为 False
+2025-04-15 04:05:58,893 [INFO] 回填摘要到结构节点：benchmarks.py，并将 need_traverse 设置为 False
+2025-04-15 04:05:58,893 [INFO] 进度：已完成 85.7%
+2025-04-15 04:05:58,902 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 04:05:58,903 [DEBUG] 读取文件 ../../yolov5/tutorial.ipynb 成功，字符数：41350
+2025-04-15 04:05:58,904 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 04:06:03,781 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 04:07:21,421 [INFO] 批量文件摘要生成完成
+2025-04-15 04:07:21,422 [INFO] 回填摘要到结构节点：tutorial.ipynb，并将 need_traverse 设置为 False
+2025-04-15 04:07:21,422 [INFO] 进度：已完成 92.9%
+2025-04-15 04:07:21,430 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 04:07:21,436 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 04:07:21,438 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 04:07:26,305 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 04:08:02,153 [INFO] 最终项目总结报告生成完成
+2025-04-15 04:08:02,153 [INFO] 进度：已完成 100.0%
+2025-04-15 04:08:02,154 [INFO] 最终项目总结报告已保存至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/direct_readme_20250415_040802.md
+2025-04-15 10:14:58,862 [DEBUG] 日志系统初始化完成，日志文件：/Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/debug.log
+2025-04-15 10:14:58,864 [INFO] 成功加载扫描结果 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 10:14:58,864 [INFO] 提取 readme.md 成功：README.md (字符数：49895)
+2025-04-15 10:14:58,864 [INFO] 加载总结工具配置文件：codesense_summarizer_config.json
+2025-04-15 10:14:58,864 [INFO] 待处理文件数量（不包含 .md 文件且 need_traverse 为 True）：2
+2025-04-15 10:14:58,864 [INFO] 预估大模型调用总次数：1，总步骤数：3
+2025-04-15 10:14:58,864 [INFO] 进度：初步总结步骤完成，占总进度 33.3%
+2025-04-15 10:14:58,864 [DEBUG] 读取文件 ../../yolov5/utils/loss.py 成功，字符数：11154
+2025-04-15 10:14:58,864 [DEBUG] 读取文件 ../../yolov5/models/__init__.py 成功，字符数：67
+2025-04-15 10:14:58,871 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 10:15:02,287 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 10:15:30,936 [INFO] 批量文件摘要生成完成
+2025-04-15 10:15:30,936 [INFO] 回填摘要到结构节点：utils/loss.py，并将 need_traverse 设置为 False
+2025-04-15 10:15:30,936 [INFO] 回填摘要到结构节点：models/__init__.py，并将 need_traverse 设置为 False
+2025-04-15 10:15:30,936 [INFO] 进度：已完成 66.7%
+2025-04-15 10:15:30,943 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 10:15:30,949 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 10:15:30,951 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 10:15:35,409 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 10:16:15,519 [INFO] 最终项目总结报告生成完成
+2025-04-15 10:16:15,519 [INFO] 进度：已完成 100.0%
+2025-04-15 10:16:15,519 [INFO] 最终项目总结报告已保存至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/direct_readme_20250415_101615.md
+2025-04-15 10:26:17,276 [DEBUG] 日志系统初始化完成，日志文件：/Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/debug.log
+2025-04-15 10:26:17,278 [INFO] 成功加载扫描结果 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 10:26:17,278 [INFO] 提取 readme.md 成功：README.md (字符数：49895)
+2025-04-15 10:26:17,278 [INFO] 加载总结工具配置文件：codesense_summarizer_config.json
+2025-04-15 10:26:17,278 [INFO] 待处理文件数量（不包含 .md 文件且 need_traverse 为 True）：0
+2025-04-15 10:26:17,278 [INFO] 预估大模型调用总次数：0，总步骤数：2
+2025-04-15 10:26:17,278 [INFO] 进度：初步总结步骤完成，占总进度 50.0%
+2025-04-15 10:26:17,282 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 10:26:17,287 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 10:26:21,286 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 10:27:01,891 [INFO] 最终项目总结报告生成完成
+2025-04-15 10:27:01,891 [INFO] 进度：已完成 100.0%
+2025-04-15 10:27:01,891 [INFO] 最终项目总结报告已保存至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/direct_readme_20250415_102701.md
+2025-04-15 10:33:32,930 [DEBUG] 日志系统初始化完成，日志文件：/Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/debug.log
+2025-04-15 10:33:32,931 [INFO] 成功加载扫描结果 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 10:33:32,932 [INFO] 提取 readme.md 成功：README.md (字符数：49895)
+2025-04-15 10:33:32,932 [INFO] 加载总结工具配置文件：codesense_summarizer_config.json
+2025-04-15 10:33:32,932 [INFO] 待处理文件数量（不包含 .md 文件且 need_traverse 为 True）：0
+2025-04-15 10:33:32,932 [INFO] 预估大模型调用总次数：0，总步骤数：2
+2025-04-15 10:33:32,932 [INFO] 进度：初步总结步骤完成，占总进度 50.0%
+2025-04-15 10:33:32,935 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 10:33:32,941 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 10:33:38,180 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 10:33:42,364 [ERROR] 最终项目总结报告生成失败
+2025-04-15 10:33:42,365 [INFO] 进度：已完成 100.0%
+2025-04-15 10:33:42,366 [INFO] 最终项目总结报告已保存至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/direct_readme_20250415_103342.md
+2025-04-15 10:38:01,840 [DEBUG] 日志系统初始化完成，日志文件：/Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/debug.log
+2025-04-15 10:38:01,841 [INFO] 成功加载扫描结果 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 10:38:01,841 [INFO] 提取 readme.md 成功：README.md (字符数：49895)
+2025-04-15 10:38:01,842 [INFO] 加载总结工具配置文件：codesense_summarizer_config.json
+2025-04-15 10:38:01,842 [INFO] 待处理文件数量（不包含 .md 文件且 need_traverse 为 True）：0
+2025-04-15 10:38:01,842 [INFO] 预估大模型调用总次数：0，总步骤数：2
+2025-04-15 10:38:01,842 [INFO] 进度：初步总结步骤完成，占总进度 50.0%
+2025-04-15 10:38:01,846 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 10:38:01,853 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 10:38:06,578 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 10:38:42,689 [INFO] 最终项目总结报告生成完成
+2025-04-15 10:38:42,689 [INFO] 进度：已完成 100.0%
+2025-04-15 10:38:42,690 [INFO] 最终项目总结报告已保存至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/direct_readme_20250415_103842.md

@@ -1,0 +1,1107 @@
+2025-04-15 10:38:47,583 [DEBUG] 日志系统初始化完成，日志文件：/Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/debug.log
+2025-04-15 10:38:47,629 [INFO] 成功加载扫描结果 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 10:38:47,629 [INFO] 提取 readme.md 成功：README.md (字符数：12219)
+2025-04-15 10:38:47,629 [INFO] 加载总结工具配置文件：codesense_summarizer_config.json
+2025-04-15 10:38:47,635 [INFO] 待处理文件数量（不包含 .md 文件且 need_traverse 为 True）：33193
+2025-04-15 10:39:47,662 [INFO] 预估大模型调用总次数：5236，总步骤数：5238
+2025-04-15 10:39:47,662 [INFO] 进度：初步总结步骤完成，占总进度 0.0%
+2025-04-15 10:39:47,663 [DEBUG] 读取文件 ../../tensorflow/tools/tf_env_collect.sh 成功，字符数：5279
+2025-04-15 10:39:47,664 [DEBUG] 读取文件 ../../tensorflow/arm_compiler.BUILD 成功，字符数：1182
+2025-04-15 10:39:47,668 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 10:39:49,288 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 10:39:59,234 [INFO] 批量文件摘要生成完成
+2025-04-15 10:39:59,234 [INFO] 回填摘要到结构节点：tools/tf_env_collect.sh，并将 need_traverse 设置为 False
+2025-04-15 10:39:59,235 [INFO] 回填摘要到结构节点：arm_compiler.BUILD，并将 need_traverse 设置为 False
+2025-04-15 10:39:59,235 [INFO] 进度：已完成 0.0%
+2025-04-15 10:39:59,545 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 10:39:59,545 [DEBUG] 读取文件 ../../tensorflow/configure.py 成功，字符数：49491
+2025-04-15 10:39:59,546 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 10:40:04,026 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 10:40:23,385 [INFO] 批量文件摘要生成完成
+2025-04-15 10:40:23,386 [INFO] 回填摘要到结构节点：configure.py，并将 need_traverse 设置为 False
+2025-04-15 10:40:23,386 [INFO] 进度：已完成 0.1%
+2025-04-15 10:40:23,693 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 10:40:23,694 [DEBUG] 读取文件 ../../tensorflow/LICENSE 成功，字符数：13575
+2025-04-15 10:40:23,694 [DEBUG] 读取文件 ../../tensorflow/configure 成功，字符数：285
+2025-04-15 10:40:23,694 [DEBUG] 读取文件 ../../tensorflow/AUTHORS 成功，字符数：357
+2025-04-15 10:40:23,695 [DEBUG] 读取文件 ../../tensorflow/ci/official/libtensorflow.sh 成功，字符数：2086
+2025-04-15 10:40:23,695 [DEBUG] 读取文件 ../../tensorflow/ci/official/code_check_full.sh 成功，字符数：840
+2025-04-15 10:40:23,695 [DEBUG] 读取文件 ../../tensorflow/ci/official/pycpp.sh 成功，字符数：1996
+2025-04-15 10:40:23,695 [DEBUG] 读取文件 ../../tensorflow/ci/official/any.sh 成功，字符数：2184
+2025-04-15 10:40:23,696 [DEBUG] 读取文件 ../../tensorflow/ci/official/wheel.sh 成功，字符数：3885
+2025-04-15 10:40:23,696 [DEBUG] 读取文件 ../../tensorflow/ci/official/installer_wheel.sh 成功，字符数：3595
+2025-04-15 10:40:23,696 [DEBUG] 读取文件 ../../tensorflow/ci/official/utilities/cleanup_docker.sh 成功，字符数：998
+2025-04-15 10:40:23,697 [DEBUG] 读取文件 ../../tensorflow/ci/official/utilities/setup.sh 成功，字符数：6301
+2025-04-15 10:40:23,697 [DEBUG] 读取文件 ../../tensorflow/ci/official/utilities/setup_docker.sh 成功，字符数：2670
+2025-04-15 10:40:23,697 [DEBUG] 读取文件 ../../tensorflow/ci/official/utilities/generate_index_html.sh 成功，字符数：2318
+2025-04-15 10:40:23,698 [DEBUG] 读取文件 ../../tensorflow/ci/official/utilities/windows.sh 成功，字符数：1251
+2025-04-15 10:40:23,698 [DEBUG] 读取文件 ../../tensorflow/ci/official/utilities/cleanup_summary.sh 成功，字符数：1861
+2025-04-15 10:40:23,698 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 10:40:27,550 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 10:41:00,760 [INFO] 批量文件摘要生成完成
+2025-04-15 10:41:00,760 [ERROR] 解析批量摘要 JSON 失败：Expecting ',' delimiter: line 56 column 155 (char 2378)
+2025-04-15 10:41:00,760 [ERROR] 大模型返回的文本为：
+2025-04-15 10:41:00,760 [ERROR] {
+  "LICENSE": {
+    "functions": [],
+    "summary": "Apache License 2.0 text, granting permissions for use, reproduction, and distribution of the work under specific terms."
+  },
+  "configure": {
+    "functions": [],
+    "summary": "Bash script to set environment variables and execute configure.py for project configuration."
+  },
+  "AUTHORS": {
+    "functions": [],
+    "summary": "List of official TensorFlow authors for copyright purposes."
+  },
+  "ci/official/libtensorflow.sh": {
+    "functions": [],
+    "summary": "Bash script to record GPU info, update version numbers (for nightlies), build and test LibTensorFlow, and upload artifacts to GCS."
+  },
+  "ci/official/code_check_full.sh": {
+    "functions": [],
+    "summary": "Bash script to run code checks using bats for full code validation."
+  },
+  "ci/official/pycpp.sh": {
+    "functions": [],
+    "summary": "Bash script to build and test Python/C++ targets with Bazel, including performance profiling."
+  },
+  "ci/official/any.sh": {
+    "functions": [],
+    "summary": "Bash script to run Bazel targets or other scripts in a configurable CI environment."
+  },
+  "ci/official/wheel.sh": {
+    "functions": [],
+    "summary": "Bash script to build TensorFlow wheels, update versions for nightlies, and upload artifacts to GCS."
+  },
+  "ci/official/installer_wheel.sh": {
+    "functions": [],
+    "summary": "Bash script to build platform-specific Python wheels from a pure Python wheel for PyPI upload."
+  },
+  "ci/official/utilities/cleanup_docker.sh": {
+    "functions": [],
+    "summary": "Bash script to clean up Docker containers and provide usage instructions."
+  },
+  "ci/official/utilities/setup.sh": {
+    "functions": [],
+    "summary": "Common setup script for CI jobs, handling environment variables, Docker configuration, and logging."
+  },
+  "ci/official/utilities/setup_docker.sh": {
+    "functions": [],
+    "summary": "Bash script to configure Docker for CI builds, including image pulls and container setup."
+  },
+  "ci/official/utilities/generate_index_html.sh": {
+    "functions": [],
+    "summary": "Script to generate an HTML index with links to CI job details and logs."
+  },
+  "ci/official/utilities/windows.sh": {
+    "functions": [
+      {"name": "replace_drive_letter_with_prefix", "purpose": "Convert path drive letters for Docker on Windows.", "parameters": "path_prefix (optional)"}}
+    ],
+    "summary": "Windows-specific utilities for path manipulation in Docker setups."
+  },
+  "ci/official/utilities/cleanup_summary.sh": {
+    "functions": [
+      {"name": "resultstore_extract_fallback", "purpose": "Provide fallback ResultStore URLs if extraction fails."},
+      {"name": "resultstore_extract", "purpose": "Extract and display ResultStore links from build logs."}
+    ],
+    "summary": "Script to clean up after CI runs and display ResultStore links for failed builds."
+  }
+}
+2025-04-15 10:41:00,760 [INFO] 进度：已完成 0.1%
+2025-04-15 10:41:01,069 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 10:41:01,070 [DEBUG] 读取文件 ../../tensorflow/ci/official/utilities/code_check_full.bats 成功，字符数：14035
+2025-04-15 10:41:01,070 [DEBUG] 读取文件 ../../tensorflow/ci/official/utilities/convert_msys_paths_to_win_paths.py 成功，字符数：2583
+2025-04-15 10:41:01,070 [DEBUG] 读取文件 ../../tensorflow/ci/official/utilities/code_check_changed_files.bats 成功，字符数：4062
+2025-04-15 10:41:01,071 [DEBUG] 读取文件 ../../tensorflow/ci/official/utilities/rename_and_verify_wheels.sh 成功，字符数：4753
+2025-04-15 10:41:01,071 [DEBUG] 读取文件 ../../tensorflow/ci/official/utilities/repack_libtensorflow.sh 成功，字符数：5849
+2025-04-15 10:41:01,072 [DEBUG] 读取文件 ../../tensorflow/ci/official/utilities/extract_resultstore_links.py 成功，字符数：11184
+2025-04-15 10:41:01,072 [DEBUG] 读取文件 ../../tensorflow/ci/official/utilities/setup_macos.sh 成功，字符数：6305
+2025-04-15 10:41:01,073 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 10:42:04,553 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 10:42:34,664 [INFO] 批量文件摘要生成完成
+2025-04-15 10:42:34,664 [INFO] 回填摘要到结构节点：ci/official/utilities/code_check_full.bats，并将 need_traverse 设置为 False
+2025-04-15 10:42:34,664 [INFO] 回填摘要到结构节点：ci/official/utilities/convert_msys_paths_to_win_paths.py，并将 need_traverse 设置为 False
+2025-04-15 10:42:34,664 [INFO] 回填摘要到结构节点：ci/official/utilities/code_check_changed_files.bats，并将 need_traverse 设置为 False
+2025-04-15 10:42:34,665 [INFO] 回填摘要到结构节点：ci/official/utilities/repack_libtensorflow.sh，并将 need_traverse 设置为 False
+2025-04-15 10:42:34,665 [INFO] 回填摘要到结构节点：ci/official/utilities/extract_resultstore_links.py，并将 need_traverse 设置为 False
+2025-04-15 10:42:34,665 [INFO] 回填摘要到结构节点：ci/official/utilities/setup_macos.sh，并将 need_traverse 设置为 False
+2025-04-15 10:42:34,665 [INFO] 进度：已完成 0.1%
+2025-04-15 10:42:34,983 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 10:42:34,984 [DEBUG] 读取文件 ../../tensorflow/ci/official/upload.sh 成功，字符数：2868
+2025-04-15 10:42:34,984 [DEBUG] 读取文件 ../../tensorflow/ci/official/debug_tfci.sh 成功，字符数：1022
+2025-04-15 10:42:34,985 [DEBUG] 读取文件 ../../tensorflow/ci/official/bisect.sh 成功，字符数：1800
+2025-04-15 10:42:34,985 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 10:42:37,044 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 10:42:45,955 [INFO] 批量文件摘要生成完成
+2025-04-15 10:42:45,955 [INFO] 回填摘要到结构节点：ci/official/upload.sh，并将 need_traverse 设置为 False
+2025-04-15 10:42:45,955 [INFO] 回填摘要到结构节点：ci/official/debug_tfci.sh，并将 need_traverse 设置为 False
+2025-04-15 10:42:45,955 [INFO] 回填摘要到结构节点：ci/official/bisect.sh，并将 need_traverse 设置为 False
+2025-04-15 10:42:45,955 [INFO] 进度：已完成 0.1%
+2025-04-15 10:42:46,278 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 10:42:46,279 [DEBUG] 读取文件 ../../tensorflow/ci/official/requirements_updater/numpy1_requirements/requirements_lock_3_12.txt 成功，字符数：61588
+2025-04-15 10:42:46,279 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 10:42:56,139 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 10:43:01,695 [INFO] 批量文件摘要生成完成
+2025-04-15 10:43:01,695 [ERROR] 解析批量摘要 JSON 失败：Expecting value: line 1 column 1 (char 0)
+2025-04-15 10:43:01,695 [ERROR] 大模型返回的文本为：
+2025-04-15 10:43:01,696 [ERROR] 
+2025-04-15 10:43:01,696 [INFO] 回填摘要到结构节点：ci/official/requirements_updater/numpy1_requirements/requirements_lock_3_12.txt，并将 need_traverse 设置为 False
+2025-04-15 10:43:01,696 [INFO] 进度：已完成 0.1%
+2025-04-15 10:43:02,007 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 10:43:02,008 [DEBUG] 读取文件 ../../tensorflow/ci/official/requirements_updater/numpy1_requirements/requirements_lock_3_10.txt 成功，字符数：61588
+2025-04-15 10:43:02,009 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 10:43:12,519 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 10:43:13,880 [INFO] 批量文件摘要生成完成
+2025-04-15 10:43:13,880 [ERROR] 解析批量摘要 JSON 失败：Expecting value: line 1 column 1 (char 0)
+2025-04-15 10:43:13,880 [ERROR] 大模型返回的文本为：
+2025-04-15 10:43:13,880 [ERROR] 
+2025-04-15 10:43:13,880 [INFO] 回填摘要到结构节点：ci/official/requirements_updater/numpy1_requirements/requirements_lock_3_10.txt，并将 need_traverse 设置为 False
+2025-04-15 10:43:13,881 [INFO] 进度：已完成 0.2%
+2025-04-15 10:43:14,192 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 10:43:14,192 [DEBUG] 读取文件 ../../tensorflow/ci/official/requirements_updater/numpy1_requirements/requirements_lock_3_11.txt 成功，字符数：61588
+2025-04-15 10:43:14,193 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 10:43:24,063 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 10:43:28,422 [INFO] 批量文件摘要生成完成
+2025-04-15 10:43:28,423 [ERROR] 解析批量摘要 JSON 失败：Expecting value: line 1 column 1 (char 0)
+2025-04-15 10:43:28,423 [ERROR] 大模型返回的文本为：
+2025-04-15 10:43:28,423 [ERROR] 
+2025-04-15 10:43:28,423 [INFO] 回填摘要到结构节点：ci/official/requirements_updater/numpy1_requirements/requirements_lock_3_11.txt，并将 need_traverse 设置为 False
+2025-04-15 10:43:28,423 [INFO] 进度：已完成 0.2%
+2025-04-15 10:43:28,735 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 10:43:28,736 [DEBUG] 读取文件 ../../tensorflow/ci/official/requirements_updater/numpy1_requirements/requirements_lock_3_9.txt 成功，字符数：62018
+2025-04-15 10:43:28,736 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 10:43:39,273 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 10:43:40,711 [INFO] 批量文件摘要生成完成
+2025-04-15 10:43:40,711 [ERROR] 解析批量摘要 JSON 失败：Expecting value: line 1 column 1 (char 0)
+2025-04-15 10:43:40,711 [ERROR] 大模型返回的文本为：
+2025-04-15 10:43:40,711 [ERROR] 
+2025-04-15 10:43:40,711 [INFO] 回填摘要到结构节点：ci/official/requirements_updater/numpy1_requirements/requirements_lock_3_9.txt，并将 need_traverse 设置为 False
+2025-04-15 10:43:40,711 [INFO] 进度：已完成 0.2%
+2025-04-15 10:43:41,021 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 10:43:41,022 [DEBUG] 读取文件 ../../tensorflow/ci/official/requirements_updater/numpy1_requirements/requirements.in 成功，字符数：1410
+2025-04-15 10:43:41,022 [DEBUG] 读取文件 ../../tensorflow/ci/official/requirements_updater/BUILD.bazel 成功，字符数：1071
+2025-04-15 10:43:41,022 [DEBUG] 读取文件 ../../tensorflow/ci/official/requirements_updater/requirements.in 成功，字符数：1469
+2025-04-15 10:43:41,022 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/ml_build_arm64/devel.bashrc 成功，字符数：988
+2025-04-15 10:43:41,023 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/ml_build_arm64/requirements.txt 成功，字符数：162
+2025-04-15 10:43:41,023 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/ml_build_arm64/setup.sources.sh 成功，字符数：1758
+2025-04-15 10:43:41,023 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/ml_build_arm64/Dockerfile 成功，字符数：3626
+2025-04-15 10:43:41,023 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/ml_build_arm64/ld.so.conf 成功，字符数：790
+2025-04-15 10:43:41,024 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/ml_build_arm64/setup.python.sh 成功，字符数：2678
+2025-04-15 10:43:41,024 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/ml_build_arm64/builder.devtoolset/fixlinks_aarch64.sh 成功，字符数：969
+2025-04-15 10:43:41,024 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/ml_build_arm64/builder.devtoolset/gcc9-fixups.patch 成功，字符数：9125
+2025-04-15 10:43:41,024 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 10:43:43,862 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 10:44:20,956 [INFO] 批量文件摘要生成完成
+2025-04-15 10:44:20,956 [INFO] 回填摘要到结构节点：ci/official/requirements_updater/numpy1_requirements/requirements.in，并将 need_traverse 设置为 False
+2025-04-15 10:44:20,956 [INFO] 回填摘要到结构节点：ci/official/requirements_updater/BUILD.bazel，并将 need_traverse 设置为 False
+2025-04-15 10:44:20,957 [INFO] 回填摘要到结构节点：ci/official/requirements_updater/requirements.in，并将 need_traverse 设置为 False
+2025-04-15 10:44:20,957 [INFO] 回填摘要到结构节点：ci/official/containers/ml_build_arm64/devel.bashrc，并将 need_traverse 设置为 False
+2025-04-15 10:44:20,957 [INFO] 回填摘要到结构节点：ci/official/containers/ml_build_arm64/requirements.txt，并将 need_traverse 设置为 False
+2025-04-15 10:44:20,957 [INFO] 回填摘要到结构节点：ci/official/containers/ml_build_arm64/setup.sources.sh，并将 need_traverse 设置为 False
+2025-04-15 10:44:20,957 [INFO] 回填摘要到结构节点：ci/official/containers/ml_build_arm64/Dockerfile，并将 need_traverse 设置为 False
+2025-04-15 10:44:20,957 [INFO] 回填摘要到结构节点：ci/official/containers/ml_build_arm64/ld.so.conf，并将 need_traverse 设置为 False
+2025-04-15 10:44:20,957 [INFO] 回填摘要到结构节点：ci/official/containers/ml_build_arm64/setup.python.sh，并将 need_traverse 设置为 False
+2025-04-15 10:44:20,957 [INFO] 回填摘要到结构节点：ci/official/containers/ml_build_arm64/builder.devtoolset/fixlinks_aarch64.sh，并将 need_traverse 设置为 False
+2025-04-15 10:44:20,957 [INFO] 回填摘要到结构节点：ci/official/containers/ml_build_arm64/builder.devtoolset/gcc9-fixups.patch，并将 need_traverse 设置为 False
+2025-04-15 10:44:20,957 [INFO] 进度：已完成 0.2%
+2025-04-15 10:44:21,264 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 10:44:21,265 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/ml_build_arm64/builder.devtoolset/stringop_trunc.patch 成功，字符数：43904
+2025-04-15 10:44:21,265 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 10:44:25,763 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 10:44:52,989 [INFO] 批量文件摘要生成完成
+2025-04-15 10:44:52,990 [INFO] 回填摘要到结构节点：ci/official/containers/ml_build_arm64/builder.devtoolset/stringop_trunc.patch，并将 need_traverse 设置为 False
+2025-04-15 10:44:52,990 [INFO] 进度：已完成 0.2%
+2025-04-15 10:44:53,329 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 10:44:53,330 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/ml_build_arm64/builder.devtoolset/build_devtoolset.sh 成功，字符数：6293
+2025-04-15 10:44:53,330 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/ml_build_arm64/builder.devtoolset/rpm-patch.sh 成功，字符数：1110
+2025-04-15 10:44:53,331 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/ml_build_arm64/builder.packages.txt 成功，字符数：512
+2025-04-15 10:44:53,331 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/ml_build_arm64/build.sh 成功，字符数：2321
+2025-04-15 10:44:53,331 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/ml_build_arm64/setup.packages.sh 成功，字符数：1134
+2025-04-15 10:44:53,331 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/ml_build_arm64/apt.conf 成功，字符数：699
+2025-04-15 10:44:53,332 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/linux_arm64/cuda.packages.txt 成功，字符数：366
+2025-04-15 10:44:53,332 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/linux_arm64/devel.bashrc 成功，字符数：988
+2025-04-15 10:44:53,332 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/linux_arm64/setup.sources.sh 成功，字符数：1758
+2025-04-15 10:44:53,332 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/linux_arm64/Dockerfile 成功，字符数：4613
+2025-04-15 10:44:53,332 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/linux_arm64/ld.so.conf 成功，字符数：790
+2025-04-15 10:44:53,332 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/linux_arm64/setup.python.sh 成功，字符数：2183
+2025-04-15 10:44:53,333 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/linux_arm64/devel.usertools/aarch64.bazelrc 成功，字符数：5876
+2025-04-15 10:44:53,333 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/linux_arm64/devel.usertools/get_test_list.sh 成功，字符数：1040
+2025-04-15 10:44:53,333 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/linux_arm64/devel.usertools/code_check_full.bats 成功，字符数：13228
+2025-04-15 10:44:53,333 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/linux_arm64/devel.usertools/code_check_changed_files.bats 成功，字符数：3685
+2025-04-15 10:44:53,333 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/linux_arm64/devel.usertools/rename_and_verify_wheels.sh 成功，字符数：1334
+2025-04-15 10:44:53,334 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 10:44:56,587 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 10:45:51,081 [INFO] 批量文件摘要生成完成
+2025-04-15 10:45:51,081 [INFO] 回填摘要到结构节点：ci/official/containers/ml_build_arm64/builder.devtoolset/build_devtoolset.sh，并将 need_traverse 设置为 False
+2025-04-15 10:45:51,081 [INFO] 回填摘要到结构节点：ci/official/containers/ml_build_arm64/builder.devtoolset/rpm-patch.sh，并将 need_traverse 设置为 False
+2025-04-15 10:45:51,081 [INFO] 回填摘要到结构节点：ci/official/containers/ml_build_arm64/builder.packages.txt，并将 need_traverse 设置为 False
+2025-04-15 10:45:51,081 [INFO] 回填摘要到结构节点：ci/official/containers/ml_build_arm64/build.sh，并将 need_traverse 设置为 False
+2025-04-15 10:45:51,082 [INFO] 回填摘要到结构节点：ci/official/containers/ml_build_arm64/setup.packages.sh，并将 need_traverse 设置为 False
+2025-04-15 10:45:51,082 [INFO] 回填摘要到结构节点：ci/official/containers/ml_build_arm64/apt.conf，并将 need_traverse 设置为 False
+2025-04-15 10:45:51,082 [INFO] 回填摘要到结构节点：ci/official/containers/linux_arm64/cuda.packages.txt，并将 need_traverse 设置为 False
+2025-04-15 10:45:51,082 [INFO] 回填摘要到结构节点：ci/official/containers/linux_arm64/devel.bashrc，并将 need_traverse 设置为 False
+2025-04-15 10:45:51,082 [INFO] 回填摘要到结构节点：ci/official/containers/linux_arm64/setup.sources.sh，并将 need_traverse 设置为 False
+2025-04-15 10:45:51,082 [INFO] 回填摘要到结构节点：ci/official/containers/linux_arm64/Dockerfile，并将 need_traverse 设置为 False
+2025-04-15 10:45:51,082 [INFO] 回填摘要到结构节点：ci/official/containers/linux_arm64/ld.so.conf，并将 need_traverse 设置为 False
+2025-04-15 10:45:51,082 [INFO] 回填摘要到结构节点：ci/official/containers/linux_arm64/setup.python.sh，并将 need_traverse 设置为 False
+2025-04-15 10:45:51,082 [INFO] 回填摘要到结构节点：ci/official/containers/linux_arm64/devel.usertools/aarch64.bazelrc，并将 need_traverse 设置为 False
+2025-04-15 10:45:51,082 [INFO] 回填摘要到结构节点：ci/official/containers/linux_arm64/devel.usertools/get_test_list.sh，并将 need_traverse 设置为 False
+2025-04-15 10:45:51,082 [INFO] 回填摘要到结构节点：ci/official/containers/linux_arm64/devel.usertools/code_check_full.bats，并将 need_traverse 设置为 False
+2025-04-15 10:45:51,082 [INFO] 回填摘要到结构节点：ci/official/containers/linux_arm64/devel.usertools/code_check_changed_files.bats，并将 need_traverse 设置为 False
+2025-04-15 10:45:51,083 [INFO] 回填摘要到结构节点：ci/official/containers/linux_arm64/devel.usertools/rename_and_verify_wheels.sh，并将 need_traverse 设置为 False
+2025-04-15 10:45:51,083 [INFO] 进度：已完成 0.2%
+2025-04-15 10:45:51,392 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 10:45:51,393 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/linux_arm64/devel.usertools/repack_libtensorflow.sh 成功，字符数：2623
+2025-04-15 10:45:51,393 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/linux_arm64/devel.usertools/aarch64_clang.bazelrc 成功，字符数：6337
+2025-04-15 10:45:51,393 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/linux_arm64/devel.usertools/wheel_verification.bats 成功，字符数：2739
+2025-04-15 10:45:51,393 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/linux_arm64/devel.usertools/setup_venv_test.sh 成功，字符数：1427
+2025-04-15 10:45:51,394 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/linux_arm64/devel.usertools/squash_testlogs.py 成功，字符数：4888
+2025-04-15 10:45:51,394 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/linux_arm64/devel.usertools/test.requirements.txt 成功，字符数：117
+2025-04-15 10:45:51,394 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/linux_arm64/devel.packages.txt 成功，字符数：494
+2025-04-15 10:45:51,394 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/linux_arm64/devel.requirements.txt 成功，字符数：92
+2025-04-15 10:45:51,394 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/linux_arm64/builder.devtoolset/fixlinks_aarch64.sh 成功，字符数：969
+2025-04-15 10:45:51,395 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/linux_arm64/builder.devtoolset/gcc9-fixups.patch 成功，字符数：9125
+2025-04-15 10:45:51,395 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 10:45:55,042 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 10:46:43,449 [INFO] 批量文件摘要生成完成
+2025-04-15 10:46:43,449 [INFO] 回填摘要到结构节点：ci/official/containers/linux_arm64/devel.usertools/repack_libtensorflow.sh，并将 need_traverse 设置为 False
+2025-04-15 10:46:43,450 [INFO] 回填摘要到结构节点：ci/official/containers/linux_arm64/devel.usertools/aarch64_clang.bazelrc，并将 need_traverse 设置为 False
+2025-04-15 10:46:43,450 [INFO] 回填摘要到结构节点：ci/official/containers/linux_arm64/devel.usertools/wheel_verification.bats，并将 need_traverse 设置为 False
+2025-04-15 10:46:43,450 [INFO] 回填摘要到结构节点：ci/official/containers/linux_arm64/devel.usertools/setup_venv_test.sh，并将 need_traverse 设置为 False
+2025-04-15 10:46:43,450 [INFO] 回填摘要到结构节点：ci/official/containers/linux_arm64/devel.usertools/squash_testlogs.py，并将 need_traverse 设置为 False
+2025-04-15 10:46:43,450 [INFO] 回填摘要到结构节点：ci/official/containers/linux_arm64/devel.usertools/test.requirements.txt，并将 need_traverse 设置为 False
+2025-04-15 10:46:43,450 [INFO] 回填摘要到结构节点：ci/official/containers/linux_arm64/devel.packages.txt，并将 need_traverse 设置为 False
+2025-04-15 10:46:43,450 [INFO] 回填摘要到结构节点：ci/official/containers/linux_arm64/devel.requirements.txt，并将 need_traverse 设置为 False
+2025-04-15 10:46:43,450 [INFO] 回填摘要到结构节点：ci/official/containers/linux_arm64/builder.devtoolset/fixlinks_aarch64.sh，并将 need_traverse 设置为 False
+2025-04-15 10:46:43,450 [INFO] 回填摘要到结构节点：ci/official/containers/linux_arm64/builder.devtoolset/gcc9-fixups.patch，并将 need_traverse 设置为 False
+2025-04-15 10:46:43,450 [INFO] 进度：已完成 0.3%
+2025-04-15 10:46:43,759 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 10:46:43,760 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/linux_arm64/builder.devtoolset/stringop_trunc.patch 成功，字符数：43904
+2025-04-15 10:46:43,761 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 10:46:47,834 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 10:47:20,244 [INFO] 批量文件摘要生成完成
+2025-04-15 10:47:20,245 [INFO] 回填摘要到结构节点：ci/official/containers/linux_arm64/builder.devtoolset/stringop_trunc.patch，并将 need_traverse 设置为 False
+2025-04-15 10:47:20,245 [INFO] 进度：已完成 0.3%
+2025-04-15 10:47:20,553 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 10:47:20,553 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/linux_arm64/builder.devtoolset/build_devtoolset.sh 成功，字符数：6292
+2025-04-15 10:47:20,554 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/linux_arm64/builder.devtoolset/rpm-patch.sh 成功，字符数：1110
+2025-04-15 10:47:20,554 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/linux_arm64/builder.packages.txt 成功，字符数：430
+2025-04-15 10:47:20,555 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/linux_arm64/build.sh 成功，字符数：2673
+2025-04-15 10:47:20,555 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/linux_arm64/setup.packages.sh 成功，字符数：1134
+2025-04-15 10:47:20,555 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/linux_arm64/apt.conf 成功，字符数：699
+2025-04-15 10:47:20,555 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/linux_arm64/builder.patchelf/build_patchelf.sh 成功，字符数：1185
+2025-04-15 10:47:20,555 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/linux_arm64/jax.requirements.txt 成功，字符数：570
+2025-04-15 10:47:20,555 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/ml_build/setup.sources.cudnn.sh 成功，字符数：1194
+2025-04-15 10:47:20,555 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/ml_build/setup.sources.sh 成功，字符数：1624
+2025-04-15 10:47:20,556 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/ml_build/Dockerfile 成功，字符数：4946
+2025-04-15 10:47:20,556 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/ml_build/setup.python.sh 成功，字符数：2729
+2025-04-15 10:47:20,556 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/ml_build/cuda12.1_cudnn9.8.packages.txt 成功，字符数：534
+2025-04-15 10:47:20,556 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/ml_build/builder.devtoolset/fixlinks.sh 成功，字符数：984
+2025-04-15 10:47:20,556 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/ml_build/builder.devtoolset/build_devtoolset.sh 成功，字符数：8176
+2025-04-15 10:47:20,556 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/ml_build/builder.devtoolset/glibc2.17-inline.patch 成功，字符数：663
+2025-04-15 10:47:20,556 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/ml_build/builder.devtoolset/rpm-patch.sh 成功，字符数：1110
+2025-04-15 10:47:20,556 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/ml_build/builder.packages.txt 成功，字符数：363
+2025-04-15 10:47:20,556 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/ml_build/builder.requirements.txt 成功，字符数：253
+2025-04-15 10:47:20,556 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/ml_build/setup.packages.sh 成功，字符数：1135
+2025-04-15 10:47:20,556 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/ml_build/cuda12.3_cudnn9.1.packages.txt 成功，字符数：535
+2025-04-15 10:47:20,556 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/ml_build/cuda12.8_cudnn9.8.packages.txt 成功，字符数：534
+2025-04-15 10:47:20,556 [DEBUG] 读取文件 ../../tensorflow/ci/official/containers/ml_build/cuda12.1_cudnn9.1.packages.txt 成功，字符数：535
+2025-04-15 10:47:20,556 [DEBUG] 读取文件 ../../tensorflow/ci/official/envs/windows_x86_2022 成功，字符数：2790
+2025-04-15 10:47:20,557 [DEBUG] 读取文件 ../../tensorflow/ci/official/envs/py39 成功，字符数：713
+2025-04-15 10:47:20,557 [DEBUG] 读取文件 ../../tensorflow/ci/official/envs/nightly_upload 成功，字符数：1760
+2025-04-15 10:47:20,557 [DEBUG] 读取文件 ../../tensorflow/ci/official/envs/linux_arm64_onednn 成功，字符数：810
+2025-04-15 10:47:20,557 [DEBUG] 读取文件 ../../tensorflow/ci/official/envs/linux_x86_cuda 成功，字符数：1136
+2025-04-15 10:47:20,557 [DEBUG] 读取文件 ../../tensorflow/ci/official/envs/disk_cache 成功，字符数：1023
+2025-04-15 10:47:20,557 [DEBUG] 读取文件 ../../tensorflow/ci/official/envs/installer_wheel_tensorflow 成功，字符数：1050
+2025-04-15 10:47:20,557 [DEBUG] 读取文件 ../../tensorflow/ci/official/envs/enable_pycpp_build 成功，字符数：976
+2025-04-15 10:47:20,558 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 10:47:24,668 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 10:48:46,126 [INFO] 批量文件摘要生成完成
+2025-04-15 10:48:46,126 [INFO] 回填摘要到结构节点：ci/official/containers/linux_arm64/builder.devtoolset/build_devtoolset.sh，并将 need_traverse 设置为 False
+2025-04-15 10:48:46,127 [INFO] 回填摘要到结构节点：ci/official/containers/linux_arm64/builder.devtoolset/rpm-patch.sh，并将 need_traverse 设置为 False
+2025-04-15 10:48:46,127 [INFO] 回填摘要到结构节点：ci/official/containers/linux_arm64/builder.packages.txt，并将 need_traverse 设置为 False
+2025-04-15 10:48:46,127 [INFO] 回填摘要到结构节点：ci/official/containers/linux_arm64/build.sh，并将 need_traverse 设置为 False
+2025-04-15 10:48:46,127 [INFO] 回填摘要到结构节点：ci/official/containers/linux_arm64/setup.packages.sh，并将 need_traverse 设置为 False
+2025-04-15 10:48:46,127 [INFO] 回填摘要到结构节点：ci/official/containers/linux_arm64/apt.conf，并将 need_traverse 设置为 False
+2025-04-15 10:48:46,127 [INFO] 回填摘要到结构节点：ci/official/containers/linux_arm64/builder.patchelf/build_patchelf.sh，并将 need_traverse 设置为 False
+2025-04-15 10:48:46,127 [INFO] 回填摘要到结构节点：ci/official/containers/linux_arm64/jax.requirements.txt，并将 need_traverse 设置为 False
+2025-04-15 10:48:46,127 [INFO] 回填摘要到结构节点：ci/official/containers/ml_build/setup.sources.cudnn.sh，并将 need_traverse 设置为 False
+2025-04-15 10:48:46,127 [INFO] 回填摘要到结构节点：ci/official/containers/ml_build/setup.sources.sh，并将 need_traverse 设置为 False
+2025-04-15 10:48:46,127 [INFO] 回填摘要到结构节点：ci/official/containers/ml_build/Dockerfile，并将 need_traverse 设置为 False
+2025-04-15 10:48:46,127 [INFO] 回填摘要到结构节点：ci/official/containers/ml_build/setup.python.sh，并将 need_traverse 设置为 False
+2025-04-15 10:48:46,127 [INFO] 回填摘要到结构节点：ci/official/containers/ml_build/cuda12.1_cudnn9.8.packages.txt，并将 need_traverse 设置为 False
+2025-04-15 10:48:46,127 [INFO] 回填摘要到结构节点：ci/official/containers/ml_build/builder.devtoolset/fixlinks.sh，并将 need_traverse 设置为 False
+2025-04-15 10:48:46,127 [INFO] 回填摘要到结构节点：ci/official/containers/ml_build/builder.devtoolset/build_devtoolset.sh，并将 need_traverse 设置为 False
+2025-04-15 10:48:46,127 [INFO] 回填摘要到结构节点：ci/official/containers/ml_build/builder.devtoolset/glibc2.17-inline.patch，并将 need_traverse 设置为 False
+2025-04-15 10:48:46,127 [INFO] 回填摘要到结构节点：ci/official/containers/ml_build/builder.devtoolset/rpm-patch.sh，并将 need_traverse 设置为 False
+2025-04-15 10:48:46,127 [INFO] 回填摘要到结构节点：ci/official/containers/ml_build/builder.packages.txt，并将 need_traverse 设置为 False
+2025-04-15 10:48:46,127 [INFO] 回填摘要到结构节点：ci/official/containers/ml_build/builder.requirements.txt，并将 need_traverse 设置为 False
+2025-04-15 10:48:46,128 [INFO] 回填摘要到结构节点：ci/official/containers/ml_build/setup.packages.sh，并将 need_traverse 设置为 False
+2025-04-15 10:48:46,128 [INFO] 回填摘要到结构节点：ci/official/containers/ml_build/cuda12.3_cudnn9.1.packages.txt，并将 need_traverse 设置为 False
+2025-04-15 10:48:46,128 [INFO] 回填摘要到结构节点：ci/official/containers/ml_build/cuda12.8_cudnn9.8.packages.txt，并将 need_traverse 设置为 False
+2025-04-15 10:48:46,128 [INFO] 回填摘要到结构节点：ci/official/containers/ml_build/cuda12.1_cudnn9.1.packages.txt，并将 need_traverse 设置为 False
+2025-04-15 10:48:46,128 [INFO] 回填摘要到结构节点：ci/official/envs/windows_x86_2022，并将 need_traverse 设置为 False
+2025-04-15 10:48:46,128 [INFO] 回填摘要到结构节点：ci/official/envs/py39，并将 need_traverse 设置为 False
+2025-04-15 10:48:46,128 [INFO] 回填摘要到结构节点：ci/official/envs/nightly_upload，并将 need_traverse 设置为 False
+2025-04-15 10:48:46,128 [INFO] 回填摘要到结构节点：ci/official/envs/linux_arm64_onednn，并将 need_traverse 设置为 False
+2025-04-15 10:48:46,128 [INFO] 回填摘要到结构节点：ci/official/envs/linux_x86_cuda，并将 need_traverse 设置为 False
+2025-04-15 10:48:46,128 [INFO] 回填摘要到结构节点：ci/official/envs/disk_cache，并将 need_traverse 设置为 False
+2025-04-15 10:48:46,128 [INFO] 回填摘要到结构节点：ci/official/envs/installer_wheel_tensorflow，并将 need_traverse 设置为 False
+2025-04-15 10:48:46,128 [INFO] 回填摘要到结构节点：ci/official/envs/enable_pycpp_build，并将 need_traverse 设置为 False
+2025-04-15 10:48:46,128 [INFO] 进度：已完成 0.3%
+2025-04-15 10:48:46,431 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 10:48:46,432 [DEBUG] 读取文件 ../../tensorflow/ci/official/envs/linux_x86 成功，字符数：1406
+2025-04-15 10:48:46,432 [DEBUG] 读取文件 ../../tensorflow/ci/official/envs/linux_arm64_cross_compile 成功，字符数：942
+2025-04-15 10:48:46,433 [DEBUG] 读取文件 ../../tensorflow/ci/official/envs/no_docker 成功，字符数：727
+2025-04-15 10:48:46,433 [DEBUG] 读取文件 ../../tensorflow/ci/official/envs/py311 成功，字符数：714
+2025-04-15 10:48:46,433 [DEBUG] 读取文件 ../../tensorflow/ci/official/envs/py310 成功，字符数：714
+2025-04-15 10:48:46,434 [DEBUG] 读取文件 ../../tensorflow/ci/official/envs/linux_arm64 成功，字符数：1606
+2025-04-15 10:48:46,434 [DEBUG] 读取文件 ../../tensorflow/ci/official/envs/ci_default 成功，字符数：2944
+2025-04-15 10:48:46,434 [DEBUG] 读取文件 ../../tensorflow/ci/official/envs/versions_upload 成功，字符数：1670
+2025-04-15 10:48:46,434 [DEBUG] 读取文件 ../../tensorflow/ci/official/envs/no_upload 成功，字符数：1012
+2025-04-15 10:48:46,434 [DEBUG] 读取文件 ../../tensorflow/ci/official/envs/linux_x86_tpu 成功，字符数：1190
+2025-04-15 10:48:46,434 [DEBUG] 读取文件 ../../tensorflow/ci/official/envs/public_cache 成功，字符数：1011
+2025-04-15 10:48:46,434 [DEBUG] 读取文件 ../../tensorflow/ci/official/envs/py312 成功，字符数：714
+2025-04-15 10:48:46,434 [DEBUG] 读取文件 ../../tensorflow/ci/official/envs/public_cache_push 成功，字符数：1191
+2025-04-15 10:48:46,434 [DEBUG] 读取文件 ../../tensorflow/ci/official/envs/rbe 成功，字符数：2729
+2025-04-15 10:48:46,434 [DEBUG] 读取文件 ../../tensorflow/ci/official/envs/installer_wheel_tensorflow_cpu 成功，字符数：1059
+2025-04-15 10:48:46,434 [DEBUG] 读取文件 ../../tensorflow/ci/official/envs/macos_arm64 成功，字符数：1400
+2025-04-15 10:48:46,434 [DEBUG] 读取文件 ../../tensorflow/ci/official/envs/numpy1 成功，字符数：831
+2025-04-15 10:48:46,434 [DEBUG] 读取文件 ../../tensorflow/ci/official/envs/py313 成功，字符数：714
+2025-04-15 10:48:46,435 [DEBUG] 读取文件 ../../tensorflow/ci/official/code_check_changed_files.sh 成功，字符数：850
+2025-04-15 10:48:46,435 [DEBUG] 读取文件 ../../tensorflow/ci/devinfra/docker/windows2022/Dockerfile 成功，字符数：10548
+2025-04-15 10:48:46,435 [DEBUG] 读取文件 ../../tensorflow/ci/devinfra/docker/windows/Dockerfile 成功，字符数：8615
+2025-04-15 10:48:46,435 [DEBUG] 读取文件 ../../tensorflow/CITATION.cff 成功，字符数：3611
+2025-04-15 10:48:46,435 [DEBUG] 读取文件 ../../tensorflow/CODEOWNERS 成功，字符数：563
+2025-04-15 10:48:46,436 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 10:48:50,350 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 10:49:38,630 [INFO] 批量文件摘要生成完成
+2025-04-15 10:49:38,630 [INFO] 回填摘要到结构节点：ci/official/envs/linux_x86，并将 need_traverse 设置为 False
+2025-04-15 10:49:38,630 [INFO] 回填摘要到结构节点：ci/official/envs/linux_arm64_cross_compile，并将 need_traverse 设置为 False
+2025-04-15 10:49:38,631 [INFO] 回填摘要到结构节点：ci/official/envs/no_docker，并将 need_traverse 设置为 False
+2025-04-15 10:49:38,631 [INFO] 回填摘要到结构节点：ci/official/envs/py311，并将 need_traverse 设置为 False
+2025-04-15 10:49:38,631 [INFO] 回填摘要到结构节点：ci/official/envs/py310，并将 need_traverse 设置为 False
+2025-04-15 10:49:38,631 [INFO] 回填摘要到结构节点：ci/official/envs/linux_arm64，并将 need_traverse 设置为 False
+2025-04-15 10:49:38,631 [INFO] 回填摘要到结构节点：ci/official/envs/ci_default，并将 need_traverse 设置为 False
+2025-04-15 10:49:38,631 [INFO] 回填摘要到结构节点：ci/official/envs/versions_upload，并将 need_traverse 设置为 False
+2025-04-15 10:49:38,631 [INFO] 回填摘要到结构节点：ci/official/envs/no_upload，并将 need_traverse 设置为 False
+2025-04-15 10:49:38,631 [INFO] 回填摘要到结构节点：ci/official/envs/linux_x86_tpu，并将 need_traverse 设置为 False
+2025-04-15 10:49:38,631 [INFO] 回填摘要到结构节点：ci/official/envs/public_cache，并将 need_traverse 设置为 False
+2025-04-15 10:49:38,631 [INFO] 回填摘要到结构节点：ci/official/envs/py312，并将 need_traverse 设置为 False
+2025-04-15 10:49:38,631 [INFO] 回填摘要到结构节点：ci/official/envs/public_cache_push，并将 need_traverse 设置为 False
+2025-04-15 10:49:38,631 [INFO] 回填摘要到结构节点：ci/official/envs/rbe，并将 need_traverse 设置为 False
+2025-04-15 10:49:38,631 [INFO] 回填摘要到结构节点：ci/official/envs/installer_wheel_tensorflow_cpu，并将 need_traverse 设置为 False
+2025-04-15 10:49:38,631 [INFO] 回填摘要到结构节点：ci/official/envs/macos_arm64，并将 need_traverse 设置为 False
+2025-04-15 10:49:38,631 [INFO] 回填摘要到结构节点：ci/official/envs/numpy1，并将 need_traverse 设置为 False
+2025-04-15 10:49:38,631 [INFO] 回填摘要到结构节点：ci/official/envs/py313，并将 need_traverse 设置为 False
+2025-04-15 10:49:38,631 [INFO] 回填摘要到结构节点：ci/official/code_check_changed_files.sh，并将 need_traverse 设置为 False
+2025-04-15 10:49:38,631 [INFO] 回填摘要到结构节点：ci/devinfra/docker/windows2022/Dockerfile，并将 need_traverse 设置为 False
+2025-04-15 10:49:38,632 [INFO] 回填摘要到结构节点：ci/devinfra/docker/windows/Dockerfile，并将 need_traverse 设置为 False
+2025-04-15 10:49:38,632 [INFO] 回填摘要到结构节点：CITATION.cff，并将 need_traverse 设置为 False
+2025-04-15 10:49:38,632 [INFO] 回填摘要到结构节点：CODEOWNERS，并将 need_traverse 设置为 False
+2025-04-15 10:49:38,632 [INFO] 进度：已完成 0.3%
+2025-04-15 10:49:38,936 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 10:49:38,936 [DEBUG] 读取文件 ../../tensorflow/WORKSPACE 成功，字符数：3329
+2025-04-15 10:49:38,937 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 10:49:40,227 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 10:49:54,578 [INFO] 批量文件摘要生成完成
+2025-04-15 10:49:54,586 [INFO] 进度：已完成 0.3%
+2025-04-15 10:49:54,888 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 10:49:54,889 [DEBUG] 读取文件 ../../tensorflow/requirements_lock_3_13.txt 成功，字符数：62022
+2025-04-15 10:49:54,890 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 10:50:05,300 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 10:50:07,415 [INFO] 批量文件摘要生成完成
+2025-04-15 10:50:07,416 [ERROR] 解析批量摘要 JSON 失败：Expecting value: line 1 column 1 (char 0)
+2025-04-15 10:50:07,416 [ERROR] 大模型返回的文本为：
+2025-04-15 10:50:07,416 [ERROR] 
+2025-04-15 10:50:07,416 [INFO] 回填摘要到结构节点：requirements_lock_3_13.txt，并将 need_traverse 设置为 False
+2025-04-15 10:50:07,417 [INFO] 进度：已完成 0.4%
+2025-04-15 10:50:07,725 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 10:50:07,726 [DEBUG] 读取文件 ../../tensorflow/requirements_lock_3_12.txt 成功，字符数：63051
+2025-04-15 10:50:07,727 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 10:50:18,087 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 10:50:29,478 [INFO] 批量文件摘要生成完成
+2025-04-15 10:50:29,478 [ERROR] 解析批量摘要 JSON 失败：Expecting value: line 1 column 1 (char 0)
+2025-04-15 10:50:29,478 [ERROR] 大模型返回的文本为：
+2025-04-15 10:50:29,479 [ERROR] 
+2025-04-15 10:50:29,479 [INFO] 回填摘要到结构节点：requirements_lock_3_12.txt，并将 need_traverse 设置为 False
+2025-04-15 10:50:29,479 [INFO] 进度：已完成 0.4%
+2025-04-15 10:50:29,788 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 10:50:29,788 [DEBUG] 读取文件 ../../tensorflow/requirements_lock_3_10.txt 成功，字符数：63051
+2025-04-15 10:50:29,789 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 10:50:40,635 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 10:50:42,521 [INFO] 批量文件摘要生成完成
+2025-04-15 10:50:42,521 [ERROR] 解析批量摘要 JSON 失败：Expecting value: line 1 column 1 (char 0)
+2025-04-15 10:50:42,522 [ERROR] 大模型返回的文本为：
+2025-04-15 10:50:42,522 [ERROR] 
+2025-04-15 10:50:42,522 [INFO] 回填摘要到结构节点：requirements_lock_3_10.txt，并将 need_traverse 设置为 False
+2025-04-15 10:50:42,522 [INFO] 进度：已完成 0.4%
+2025-04-15 10:50:42,838 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 10:50:42,838 [DEBUG] 读取文件 ../../tensorflow/requirements_lock_3_11.txt 成功，字符数：63051
+2025-04-15 10:50:42,839 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 10:50:56,673 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 10:51:06,676 [INFO] 批量文件摘要生成完成
+2025-04-15 10:51:06,677 [ERROR] 解析批量摘要 JSON 失败：Expecting value: line 1 column 1 (char 0)
+2025-04-15 10:51:06,677 [ERROR] 大模型返回的文本为：
+2025-04-15 10:51:06,677 [ERROR] 
+2025-04-15 10:51:06,677 [INFO] 回填摘要到结构节点：requirements_lock_3_11.txt，并将 need_traverse 设置为 False
+2025-04-15 10:51:06,678 [INFO] 进度：已完成 0.4%
+2025-04-15 10:51:06,991 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 10:51:06,992 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/autotune_result_wrapper.cc 成功，字符数：3540
+2025-04-15 10:51:06,993 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/package_groups.bzl 成功，字符数：944
+2025-04-15 10:51:06,994 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/literal_pool.h 成功，字符数：2393
+2025-04-15 10:51:06,994 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/sort_json.cc 成功，字符数：8165
+2025-04-15 10:51:06,995 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/status_macros.cc 成功，字符数：6951
+2025-04-15 10:51:06,995 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/array.cc 成功，字符数：1282
+2025-04-15 10:51:06,995 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/shape_partition.h 成功，字符数：3534
+2025-04-15 10:51:06,995 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/printer.h 成功，字符数：3896
+2025-04-15 10:51:06,996 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 10:51:09,265 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 10:52:05,071 [INFO] 批量文件摘要生成完成
+2025-04-15 10:52:05,072 [INFO] 回填摘要到结构节点：third_party/xla/xla/autotune_result_wrapper.cc，并将 need_traverse 设置为 False
+2025-04-15 10:52:05,072 [INFO] 回填摘要到结构节点：third_party/xla/xla/package_groups.bzl，并将 need_traverse 设置为 False
+2025-04-15 10:52:05,072 [INFO] 回填摘要到结构节点：third_party/xla/xla/literal_pool.h，并将 need_traverse 设置为 False
+2025-04-15 10:52:05,072 [INFO] 回填摘要到结构节点：third_party/xla/xla/sort_json.cc，并将 need_traverse 设置为 False
+2025-04-15 10:52:05,072 [INFO] 回填摘要到结构节点：third_party/xla/xla/status_macros.cc，并将 need_traverse 设置为 False
+2025-04-15 10:52:05,072 [INFO] 回填摘要到结构节点：third_party/xla/xla/array.cc，并将 need_traverse 设置为 False
+2025-04-15 10:52:05,072 [INFO] 回填摘要到结构节点：third_party/xla/xla/shape_partition.h，并将 need_traverse 设置为 False
+2025-04-15 10:52:05,072 [INFO] 回填摘要到结构节点：third_party/xla/xla/printer.h，并将 need_traverse 设置为 False
+2025-04-15 10:52:05,072 [INFO] 进度：已完成 0.4%
+2025-04-15 10:52:05,380 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 10:52:05,381 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/pjrt_client.h 成功，字符数：65595
+2025-04-15 10:52:05,382 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 10:52:10,607 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 10:52:48,005 [INFO] 批量文件摘要生成完成
+2025-04-15 10:52:48,006 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/pjrt_client.h，并将 need_traverse 设置为 False
+2025-04-15 10:52:48,006 [INFO] 进度：已完成 0.5%
+2025-04-15 10:52:48,310 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 10:52:48,311 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/interpreter/interpreter_client.cc 成功，字符数：22960
+2025-04-15 10:52:48,312 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/interpreter/BUILD 成功，字符数：3393
+2025-04-15 10:52:48,312 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/interpreter/interpreter_client_test.cc 成功，字符数：4351
+2025-04-15 10:52:48,312 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/interpreter/interpreter_client.h 成功，字符数：17510
+2025-04-15 10:52:48,313 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 10:52:52,118 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 10:53:18,230 [INFO] 批量文件摘要生成完成
+2025-04-15 10:53:18,231 [ERROR] 解析批量摘要 JSON 失败：Unterminated string starting at: line 34 column 16 (char 1304)
+2025-04-15 10:53:18,231 [ERROR] 大模型返回的文本为：
+2025-04-15 10:53:18,231 [ERROR] {
+  "third_party/xla/xla/pjrt/interpreter/interpreter_client.cc": {
+    "functions": [
+      {
+        "name": "ShapesMatch",
+        "purpose": "检查预期形状与实际形状是否兼容，考虑动态形状情况。",
+        "parameters": "const Shape& expected_shape, const Shape& actual_shape"
+      },
+      {
+        "name": "ChooseCompactLayoutForShape",
+        "purpose": "为给定形状选择默认布局。",
+        "parameters": "const Shape& shape"
+      },
+      {
+        "name": "HandleEvaluatorCustomCall",
+        "purpose": "处理自定义操作调用，通过全局注册表路由到目标函数。",
+        "parameters": "const HloInstruction* custom_call, absl::Span<const Literal*> operands"
+      },
+      {
+        "name": "InterpreterClient::CompileAndLoad",
+        "purpose": "编译XlaComputation为可执行文件，处理参数布局和自动布局。",
+        "parameters": "const XlaComputation& computation, CompileOptions options"
+      },
+      {
+        "name": "InterpreterLoadedExecutable::Execute",
+        "purpose": "执行计算，处理多个设备和副本的情况。",
+        "parameters": "absl::Span<const std::vector<PjRtBuffer*>> argument_handles, const ExecuteOptions& options, std::optional<std::vector<PjRtFuture<>>>& returned_futures"
+      }
+    ],
+    "summary": "实现了PjRt解释器客户端的核心功能，支持XLA计算图的编译和执行。通过HloEvaluator解释执行HLO指令，处理自定义操作和动态形状，提供设备和内存管理。"
+  },
+  "third_party/xla/xla/pjrt/interpreter/BUILD": {
+    "functions": [],
+    "summary": "Bazel构建文件，定义解释器客户端库及测试
+2025-04-15 10:53:18,231 [INFO] 进度：已完成 0.5%
+2025-04-15 10:53:18,538 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 10:53:18,539 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/pjrt_client_test.cc 成功，字符数：22999
+2025-04-15 10:53:18,539 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/semaphore.h 成功，字符数：2368
+2025-04-15 10:53:18,540 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/tracked_device_buffer_test.cc 成功，字符数：5512
+2025-04-15 10:53:18,540 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/worker_thread.h 成功，字符数：1679
+2025-04-15 10:53:18,540 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/utils.h 成功，字符数：7986
+2025-04-15 10:53:18,541 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/mlir_to_hlo.h 成功，字符数：4300
+2025-04-15 10:53:18,541 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 10:53:22,100 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 10:54:09,746 [INFO] 批量文件摘要生成完成
+2025-04-15 10:54:09,746 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/pjrt_client_test.cc，并将 need_traverse 设置为 False
+2025-04-15 10:54:09,747 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/semaphore.h，并将 need_traverse 设置为 False
+2025-04-15 10:54:09,747 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/tracked_device_buffer_test.cc，并将 need_traverse 设置为 False
+2025-04-15 10:54:09,747 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/worker_thread.h，并将 need_traverse 设置为 False
+2025-04-15 10:54:09,747 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/utils.h，并将 need_traverse 设置为 False
+2025-04-15 10:54:09,747 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/mlir_to_hlo.h，并将 need_traverse 设置为 False
+2025-04-15 10:54:09,747 [INFO] 进度：已完成 0.5%
+2025-04-15 10:54:10,055 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 10:54:10,056 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/pjrt_executable_test.cc 成功，字符数：6434
+2025-04-15 10:54:10,056 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/pjrt_c_api_client.h 成功，字符数：28472
+2025-04-15 10:54:10,056 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/local_device_state.h 成功，字符数：11756
+2025-04-15 10:54:10,057 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 10:54:13,627 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 10:54:54,014 [INFO] 批量文件摘要生成完成
+2025-04-15 10:54:54,014 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/pjrt_executable_test.cc，并将 need_traverse 设置为 False
+2025-04-15 10:54:54,014 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/pjrt_c_api_client.h，并将 need_traverse 设置为 False
+2025-04-15 10:54:54,015 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/local_device_state.h，并将 need_traverse 设置为 False
+2025-04-15 10:54:54,015 [INFO] 进度：已完成 0.5%
+2025-04-15 10:54:54,322 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 10:54:54,323 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/tracked_device_buffer.h 成功，字符数：15176
+2025-04-15 10:54:54,323 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/stream_executor_executable.cc 成功，字符数：5825
+2025-04-15 10:54:54,323 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/pjrt_compiler_test.cc 成功，字符数：5420
+2025-04-15 10:54:54,324 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/host_callback.cc 成功，字符数：6782
+2025-04-15 10:54:54,325 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 10:54:57,046 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 10:55:25,141 [INFO] 批量文件摘要生成完成
+2025-04-15 10:55:25,141 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/tracked_device_buffer.h，并将 need_traverse 设置为 False
+2025-04-15 10:55:25,141 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/stream_executor_executable.cc，并将 need_traverse 设置为 False
+2025-04-15 10:55:25,141 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/pjrt_compiler_test.cc，并将 need_traverse 设置为 False
+2025-04-15 10:55:25,142 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/host_callback.cc，并将 need_traverse 设置为 False
+2025-04-15 10:55:25,142 [INFO] 进度：已完成 0.5%
+2025-04-15 10:55:25,456 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 10:55:25,457 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/gpu/se_gpu_pjrt_client.cc 成功，字符数：71364
+2025-04-15 10:55:25,458 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 10:55:29,335 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 10:55:55,752 [INFO] 批量文件摘要生成完成
+2025-04-15 10:55:55,753 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/gpu/se_gpu_pjrt_client.cc，并将 need_traverse 设置为 False
+2025-04-15 10:55:55,753 [INFO] 进度：已完成 0.6%
+2025-04-15 10:55:56,067 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 10:55:56,067 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/gpu/package_groups.bzl 成功，字符数：544
+2025-04-15 10:55:56,068 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/gpu/se_gpu_pjrt_compiler_rocm_registration.cc 成功，字符数：1137
+2025-04-15 10:55:56,068 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/gpu/gpu_topology.cc 成功，字符数：1661
+2025-04-15 10:55:56,069 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/gpu/nccl_id_store.h 成功，字符数：2093
+2025-04-15 10:55:56,069 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/gpu/se_gpu_pjrt_compiler_aot_test.cc 成功，字符数：8391
+2025-04-15 10:55:56,069 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/gpu/se_gpu_pjrt_compiler_cuda_registration.cc 成功，字符数：1137
+2025-04-15 10:55:56,069 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/gpu/gpu_topology.proto 成功，字符数：809
+2025-04-15 10:55:56,070 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/gpu/gpu_helpers.cc 成功，字符数：10169
+2025-04-15 10:55:56,070 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/gpu/se_gpu_topology_description.cc 成功，字符数：1611
+2025-04-15 10:55:56,070 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 10:55:58,143 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 10:57:09,982 [INFO] 批量文件摘要生成完成
+2025-04-15 10:57:09,982 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/gpu/package_groups.bzl，并将 need_traverse 设置为 False
+2025-04-15 10:57:09,982 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/gpu/se_gpu_pjrt_compiler_rocm_registration.cc，并将 need_traverse 设置为 False
+2025-04-15 10:57:09,982 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/gpu/gpu_topology.cc，并将 need_traverse 设置为 False
+2025-04-15 10:57:09,982 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/gpu/nccl_id_store.h，并将 need_traverse 设置为 False
+2025-04-15 10:57:09,983 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/gpu/se_gpu_pjrt_compiler_aot_test.cc，并将 need_traverse 设置为 False
+2025-04-15 10:57:09,983 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/gpu/se_gpu_pjrt_compiler_cuda_registration.cc，并将 need_traverse 设置为 False
+2025-04-15 10:57:09,983 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/gpu/gpu_topology.proto，并将 need_traverse 设置为 False
+2025-04-15 10:57:09,983 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/gpu/gpu_helpers.cc，并将 need_traverse 设置为 False
+2025-04-15 10:57:09,983 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/gpu/se_gpu_topology_description.cc，并将 need_traverse 设置为 False
+2025-04-15 10:57:09,983 [INFO] 进度：已完成 0.6%
+2025-04-15 10:57:10,296 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 10:57:10,297 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/gpu/se_gpu_pjrt_client_test.cc 成功，字符数：95411
+2025-04-15 10:57:10,298 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 10:57:16,058 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 10:57:40,983 [INFO] 批量文件摘要生成完成
+2025-04-15 10:57:40,984 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/gpu/se_gpu_pjrt_client_test.cc，并将 need_traverse 设置为 False
+2025-04-15 10:57:40,984 [INFO] 进度：已完成 0.6%
+2025-04-15 10:57:41,294 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 10:57:41,295 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/gpu/raw_buffer.h 成功，字符数：2203
+2025-04-15 10:57:41,295 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/gpu/se_gpu_pjrt_compiler.cc 成功，字符数：8048
+2025-04-15 10:57:41,295 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/gpu/tfrt/tfrt_gpu_client.h 成功，字符数：28647
+2025-04-15 10:57:41,296 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/gpu/tfrt/host_memory_allocator.h 成功，字符数：1580
+2025-04-15 10:57:41,296 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/gpu/tfrt/tracked_tfrt_gpu_device_buffer.cc 成功，字符数：5184
+2025-04-15 10:57:41,297 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 10:57:45,183 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 10:58:38,755 [INFO] 批量文件摘要生成完成
+2025-04-15 10:58:38,755 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/gpu/raw_buffer.h，并将 need_traverse 设置为 False
+2025-04-15 10:58:38,755 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/gpu/se_gpu_pjrt_compiler.cc，并将 need_traverse 设置为 False
+2025-04-15 10:58:38,755 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/gpu/tfrt/tfrt_gpu_client.h，并将 need_traverse 设置为 False
+2025-04-15 10:58:38,756 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/gpu/tfrt/host_memory_allocator.h，并将 need_traverse 设置为 False
+2025-04-15 10:58:38,756 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/gpu/tfrt/tracked_tfrt_gpu_device_buffer.cc，并将 need_traverse 设置为 False
+2025-04-15 10:58:38,756 [INFO] 进度：已完成 0.6%
+2025-04-15 10:58:39,065 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 10:58:39,066 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/gpu/tfrt/tfrt_gpu_buffer_test.cc 成功，字符数：12336
+2025-04-15 10:58:39,066 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/gpu/tfrt/stream_pool_test.cc 成功，字符数：2045
+2025-04-15 10:58:39,067 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/gpu/tfrt/stream_pool.h 成功，字符数：3130
+2025-04-15 10:58:39,067 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 10:58:40,922 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 10:59:20,527 [INFO] 批量文件摘要生成完成
+2025-04-15 10:59:20,527 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/gpu/tfrt/tfrt_gpu_buffer_test.cc，并将 need_traverse 设置为 False
+2025-04-15 10:59:20,527 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/gpu/tfrt/stream_pool_test.cc，并将 need_traverse 设置为 False
+2025-04-15 10:59:20,527 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/gpu/tfrt/stream_pool.h，并将 need_traverse 设置为 False
+2025-04-15 10:59:20,527 [INFO] 进度：已完成 0.6%
+2025-04-15 10:59:20,844 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 10:59:20,845 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/gpu/tfrt/tfrt_gpu_client_test.cc 成功，字符数：53735
+2025-04-15 10:59:20,845 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 10:59:25,414 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 10:59:51,761 [INFO] 批量文件摘要生成完成
+2025-04-15 10:59:51,761 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/gpu/tfrt/tfrt_gpu_client_test.cc，并将 need_traverse 设置为 False
+2025-04-15 10:59:51,761 [INFO] 进度：已完成 0.6%
+2025-04-15 10:59:52,074 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 10:59:52,075 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/gpu/tfrt/gpu_event.h 成功，字符数：3389
+2025-04-15 10:59:52,075 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 10:59:53,738 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 11:00:42,850 [INFO] 批量文件摘要生成完成
+2025-04-15 11:00:42,850 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/gpu/tfrt/gpu_event.h，并将 need_traverse 设置为 False
+2025-04-15 11:00:42,851 [INFO] 进度：已完成 0.7%
+2025-04-15 11:00:43,162 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 11:00:43,163 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/gpu/tfrt/tfrt_gpu_client.cc 成功，字符数：134518
+2025-04-15 11:00:43,164 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 11:00:51,204 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 11:01:15,502 [INFO] 批量文件摘要生成完成
+2025-04-15 11:01:15,502 [ERROR] 解析批量摘要 JSON 失败：Invalid control character at: line 20 column 24 (char 647)
+2025-04-15 11:01:15,502 [ERROR] 大模型返回的文本为：
+2025-04-15 11:01:15,502 [ERROR] {
+  "third_party/xla/xla/pjrt/gpu/tfrt/tfrt_gpu_client.cc": {
+    "functions": [
+      {
+        "name": "GetTfrtGpuClient",
+        "purpose": "创建TfrtGpuClient实例，初始化GPU设备及相关资源。",
+        "parameters": "options (GpuClientOptions)：配置选项。返回std::unique_ptr<PjRtClient>。"
+      },
+      {
+        "name": "EnqueueWork",
+        "purpose": "将任务调度到指定的线程池。",
+        "parameters": "pool (tsl::thread::ThreadPool*), callee (absl::AnyInvocable<void() &&>)。"
+      },
+      {
+        "name": "GetPlatformVersion",
+        "purpose": "获取当前GPU平台的版本字符串。",
+        "parameters": "xla_client (LocalClient*)。返回std::string。"
+      },
+      {
+        "name": "“百 ( (
+ ( ( ( (, ( (, ( ( (, ( ( ( ( ( (
+ ( ( ( ( ( ( ( ( ( - provides ( (: ( (,. ( (, (, ( ( ( ( (. ( ( ( ( (,
+
+ ( ( ( ( ( ( ( ( ( ( ( ( ( (, (
+2025-04-15 11:01:15,503 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/gpu/tfrt/tfrt_gpu_client.cc，并将 need_traverse 设置为 False
+2025-04-15 11:01:15,503 [INFO] 进度：已完成 0.7%
+2025-04-15 11:01:15,818 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 11:01:15,819 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/gpu/tfrt/gpu_event_test.cc 成功，字符数：4347
+2025-04-15 11:01:15,819 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/gpu/tfrt/BUILD 成功，字符数：11501
+2025-04-15 11:01:15,819 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/gpu/tfrt/gpu_event.cc 成功，字符数：2442
+2025-04-15 11:01:15,819 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/gpu/tfrt/tracked_tfrt_gpu_device_buffer.h 成功，字符数：6583
+2025-04-15 11:01:15,820 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/gpu/tfrt/tracked_tfrt_gpu_device_buffer_test.cc 成功，字符数：6384
+2025-04-15 11:01:15,820 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/gpu/tfrt/stream_pool.cc 成功，字符数：2391
+2025-04-15 11:01:15,820 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/gpu/se_gpu_pjrt_compiler_test.cc 成功，字符数：9598
+2025-04-15 11:01:15,821 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 11:01:19,585 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 11:02:03,117 [INFO] 批量文件摘要生成完成
+2025-04-15 11:02:03,117 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/gpu/tfrt/gpu_event_test.cc，并将 need_traverse 设置为 False
+2025-04-15 11:02:03,117 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/gpu/tfrt/BUILD，并将 need_traverse 设置为 False
+2025-04-15 11:02:03,117 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/gpu/tfrt/gpu_event.cc，并将 need_traverse 设置为 False
+2025-04-15 11:02:03,118 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/gpu/tfrt/tracked_tfrt_gpu_device_buffer.h，并将 need_traverse 设置为 False
+2025-04-15 11:02:03,118 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/gpu/tfrt/tracked_tfrt_gpu_device_buffer_test.cc，并将 need_traverse 设置为 False
+2025-04-15 11:02:03,118 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/gpu/tfrt/stream_pool.cc，并将 need_traverse 设置为 False
+2025-04-15 11:02:03,118 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/gpu/se_gpu_pjrt_compiler_test.cc，并将 need_traverse 设置为 False
+2025-04-15 11:02:03,118 [INFO] 进度：已完成 0.7%
+2025-04-15 11:02:03,427 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 11:02:03,428 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/gpu/se_gpu_pjrt_client.h 成功，字符数：7151
+2025-04-15 11:02:03,428 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/gpu/gpu_helpers.h 成功，字符数：2637
+2025-04-15 11:02:03,428 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/gpu/gpu_metrics.cc 成功，字符数：1404
+2025-04-15 11:02:03,429 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/gpu/pjrt_client_test_se_gpu.cc 成功，字符数：1051
+2025-04-15 11:02:03,429 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/gpu/gpu_topology.h 成功，字符数：2883
+2025-04-15 11:02:03,429 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/gpu/gpu_metrics.h 成功，字符数：1134
+2025-04-15 11:02:03,429 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/gpu/raw_buffer.cc 成功，字符数：2454
+2025-04-15 11:02:03,429 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/gpu/se_gpu_topology_description.h 成功，字符数：4658
+2025-04-15 11:02:03,429 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/gpu/se_gpu_pjrt_compiler.h 成功，字符数：2158
+2025-04-15 11:02:03,429 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/gpu/BUILD 成功，字符数：18078
+2025-04-15 11:02:03,429 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/gpu/nccl_id_store.cc 成功，字符数：2453
+2025-04-15 11:02:03,430 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 11:02:07,006 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 11:03:02,283 [INFO] 批量文件摘要生成完成
+2025-04-15 11:03:02,284 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/gpu/se_gpu_pjrt_client.h，并将 need_traverse 设置为 False
+2025-04-15 11:03:02,284 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/gpu/gpu_helpers.h，并将 need_traverse 设置为 False
+2025-04-15 11:03:02,284 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/gpu/gpu_metrics.cc，并将 need_traverse 设置为 False
+2025-04-15 11:03:02,284 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/gpu/pjrt_client_test_se_gpu.cc，并将 need_traverse 设置为 False
+2025-04-15 11:03:02,284 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/gpu/gpu_topology.h，并将 need_traverse 设置为 False
+2025-04-15 11:03:02,284 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/gpu/gpu_metrics.h，并将 need_traverse 设置为 False
+2025-04-15 11:03:02,284 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/gpu/raw_buffer.cc，并将 need_traverse 设置为 False
+2025-04-15 11:03:02,284 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/gpu/se_gpu_topology_description.h，并将 need_traverse 设置为 False
+2025-04-15 11:03:02,284 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/gpu/se_gpu_pjrt_compiler.h，并将 need_traverse 设置为 False
+2025-04-15 11:03:02,284 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/gpu/BUILD，并将 need_traverse 设置为 False
+2025-04-15 11:03:02,284 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/gpu/nccl_id_store.cc，并将 need_traverse 设置为 False
+2025-04-15 11:03:02,284 [INFO] 进度：已完成 0.7%
+2025-04-15 11:03:02,590 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 11:03:02,591 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/pjrt_compiler.h 成功，字符数：7428
+2025-04-15 11:03:02,591 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/status_casters.h 成功，字符数：8038
+2025-04-15 11:03:02,592 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/pjrt_stream_executor_client_test.cc 成功，字符数：6665
+2025-04-15 11:03:02,592 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/pjrt_executable.h 成功，字符数：16294
+2025-04-15 11:03:02,593 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 11:03:06,293 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 11:04:36,483 [INFO] 批量文件摘要生成完成
+2025-04-15 11:04:36,483 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/pjrt_compiler.h，并将 need_traverse 设置为 False
+2025-04-15 11:04:36,483 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/status_casters.h，并将 need_traverse 设置为 False
+2025-04-15 11:04:36,483 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/pjrt_stream_executor_client_test.cc，并将 need_traverse 设置为 False
+2025-04-15 11:04:36,484 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/pjrt_executable.h，并将 need_traverse 设置为 False
+2025-04-15 11:04:36,484 [INFO] 进度：已完成 0.7%
+2025-04-15 11:04:36,794 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 11:04:36,795 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/tracked_device_buffer.cc 成功，字符数：12791
+2025-04-15 11:04:36,795 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/event_pool.cc 成功，字符数：2102
+2025-04-15 11:04:36,795 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/event_pool.h 成功，字符数：3780
+2025-04-15 11:04:36,796 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/pjrt_client.cc 成功，字符数：3299
+2025-04-15 11:04:36,796 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/pjrt_future.h 成功，字符数：18647
+2025-04-15 11:04:36,796 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/execute_options.proto 成功，字符数：527
+2025-04-15 11:04:36,796 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/cpu/package_groups.bzl 成功，字符数：543
+2025-04-15 11:04:36,796 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/cpu/cpu_event.h 成功，字符数：981
+2025-04-15 11:04:36,797 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 11:04:39,797 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 11:05:20,239 [INFO] 批量文件摘要生成完成
+2025-04-15 11:05:20,239 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/tracked_device_buffer.cc，并将 need_traverse 设置为 False
+2025-04-15 11:05:20,240 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/event_pool.cc，并将 need_traverse 设置为 False
+2025-04-15 11:05:20,240 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/event_pool.h，并将 need_traverse 设置为 False
+2025-04-15 11:05:20,240 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/pjrt_client.cc，并将 need_traverse 设置为 False
+2025-04-15 11:05:20,240 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/pjrt_future.h，并将 need_traverse 设置为 False
+2025-04-15 11:05:20,240 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/execute_options.proto，并将 need_traverse 设置为 False
+2025-04-15 11:05:20,240 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/cpu/package_groups.bzl，并将 need_traverse 设置为 False
+2025-04-15 11:05:20,241 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/cpu/cpu_event.h，并将 need_traverse 设置为 False
+2025-04-15 11:05:20,241 [INFO] 进度：已完成 0.8%
+2025-04-15 11:05:20,555 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 11:05:20,556 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/cpu/cpu_client_test.cc 成功，字符数：33492
+2025-04-15 11:05:20,556 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/cpu/tracked_cpu_device_buffer.h 成功，字符数：6710
+2025-04-15 11:05:20,557 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/cpu/cpu_device.cc 成功，字符数：3662
+2025-04-15 11:05:20,557 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/cpu/cpu_async_execution_tracker.h 成功，字符数：4114
+2025-04-15 11:05:20,558 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 11:05:24,430 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 11:06:23,607 [INFO] 批量文件摘要生成完成
+2025-04-15 11:06:23,608 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/cpu/cpu_client_test.cc，并将 need_traverse 设置为 False
+2025-04-15 11:06:23,608 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/cpu/tracked_cpu_device_buffer.h，并将 need_traverse 设置为 False
+2025-04-15 11:06:23,608 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/cpu/cpu_device.cc，并将 need_traverse 设置为 False
+2025-04-15 11:06:23,608 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/cpu/cpu_async_execution_tracker.h，并将 need_traverse 设置为 False
+2025-04-15 11:06:23,608 [INFO] 进度：已完成 0.8%
+2025-04-15 11:06:23,919 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 11:06:23,920 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/cpu/cpu_client.cc 成功，字符数：93981
+2025-04-15 11:06:23,921 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 11:06:29,369 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 11:06:51,394 [INFO] 批量文件摘要生成完成
+2025-04-15 11:06:51,394 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/cpu/cpu_client.cc，并将 need_traverse 设置为 False
+2025-04-15 11:06:51,394 [INFO] 进度：已完成 0.8%
+2025-04-15 11:06:51,706 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 11:06:51,707 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/cpu/abstract_tfrt_cpu_buffer.cc 成功，字符数：37514
+2025-04-15 11:06:51,708 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/cpu/tracked_cpu_device_buffer.cc 成功，字符数：7271
+2025-04-15 11:06:51,708 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 11:06:55,056 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 11:07:28,824 [INFO] 批量文件摘要生成完成
+2025-04-15 11:07:28,825 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/cpu/abstract_tfrt_cpu_buffer.cc，并将 need_traverse 设置为 False
+2025-04-15 11:07:28,825 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/cpu/tracked_cpu_device_buffer.cc，并将 need_traverse 设置为 False
+2025-04-15 11:07:28,825 [INFO] 进度：已完成 0.8%
+2025-04-15 11:07:29,137 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 11:07:29,138 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/cpu/abstract_tfrt_cpu_buffer.h 成功，字符数：13805
+2025-04-15 11:07:29,138 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/cpu/cpu_device.h 成功，字符数：3733
+2025-04-15 11:07:29,139 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/cpu/cpu_client.h 成功，字符数：20390
+2025-04-15 11:07:29,139 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/cpu/cpu_async_execution_tracker.cc 成功，字符数：4845
+2025-04-15 11:07:29,140 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/cpu/tracked_cpu_device_buffer_test.cc 成功，字符数：4356
+2025-04-15 11:07:29,140 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/cpu/pjrt_client_test_cpu.cc 成功，字符数：1157
+2025-04-15 11:07:29,140 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 11:07:33,335 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 11:08:18,722 [INFO] 批量文件摘要生成完成
+2025-04-15 11:08:18,723 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/cpu/abstract_tfrt_cpu_buffer.h，并将 need_traverse 设置为 False
+2025-04-15 11:08:18,723 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/cpu/cpu_device.h，并将 need_traverse 设置为 False
+2025-04-15 11:08:18,723 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/cpu/cpu_client.h，并将 need_traverse 设置为 False
+2025-04-15 11:08:18,723 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/cpu/cpu_async_execution_tracker.cc，并将 need_traverse 设置为 False
+2025-04-15 11:08:18,723 [INFO] 进度：已完成 0.8%
+2025-04-15 11:08:19,039 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 11:08:19,039 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/cpu/BUILD 成功，字符数：11168
+2025-04-15 11:08:19,039 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/mlir_to_hlo.cc 成功，字符数：13191
+2025-04-15 11:08:19,040 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/distributed/topology_util_test.cc 成功，字符数：15241
+2025-04-15 11:08:19,040 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/distributed/client.h 成功，字符数：6777
+2025-04-15 11:08:19,041 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 11:08:22,719 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 11:10:03,578 [INFO] 批量文件摘要生成完成
+2025-04-15 11:10:03,578 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/cpu/BUILD，并将 need_traverse 设置为 False
+2025-04-15 11:10:03,578 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/mlir_to_hlo.cc，并将 need_traverse 设置为 False
+2025-04-15 11:10:03,578 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/distributed/topology_util_test.cc，并将 need_traverse 设置为 False
+2025-04-15 11:10:03,578 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/distributed/client.h，并将 need_traverse 设置为 False
+2025-04-15 11:10:03,578 [INFO] 进度：已完成 0.9%
+2025-04-15 11:10:03,915 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 11:10:03,915 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/distributed/service.h 成功，字符数：4000
+2025-04-15 11:10:03,915 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/distributed/distributed.cc 成功，字符数：2137
+2025-04-15 11:10:03,915 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/distributed/topology_util.h 成功，字符数：2843
+2025-04-15 11:10:03,916 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/distributed/client.cc 成功，字符数：10826
+2025-04-15 11:10:03,917 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 11:10:06,270 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 11:10:29,803 [INFO] 批量文件摘要生成完成
+2025-04-15 11:10:29,804 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/distributed/service.h，并将 need_traverse 设置为 False
+2025-04-15 11:10:29,804 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/distributed/distributed.cc，并将 need_traverse 设置为 False
+2025-04-15 11:10:29,804 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/distributed/topology_util.h，并将 need_traverse 设置为 False
+2025-04-15 11:10:29,804 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/distributed/client.cc，并将 need_traverse 设置为 False
+2025-04-15 11:10:29,804 [INFO] 进度：已完成 0.9%
+2025-04-15 11:10:30,112 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 11:10:30,113 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/distributed/client_server_test.cc 成功，字符数：40301
+2025-04-15 11:10:30,113 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/distributed/protocol.proto 成功，字符数：3329
+2025-04-15 11:10:30,113 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/distributed/distributed.h 成功，字符数：2211
+2025-04-15 11:10:30,114 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/distributed/util.h 成功，字符数：1354
+2025-04-15 11:10:30,114 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 11:10:33,987 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 11:11:13,620 [INFO] 批量文件摘要生成完成
+2025-04-15 11:11:13,621 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/distributed/client_server_test.cc，并将 need_traverse 设置为 False
+2025-04-15 11:11:13,621 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/distributed/protocol.proto，并将 need_traverse 设置为 False
+2025-04-15 11:11:13,621 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/distributed/distributed.h，并将 need_traverse 设置为 False
+2025-04-15 11:11:13,621 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/distributed/util.h，并将 need_traverse 设置为 False
+2025-04-15 11:11:13,621 [INFO] 进度：已完成 0.9%
+2025-04-15 11:11:13,937 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 11:11:13,938 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/distributed/topology_util.cc 成功，字符数：13625
+2025-04-15 11:11:13,939 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/distributed/service.cc 成功，字符数：5109
+2025-04-15 11:11:13,939 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/distributed/BUILD 成功，字符数：6090
+2025-04-15 11:11:13,939 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/distributed/in_memory_key_value_store.h 成功，字符数：1885
+2025-04-15 11:11:13,940 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/distributed/key_value_store_interface.h 成功，字符数：2554
+2025-04-15 11:11:13,940 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/distributed/in_memory_key_value_store.cc 成功，字符数：2183
+2025-04-15 11:11:13,940 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/mlir_to_hlo_test.cc 成功，字符数：7557
+2025-04-15 11:11:13,940 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/host_memory_spaces.cc 成功，字符数：2083
+2025-04-15 11:11:13,940 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/lru_cache.h 成功，字符数：6085
+2025-04-15 11:11:13,941 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 11:11:17,814 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 11:12:21,698 [INFO] 批量文件摘要生成完成
+2025-04-15 11:12:21,699 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/distributed/topology_util.cc，并将 need_traverse 设置为 False
+2025-04-15 11:12:21,699 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/distributed/service.cc，并将 need_traverse 设置为 False
+2025-04-15 11:12:21,699 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/distributed/BUILD，并将 need_traverse 设置为 False
+2025-04-15 11:12:21,699 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/distributed/in_memory_key_value_store.h，并将 need_traverse 设置为 False
+2025-04-15 11:12:21,699 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/distributed/key_value_store_interface.h，并将 need_traverse 设置为 False
+2025-04-15 11:12:21,700 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/distributed/in_memory_key_value_store.cc，并将 need_traverse 设置为 False
+2025-04-15 11:12:21,700 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/mlir_to_hlo_test.cc，并将 need_traverse 设置为 False
+2025-04-15 11:12:21,700 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/host_memory_spaces.cc，并将 need_traverse 设置为 False
+2025-04-15 11:12:21,700 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/lru_cache.h，并将 need_traverse 设置为 False
+2025-04-15 11:12:21,700 [INFO] 进度：已完成 0.9%
+2025-04-15 11:12:22,008 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 11:12:22,009 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/utils.cc 成功，字符数：37472
+2025-04-15 11:12:22,009 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/worker_thread.cc 成功，字符数：1691
+2025-04-15 11:12:22,009 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/pjrt_api.cc 成功，字符数：7366
+2025-04-15 11:12:22,010 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 11:12:25,884 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 11:13:29,877 [INFO] 批量文件摘要生成完成
+2025-04-15 11:13:29,877 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/utils.cc，并将 need_traverse 设置为 False
+2025-04-15 11:13:29,877 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/worker_thread.cc，并将 need_traverse 设置为 False
+2025-04-15 11:13:29,877 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/pjrt_api.cc，并将 need_traverse 设置为 False
+2025-04-15 11:13:29,878 [INFO] 进度：已完成 0.9%
+2025-04-15 11:13:30,201 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 11:13:30,202 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/transpose.cc 成功，字符数：56536
+2025-04-15 11:13:30,203 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 11:13:34,043 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 11:14:00,722 [INFO] 批量文件摘要生成完成
+2025-04-15 11:14:00,723 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/transpose.cc，并将 need_traverse 设置为 False
+2025-04-15 11:14:00,723 [INFO] 进度：已完成 1.0%
+2025-04-15 11:14:01,043 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 11:14:01,044 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/exceptions.h 成功，字符数：1973
+2025-04-15 11:14:01,044 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/host_callback_test.cc 成功，字符数：6346
+2025-04-15 11:14:01,044 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/pjrt_compiler.cc 成功，字符数：4315
+2025-04-15 11:14:01,045 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/pjrt_api.h 成功，字符数：1982
+2025-04-15 11:14:01,045 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/tf_pjrt_client.cc 成功，字符数：7584
+2025-04-15 11:14:01,045 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/plugin/xla_gpu/xla_gpu_pjrt_client.h 成功，字符数：1214
+2025-04-15 11:14:01,046 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/plugin/xla_gpu/xla_gpu_pjrt_client.cc 成功，字符数：1593
+2025-04-15 11:14:01,046 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/plugin/xla_gpu/xla_gpu_client_options.h 成功，字符数：1623
+2025-04-15 11:14:01,046 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/plugin/xla_gpu/xla_gpu_pjrt_client_test.cc 成功，字符数：1567
+2025-04-15 11:14:01,046 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/plugin/xla_gpu/BUILD 成功，字符数：1551
+2025-04-15 11:14:01,046 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/plugin/xla_gpu/xla_gpu_allocator_config.h 成功，字符数：2545
+2025-04-15 11:14:01,047 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/plugin/xla_cpu/cpu_topology.proto 成功，字符数：929
+2025-04-15 11:14:01,047 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/plugin/xla_cpu/cpu_topology.cc 成功，字符数：2245
+2025-04-15 11:14:01,047 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/plugin/xla_cpu/cpu_topology_description.h 成功，字符数：4588
+2025-04-15 11:14:01,047 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/plugin/xla_cpu/cpu_device_description.cc 成功，字符数：1529
+2025-04-15 11:14:01,047 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/plugin/xla_cpu/cpu_topology_test.cc 成功，字符数：2254
+2025-04-15 11:14:01,047 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/plugin/xla_cpu/cpu_execute_options.h 成功，字符数：2138
+2025-04-15 11:14:01,047 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/plugin/xla_cpu/xla_cpu_pjrt_client.cc 成功，字符数：1079
+2025-04-15 11:14:01,047 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/plugin/xla_cpu/cpu_device_description.h 成功，字符数：1863
+2025-04-15 11:14:01,048 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 11:14:05,200 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 11:15:44,401 [INFO] 批量文件摘要生成完成
+2025-04-15 11:15:44,401 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/exceptions.h，并将 need_traverse 设置为 False
+2025-04-15 11:15:44,401 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/host_callback_test.cc，并将 need_traverse 设置为 False
+2025-04-15 11:15:44,402 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/pjrt_compiler.cc，并将 need_traverse 设置为 False
+2025-04-15 11:15:44,402 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/pjrt_api.h，并将 need_traverse 设置为 False
+2025-04-15 11:15:44,402 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/tf_pjrt_client.cc，并将 need_traverse 设置为 False
+2025-04-15 11:15:44,402 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/plugin/xla_gpu/xla_gpu_pjrt_client.h，并将 need_traverse 设置为 False
+2025-04-15 11:15:44,402 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/plugin/xla_gpu/xla_gpu_pjrt_client.cc，并将 need_traverse 设置为 False
+2025-04-15 11:15:44,402 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/plugin/xla_gpu/xla_gpu_client_options.h，并将 need_traverse 设置为 False
+2025-04-15 11:15:44,402 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/plugin/xla_gpu/xla_gpu_pjrt_client_test.cc，并将 need_traverse 设置为 False
+2025-04-15 11:15:44,402 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/plugin/xla_gpu/xla_gpu_allocator_config.h，并将 need_traverse 设置为 False
+2025-04-15 11:15:44,435 [INFO] 进度：已完成 1.0%
+2025-04-15 11:15:44,752 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 11:15:44,753 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/plugin/xla_cpu/cpu_client_options.h 成功，字符数：2100
+2025-04-15 11:15:44,753 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/plugin/xla_cpu/cpu_topology.h 成功，字符数：2517
+2025-04-15 11:15:44,754 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/plugin/xla_cpu/BUILD 成功，字符数：3136
+2025-04-15 11:15:44,754 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/plugin/xla_cpu/xla_cpu_pjrt_client.h 成功，字符数：1126
+2025-04-15 11:15:44,754 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/plugin/xla_cpu/xla_cpu_pjrt_client_test.cc 成功，字符数：1058
+2025-04-15 11:15:44,754 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/plugin/xla_cpu/cpu_topology_description.cc 成功，字符数：2995
+2025-04-15 11:15:44,754 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/plugin/example_plugin/myplugin_c_pjrt_test.cc 成功，字符数：988
+2025-04-15 11:15:44,754 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/plugin/example_plugin/myplugin_c_pjrt.cc 成功，字符数：2448
+2025-04-15 11:15:44,754 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/plugin/example_plugin/myplugin_cpp_pjrt_test.cc 成功，字符数：1229
+2025-04-15 11:15:44,754 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/plugin/example_plugin/myplugin_c_pjrt.h 成功，字符数：967
+2025-04-15 11:15:44,754 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/plugin/example_plugin/myplugin_cpp_pjrt.h 成功，字符数：1083
+2025-04-15 11:15:44,754 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/plugin/example_plugin/myplugin_cpp_pjrt.cc 成功，字符数：2826
+2025-04-15 11:15:44,755 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/plugin/example_plugin/BUILD 成功，字符数：1843
+2025-04-15 11:15:44,755 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/plugin/BUILD 成功，字符数：1455
+2025-04-15 11:15:44,755 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/plugin/xla_tpu/xla_tpu_pjrt_client.h 成功，字符数：1378
+2025-04-15 11:15:44,755 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/plugin/xla_tpu/xla_tpu_pjrt_client.cc 成功，字符数：1322
+2025-04-15 11:15:44,755 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/plugin/xla_tpu/xla_tpu_pjrt_client_test.cc 成功，字符数：1388
+2025-04-15 11:15:44,755 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/plugin/xla_tpu/BUILD 成功，字符数：1235
+2025-04-15 11:15:44,755 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/triton.h 成功，字符数：1306
+2025-04-15 11:15:44,756 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 11:15:48,838 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 11:17:46,366 [INFO] 批量文件摘要生成完成
+2025-04-15 11:17:46,367 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/plugin/xla_cpu/cpu_client_options.h，并将 need_traverse 设置为 False
+2025-04-15 11:17:46,367 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/plugin/xla_cpu/cpu_topology.h，并将 need_traverse 设置为 False
+2025-04-15 11:17:46,368 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/plugin/xla_cpu/BUILD，并将 need_traverse 设置为 False
+2025-04-15 11:17:46,368 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/plugin/xla_cpu/xla_cpu_pjrt_client.h，并将 need_traverse 设置为 False
+2025-04-15 11:17:46,368 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/plugin/xla_cpu/xla_cpu_pjrt_client_test.cc，并将 need_traverse 设置为 False
+2025-04-15 11:17:46,368 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/plugin/xla_cpu/cpu_topology_description.cc，并将 need_traverse 设置为 False
+2025-04-15 11:17:46,368 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/plugin/example_plugin/myplugin_c_pjrt_test.cc，并将 need_traverse 设置为 False
+2025-04-15 11:17:46,368 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/plugin/example_plugin/myplugin_c_pjrt.cc，并将 need_traverse 设置为 False
+2025-04-15 11:17:46,368 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/plugin/example_plugin/myplugin_cpp_pjrt_test.cc，并将 need_traverse 设置为 False
+2025-04-15 11:17:46,368 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/plugin/example_plugin/myplugin_cpp_pjrt.h，并将 need_traverse 设置为 False
+2025-04-15 11:17:46,368 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/plugin/example_plugin/myplugin_cpp_pjrt.cc，并将 need_traverse 设置为 False
+2025-04-15 11:17:46,368 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/plugin/example_plugin/BUILD，并将 need_traverse 设置为 False
+2025-04-15 11:17:46,369 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/plugin/BUILD，并将 need_traverse 设置为 False
+2025-04-15 11:17:46,369 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/plugin/xla_tpu/xla_tpu_pjrt_client.h，并将 need_traverse 设置为 False
+2025-04-15 11:17:46,369 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/plugin/xla_tpu/xla_tpu_pjrt_client.cc，并将 need_traverse 设置为 False
+2025-04-15 11:17:46,369 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/plugin/xla_tpu/xla_tpu_pjrt_client_test.cc，并将 need_traverse 设置为 False
+2025-04-15 11:17:46,369 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/triton.h，并将 need_traverse 设置为 False
+2025-04-15 11:17:46,369 [INFO] 进度：已完成 1.0%
+2025-04-15 11:17:46,686 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 11:17:46,688 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/pjrt_c_api_client.cc 成功，字符数：107506
+2025-04-15 11:17:46,689 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 11:17:53,630 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 11:18:30,902 [INFO] 批量文件摘要生成完成
+2025-04-15 11:18:30,903 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/pjrt_c_api_client.cc，并将 need_traverse 设置为 False
+2025-04-15 11:18:30,903 [INFO] 进度：已完成 1.0%
+2025-04-15 11:18:31,220 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 11:18:31,221 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/pjrt_device_description.h 成功，字符数：3783
+2025-04-15 11:18:31,221 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/pjrt_stream_executor_device_description.h 成功，字符数：2632
+2025-04-15 11:18:31,221 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/pjrt_client_utils.cc 成功，字符数：1868
+2025-04-15 11:18:31,222 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/lru_cache_test.cc 成功，字符数：3837
+2025-04-15 11:18:31,222 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/raw_buffer.h 成功，字符数：3103
+2025-04-15 11:18:31,222 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/pjrt_common.h 成功，字符数：1487
+2025-04-15 11:18:31,223 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 11:18:32,951 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 11:19:09,974 [INFO] 批量文件摘要生成完成
+2025-04-15 11:19:09,974 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/pjrt_device_description.h，并将 need_traverse 设置为 False
+2025-04-15 11:19:09,974 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/pjrt_stream_executor_device_description.h，并将 need_traverse 设置为 False
+2025-04-15 11:19:09,975 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/pjrt_client_utils.cc，并将 need_traverse 设置为 False
+2025-04-15 11:19:09,975 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/lru_cache_test.cc，并将 need_traverse 设置为 False
+2025-04-15 11:19:09,975 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/raw_buffer.h，并将 need_traverse 设置为 False
+2025-04-15 11:19:09,975 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/pjrt_common.h，并将 need_traverse 设置为 False
+2025-04-15 11:19:09,975 [INFO] 进度：已完成 1.0%
+2025-04-15 11:19:10,286 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 11:19:10,287 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/pjrt_stream_executor_client.cc 成功，字符数：153320
+2025-04-15 11:19:10,288 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 11:19:19,166 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 11:19:21,917 [INFO] 批量文件摘要生成完成
+2025-04-15 11:19:21,918 [ERROR] 解析批量摘要 JSON 失败：Expecting value: line 1 column 1 (char 0)
+2025-04-15 11:19:21,918 [ERROR] 大模型返回的文本为：
+2025-04-15 11:19:21,918 [ERROR] 
+2025-04-15 11:19:21,918 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/pjrt_stream_executor_client.cc，并将 need_traverse 设置为 False
+2025-04-15 11:19:21,918 [INFO] 进度：已完成 1.1%
+2025-04-15 11:19:22,245 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 11:19:22,246 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/triton_stub.cc 成功，字符数：1204
+2025-04-15 11:19:22,246 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/pjrt_layout.h 成功，字符数：2348
+2025-04-15 11:19:22,247 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/tf_pjrt_client.h 成功，字符数：14408
+2025-04-15 11:19:22,247 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/semaphore.cc 成功，字符数：2223
+2025-04-15 11:19:22,248 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/executable_metadata.proto 成功，字符数：649
+2025-04-15 11:19:22,248 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/stream_executor_executable.proto 成功，字符数：940
+2025-04-15 11:19:22,248 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/pjrt_future.cc 成功，字符数：2405
+2025-04-15 11:19:22,248 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/profiling/no_op_device_time_measurement.h 成功，字符数：2341
+2025-04-15 11:19:22,249 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/profiling/no_op_device_time_measurement.cc 成功，字符数：1235
+2025-04-15 11:19:22,249 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/profiling/device_time_measurement.h 成功，字符数：3509
+2025-04-15 11:19:22,249 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/profiling/test_util/mock_device_time_measurement.h 成功，字符数：2944
+2025-04-15 11:19:22,249 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/profiling/test_util/mock_device_time_measurement.cc 成功，字符数：2193
+2025-04-15 11:19:22,249 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/profiling/test_util/BUILD 成功，字符数：895
+2025-04-15 11:19:22,249 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/profiling/BUILD 成功，字符数：2040
+2025-04-15 11:19:22,249 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/pjrt_client_utils.h 成功，字符数：1159
+2025-04-15 11:19:22,250 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/layout_mode.cc 成功，字符数：2208
+2025-04-15 11:19:22,250 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 11:19:25,455 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 11:20:32,289 [INFO] 批量文件摘要生成完成
+2025-04-15 11:20:32,290 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/triton_stub.cc，并将 need_traverse 设置为 False
+2025-04-15 11:20:32,290 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/pjrt_layout.h，并将 need_traverse 设置为 False
+2025-04-15 11:20:32,290 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/tf_pjrt_client.h，并将 need_traverse 设置为 False
+2025-04-15 11:20:32,290 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/semaphore.cc，并将 need_traverse 设置为 False
+2025-04-15 11:20:32,290 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/executable_metadata.proto，并将 need_traverse 设置为 False
+2025-04-15 11:20:32,290 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/stream_executor_executable.proto，并将 need_traverse 设置为 False
+2025-04-15 11:20:32,290 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/pjrt_future.cc，并将 need_traverse 设置为 False
+2025-04-15 11:20:32,291 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/profiling/no_op_device_time_measurement.h，并将 need_traverse 设置为 False
+2025-04-15 11:20:32,291 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/profiling/device_time_measurement.h，并将 need_traverse 设置为 False
+2025-04-15 11:20:32,291 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/profiling/test_util/mock_device_time_measurement.h，并将 need_traverse 设置为 False
+2025-04-15 11:20:32,291 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/pjrt_client_utils.h，并将 need_traverse 设置为 False
+2025-04-15 11:20:32,291 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/layout_mode.cc，并将 need_traverse 设置为 False
+2025-04-15 11:20:32,291 [INFO] 进度：已完成 1.1%
+2025-04-15 11:20:32,609 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 11:20:32,610 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/pjrt_c_api_client_test.cc 成功，字符数：13055
+2025-04-15 11:20:32,611 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/pjrt_api_test.cc 成功，字符数：2748
+2025-04-15 11:20:32,611 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/pjrt_executable.cc 成功，字符数：29301
+2025-04-15 11:20:32,612 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/raw_buffer.cc 成功，字符数：1739
+2025-04-15 11:20:32,612 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 11:20:36,069 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 11:21:08,828 [INFO] 批量文件摘要生成完成
+2025-04-15 11:21:08,829 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/pjrt_c_api_client_test.cc，并将 need_traverse 设置为 False
+2025-04-15 11:21:08,829 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/pjrt_api_test.cc，并将 need_traverse 设置为 False
+2025-04-15 11:21:08,829 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/pjrt_executable.cc，并将 need_traverse 设置为 False
+2025-04-15 11:21:08,829 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/raw_buffer.cc，并将 need_traverse 设置为 False
+2025-04-15 11:21:08,829 [INFO] 进度：已完成 1.1%
+2025-04-15 11:21:09,143 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 11:21:09,144 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/tf_pjrt_client_test.cc 成功，字符数：4072
+2025-04-15 11:21:09,144 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/metrics.h 成功，字符数：1444
+2025-04-15 11:21:09,144 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/metrics.cc 成功，字符数：2427
+2025-04-15 11:21:09,145 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/raw_buffer_test.cc 成功，字符数：1866
+2025-04-15 11:21:09,145 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/layout_mode.h 成功，字符数：2461
+2025-04-15 11:21:09,145 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/transpose_kernels.h 成功，字符数：25144
+2025-04-15 11:21:09,146 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/local_device_state.cc 成功，字符数：11749
+2025-04-15 11:21:09,146 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 11:21:12,942 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 11:22:29,477 [INFO] 批量文件摘要生成完成
+2025-04-15 11:22:29,477 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/tf_pjrt_client_test.cc，并将 need_traverse 设置为 False
+2025-04-15 11:22:29,477 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/metrics.h，并将 need_traverse 设置为 False
+2025-04-15 11:22:29,478 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/metrics.cc，并将 need_traverse 设置为 False
+2025-04-15 11:22:29,478 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/raw_buffer_test.cc，并将 need_traverse 设置为 False
+2025-04-15 11:22:29,478 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/layout_mode.h，并将 need_traverse 设置为 False
+2025-04-15 11:22:29,478 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/transpose_kernels.h，并将 need_traverse 设置为 False
+2025-04-15 11:22:29,478 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/local_device_state.cc，并将 need_traverse 设置为 False
+2025-04-15 11:22:29,478 [INFO] 进度：已完成 1.1%
+2025-04-15 11:22:29,796 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 11:22:29,797 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/BUILD 成功，字符数：38016
+2025-04-15 11:22:29,798 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/compile_options.proto 成功，字符数：7932
+2025-04-15 11:22:29,798 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/host_memory_spaces.h 成功，字符数：3118
+2025-04-15 11:22:29,799 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 11:22:34,558 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 11:23:59,067 [INFO] 批量文件摘要生成完成
+2025-04-15 11:23:59,067 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/BUILD，并将 need_traverse 设置为 False
+2025-04-15 11:23:59,068 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/compile_options.proto，并将 need_traverse 设置为 False
+2025-04-15 11:23:59,068 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/host_memory_spaces.h，并将 need_traverse 设置为 False
+2025-04-15 11:23:59,068 [INFO] 进度：已完成 1.1%
+2025-04-15 11:23:59,382 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 11:23:59,383 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/abstract_tracked_device_buffer.h 成功，字符数：9818
+2025-04-15 11:23:59,383 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/async_work_runner.h 成功，字符数：1429
+2025-04-15 11:23:59,384 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/pjrt_stream_executor_client.h 成功，字符数：37707
+2025-04-15 11:23:59,384 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 11:24:02,977 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 11:24:35,786 [INFO] 批量文件摘要生成完成
+2025-04-15 11:24:35,787 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/abstract_tracked_device_buffer.h，并将 need_traverse 设置为 False
+2025-04-15 11:24:35,787 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/async_work_runner.h，并将 need_traverse 设置为 False
+2025-04-15 11:24:35,787 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/pjrt_stream_executor_client.h，并将 need_traverse 设置为 False
+2025-04-15 11:24:35,787 [INFO] 进度：已完成 1.1%
+2025-04-15 11:24:36,103 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 11:24:36,105 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/c/pjrt_c_api_helpers.h 成功，字符数：16329
+2025-04-15 11:24:36,105 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/c/pjrt_c_api_profiler_extension.h 成功，字符数：1415
+2025-04-15 11:24:36,106 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/c/pjrt_c_api_cpu_test.cc 成功，字符数：980
+2025-04-15 11:24:36,106 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/c/pjrt_c_api_raw_buffer_external.h 成功，字符数：3086
+2025-04-15 11:24:36,106 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/c/pjrt_c_api_ffi_internal.cc 成功，字符数：3016
+2025-04-15 11:24:36,106 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/c/pjrt_c_api_cpu_internal.h 成功，字符数：948
+2025-04-15 11:24:36,106 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/c/pjrt_c_api_cpu_internal.cc 成功，字符数：3359
+2025-04-15 11:24:36,106 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/c/pjrt_c_api_test_base.h 成功，字符数：3789
+2025-04-15 11:24:36,106 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/c/pjrt_c_api_raw_buffer_internal.h 成功，字符数：1020
+2025-04-15 11:24:36,107 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 11:24:38,636 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 11:25:57,053 [INFO] 批量文件摘要生成完成
+2025-04-15 11:25:57,053 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/c/pjrt_c_api_helpers.h，并将 need_traverse 设置为 False
+2025-04-15 11:25:57,053 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/c/pjrt_c_api_profiler_extension.h，并将 need_traverse 设置为 False
+2025-04-15 11:25:57,053 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/c/pjrt_c_api_cpu_test.cc，并将 need_traverse 设置为 False
+2025-04-15 11:25:57,053 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/c/pjrt_c_api_raw_buffer_external.h，并将 need_traverse 设置为 False
+2025-04-15 11:25:57,053 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/c/pjrt_c_api_ffi_internal.cc，并将 need_traverse 设置为 False
+2025-04-15 11:25:57,053 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/c/pjrt_c_api_cpu_internal.h，并将 need_traverse 设置为 False
+2025-04-15 11:25:57,053 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/c/pjrt_c_api_cpu_internal.cc，并将 need_traverse 设置为 False
+2025-04-15 11:25:57,053 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/c/pjrt_c_api_test_base.h，并将 need_traverse 设置为 False
+2025-04-15 11:25:57,053 [INFO] 回填摘要到结构节点：third_party/xla/xla/pjrt/c/pjrt_c_api_raw_buffer_internal.h，并将 need_traverse 设置为 False
+2025-04-15 11:25:57,054 [INFO] 进度：已完成 1.2%
+2025-04-15 11:25:57,358 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 11:25:57,359 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/c/pjrt_c_api_gpu_internal.cc 成功，字符数：19490
+2025-04-15 11:25:57,359 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/c/pjrt_c_api_custom_partitioner_extension.h 成功，字符数：5307
+2025-04-15 11:25:57,359 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/c/pjrt_c_api_test_base.cc 成功，字符数：12191
+2025-04-15 11:25:57,360 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/c/pjrt_c_api_gpu.cc 成功，字符数：1150
+2025-04-15 11:25:57,360 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/c/pjrt_c_api_tpu.h 成功，字符数：1328
+2025-04-15 11:25:57,361 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/c/pjrt_c_api_cpu.h 成功，字符数：957
+2025-04-15 11:25:57,361 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/c/pjrt_c_api_gpu_extension.h 成功，字符数：1661
+2025-04-15 11:25:57,361 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/c/pjrt_c_api_ffi_extension.h 成功，字符数：2725
+2025-04-15 11:25:57,362 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 11:26:00,495 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
