@@ -3616,3 +3616,1010 @@
 2025-04-15 10:36:53,930 [DEBUG] 读取文件 ../../dify/web/app/components/custom/custom-web-app-brand/style.module.css 成功，字符数：117
 2025-04-15 10:36:53,931 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
 2025-04-15 10:36:58,168 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 20:49:36,336 [DEBUG] 日志系统初始化完成，日志文件：/Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/dify/debug.log
+2025-04-15 20:49:36,356 [INFO] 成功加载扫描结果 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/dify/project_structure.json
+2025-04-15 20:49:36,357 [INFO] 提取 readme.md 成功：README.md (字符数：14041)
+2025-04-15 20:49:36,357 [INFO] 加载总结工具配置文件：codesense_summarizer_config.json
+2025-04-15 20:49:36,358 [INFO] 待处理文件数量（不包含 .md 文件且 need_traverse 为 True）：4099
+2025-04-15 20:49:38,280 [INFO] 预估大模型调用总次数：371，总步骤数：373
+2025-04-15 20:49:38,280 [INFO] 进度：初步总结步骤完成，占总进度 0.3%
+2025-04-15 20:49:38,280 [DEBUG] 读取文件 ../../dify/web/app/components/app/configuration/base/icons/remove-icon/style.module.css 成功，字符数：0
+2025-04-15 20:49:38,280 [DEBUG] 读取文件 ../../dify/web/app/components/app/overview/assets/scripts-option.svg 成功，字符数：47804
+2025-04-15 20:49:38,280 [DEBUG] 读取文件 ../../dify/web/app/components/app/overview/assets/chromeplugin-install.svg 成功，字符数：1809
+2025-04-15 20:49:38,286 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 20:49:47,793 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 20:49:52,133 [INFO] 批量文件摘要生成完成
+2025-04-15 20:49:52,134 [ERROR] 解析批量摘要 JSON 失败：Expecting value: line 1 column 1 (char 0)
+2025-04-15 20:49:52,134 [ERROR] 大模型返回的文本为：
+2025-04-15 20:49:52,134 [ERROR] 
+2025-04-15 20:49:52,134 [INFO] 进度：已完成 0.5%
+2025-04-15 20:49:52,234 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/dify/project_structure.json
+2025-04-15 20:49:52,234 [DEBUG] 读取文件 ../../dify/web/app/components/app/overview/assets/refresh.svg 成功，字符数：544
+2025-04-15 20:49:52,235 [DEBUG] 读取文件 ../../dify/web/app/components/app/overview/assets/iframe-option.svg 成功，字符数：44002
+2025-04-15 20:49:52,235 [DEBUG] 读取文件 ../../dify/web/app/components/app/overview/assets/code-browser.svg 成功，字符数：850
+2025-04-15 20:49:52,235 [DEBUG] 读取文件 ../../dify/web/app/components/app/overview/assets/refresh-hover.svg 成功，字符数：544
+2025-04-15 20:49:52,235 [DEBUG] 读取文件 ../../dify/web/app/components/app/overview/embedded/style.module.css 成功，字符数：484
+2025-04-15 20:49:52,235 [DEBUG] 读取文件 ../../dify/web/app/components/plugins/card/card-more-info.tsx 成功，字符数：1050
+2025-04-15 20:49:52,235 [DEBUG] 读取文件 ../../dify/web/app/components/plugins/card/base/title.tsx 成功，字符数：189
+2025-04-15 20:49:52,235 [DEBUG] 读取文件 ../../dify/web/app/components/plugins/card/base/org-info.tsx 成功，字符数：751
+2025-04-15 20:49:52,235 [DEBUG] 读取文件 ../../dify/web/app/components/plugins/card/base/description.tsx 成功，字符数：683
+2025-04-15 20:49:52,236 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 20:49:59,864 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 20:50:08,027 [INFO] 批量文件摘要生成完成
+2025-04-15 20:50:08,027 [ERROR] 解析批量摘要 JSON 失败：Expecting value: line 1 column 1 (char 0)
+2025-04-15 20:50:08,027 [ERROR] 大模型返回的文本为：
+2025-04-15 20:50:08,027 [ERROR] 
+2025-04-15 20:50:08,028 [INFO] 进度：已完成 0.8%
+2025-04-15 20:50:08,131 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/dify/project_structure.json
+2025-04-15 20:50:08,134 [DEBUG] 读取文件 ../../dify/web/app/components/plugins/plugin-page/filter-management/tag-filter.tsx 成功，字符数：3905
+2025-04-15 20:50:08,134 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/documents/assets/star.svg 成功，字符数：2489
+2025-04-15 20:50:08,134 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/documents/assets/messageTextCircle.svg 成功，字符数：849
+2025-04-15 20:50:08,135 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/documents/assets/layoutRightClose.svg 成功，字符数：960
+2025-04-15 20:50:08,135 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/documents/assets/normal.svg 成功，字符数：2880
+2025-04-15 20:50:08,135 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/documents/assets/globe.svg 成功，字符数：1055
+2025-04-15 20:50:08,135 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/documents/assets/typeSquare.svg 成功，字符数：717
+2025-04-15 20:50:08,135 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/step-one/index.module.css 成功，字符数：1757
+2025-04-15 20:50:08,136 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/website/index.module.css 成功，字符数：351
+2025-04-15 20:50:08,136 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/website/base/mock-crawl-result.ts 成功，字符数：611
+2025-04-15 20:50:08,136 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/website/base/error-message.tsx 成功，字符数：876
+2025-04-15 20:50:08,136 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/website/base/checkbox-with-label.tsx 成功，字符数：1021
+2025-04-15 20:50:08,136 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/website/base/input.tsx 成功，字符数：1647
+2025-04-15 20:50:08,136 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/notion-page-preview/index.module.css 成功，字符数：714
+2025-04-15 20:50:08,136 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/stop-embedding-modal/index.module.css 成功，字符数：802
+2025-04-15 20:50:08,136 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/file-preview/index.module.css 成功，字符数：860
+2025-04-15 20:50:08,137 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/embedding-process/index.module.css 成功，字符数：1546
+2025-04-15 20:50:08,137 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/empty-dataset-creation-modal/index.module.css 成功，字符数：634
+2025-04-15 20:50:08,137 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/docx.svg 成功，字符数：3589
+2025-04-15 20:50:08,137 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/option-card-effect-purple.svg 成功，字符数：610
+2025-04-15 20:50:08,137 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/unknown.svg 成功，字符数：4618
+2025-04-15 20:50:08,137 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/selection-mod.svg 成功，字符数：835
+2025-04-15 20:50:08,137 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/arrow-narrow-left.svg 成功，字符数：253
+2025-04-15 20:50:08,137 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/option-card-effect-orange.svg 成功，字符数：610
+2025-04-15 20:50:08,137 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/notion.svg 成功，字符数：2277
+2025-04-15 20:50:08,137 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/md.svg 成功，字符数：1929
+2025-04-15 20:50:08,138 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/check.svg 成功，字符数：216
+2025-04-15 20:50:08,138 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/pattern-recognition-mod.svg 成功，字符数：3052
+2025-04-15 20:50:08,138 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/close.svg 成功，字符数：219
+2025-04-15 20:50:08,138 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/folder-plus.svg 成功，字符数：985
+2025-04-15 20:50:08,138 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/gold.svg 成功，字符数：4052
+2025-04-15 20:50:08,138 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/csv.svg 成功，字符数：2951
+2025-04-15 20:50:08,139 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 20:50:15,763 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 20:50:22,929 [INFO] 批量文件摘要生成完成
+2025-04-15 20:50:22,929 [ERROR] 解析批量摘要 JSON 失败：Expecting value: line 1 column 1 (char 0)
+2025-04-15 20:50:22,929 [ERROR] 大模型返回的文本为：
+2025-04-15 20:50:22,929 [ERROR] 
+2025-04-15 20:50:22,930 [INFO] 进度：已完成 1.1%
+2025-04-15 20:50:23,033 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/dify/project_structure.json
+2025-04-15 20:50:23,035 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/xlsx.svg 成功，字符数：1592
+2025-04-15 20:50:23,035 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/Loading.svg 成功，字符数：892
+2025-04-15 20:50:23,035 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/piggy-bank-mod.svg 成功，字符数：1157
+2025-04-15 20:50:23,036 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/setting-gear-mod.svg 成功，字符数：3227
+2025-04-15 20:50:23,036 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/trash.svg 成功，字符数：546
+2025-04-15 20:50:23,036 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/star.svg 成功，字符数：2489
+2025-04-15 20:50:23,036 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/research-mod.svg 成功，字符数：2868
+2025-04-15 20:50:23,036 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/star-07.svg 成功，字符数：2862
+2025-04-15 20:50:23,036 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/pdf.svg 成功，字符数：2386
+2025-04-15 20:50:23,036 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/file-list-3-fill.svg 成功，字符数：699
+2025-04-15 20:50:23,036 [WARNING] 读取文件 ../../dify/web/app/components/datasets/create/assets/jina.png 失败：'utf-8' codec can't decode byte 0x89 in position 0: invalid start byte
+2025-04-15 20:50:23,036 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/zap-fast.svg 成功，字符数：1984
+2025-04-15 20:50:23,036 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/piggy-bank-01.svg 成功，字符数：3065
+2025-04-15 20:50:23,036 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/web.svg 成功，字符数：1611
+2025-04-15 20:50:23,037 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/normal.svg 成功，字符数：2880
+2025-04-15 20:50:23,037 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/sliders-02.svg 成功，字符数：2004
+2025-04-15 20:50:23,037 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/family-mod.svg 成功，字符数：2116
+2025-04-15 20:50:23,037 [DEBUG] 读取文件 ../../dify/web/app/components/explore/app-list/style.module.css 成功，字符数：658
+2025-04-15 20:50:23,037 [DEBUG] 读取文件 ../../dify/web/app/components/workflow/panel/chat-variable-panel/components/variable-modal-trigger.tsx 成功，字符数：1798
+2025-04-15 20:50:23,037 [DEBUG] 读取文件 ../../dify/web/app/components/workflow/panel/chat-variable-panel/components/variable-modal.tsx 成功，字符数：14701
+2025-04-15 20:50:23,038 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 20:50:29,834 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 20:50:36,028 [INFO] 批量文件摘要生成完成
+2025-04-15 20:50:36,029 [ERROR] 解析批量摘要 JSON 失败：Expecting value: line 1 column 1 (char 0)
+2025-04-15 20:50:36,029 [ERROR] 大模型返回的文本为：
+2025-04-15 20:50:36,029 [ERROR] 
+2025-04-15 20:50:36,029 [INFO] 进度：已完成 1.3%
+2025-04-15 20:50:36,131 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/dify/project_structure.json
+2025-04-15 20:50:36,135 [DEBUG] 读取文件 ../../dify/web/app/components/workflow/operator/index.tsx 成功，字符数：987
+2025-04-15 20:50:36,135 [DEBUG] 读取文件 ../../dify/web/app/components/workflow/operator/tip-popup.tsx 成功，字符数：831
+2025-04-15 20:50:36,135 [DEBUG] 读取文件 ../../dify/web/app/components/workflow/operator/control.tsx 成功，字符数：3720
+2025-04-15 20:50:36,135 [DEBUG] 读取文件 ../../dify/web/app/components/workflow/operator/add-block.tsx 成功，字符数：3307
+2025-04-15 20:50:36,136 [DEBUG] 读取文件 ../../dify/web/app/components/workflow/operator/export-image.tsx 成功，字符数：4102
+2025-04-15 20:50:36,136 [DEBUG] 读取文件 ../../dify/web/app/components/workflow/operator/zoom-in-out.tsx 成功，字符数：6497
+2025-04-15 20:50:36,136 [DEBUG] 读取文件 ../../dify/web/app/components/workflow/operator/hooks.ts 成功，字符数：1060
+2025-04-15 20:50:36,136 [DEBUG] 读取文件 ../../dify/web/app/components/workflow/store/workflow/help-line-slice.ts 成功，字符数：770
+2025-04-15 20:50:36,136 [DEBUG] 读取文件 ../../dify/web/app/components/workflow/store/workflow/workflow-slice.ts 成功，字符数：2979
+2025-04-15 20:50:36,137 [DEBUG] 读取文件 ../../dify/web/app/components/workflow/store/workflow/form-slice.ts 成功，字符数：484
+2025-04-15 20:50:36,137 [DEBUG] 读取文件 ../../dify/web/app/components/workflow/store/workflow/tool-slice.ts 成功，字符数：927
+2025-04-15 20:50:36,137 [DEBUG] 读取文件 ../../dify/web/app/components/workflow/store/workflow/history-slice.ts 成功，字符数：912
+2025-04-15 20:50:36,137 [DEBUG] 读取文件 ../../dify/web/app/components/workflow/store/workflow/env-variable-slice.ts 成功，字符数：835
+2025-04-15 20:50:36,137 [DEBUG] 读取文件 ../../dify/web/app/components/workflow/store/workflow/panel-slice.ts 成功，字符数：1449
+2025-04-15 20:50:36,137 [DEBUG] 读取文件 ../../dify/web/app/components/workflow/store/workflow/index.ts 成功，字符数：2530
+2025-04-15 20:50:36,137 [DEBUG] 读取文件 ../../dify/web/app/components/workflow/store/workflow/version-slice.ts 成功，字符数：980
+2025-04-15 20:50:36,137 [DEBUG] 读取文件 ../../dify/web/app/components/workflow/store/workflow/chat-variable-slice.ts 成功，字符数：1306
+2025-04-15 20:50:36,137 [DEBUG] 读取文件 ../../dify/web/app/components/workflow/store/workflow/workflow-draft-slice.ts 成功，字符数：1280
+2025-04-15 20:50:36,137 [DEBUG] 读取文件 ../../dify/web/app/components/workflow/store/workflow/node-slice.ts 成功，字符数：3391
+2025-04-15 20:50:36,137 [DEBUG] 读取文件 ../../dify/web/app/components/workflow/store/index.ts 成功，字符数：27
+2025-04-15 20:50:36,137 [DEBUG] 读取文件 ../../dify/web/app/components/with-i18n.tsx 成功，字符数：404
+2025-04-15 20:50:36,137 [DEBUG] 读取文件 ../../dify/web/app/components/sentry-initor.tsx 成功，字符数：706
+2025-04-15 20:50:36,138 [DEBUG] 读取文件 ../../dify/web/app/components/swr-initor.tsx 成功，字符数：2751
+2025-04-15 20:50:36,138 [DEBUG] 读取文件 ../../dify/web/app/components/custom/style.module.css 成功，字符数：186
+2025-04-15 20:50:36,138 [DEBUG] 读取文件 ../../dify/web/app/components/custom/custom-page/index.tsx 成功，字符数：1938
+2025-04-15 20:50:36,139 [DEBUG] 读取文件 ../../dify/web/app/components/custom/custom-web-app-brand/style.module.css 成功，字符数：117
+2025-04-15 20:50:36,139 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 20:50:39,225 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 20:51:52,123 [INFO] 批量文件摘要生成完成
+2025-04-15 20:51:52,124 [INFO] 回填摘要到结构节点：web/app/components/workflow/operator/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:51:52,125 [INFO] 回填摘要到结构节点：web/app/components/workflow/operator/tip-popup.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:51:52,126 [INFO] 回填摘要到结构节点：web/app/components/workflow/operator/control.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:51:52,126 [INFO] 回填摘要到结构节点：web/app/components/workflow/operator/add-block.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:51:52,126 [INFO] 回填摘要到结构节点：web/app/components/workflow/operator/export-image.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:51:52,127 [INFO] 回填摘要到结构节点：web/app/components/workflow/operator/zoom-in-out.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:51:52,127 [INFO] 回填摘要到结构节点：web/app/components/workflow/operator/hooks.ts，并将 need_traverse 设置为 False
+2025-04-15 20:51:52,127 [INFO] 回填摘要到结构节点：web/app/components/workflow/store/workflow/help-line-slice.ts，并将 need_traverse 设置为 False
+2025-04-15 20:51:52,128 [INFO] 回填摘要到结构节点：web/app/components/workflow/store/workflow/workflow-slice.ts，并将 need_traverse 设置为 False
+2025-04-15 20:51:52,128 [INFO] 回填摘要到结构节点：web/app/components/workflow/store/workflow/form-slice.ts，并将 need_traverse 设置为 False
+2025-04-15 20:51:52,129 [INFO] 回填摘要到结构节点：web/app/components/workflow/store/workflow/tool-slice.ts，并将 need_traverse 设置为 False
+2025-04-15 20:51:52,129 [INFO] 回填摘要到结构节点：web/app/components/workflow/store/workflow/history-slice.ts，并将 need_traverse 设置为 False
+2025-04-15 20:51:52,129 [INFO] 回填摘要到结构节点：web/app/components/workflow/store/workflow/env-variable-slice.ts，并将 need_traverse 设置为 False
+2025-04-15 20:51:52,130 [INFO] 回填摘要到结构节点：web/app/components/workflow/store/workflow/panel-slice.ts，并将 need_traverse 设置为 False
+2025-04-15 20:51:52,130 [INFO] 回填摘要到结构节点：web/app/components/workflow/store/workflow/index.ts，并将 need_traverse 设置为 False
+2025-04-15 20:51:52,130 [INFO] 回填摘要到结构节点：web/app/components/workflow/store/workflow/version-slice.ts，并将 need_traverse 设置为 False
+2025-04-15 20:51:52,130 [INFO] 回填摘要到结构节点：web/app/components/workflow/store/workflow/chat-variable-slice.ts，并将 need_traverse 设置为 False
+2025-04-15 20:51:52,131 [INFO] 回填摘要到结构节点：web/app/components/workflow/store/workflow/workflow-draft-slice.ts，并将 need_traverse 设置为 False
+2025-04-15 20:51:52,131 [INFO] 回填摘要到结构节点：web/app/components/workflow/store/workflow/node-slice.ts，并将 need_traverse 设置为 False
+2025-04-15 20:51:52,131 [INFO] 回填摘要到结构节点：web/app/components/with-i18n.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:51:52,132 [INFO] 回填摘要到结构节点：web/app/components/sentry-initor.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:51:52,132 [INFO] 回填摘要到结构节点：web/app/components/swr-initor.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:51:52,132 [INFO] 回填摘要到结构节点：web/app/components/custom/style.module.css，并将 need_traverse 设置为 False
+2025-04-15 20:51:52,133 [INFO] 回填摘要到结构节点：web/app/components/custom/custom-page/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:51:52,133 [INFO] 回填摘要到结构节点：web/app/components/custom/custom-web-app-brand/style.module.css，并将 need_traverse 设置为 False
+2025-04-15 20:51:52,133 [INFO] 进度：已完成 1.6%
+2025-04-15 20:51:52,226 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/dify/project_structure.json
+2025-04-15 20:51:52,228 [DEBUG] 读取文件 ../../dify/web/app/components/custom/custom-web-app-brand/index.tsx 成功，字符数：13328
+2025-04-15 20:51:52,228 [DEBUG] 读取文件 ../../dify/web/app/components/header/index.tsx 成功，字符数：4677
+2025-04-15 20:51:52,228 [DEBUG] 读取文件 ../../dify/web/app/components/header/env-nav/index.tsx 成功，字符数：1389
+2025-04-15 20:51:52,229 [DEBUG] 读取文件 ../../dify/web/app/components/header/tools-nav/index.tsx 成功，字符数：1142
+2025-04-15 20:51:52,230 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/index.tsx 成功，字符数：8443
+2025-04-15 20:51:52,230 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/model-provider-page/declarations.ts 成功，字符数：6391
+2025-04-15 20:51:52,230 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/model-provider-page/index.tsx 成功，字符数：7426
+2025-04-15 20:51:52,231 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/model-provider-page/install-from-marketplace.tsx 成功，字符数：2783
+2025-04-15 20:51:52,231 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/model-provider-page/model-selector/index.tsx 成功，字符数：3144
+2025-04-15 20:51:52,232 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 20:51:55,649 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 20:52:37,879 [INFO] 批量文件摘要生成完成
+2025-04-15 20:52:37,879 [INFO] 回填摘要到结构节点：web/app/components/custom/custom-web-app-brand/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:52:37,880 [INFO] 回填摘要到结构节点：web/app/components/header/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:52:37,880 [INFO] 回填摘要到结构节点：web/app/components/header/env-nav/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:52:37,880 [INFO] 回填摘要到结构节点：web/app/components/header/tools-nav/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:52:37,881 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:52:37,881 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/model-provider-page/declarations.ts，并将 need_traverse 设置为 False
+2025-04-15 20:52:37,882 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/model-provider-page/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:52:37,882 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/model-provider-page/install-from-marketplace.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:52:37,882 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/model-provider-page/model-selector/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:52:37,882 [INFO] 进度：已完成 1.9%
+2025-04-15 20:52:37,978 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/dify/project_structure.json
+2025-04-15 20:52:37,980 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/model-provider-page/model-selector/model-trigger.tsx 成功，字符数：2179
+2025-04-15 20:52:37,980 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/model-provider-page/model-selector/popup-item.tsx 成功，字符数：7605
+2025-04-15 20:52:37,980 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/model-provider-page/model-selector/empty-trigger.tsx 成功，字符数：1334
+2025-04-15 20:52:37,980 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/model-provider-page/model-selector/feature-icon.tsx 成功，字符数：3782
+2025-04-15 20:52:37,981 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/model-provider-page/model-selector/deprecated-model-trigger.tsx 成功，字符数：1796
+2025-04-15 20:52:37,981 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/model-provider-page/model-selector/popup.tsx 成功，字符数：4348
+2025-04-15 20:52:37,981 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/model-provider-page/model-icon/index.tsx 成功，字符数：1697
+2025-04-15 20:52:37,981 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/model-provider-page/model-name/index.tsx 成功，字符数：2308
+2025-04-15 20:52:37,982 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/model-provider-page/utils.ts 成功，字符数：5569
+2025-04-15 20:52:37,982 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/model-provider-page/system-model-selector/index.tsx 成功，字符数：10813
+2025-04-15 20:52:37,982 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/model-provider-page/model-badge/index.tsx 成功，字符数：508
+2025-04-15 20:52:37,983 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/model-provider-page/provider-icon/index.tsx 成功，字符数：1545
+2025-04-15 20:52:37,983 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 20:52:40,755 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 20:53:32,205 [INFO] 批量文件摘要生成完成
+2025-04-15 20:53:32,206 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/model-provider-page/model-selector/model-trigger.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:53:32,207 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/model-provider-page/model-selector/popup-item.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:53:32,207 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/model-provider-page/model-selector/empty-trigger.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:53:32,208 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/model-provider-page/model-selector/feature-icon.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:53:32,208 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/model-provider-page/model-selector/deprecated-model-trigger.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:53:32,209 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/model-provider-page/model-selector/popup.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:53:32,209 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/model-provider-page/model-icon/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:53:32,209 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/model-provider-page/model-name/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:53:32,210 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/model-provider-page/utils.ts，并将 need_traverse 设置为 False
+2025-04-15 20:53:32,210 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/model-provider-page/system-model-selector/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:53:32,210 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/model-provider-page/model-badge/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:53:32,211 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/model-provider-page/provider-icon/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:53:32,211 [INFO] 进度：已完成 2.1%
+2025-04-15 20:53:32,307 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/dify/project_structure.json
+2025-04-15 20:53:32,308 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/model-provider-page/model-modal/index.tsx 成功，字符数：14585
+2025-04-15 20:53:32,308 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/model-provider-page/model-modal/model-load-balancing-entry-modal.tsx 成功，字符数：12583
+2025-04-15 20:53:32,309 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/model-provider-page/model-modal/Input.tsx 成功，字符数：1940
+2025-04-15 20:53:32,309 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/model-provider-page/model-modal/Form.tsx 成功，字符数：16308
+2025-04-15 20:53:32,309 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/model-provider-page/hooks.spec.ts 成功，字符数：2167
+2025-04-15 20:53:32,310 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 20:53:35,540 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 20:54:14,744 [INFO] 批量文件摘要生成完成
+2025-04-15 20:54:14,745 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/model-provider-page/model-modal/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:54:14,745 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/model-provider-page/model-modal/model-load-balancing-entry-modal.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:54:14,746 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/model-provider-page/model-modal/Input.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:54:14,746 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/model-provider-page/model-modal/Form.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:54:14,747 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/model-provider-page/hooks.spec.ts，并将 need_traverse 设置为 False
+2025-04-15 20:54:14,747 [INFO] 进度：已完成 2.4%
+2025-04-15 20:54:14,844 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/dify/project_structure.json
+2025-04-15 20:54:14,846 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/model-provider-page/provider-added-card/index.tsx 成功，字符数：6843
+2025-04-15 20:54:14,846 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/model-provider-page/provider-added-card/model-list.tsx 成功，字符数：3501
+2025-04-15 20:54:14,846 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/model-provider-page/provider-added-card/quota-panel.tsx 成功，字符数：2424
+2025-04-15 20:54:14,847 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/model-provider-page/provider-added-card/add-model-button.tsx 成功，字符数：795
+2025-04-15 20:54:14,847 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/model-provider-page/provider-added-card/credential-panel.tsx 成功，字符数：4000
+2025-04-15 20:54:14,848 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/model-provider-page/provider-added-card/model-load-balancing-configs.tsx 成功，字符数：11275
+2025-04-15 20:54:14,848 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/model-provider-page/provider-added-card/priority-use-tip.tsx 成功，字符数：691
+2025-04-15 20:54:14,849 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/model-provider-page/provider-added-card/model-list-item.tsx 成功，字符数：5396
+2025-04-15 20:54:14,849 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/model-provider-page/provider-added-card/cooldown-timer.tsx 成功，字符数：1911
+2025-04-15 20:54:14,849 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/model-provider-page/provider-added-card/model-load-balancing-modal.tsx 成功，字符数：6829
+2025-04-15 20:54:14,849 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/model-provider-page/provider-added-card/priority-selector.tsx 成功，字符数：2458
+2025-04-15 20:54:14,849 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 20:54:17,689 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 20:55:02,925 [INFO] 批量文件摘要生成完成
+2025-04-15 20:55:02,926 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/model-provider-page/provider-added-card/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:55:02,927 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/model-provider-page/provider-added-card/model-list.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:55:02,928 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/model-provider-page/provider-added-card/quota-panel.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:55:02,928 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/model-provider-page/provider-added-card/add-model-button.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:55:02,929 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/model-provider-page/provider-added-card/credential-panel.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:55:02,929 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/model-provider-page/provider-added-card/model-load-balancing-configs.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:55:02,929 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/model-provider-page/provider-added-card/priority-use-tip.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:55:02,930 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/model-provider-page/provider-added-card/model-list-item.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:55:02,932 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/model-provider-page/provider-added-card/cooldown-timer.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:55:02,933 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/model-provider-page/provider-added-card/model-load-balancing-modal.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:55:02,933 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/model-provider-page/provider-added-card/priority-selector.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:55:02,933 [INFO] 进度：已完成 2.7%
+2025-04-15 20:55:03,035 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/dify/project_structure.json
+2025-04-15 20:55:03,037 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/model-provider-page/hooks.ts 成功，字符数：10753
+2025-04-15 20:55:03,037 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/model-provider-page/model-parameter-modal/index.tsx 成功，字符数：9257
+2025-04-15 20:55:03,038 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/model-provider-page/model-parameter-modal/parameter-item.tsx 成功，字符数：9629
+2025-04-15 20:55:03,038 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/model-provider-page/model-parameter-modal/presets-parameter.tsx 成功，字符数：1951
+2025-04-15 20:55:03,038 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/model-provider-page/model-parameter-modal/trigger.tsx 成功，字符数：3425
+2025-04-15 20:55:03,039 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/model-provider-page/model-parameter-modal/configuration-button.tsx 成功，字符数：1099
+2025-04-15 20:55:03,039 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/model-provider-page/model-parameter-modal/status-indicators.tsx 成功，字符数：3666
+2025-04-15 20:55:03,039 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/model-provider-page/model-parameter-modal/model-display.tsx 成功，字符数：630
+2025-04-15 20:55:03,039 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/model-provider-page/model-parameter-modal/agent-model-trigger.tsx 成功，字符数：5353
+2025-04-15 20:55:03,040 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/api-based-extension-page/index.tsx 成功，字符数：1380
+2025-04-15 20:55:03,040 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 20:55:06,941 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 20:56:06,000 [INFO] 批量文件摘要生成完成
+2025-04-15 20:56:06,001 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/model-provider-page/hooks.ts，并将 need_traverse 设置为 False
+2025-04-15 20:56:06,001 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/model-provider-page/model-parameter-modal/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:56:06,002 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/model-provider-page/model-parameter-modal/parameter-item.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:56:06,002 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/model-provider-page/model-parameter-modal/presets-parameter.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:56:06,003 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/model-provider-page/model-parameter-modal/trigger.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:56:06,003 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/model-provider-page/model-parameter-modal/configuration-button.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:56:06,004 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/model-provider-page/model-parameter-modal/status-indicators.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:56:06,004 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/model-provider-page/model-parameter-modal/model-display.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:56:06,004 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/model-provider-page/model-parameter-modal/agent-model-trigger.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:56:06,004 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/api-based-extension-page/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:56:06,004 [INFO] 进度：已完成 2.9%
+2025-04-15 20:56:06,101 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/dify/project_structure.json
+2025-04-15 20:56:06,104 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/api-based-extension-page/selector.tsx 成功，字符数：4693
+2025-04-15 20:56:06,104 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/api-based-extension-page/empty.tsx 成功，字符数：974
+2025-04-15 20:56:06,104 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/api-based-extension-page/item.tsx 成功，字符数：2382
+2025-04-15 20:56:06,105 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/api-based-extension-page/modal.tsx 成功，字符数：5092
+2025-04-15 20:56:06,106 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/menu-dialog.tsx 成功，字符数：1845
+2025-04-15 20:56:06,106 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/collapse/index.tsx 成功，字符数：1537
+2025-04-15 20:56:06,106 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/language-page/index.tsx 成功，字符数：2627
+2025-04-15 20:56:06,106 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/language-page/index.module.css 成功，字符数：594
+2025-04-15 20:56:06,106 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/data-source-page/index.tsx 成功，字符数：763
+2025-04-15 20:56:06,106 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/data-source-page/panel/style.module.css 成功，字符数：394
+2025-04-15 20:56:06,107 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/data-source-page/panel/index.tsx 成功，字符数：4983
+2025-04-15 20:56:06,107 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/data-source-page/panel/config-item.tsx 成功，字符数：2552
+2025-04-15 20:56:06,107 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/data-source-page/panel/types.ts 成功，字符数：75
+2025-04-15 20:56:06,107 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/data-source-page/index.module.css 成功，字符数：0
+2025-04-15 20:56:06,107 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/data-source-page/data-source-website/index.tsx 成功，字符数：4804
+2025-04-15 20:56:06,107 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/data-source-page/data-source-website/config-jina-reader-modal.tsx 成功，字符数：4743
+2025-04-15 20:56:06,107 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/data-source-page/data-source-website/config-firecrawl-modal.tsx 成功，字符数：5535
+2025-04-15 20:56:06,108 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/data-source-page/data-source-website/config-watercrawl-modal.tsx 成功，字符数：5540
+2025-04-15 20:56:06,108 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 20:56:09,050 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 20:57:08,062 [INFO] 批量文件摘要生成完成
+2025-04-15 20:57:08,063 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/api-based-extension-page/selector.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:57:08,064 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/api-based-extension-page/empty.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:57:08,065 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/api-based-extension-page/item.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:57:08,065 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/api-based-extension-page/modal.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:57:08,066 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/menu-dialog.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:57:08,066 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/collapse/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:57:08,067 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/language-page/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:57:08,067 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/data-source-page/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:57:08,067 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/data-source-page/panel/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:57:08,068 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/data-source-page/data-source-website/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:57:08,068 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/data-source-page/data-source-website/config-jina-reader-modal.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:57:08,069 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/data-source-page/data-source-website/config-firecrawl-modal.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:57:08,069 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/data-source-page/data-source-website/config-watercrawl-modal.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:57:08,069 [INFO] 进度：已完成 3.2%
+2025-04-15 20:57:08,164 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/dify/project_structure.json
+2025-04-15 20:57:08,167 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/data-source-page/data-source-notion/index.tsx 成功，字符数：2306
+2025-04-15 20:57:08,167 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/data-source-page/data-source-notion/operate/index.tsx 成功，字符数：4091
+2025-04-15 20:57:08,168 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/key-validator/declarations.ts 成功，字符数：887
+2025-04-15 20:57:08,169 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/key-validator/index.tsx 成功，字符数：3356
+2025-04-15 20:57:08,169 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/key-validator/KeyInput.tsx 成功，字符数：1984
+2025-04-15 20:57:08,169 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/key-validator/ValidateStatus.tsx 成功，字符数：883
+2025-04-15 20:57:08,170 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/key-validator/hooks.ts 成功，字符数：1154
+2025-04-15 20:57:08,170 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/key-validator/Operate.tsx 成功，字符数：2278
+2025-04-15 20:57:08,170 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/plugin-page/index.tsx 成功，字符数：1370
+2025-04-15 20:57:08,170 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/plugin-page/utils.ts 成功，字符数：1225
+2025-04-15 20:57:08,170 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/plugin-page/SerpapiPlugin.tsx 成功，字符数：2227
+2025-04-15 20:57:08,170 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/members-page/index.tsx 成功，字符数：8462
+2025-04-15 20:57:08,170 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/members-page/operation/index.tsx 成功，字符数：5421
+2025-04-15 20:57:08,170 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/members-page/edit-workspace-modal/index.tsx 成功，字符数：2972
+2025-04-15 20:57:08,170 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/members-page/edit-workspace-modal/index.module.css 成功，字符数：0
+2025-04-15 20:57:08,171 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/members-page/invite-modal/index.tsx 成功，字符数：4741
+2025-04-15 20:57:08,171 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/members-page/invite-modal/index.module.css 成功，字符数：221
+2025-04-15 20:57:08,171 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/members-page/invite-modal/role-selector.tsx 成功，字符数：4547
+2025-04-15 20:57:08,172 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 20:57:11,805 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 20:58:35,578 [INFO] 批量文件摘要生成完成
+2025-04-15 20:58:35,579 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/data-source-page/data-source-notion/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:58:35,580 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/data-source-page/data-source-notion/operate/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:58:35,580 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/key-validator/declarations.ts，并将 need_traverse 设置为 False
+2025-04-15 20:58:35,580 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/key-validator/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:58:35,581 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/key-validator/KeyInput.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:58:35,581 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/key-validator/ValidateStatus.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:58:35,582 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/key-validator/hooks.ts，并将 need_traverse 设置为 False
+2025-04-15 20:58:35,582 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/key-validator/Operate.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:58:35,582 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/plugin-page/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:58:35,582 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/plugin-page/utils.ts，并将 need_traverse 设置为 False
+2025-04-15 20:58:35,583 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/plugin-page/SerpapiPlugin.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:58:35,583 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/members-page/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:58:35,583 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/members-page/operation/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:58:35,584 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/members-page/edit-workspace-modal/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:58:35,584 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/members-page/invite-modal/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:58:35,584 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/members-page/invite-modal/role-selector.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:58:35,584 [INFO] 进度：已完成 3.5%
+2025-04-15 20:58:35,679 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/dify/project_structure.json
+2025-04-15 20:58:35,682 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/members-page/invited-modal/index.tsx 成功，字符数：4142
+2025-04-15 20:58:35,682 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/members-page/invited-modal/index.module.css 成功，字符数：509
+2025-04-15 20:58:35,682 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/members-page/invited-modal/invitation-link.tsx 成功，字符数：2053
+2025-04-15 20:58:35,683 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/members-page/invited-modal/assets/copy-hover.svg 成功，字符数：875
+2025-04-15 20:58:35,683 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/members-page/invited-modal/assets/copy.svg 成功，字符数：875
+2025-04-15 20:58:35,683 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/members-page/invited-modal/assets/copied.svg 成功，字符数：1462
+2025-04-15 20:58:35,684 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/Integrations-page/index.tsx 成功，字符数：2944
+2025-04-15 20:58:35,684 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/Integrations-page/index.module.css 成功，字符数：594
+2025-04-15 20:58:35,684 [DEBUG] 读取文件 ../../dify/web/app/components/header/indicator/index.tsx 成功，字符数：1756
+2025-04-15 20:58:35,684 [DEBUG] 读取文件 ../../dify/web/app/components/header/header-wrapper.tsx 成功，字符数：680
+2025-04-15 20:58:35,685 [DEBUG] 读取文件 ../../dify/web/app/components/header/plugins-nav/index.tsx 成功，字符数：2264
+2025-04-15 20:58:35,685 [DEBUG] 读取文件 ../../dify/web/app/components/header/plugins-nav/downloading-icon.module.css 成功，字符数：955
+2025-04-15 20:58:35,685 [DEBUG] 读取文件 ../../dify/web/app/components/header/plugins-nav/downloading-icon.tsx 成功，字符数：793
+2025-04-15 20:58:35,685 [DEBUG] 读取文件 ../../dify/web/app/components/header/plan-badge/index.tsx 成功，字符数：2247
+2025-04-15 20:58:35,685 [DEBUG] 读取文件 ../../dify/web/app/components/header/index.module.css 成功，字符数：406
+2025-04-15 20:58:35,685 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-dropdown/index.tsx 成功，字符数：10607
+2025-04-15 20:58:35,686 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-dropdown/support.tsx 成功，字符数：4772
+2025-04-15 20:58:35,686 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-dropdown/compliance.tsx 成功，字符数：7894
+2025-04-15 20:58:35,686 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 20:58:41,632 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 20:59:41,216 [INFO] 批量文件摘要生成完成
+2025-04-15 20:59:41,218 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/members-page/invited-modal/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:59:41,219 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/members-page/invited-modal/index.module.css，并将 need_traverse 设置为 False
+2025-04-15 20:59:41,219 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/members-page/invited-modal/invitation-link.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:59:41,220 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/members-page/invited-modal/assets/copy-hover.svg，并将 need_traverse 设置为 False
+2025-04-15 20:59:41,220 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/members-page/invited-modal/assets/copy.svg，并将 need_traverse 设置为 False
+2025-04-15 20:59:41,220 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/members-page/invited-modal/assets/copied.svg，并将 need_traverse 设置为 False
+2025-04-15 20:59:41,221 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/Integrations-page/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:59:41,221 [INFO] 回填摘要到结构节点：web/app/components/header/account-setting/Integrations-page/index.module.css，并将 need_traverse 设置为 False
+2025-04-15 20:59:41,222 [INFO] 回填摘要到结构节点：web/app/components/header/indicator/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:59:41,222 [INFO] 回填摘要到结构节点：web/app/components/header/header-wrapper.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:59:41,222 [INFO] 回填摘要到结构节点：web/app/components/header/plugins-nav/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:59:41,222 [INFO] 回填摘要到结构节点：web/app/components/header/plugins-nav/downloading-icon.module.css，并将 need_traverse 设置为 False
+2025-04-15 20:59:41,223 [INFO] 回填摘要到结构节点：web/app/components/header/plugins-nav/downloading-icon.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:59:41,223 [INFO] 回填摘要到结构节点：web/app/components/header/plan-badge/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:59:41,223 [INFO] 回填摘要到结构节点：web/app/components/header/index.module.css，并将 need_traverse 设置为 False
+2025-04-15 20:59:41,223 [INFO] 回填摘要到结构节点：web/app/components/header/account-dropdown/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 20:59:41,223 [INFO] 进度：已完成 3.8%
+2025-04-15 20:59:41,319 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/dify/project_structure.json
+2025-04-15 20:59:41,322 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-dropdown/workplace-selector/index.tsx 成功，字符数：4580
+2025-04-15 20:59:41,322 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-dropdown/workplace-selector/index.module.css 成功，字符数：153
+2025-04-15 20:59:41,322 [DEBUG] 读取文件 ../../dify/web/app/components/header/dataset-nav/index.tsx 成功，字符数：2188
+2025-04-15 20:59:41,323 [DEBUG] 读取文件 ../../dify/web/app/components/header/utils/util.ts 成功，字符数：750
+2025-04-15 20:59:41,323 [DEBUG] 读取文件 ../../dify/web/app/components/header/app-nav/index.tsx 成功，字符数：4592
+2025-04-15 20:59:41,323 [DEBUG] 读取文件 ../../dify/web/app/components/header/license-env/index.tsx 成功，字符数：1367
+2025-04-15 20:59:41,323 [DEBUG] 读取文件 ../../dify/web/app/components/header/app-back/index.tsx 成功，字符数：1008
+2025-04-15 20:59:41,324 [DEBUG] 读取文件 ../../dify/web/app/components/header/app-selector/index.tsx 成功，字符数：4243
+2025-04-15 20:59:41,324 [DEBUG] 读取文件 ../../dify/web/app/components/header/explore-nav/index.tsx 成功，字符数：1065
+2025-04-15 20:59:41,324 [DEBUG] 读取文件 ../../dify/web/app/components/header/nav/index.tsx 成功，字符数：2984
+2025-04-15 20:59:41,324 [DEBUG] 读取文件 ../../dify/web/app/components/header/nav/nav-selector/index.tsx 成功，字符数：9252
+2025-04-15 20:59:41,324 [DEBUG] 读取文件 ../../dify/web/app/components/header/nav/index.module.css 成功，字符数：0
+2025-04-15 20:59:41,324 [DEBUG] 读取文件 ../../dify/web/app/components/header/github-star/index.tsx 成功，字符数：747
+2025-04-15 20:59:41,325 [DEBUG] 读取文件 ../../dify/web/app/components/header/assets/bitbucket.svg 成功，字符数：965
+2025-04-15 20:59:41,325 [DEBUG] 读取文件 ../../dify/web/app/components/header/assets/github.svg 成功，字符数：3500
+2025-04-15 20:59:41,325 [DEBUG] 读取文件 ../../dify/web/app/components/header/assets/alpha.svg 成功，字符数：3498
+2025-04-15 20:59:41,325 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 20:59:45,810 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 21:00:23,121 [INFO] 批量文件摘要生成完成
+2025-04-15 21:00:23,123 [INFO] 回填摘要到结构节点：web/app/components/header/account-dropdown/workplace-selector/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:00:23,123 [INFO] 回填摘要到结构节点：web/app/components/header/account-dropdown/workplace-selector/index.module.css，并将 need_traverse 设置为 False
+2025-04-15 21:00:23,124 [INFO] 回填摘要到结构节点：web/app/components/header/dataset-nav/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:00:23,124 [INFO] 回填摘要到结构节点：web/app/components/header/utils/util.ts，并将 need_traverse 设置为 False
+2025-04-15 21:00:23,125 [INFO] 回填摘要到结构节点：web/app/components/header/app-nav/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:00:23,125 [INFO] 回填摘要到结构节点：web/app/components/header/license-env/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:00:23,126 [INFO] 回填摘要到结构节点：web/app/components/header/app-back/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:00:23,126 [INFO] 回填摘要到结构节点：web/app/components/header/app-selector/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:00:23,126 [INFO] 回填摘要到结构节点：web/app/components/header/explore-nav/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:00:23,127 [INFO] 回填摘要到结构节点：web/app/components/header/nav/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:00:23,127 [INFO] 回填摘要到结构节点：web/app/components/header/nav/nav-selector/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:00:23,128 [INFO] 回填摘要到结构节点：web/app/components/header/assets/bitbucket.svg，并将 need_traverse 设置为 False
+2025-04-15 21:00:23,128 [INFO] 回填摘要到结构节点：web/app/components/header/assets/github.svg，并将 need_traverse 设置为 False
+2025-04-15 21:00:23,128 [INFO] 回填摘要到结构节点：web/app/components/header/assets/alpha.svg，并将 need_traverse 设置为 False
+2025-04-15 21:00:23,128 [INFO] 进度：已完成 4.0%
+2025-04-15 21:00:23,225 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/dify/project_structure.json
+2025-04-15 21:00:23,228 [DEBUG] 读取文件 ../../dify/web/app/components/header/assets/hugging-face.svg 成功，字符数：9418
+2025-04-15 21:00:23,228 [DEBUG] 读取文件 ../../dify/web/app/components/header/assets/file.svg 成功，字符数：787
+2025-04-15 21:00:23,228 [DEBUG] 读取文件 ../../dify/web/app/components/header/assets/gpt.svg 成功，字符数：7024
+2025-04-15 21:00:23,229 [DEBUG] 读取文件 ../../dify/web/app/components/header/assets/salesforce.svg 成功，字符数：11875
+2025-04-15 21:00:23,229 [DEBUG] 读取文件 ../../dify/web/app/components/header/assets/notion.svg 成功，字符数：2233
+2025-04-15 21:00:23,229 [WARNING] 读取文件 ../../dify/web/app/components/header/assets/serpapi.png 失败：'utf-8' codec can't decode byte 0x89 in position 0: invalid start byte
+2025-04-15 21:00:23,230 [DEBUG] 读取文件 ../../dify/web/app/components/header/assets/google.svg 成功，字符数：1218
+2025-04-15 21:00:23,230 [DEBUG] 读取文件 ../../dify/web/app/components/header/assets/trash.svg 成功，字符数：546
+2025-04-15 21:00:23,230 [DEBUG] 读取文件 ../../dify/web/app/components/header/assets/azure.svg 成功，字符数：7035
+2025-04-15 21:00:23,230 [DEBUG] 读取文件 ../../dify/web/app/components/header/assets/anthropic.svg 成功，字符数：598
+2025-04-15 21:00:23,230 [DEBUG] 读取文件 ../../dify/web/app/components/header/assets/sync.svg 成功，字符数：532
+2025-04-15 21:00:23,230 [DEBUG] 读取文件 ../../dify/web/app/components/header/assets/twitter.svg 成功，字符数：1241
+2025-04-15 21:00:23,230 [DEBUG] 读取文件 ../../dify/web/app/components/header/maintenance-notice.tsx 成功，字符数：1542
+2025-04-15 21:00:23,230 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-about/index.tsx 成功，字符数：3405
+2025-04-15 21:00:23,231 [DEBUG] 读取文件 ../../dify/web/app/components/base/svg/style.module.css 成功，字符数：313
+2025-04-15 21:00:23,231 [DEBUG] 读取文件 ../../dify/web/app/components/base/svg/index.tsx 成功，字符数：513
+2025-04-15 21:00:23,231 [DEBUG] 读取文件 ../../dify/web/app/components/base/with-input-validation/index.tsx 成功，字符数：735
+2025-04-15 21:00:23,232 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 21:00:32,096 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 21:00:35,065 [INFO] 批量文件摘要生成完成
+2025-04-15 21:00:35,065 [ERROR] 解析批量摘要 JSON 失败：Expecting value: line 1 column 1 (char 0)
+2025-04-15 21:00:35,066 [ERROR] 大模型返回的文本为：
+2025-04-15 21:00:35,066 [ERROR] 
+2025-04-15 21:00:35,066 [INFO] 进度：已完成 4.3%
+2025-04-15 21:00:35,170 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/dify/project_structure.json
+2025-04-15 21:00:35,173 [DEBUG] 读取文件 ../../dify/web/app/components/base/with-input-validation/index.spec.tsx 成功，字符数：1254
+2025-04-15 21:00:35,174 [DEBUG] 读取文件 ../../dify/web/app/components/base/app-unavailable.tsx 成功，字符数：824
+2025-04-15 21:00:35,174 [DEBUG] 读取文件 ../../dify/web/app/components/base/file-icon/index.tsx 成功，字符数：1154
+2025-04-15 21:00:35,174 [DEBUG] 读取文件 ../../dify/web/app/components/base/dropdown/index.tsx 成功，字符数：3004
+2025-04-15 21:00:35,175 [DEBUG] 读取文件 ../../dify/web/app/components/base/text-generation/types.ts 成功，字符数：873
+2025-04-15 21:00:35,175 [DEBUG] 读取文件 ../../dify/web/app/components/base/text-generation/hooks.ts 成功，字符数：1493
+2025-04-15 21:00:35,175 [DEBUG] 读取文件 ../../dify/web/app/components/base/drawer/index.tsx 成功，字符数：2788
+2025-04-15 21:00:35,175 [DEBUG] 读取文件 ../../dify/web/app/components/base/date-and-time-picker/calendar/index.tsx 成功，字符数：625
+2025-04-15 21:00:35,175 [DEBUG] 读取文件 ../../dify/web/app/components/base/date-and-time-picker/calendar/days-of-week.tsx 成功，字符数：507
+2025-04-15 21:00:35,176 [DEBUG] 读取文件 ../../dify/web/app/components/base/date-and-time-picker/calendar/item.tsx 成功，字符数：1000
+2025-04-15 21:00:35,176 [DEBUG] 读取文件 ../../dify/web/app/components/base/date-and-time-picker/time-picker/index.tsx 成功，字符数：5934
+2025-04-15 21:00:35,176 [DEBUG] 读取文件 ../../dify/web/app/components/base/date-and-time-picker/time-picker/footer.tsx 成功，字符数：1104
+2025-04-15 21:00:35,176 [DEBUG] 读取文件 ../../dify/web/app/components/base/date-and-time-picker/time-picker/options.tsx 成功，字符数：2123
+2025-04-15 21:00:35,176 [DEBUG] 读取文件 ../../dify/web/app/components/base/date-and-time-picker/time-picker/header.tsx 成功，字符数：409
+2025-04-15 21:00:35,176 [DEBUG] 读取文件 ../../dify/web/app/components/base/date-and-time-picker/utils/dayjs.ts 成功，字符数：2474
+2025-04-15 21:00:35,176 [DEBUG] 读取文件 ../../dify/web/app/components/base/date-and-time-picker/year-and-month-picker/footer.tsx 成功，字符数：703
+2025-04-15 21:00:35,176 [DEBUG] 读取文件 ../../dify/web/app/components/base/date-and-time-picker/year-and-month-picker/options.tsx 成功，字符数：1587
+2025-04-15 21:00:35,176 [DEBUG] 读取文件 ../../dify/web/app/components/base/date-and-time-picker/year-and-month-picker/header.tsx 成功，字符数：822
+2025-04-15 21:00:35,176 [DEBUG] 读取文件 ../../dify/web/app/components/base/date-and-time-picker/types.ts 成功，字符数：2355
+2025-04-15 21:00:35,176 [DEBUG] 读取文件 ../../dify/web/app/components/base/date-and-time-picker/common/option-list-item.tsx 成功，字符数：987
+2025-04-15 21:00:35,177 [DEBUG] 读取文件 ../../dify/web/app/components/base/date-and-time-picker/date-picker/index.tsx 成功，字符数：10714
+2025-04-15 21:00:35,177 [DEBUG] 读取文件 ../../dify/web/app/components/base/date-and-time-picker/date-picker/footer.tsx 成功，字符数：1993
+2025-04-15 21:00:35,177 [DEBUG] 读取文件 ../../dify/web/app/components/base/date-and-time-picker/date-picker/header.tsx 成功，字符数：1327
+2025-04-15 21:00:35,177 [DEBUG] 读取文件 ../../dify/web/app/components/base/date-and-time-picker/hooks.ts 成功，字符数：1168
+2025-04-15 21:00:35,177 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 21:00:38,831 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 21:02:14,128 [INFO] 批量文件摘要生成完成
+2025-04-15 21:02:14,129 [INFO] 回填摘要到结构节点：web/app/components/base/with-input-validation/index.spec.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:02:14,130 [INFO] 回填摘要到结构节点：web/app/components/base/app-unavailable.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:02:14,130 [INFO] 回填摘要到结构节点：web/app/components/base/file-icon/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:02:14,131 [INFO] 回填摘要到结构节点：web/app/components/base/dropdown/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:02:14,131 [INFO] 回填摘要到结构节点：web/app/components/base/text-generation/types.ts，并将 need_traverse 设置为 False
+2025-04-15 21:02:14,132 [INFO] 回填摘要到结构节点：web/app/components/base/text-generation/hooks.ts，并将 need_traverse 设置为 False
+2025-04-15 21:02:14,132 [INFO] 回填摘要到结构节点：web/app/components/base/drawer/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:02:14,132 [INFO] 回填摘要到结构节点：web/app/components/base/date-and-time-picker/calendar/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:02:14,133 [INFO] 回填摘要到结构节点：web/app/components/base/date-and-time-picker/calendar/days-of-week.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:02:14,133 [INFO] 回填摘要到结构节点：web/app/components/base/date-and-time-picker/calendar/item.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:02:14,134 [INFO] 回填摘要到结构节点：web/app/components/base/date-and-time-picker/time-picker/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:02:14,134 [INFO] 回填摘要到结构节点：web/app/components/base/date-and-time-picker/time-picker/footer.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:02:14,134 [INFO] 回填摘要到结构节点：web/app/components/base/date-and-time-picker/time-picker/options.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:02:14,135 [INFO] 回填摘要到结构节点：web/app/components/base/date-and-time-picker/time-picker/header.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:02:14,135 [INFO] 回填摘要到结构节点：web/app/components/base/date-and-time-picker/utils/dayjs.ts，并将 need_traverse 设置为 False
+2025-04-15 21:02:14,135 [INFO] 回填摘要到结构节点：web/app/components/base/date-and-time-picker/year-and-month-picker/footer.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:02:14,136 [INFO] 回填摘要到结构节点：web/app/components/base/date-and-time-picker/year-and-month-picker/options.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:02:14,136 [INFO] 回填摘要到结构节点：web/app/components/base/date-and-time-picker/year-and-month-picker/header.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:02:14,136 [INFO] 回填摘要到结构节点：web/app/components/base/date-and-time-picker/types.ts，并将 need_traverse 设置为 False
+2025-04-15 21:02:14,137 [INFO] 回填摘要到结构节点：web/app/components/base/date-and-time-picker/common/option-list-item.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:02:14,137 [INFO] 回填摘要到结构节点：web/app/components/base/date-and-time-picker/date-picker/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:02:14,137 [INFO] 回填摘要到结构节点：web/app/components/base/date-and-time-picker/date-picker/footer.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:02:14,138 [INFO] 回填摘要到结构节点：web/app/components/base/date-and-time-picker/date-picker/header.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:02:14,138 [INFO] 回填摘要到结构节点：web/app/components/base/date-and-time-picker/hooks.ts，并将 need_traverse 设置为 False
+2025-04-15 21:02:14,138 [INFO] 进度：已完成 4.6%
+2025-04-15 21:02:14,234 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/dify/project_structure.json
+2025-04-15 21:02:14,237 [DEBUG] 读取文件 ../../dify/web/app/components/base/pagination/index.tsx 成功，字符数：6614
+2025-04-15 21:02:14,237 [DEBUG] 读取文件 ../../dify/web/app/components/base/pagination/pagination.tsx 成功，字符数：4750
+2025-04-15 21:02:14,238 [DEBUG] 读取文件 ../../dify/web/app/components/base/pagination/type.ts 成功，字符数：1271
+2025-04-15 21:02:14,238 [DEBUG] 读取文件 ../../dify/web/app/components/base/pagination/hook.ts 成功，字符数：2790
+2025-04-15 21:02:14,239 [DEBUG] 读取文件 ../../dify/web/app/components/base/svg-gallery/index.tsx 成功，字符数：2670
+2025-04-15 21:02:14,239 [DEBUG] 读取文件 ../../dify/web/app/components/base/radio-card/index.tsx 成功，字符数：2039
+2025-04-15 21:02:14,239 [DEBUG] 读取文件 ../../dify/web/app/components/base/radio-card/simple/style.module.css 成功，字符数：569
+2025-04-15 21:02:14,240 [DEBUG] 读取文件 ../../dify/web/app/components/base/radio-card/simple/index.tsx 成功，字符数：1053
+2025-04-15 21:02:14,240 [DEBUG] 读取文件 ../../dify/web/app/components/base/param-item/index.tsx 成功，字符数：2328
+2025-04-15 21:02:14,240 [DEBUG] 读取文件 ../../dify/web/app/components/base/param-item/score-threshold-item.tsx 成功，字符数：1310
+2025-04-15 21:02:14,240 [DEBUG] 读取文件 ../../dify/web/app/components/base/param-item/top-k-item.tsx 成功，字符数：1331
+2025-04-15 21:02:14,240 [DEBUG] 读取文件 ../../dify/web/app/components/base/copy-feedback/style.module.css 成功，字符数：428
+2025-04-15 21:02:14,240 [DEBUG] 读取文件 ../../dify/web/app/components/base/copy-feedback/index.tsx 成功，字符数：2235
+2025-04-15 21:02:14,241 [DEBUG] 读取文件 ../../dify/web/app/components/base/image-uploader/audio-preview.tsx 成功，字符数：1012
+2025-04-15 21:02:14,241 [DEBUG] 读取文件 ../../dify/web/app/components/base/image-uploader/image-list.tsx 成功，字符数：4907
+2025-04-15 21:02:14,241 [DEBUG] 读取文件 ../../dify/web/app/components/base/image-uploader/video-preview.tsx 成功，字符数：1011
+2025-04-15 21:02:14,241 [DEBUG] 读取文件 ../../dify/web/app/components/base/image-uploader/text-generation-image-uploader.tsx 成功，字符数：4202
+2025-04-15 21:02:14,241 [DEBUG] 读取文件 ../../dify/web/app/components/base/image-uploader/utils.ts 成功，字符数：913
+2025-04-15 21:02:14,241 [DEBUG] 读取文件 ../../dify/web/app/components/base/image-uploader/uploader.tsx 成功，字符数：1426
+2025-04-15 21:02:14,242 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 21:02:17,563 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 21:03:35,514 [INFO] 批量文件摘要生成完成
+2025-04-15 21:03:35,515 [INFO] 回填摘要到结构节点：web/app/components/base/pagination/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:03:35,515 [INFO] 回填摘要到结构节点：web/app/components/base/pagination/pagination.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:03:35,516 [INFO] 回填摘要到结构节点：web/app/components/base/pagination/type.ts，并将 need_traverse 设置为 False
+2025-04-15 21:03:35,516 [INFO] 回填摘要到结构节点：web/app/components/base/pagination/hook.ts，并将 need_traverse 设置为 False
+2025-04-15 21:03:35,516 [INFO] 回填摘要到结构节点：web/app/components/base/svg-gallery/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:03:35,517 [INFO] 回填摘要到结构节点：web/app/components/base/radio-card/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:03:35,517 [INFO] 回填摘要到结构节点：web/app/components/base/radio-card/simple/style.module.css，并将 need_traverse 设置为 False
+2025-04-15 21:03:35,517 [INFO] 回填摘要到结构节点：web/app/components/base/radio-card/simple/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:03:35,518 [INFO] 回填摘要到结构节点：web/app/components/base/param-item/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:03:35,518 [INFO] 回填摘要到结构节点：web/app/components/base/param-item/score-threshold-item.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:03:35,518 [INFO] 回填摘要到结构节点：web/app/components/base/param-item/top-k-item.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:03:35,519 [INFO] 回填摘要到结构节点：web/app/components/base/copy-feedback/style.module.css，并将 need_traverse 设置为 False
+2025-04-15 21:03:35,519 [INFO] 回填摘要到结构节点：web/app/components/base/copy-feedback/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:03:35,519 [INFO] 回填摘要到结构节点：web/app/components/base/image-uploader/audio-preview.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:03:35,520 [INFO] 回填摘要到结构节点：web/app/components/base/image-uploader/image-list.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:03:35,520 [INFO] 回填摘要到结构节点：web/app/components/base/image-uploader/video-preview.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:03:35,521 [INFO] 回填摘要到结构节点：web/app/components/base/image-uploader/text-generation-image-uploader.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:03:35,521 [INFO] 回填摘要到结构节点：web/app/components/base/image-uploader/utils.ts，并将 need_traverse 设置为 False
+2025-04-15 21:03:35,521 [INFO] 回填摘要到结构节点：web/app/components/base/image-uploader/uploader.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:03:35,521 [INFO] 进度：已完成 4.8%
+2025-04-15 21:03:35,618 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/dify/project_structure.json
+2025-04-15 21:03:35,621 [DEBUG] 读取文件 ../../dify/web/app/components/base/image-uploader/image-preview.tsx 成功，字符数：8507
+2025-04-15 21:03:35,621 [DEBUG] 读取文件 ../../dify/web/app/components/base/image-uploader/image-link-input.tsx 成功，字符数：1541
+2025-04-15 21:03:35,621 [DEBUG] 读取文件 ../../dify/web/app/components/base/image-uploader/chat-image-uploader.tsx 成功，字符数：4533
+2025-04-15 21:03:35,622 [DEBUG] 读取文件 ../../dify/web/app/components/base/image-uploader/hooks.ts 成功，字符数：8777
+2025-04-15 21:03:35,622 [DEBUG] 读取文件 ../../dify/web/app/components/base/tag-management/index.tsx 成功，字符数：2921
+2025-04-15 21:03:35,622 [DEBUG] 读取文件 ../../dify/web/app/components/base/tag-management/selector.tsx 成功，字符数：9918
+2025-04-15 21:03:35,622 [DEBUG] 读取文件 ../../dify/web/app/components/base/tag-management/constant.ts 成功，字符数：89
+2025-04-15 21:03:35,622 [DEBUG] 读取文件 ../../dify/web/app/components/base/tag-management/filter.tsx 成功，字符数：5347
+2025-04-15 21:03:35,622 [DEBUG] 读取文件 ../../dify/web/app/components/base/tag-management/tag-remove-modal.tsx 成功，字符数：1778
+2025-04-15 21:03:35,623 [DEBUG] 读取文件 ../../dify/web/app/components/base/tag-management/tag-item-editor.tsx 成功，字符数：4709
+2025-04-15 21:03:35,623 [DEBUG] 读取文件 ../../dify/web/app/components/base/tag-management/store.ts 成功，字符数：527
+2025-04-15 21:03:35,623 [DEBUG] 读取文件 ../../dify/web/app/components/base/corner-label/index.tsx 成功，字符数：792
+2025-04-15 21:03:35,624 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 21:03:39,637 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 21:04:44,553 [INFO] 批量文件摘要生成完成
+2025-04-15 21:04:44,554 [INFO] 回填摘要到结构节点：web/app/components/base/image-uploader/image-preview.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:04:44,555 [INFO] 回填摘要到结构节点：web/app/components/base/image-uploader/image-link-input.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:04:44,555 [INFO] 回填摘要到结构节点：web/app/components/base/image-uploader/chat-image-uploader.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:04:44,556 [INFO] 回填摘要到结构节点：web/app/components/base/image-uploader/hooks.ts，并将 need_traverse 设置为 False
+2025-04-15 21:04:44,556 [INFO] 回填摘要到结构节点：web/app/components/base/tag-management/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:04:44,557 [INFO] 回填摘要到结构节点：web/app/components/base/tag-management/selector.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:04:44,557 [INFO] 回填摘要到结构节点：web/app/components/base/tag-management/filter.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:04:44,557 [INFO] 回填摘要到结构节点：web/app/components/base/tag-management/tag-remove-modal.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:04:44,558 [INFO] 回填摘要到结构节点：web/app/components/base/tag-management/tag-item-editor.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:04:44,558 [INFO] 回填摘要到结构节点：web/app/components/base/tag-management/store.ts，并将 need_traverse 设置为 False
+2025-04-15 21:04:44,558 [INFO] 回填摘要到结构节点：web/app/components/base/corner-label/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:04:44,558 [INFO] 进度：已完成 5.1%
+2025-04-15 21:04:44,656 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/dify/project_structure.json
+2025-04-15 21:04:44,660 [DEBUG] 读取文件 ../../dify/web/app/components/base/tooltip/index.tsx 成功，字符数：3277
+2025-04-15 21:04:44,660 [DEBUG] 读取文件 ../../dify/web/app/components/base/tooltip/content.tsx 成功，字符数：575
+2025-04-15 21:04:44,660 [DEBUG] 读取文件 ../../dify/web/app/components/base/tooltip/index.spec.tsx 成功，字符数：4880
+2025-04-15 21:04:44,660 [DEBUG] 读取文件 ../../dify/web/app/components/base/ga/index.tsx 成功，字符数：1362
+2025-04-15 21:04:44,661 [DEBUG] 读取文件 ../../dify/web/app/components/base/radio/style.module.css 成功，字符数：160
+2025-04-15 21:04:44,661 [DEBUG] 读取文件 ../../dify/web/app/components/base/radio/index.tsx 成功，字符数：424
+2025-04-15 21:04:44,661 [DEBUG] 读取文件 ../../dify/web/app/components/base/radio/context/index.tsx 成功，字符数：152
+2025-04-15 21:04:44,661 [DEBUG] 读取文件 ../../dify/web/app/components/base/radio/component/radio/index.tsx 成功，字符数：1458
+2025-04-15 21:04:44,662 [DEBUG] 读取文件 ../../dify/web/app/components/base/radio/component/group/index.tsx 成功，字符数：741
+2025-04-15 21:04:44,662 [DEBUG] 读取文件 ../../dify/web/app/components/base/radio/ui.tsx 成功，字符数：426
+2025-04-15 21:04:44,662 [DEBUG] 读取文件 ../../dify/web/app/components/base/loading/index.tsx 成功，字符数：1349
+2025-04-15 21:04:44,662 [DEBUG] 读取文件 ../../dify/web/app/components/base/loading/index.spec.tsx 成功，字符数：985
+2025-04-15 21:04:44,663 [DEBUG] 读取文件 ../../dify/web/app/components/base/loading/style.css 成功，字符数：538
+2025-04-15 21:04:44,663 [DEBUG] 读取文件 ../../dify/web/app/components/base/input-number/index.tsx 成功，字符数：2978
+2025-04-15 21:04:44,663 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat/citation/index.tsx 成功，字符数：3658
+2025-04-15 21:04:44,663 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat/citation/tooltip.tsx 成功，字符数：1095
+2025-04-15 21:04:44,663 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat/citation/popup.tsx 成功，字符数：5375
+2025-04-15 21:04:44,664 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat/citation/progress-tooltip.tsx 成功，字符数：1402
+2025-04-15 21:04:44,664 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat/index.tsx 成功，字符数：11468
+2025-04-15 21:04:44,664 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat/check-input-forms-hooks.ts 成功，字符数：1712
+2025-04-15 21:04:44,664 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat/question.tsx 成功，字符数：1677
+2025-04-15 21:04:44,664 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat/try-to-ask.tsx 成功，字符数：1488
+2025-04-15 21:04:44,665 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 21:04:47,726 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 21:05:53,805 [INFO] 批量文件摘要生成完成
+2025-04-15 21:05:53,807 [INFO] 回填摘要到结构节点：web/app/components/base/tooltip/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:05:53,807 [INFO] 回填摘要到结构节点：web/app/components/base/tooltip/content.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:05:53,808 [INFO] 回填摘要到结构节点：web/app/components/base/tooltip/index.spec.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:05:53,808 [INFO] 回填摘要到结构节点：web/app/components/base/ga/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:05:53,809 [INFO] 回填摘要到结构节点：web/app/components/base/radio/style.module.css，并将 need_traverse 设置为 False
+2025-04-15 21:05:53,809 [INFO] 回填摘要到结构节点：web/app/components/base/radio/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:05:53,809 [INFO] 回填摘要到结构节点：web/app/components/base/radio/context/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:05:53,810 [INFO] 回填摘要到结构节点：web/app/components/base/radio/component/radio/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:05:53,810 [INFO] 回填摘要到结构节点：web/app/components/base/radio/component/group/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:05:53,811 [INFO] 回填摘要到结构节点：web/app/components/base/radio/ui.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:05:53,811 [INFO] 回填摘要到结构节点：web/app/components/base/loading/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:05:53,811 [INFO] 回填摘要到结构节点：web/app/components/base/loading/index.spec.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:05:53,812 [INFO] 回填摘要到结构节点：web/app/components/base/loading/style.css，并将 need_traverse 设置为 False
+2025-04-15 21:05:53,812 [INFO] 回填摘要到结构节点：web/app/components/base/input-number/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:05:53,812 [INFO] 回填摘要到结构节点：web/app/components/base/chat/chat/citation/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:05:53,813 [INFO] 回填摘要到结构节点：web/app/components/base/chat/chat/citation/tooltip.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:05:53,813 [INFO] 回填摘要到结构节点：web/app/components/base/chat/chat/citation/popup.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:05:53,813 [INFO] 回填摘要到结构节点：web/app/components/base/chat/chat/citation/progress-tooltip.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:05:53,814 [INFO] 回填摘要到结构节点：web/app/components/base/chat/chat/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:05:53,814 [INFO] 回填摘要到结构节点：web/app/components/base/chat/chat/check-input-forms-hooks.ts，并将 need_traverse 设置为 False
+2025-04-15 21:05:53,815 [INFO] 回填摘要到结构节点：web/app/components/base/chat/chat/question.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:05:53,815 [INFO] 回填摘要到结构节点：web/app/components/base/chat/chat/try-to-ask.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:05:53,815 [INFO] 进度：已完成 5.4%
+2025-04-15 21:05:53,911 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/dify/project_structure.json
+2025-04-15 21:05:53,914 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat/answer/index.tsx 成功，字符数：7683
+2025-04-15 21:05:53,914 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat/answer/tool-detail.tsx 成功，字符数：2517
+2025-04-15 21:05:53,914 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat/answer/__mocks__/markdownContentSVG.ts 成功，字符数：1248
+2025-04-15 21:05:53,915 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat/answer/__mocks__/workflowProcess.ts 成功，字符数：4072
+2025-04-15 21:05:53,915 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat/answer/__mocks__/markdownContent.ts 成功，字符数：811
+2025-04-15 21:05:53,915 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat/answer/workflow-process.tsx 成功，字符数：3000
+2025-04-15 21:05:53,915 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat/answer/index.stories.tsx 成功，字符数：2338
+2025-04-15 21:05:53,915 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat/answer/suggested-questions.tsx 成功，字符数：1177
+2025-04-15 21:05:53,915 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat/answer/agent-content.tsx 成功，字符数：1681
+2025-04-15 21:05:53,915 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat/answer/more.tsx 成功，字符数：1374
+2025-04-15 21:05:53,916 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat/answer/operation.tsx 成功，字符数：7300
+2025-04-15 21:05:53,916 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat/answer/basic-content.tsx 成功，字符数：638
+2025-04-15 21:05:53,916 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat/utils.ts 成功，字符数：1702
+2025-04-15 21:05:53,916 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat/type.ts 成功，字符数：3079
+2025-04-15 21:05:53,916 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat/question.stories.tsx 成功，字符数：796
+2025-04-15 21:05:53,916 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat/loading-anim/style.module.css 成功，字符数：1140
+2025-04-15 21:05:53,916 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat/loading-anim/index.tsx 成功，字符数：350
+2025-04-15 21:05:53,916 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat/context.tsx 成功，字符数：1309
+2025-04-15 21:05:53,916 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat/log/index.tsx 成功，字符数：1432
+2025-04-15 21:05:53,916 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat/thought/index.tsx 成功，字符数：1367
+2025-04-15 21:05:53,916 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat/thought/tool.tsx 成功，字符数：3424
+2025-04-15 21:05:53,916 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat/thought/panel.tsx 成功，字符数：767
+2025-04-15 21:05:53,917 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 21:05:57,759 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 21:07:11,074 [INFO] 批量文件摘要生成完成
+2025-04-15 21:07:11,076 [INFO] 回填摘要到结构节点：web/app/components/base/chat/chat/answer/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:07:11,076 [INFO] 回填摘要到结构节点：web/app/components/base/chat/chat/answer/tool-detail.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:07:11,077 [INFO] 回填摘要到结构节点：web/app/components/base/chat/chat/answer/__mocks__/markdownContentSVG.ts，并将 need_traverse 设置为 False
+2025-04-15 21:07:11,078 [INFO] 回填摘要到结构节点：web/app/components/base/chat/chat/answer/__mocks__/workflowProcess.ts，并将 need_traverse 设置为 False
+2025-04-15 21:07:11,078 [INFO] 回填摘要到结构节点：web/app/components/base/chat/chat/answer/__mocks__/markdownContent.ts，并将 need_traverse 设置为 False
+2025-04-15 21:07:11,078 [INFO] 回填摘要到结构节点：web/app/components/base/chat/chat/answer/workflow-process.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:07:11,079 [INFO] 回填摘要到结构节点：web/app/components/base/chat/chat/answer/index.stories.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:07:11,079 [INFO] 回填摘要到结构节点：web/app/components/base/chat/chat/answer/suggested-questions.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:07:11,080 [INFO] 回填摘要到结构节点：web/app/components/base/chat/chat/answer/agent-content.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:07:11,080 [INFO] 回填摘要到结构节点：web/app/components/base/chat/chat/answer/more.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:07:11,080 [INFO] 回填摘要到结构节点：web/app/components/base/chat/chat/answer/operation.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:07:11,081 [INFO] 回填摘要到结构节点：web/app/components/base/chat/chat/answer/basic-content.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:07:11,081 [INFO] 回填摘要到结构节点：web/app/components/base/chat/chat/utils.ts，并将 need_traverse 设置为 False
+2025-04-15 21:07:11,081 [INFO] 回填摘要到结构节点：web/app/components/base/chat/chat/type.ts，并将 need_traverse 设置为 False
+2025-04-15 21:07:11,082 [INFO] 回填摘要到结构节点：web/app/components/base/chat/chat/question.stories.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:07:11,082 [INFO] 回填摘要到结构节点：web/app/components/base/chat/chat/loading-anim/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:07:11,083 [INFO] 回填摘要到结构节点：web/app/components/base/chat/chat/context.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:07:11,083 [INFO] 回填摘要到结构节点：web/app/components/base/chat/chat/log/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:07:11,083 [INFO] 回填摘要到结构节点：web/app/components/base/chat/chat/thought/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:07:11,084 [INFO] 回填摘要到结构节点：web/app/components/base/chat/chat/thought/tool.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:07:11,084 [INFO] 回填摘要到结构节点：web/app/components/base/chat/chat/thought/panel.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:07:11,084 [INFO] 进度：已完成 5.6%
+2025-04-15 21:07:11,182 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/dify/project_structure.json
+2025-04-15 21:07:11,184 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat/hooks.ts 成功，字符数：23985
+2025-04-15 21:07:11,184 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat/chat-input-area/index.tsx 成功，字符数：8141
+2025-04-15 21:07:11,184 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat/chat-input-area/hooks.ts 成功，字符数：1412
+2025-04-15 21:07:11,185 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat/chat-input-area/operation.tsx 成功，字符数：1930
+2025-04-15 21:07:11,186 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/utils.ts 成功，字符数：6283
+2025-04-15 21:07:11,186 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/types.ts 成功，字符数：1881
+2025-04-15 21:07:11,187 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 21:07:14,755 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 21:32:20,074 [DEBUG] 日志系统初始化完成，日志文件：/Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/dify/debug.log
+2025-04-15 21:32:20,101 [INFO] 成功加载扫描结果 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/dify/project_structure.json
+2025-04-15 21:32:20,101 [INFO] 提取 readme.md 成功：README.md (字符数：14041)
+2025-04-15 21:32:20,101 [INFO] 加载总结工具配置文件：codesense_summarizer_config.json
+2025-04-15 21:32:20,102 [INFO] 待处理文件数量（不包含 .md 文件且 need_traverse 为 True）：3871
+2025-04-15 21:32:21,939 [INFO] 预估大模型调用总次数：356，总步骤数：358
+2025-04-15 21:32:21,939 [INFO] 进度：初步总结步骤完成，占总进度 0.3%
+2025-04-15 21:32:21,939 [DEBUG] 读取文件 ../../dify/web/app/components/app/configuration/base/icons/remove-icon/style.module.css 成功，字符数：0
+2025-04-15 21:32:21,939 [DEBUG] 读取文件 ../../dify/web/app/components/app/overview/assets/scripts-option.svg 成功，字符数：47804
+2025-04-15 21:32:21,939 [DEBUG] 读取文件 ../../dify/web/app/components/app/overview/assets/chromeplugin-install.svg 成功，字符数：1809
+2025-04-15 21:32:21,944 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 21:32:31,092 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 21:32:32,641 [INFO] 批量文件摘要生成完成
+2025-04-15 21:32:32,641 [ERROR] 解析批量摘要 JSON 失败：Expecting value: line 1 column 1 (char 0)
+2025-04-15 21:32:32,641 [ERROR] 大模型返回的文本为：
+2025-04-15 21:32:32,641 [ERROR] 
+2025-04-15 21:32:32,641 [INFO] 进度：已完成 0.6%
+2025-04-15 21:32:32,748 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/dify/project_structure.json
+2025-04-15 21:32:32,749 [DEBUG] 读取文件 ../../dify/web/app/components/app/overview/assets/refresh.svg 成功，字符数：544
+2025-04-15 21:32:32,749 [DEBUG] 读取文件 ../../dify/web/app/components/app/overview/assets/iframe-option.svg 成功，字符数：44002
+2025-04-15 21:32:32,750 [DEBUG] 读取文件 ../../dify/web/app/components/app/overview/assets/code-browser.svg 成功，字符数：850
+2025-04-15 21:32:32,750 [DEBUG] 读取文件 ../../dify/web/app/components/app/overview/assets/refresh-hover.svg 成功，字符数：544
+2025-04-15 21:32:32,750 [DEBUG] 读取文件 ../../dify/web/app/components/app/overview/embedded/style.module.css 成功，字符数：484
+2025-04-15 21:32:32,751 [DEBUG] 读取文件 ../../dify/web/app/components/plugins/card/card-more-info.tsx 成功，字符数：1050
+2025-04-15 21:32:32,751 [DEBUG] 读取文件 ../../dify/web/app/components/plugins/card/base/title.tsx 成功，字符数：189
+2025-04-15 21:32:32,751 [DEBUG] 读取文件 ../../dify/web/app/components/plugins/card/base/org-info.tsx 成功，字符数：751
+2025-04-15 21:32:32,751 [DEBUG] 读取文件 ../../dify/web/app/components/plugins/card/base/description.tsx 成功，字符数：683
+2025-04-15 21:32:32,752 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 21:33:02,003 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 21:33:03,385 [INFO] 批量文件摘要生成完成
+2025-04-15 21:33:03,385 [ERROR] 解析批量摘要 JSON 失败：Expecting value: line 1 column 1 (char 0)
+2025-04-15 21:33:03,386 [ERROR] 大模型返回的文本为：
+2025-04-15 21:33:03,386 [ERROR] 
+2025-04-15 21:33:03,386 [INFO] 进度：已完成 0.8%
+2025-04-15 21:33:03,487 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/dify/project_structure.json
+2025-04-15 21:33:03,489 [DEBUG] 读取文件 ../../dify/web/app/components/plugins/plugin-page/filter-management/tag-filter.tsx 成功，字符数：3905
+2025-04-15 21:33:03,490 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/documents/assets/star.svg 成功，字符数：2489
+2025-04-15 21:33:03,490 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/documents/assets/messageTextCircle.svg 成功，字符数：849
+2025-04-15 21:33:03,490 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/documents/assets/layoutRightClose.svg 成功，字符数：960
+2025-04-15 21:33:03,491 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/documents/assets/normal.svg 成功，字符数：2880
+2025-04-15 21:33:03,491 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/documents/assets/globe.svg 成功，字符数：1055
+2025-04-15 21:33:03,491 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/documents/assets/typeSquare.svg 成功，字符数：717
+2025-04-15 21:33:03,491 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/step-one/index.module.css 成功，字符数：1757
+2025-04-15 21:33:03,491 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/website/index.module.css 成功，字符数：351
+2025-04-15 21:33:03,492 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/website/base/mock-crawl-result.ts 成功，字符数：611
+2025-04-15 21:33:03,492 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/website/base/error-message.tsx 成功，字符数：876
+2025-04-15 21:33:03,492 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/website/base/checkbox-with-label.tsx 成功，字符数：1021
+2025-04-15 21:33:03,492 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/website/base/input.tsx 成功，字符数：1647
+2025-04-15 21:33:03,492 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/notion-page-preview/index.module.css 成功，字符数：714
+2025-04-15 21:33:03,492 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/stop-embedding-modal/index.module.css 成功，字符数：802
+2025-04-15 21:33:03,492 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/file-preview/index.module.css 成功，字符数：860
+2025-04-15 21:33:03,492 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/embedding-process/index.module.css 成功，字符数：1546
+2025-04-15 21:33:03,492 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/empty-dataset-creation-modal/index.module.css 成功，字符数：634
+2025-04-15 21:33:03,492 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/docx.svg 成功，字符数：3589
+2025-04-15 21:33:03,492 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/option-card-effect-purple.svg 成功，字符数：610
+2025-04-15 21:33:03,493 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/unknown.svg 成功，字符数：4618
+2025-04-15 21:33:03,493 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/selection-mod.svg 成功，字符数：835
+2025-04-15 21:33:03,493 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/arrow-narrow-left.svg 成功，字符数：253
+2025-04-15 21:33:03,493 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/option-card-effect-orange.svg 成功，字符数：610
+2025-04-15 21:33:03,493 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/notion.svg 成功，字符数：2277
+2025-04-15 21:33:03,493 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/md.svg 成功，字符数：1929
+2025-04-15 21:33:03,493 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/check.svg 成功，字符数：216
+2025-04-15 21:33:03,493 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/pattern-recognition-mod.svg 成功，字符数：3052
+2025-04-15 21:33:03,493 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/close.svg 成功，字符数：219
+2025-04-15 21:33:03,494 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/folder-plus.svg 成功，字符数：985
+2025-04-15 21:33:03,494 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/gold.svg 成功，字符数：4052
+2025-04-15 21:33:03,494 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/csv.svg 成功，字符数：2951
+2025-04-15 21:33:03,494 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 21:33:12,478 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 21:33:27,315 [INFO] 批量文件摘要生成完成
+2025-04-15 21:33:27,315 [ERROR] 解析批量摘要 JSON 失败：Expecting value: line 1 column 1 (char 0)
+2025-04-15 21:33:27,315 [ERROR] 大模型返回的文本为：
+2025-04-15 21:33:27,316 [ERROR] 
+2025-04-15 21:33:27,316 [INFO] 进度：已完成 1.1%
+2025-04-15 21:33:27,422 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/dify/project_structure.json
+2025-04-15 21:33:27,424 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/xlsx.svg 成功，字符数：1592
+2025-04-15 21:33:27,424 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/Loading.svg 成功，字符数：892
+2025-04-15 21:33:27,424 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/piggy-bank-mod.svg 成功，字符数：1157
+2025-04-15 21:33:27,425 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/setting-gear-mod.svg 成功，字符数：3227
+2025-04-15 21:33:27,425 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/trash.svg 成功，字符数：546
+2025-04-15 21:33:27,425 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/star.svg 成功，字符数：2489
+2025-04-15 21:33:27,425 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/research-mod.svg 成功，字符数：2868
+2025-04-15 21:33:27,425 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/star-07.svg 成功，字符数：2862
+2025-04-15 21:33:27,425 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/pdf.svg 成功，字符数：2386
+2025-04-15 21:33:27,426 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/file-list-3-fill.svg 成功，字符数：699
+2025-04-15 21:33:27,426 [WARNING] 读取文件 ../../dify/web/app/components/datasets/create/assets/jina.png 失败：'utf-8' codec can't decode byte 0x89 in position 0: invalid start byte
+2025-04-15 21:33:27,426 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/zap-fast.svg 成功，字符数：1984
+2025-04-15 21:33:27,426 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/piggy-bank-01.svg 成功，字符数：3065
+2025-04-15 21:33:27,426 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/web.svg 成功，字符数：1611
+2025-04-15 21:33:27,426 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/normal.svg 成功，字符数：2880
+2025-04-15 21:33:27,426 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/sliders-02.svg 成功，字符数：2004
+2025-04-15 21:33:27,426 [DEBUG] 读取文件 ../../dify/web/app/components/datasets/create/assets/family-mod.svg 成功，字符数：2116
+2025-04-15 21:33:27,427 [DEBUG] 读取文件 ../../dify/web/app/components/explore/app-list/style.module.css 成功，字符数：658
+2025-04-15 21:33:27,427 [DEBUG] 读取文件 ../../dify/web/app/components/workflow/panel/chat-variable-panel/components/variable-modal-trigger.tsx 成功，字符数：1798
+2025-04-15 21:33:27,427 [DEBUG] 读取文件 ../../dify/web/app/components/workflow/panel/chat-variable-panel/components/variable-modal.tsx 成功，字符数：14701
+2025-04-15 21:33:27,427 [DEBUG] 读取文件 ../../dify/web/app/components/workflow/store/index.ts 成功，字符数：27
+2025-04-15 21:33:27,428 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 21:33:39,204 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 21:33:40,503 [INFO] 批量文件摘要生成完成
+2025-04-15 21:33:40,503 [ERROR] 解析批量摘要 JSON 失败：Expecting value: line 1 column 1 (char 0)
+2025-04-15 21:33:40,504 [ERROR] 大模型返回的文本为：
+2025-04-15 21:33:40,504 [ERROR] 
+2025-04-15 21:33:40,504 [INFO] 进度：已完成 1.4%
+2025-04-15 21:33:40,608 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/dify/project_structure.json
+2025-04-15 21:33:40,611 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/language-page/index.module.css 成功，字符数：594
+2025-04-15 21:33:40,612 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/data-source-page/panel/style.module.css 成功，字符数：394
+2025-04-15 21:33:40,612 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/data-source-page/panel/config-item.tsx 成功，字符数：2552
+2025-04-15 21:33:40,612 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/data-source-page/panel/types.ts 成功，字符数：75
+2025-04-15 21:33:40,612 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/data-source-page/index.module.css 成功，字符数：0
+2025-04-15 21:33:40,613 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/members-page/edit-workspace-modal/index.module.css 成功，字符数：0
+2025-04-15 21:33:40,613 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-setting/members-page/invite-modal/index.module.css 成功，字符数：221
+2025-04-15 21:33:40,613 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-dropdown/support.tsx 成功，字符数：4772
+2025-04-15 21:33:40,613 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-dropdown/compliance.tsx 成功，字符数：7894
+2025-04-15 21:33:40,613 [DEBUG] 读取文件 ../../dify/web/app/components/header/nav/index.module.css 成功，字符数：0
+2025-04-15 21:33:40,613 [DEBUG] 读取文件 ../../dify/web/app/components/header/github-star/index.tsx 成功，字符数：747
+2025-04-15 21:33:40,614 [DEBUG] 读取文件 ../../dify/web/app/components/header/assets/hugging-face.svg 成功，字符数：9418
+2025-04-15 21:33:40,614 [DEBUG] 读取文件 ../../dify/web/app/components/header/assets/file.svg 成功，字符数：787
+2025-04-15 21:33:40,614 [DEBUG] 读取文件 ../../dify/web/app/components/header/assets/gpt.svg 成功，字符数：7024
+2025-04-15 21:33:40,614 [DEBUG] 读取文件 ../../dify/web/app/components/header/assets/salesforce.svg 成功，字符数：11875
+2025-04-15 21:33:40,614 [DEBUG] 读取文件 ../../dify/web/app/components/header/assets/notion.svg 成功，字符数：2233
+2025-04-15 21:33:40,614 [WARNING] 读取文件 ../../dify/web/app/components/header/assets/serpapi.png 失败：'utf-8' codec can't decode byte 0x89 in position 0: invalid start byte
+2025-04-15 21:33:40,615 [DEBUG] 读取文件 ../../dify/web/app/components/header/assets/google.svg 成功，字符数：1218
+2025-04-15 21:33:40,616 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 21:33:49,020 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 21:33:54,226 [INFO] 批量文件摘要生成完成
+2025-04-15 21:33:54,227 [ERROR] 解析批量摘要 JSON 失败：Expecting value: line 1 column 1 (char 0)
+2025-04-15 21:33:54,227 [ERROR] 大模型返回的文本为：
+2025-04-15 21:33:54,227 [ERROR] 
+2025-04-15 21:33:54,227 [INFO] 进度：已完成 1.7%
+2025-04-15 21:33:54,332 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/dify/project_structure.json
+2025-04-15 21:33:54,335 [DEBUG] 读取文件 ../../dify/web/app/components/header/assets/trash.svg 成功，字符数：546
+2025-04-15 21:33:54,335 [DEBUG] 读取文件 ../../dify/web/app/components/header/assets/azure.svg 成功，字符数：7035
+2025-04-15 21:33:54,335 [DEBUG] 读取文件 ../../dify/web/app/components/header/assets/anthropic.svg 成功，字符数：598
+2025-04-15 21:33:54,335 [DEBUG] 读取文件 ../../dify/web/app/components/header/assets/sync.svg 成功，字符数：532
+2025-04-15 21:33:54,336 [DEBUG] 读取文件 ../../dify/web/app/components/header/assets/twitter.svg 成功，字符数：1241
+2025-04-15 21:33:54,336 [DEBUG] 读取文件 ../../dify/web/app/components/header/maintenance-notice.tsx 成功，字符数：1542
+2025-04-15 21:33:54,336 [DEBUG] 读取文件 ../../dify/web/app/components/header/account-about/index.tsx 成功，字符数：3405
+2025-04-15 21:33:54,336 [DEBUG] 读取文件 ../../dify/web/app/components/base/svg/style.module.css 成功，字符数：313
+2025-04-15 21:33:54,336 [DEBUG] 读取文件 ../../dify/web/app/components/base/svg/index.tsx 成功，字符数：513
+2025-04-15 21:33:54,337 [DEBUG] 读取文件 ../../dify/web/app/components/base/with-input-validation/index.tsx 成功，字符数：735
+2025-04-15 21:33:54,337 [DEBUG] 读取文件 ../../dify/web/app/components/base/tag-management/constant.ts 成功，字符数：89
+2025-04-15 21:33:54,337 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat/loading-anim/style.module.css 成功，字符数：1140
+2025-04-15 21:33:54,337 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat/hooks.ts 成功，字符数：23985
+2025-04-15 21:33:54,337 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat/chat-input-area/index.tsx 成功，字符数：8141
+2025-04-15 21:33:54,338 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 21:33:59,165 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 21:34:43,003 [INFO] 批量文件摘要生成完成
+2025-04-15 21:34:43,004 [INFO] 回填摘要到结构节点：web/app/components/header/assets/trash.svg，并将 need_traverse 设置为 False
+2025-04-15 21:34:43,004 [INFO] 回填摘要到结构节点：web/app/components/header/assets/azure.svg，并将 need_traverse 设置为 False
+2025-04-15 21:34:43,005 [INFO] 回填摘要到结构节点：web/app/components/header/assets/anthropic.svg，并将 need_traverse 设置为 False
+2025-04-15 21:34:43,005 [INFO] 回填摘要到结构节点：web/app/components/header/assets/sync.svg，并将 need_traverse 设置为 False
+2025-04-15 21:34:43,005 [INFO] 回填摘要到结构节点：web/app/components/header/assets/twitter.svg，并将 need_traverse 设置为 False
+2025-04-15 21:34:43,006 [INFO] 回填摘要到结构节点：web/app/components/header/maintenance-notice.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:34:43,006 [INFO] 回填摘要到结构节点：web/app/components/header/account-about/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:34:43,006 [INFO] 回填摘要到结构节点：web/app/components/base/svg/style.module.css，并将 need_traverse 设置为 False
+2025-04-15 21:34:43,007 [INFO] 回填摘要到结构节点：web/app/components/base/svg/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:34:43,007 [INFO] 回填摘要到结构节点：web/app/components/base/with-input-validation/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:34:43,007 [INFO] 回填摘要到结构节点：web/app/components/base/tag-management/constant.ts，并将 need_traverse 设置为 False
+2025-04-15 21:34:43,008 [INFO] 回填摘要到结构节点：web/app/components/base/chat/chat/loading-anim/style.module.css，并将 need_traverse 设置为 False
+2025-04-15 21:34:43,008 [INFO] 回填摘要到结构节点：web/app/components/base/chat/chat/hooks.ts，并将 need_traverse 设置为 False
+2025-04-15 21:34:43,008 [INFO] 回填摘要到结构节点：web/app/components/base/chat/chat/chat-input-area/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:34:43,008 [INFO] 进度：已完成 2.0%
+2025-04-15 21:34:43,104 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/dify/project_structure.json
+2025-04-15 21:34:43,107 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat/chat-input-area/hooks.ts 成功，字符数：1412
+2025-04-15 21:34:43,107 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat/chat-input-area/operation.tsx 成功，字符数：1930
+2025-04-15 21:34:43,108 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/utils.ts 成功，字符数：6283
+2025-04-15 21:34:43,108 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/types.ts 成功，字符数：1881
+2025-04-15 21:34:43,108 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/__tests__/utils.spec.ts 成功，字符数：9522
+2025-04-15 21:34:43,109 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/__tests__/multiRootNodesWithLegacyTestMessages.json 成功，字符数：934
+2025-04-15 21:34:43,109 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/__tests__/branchedTestMessages.json 成功，字符数：664
+2025-04-15 21:34:43,109 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/__tests__/multiRootNodesMessages.json 成功，字符数：830
+2025-04-15 21:34:43,109 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/__tests__/partialMessages.json 成功，字符数：3659
+2025-04-15 21:34:43,109 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/__tests__/realWorldMessages.json 成功，字符数：12108
+2025-04-15 21:34:43,109 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/__tests__/legacyTestMessages.json 成功，字符数：803
+2025-04-15 21:34:43,109 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/__tests__/mixedTestMessages.json 成功，字符数：733
+2025-04-15 21:34:43,110 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 21:34:48,009 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 21:35:26,414 [INFO] 批量文件摘要生成完成
+2025-04-15 21:35:26,416 [INFO] 回填摘要到结构节点：web/app/components/base/chat/chat/chat-input-area/hooks.ts，并将 need_traverse 设置为 False
+2025-04-15 21:35:26,416 [INFO] 回填摘要到结构节点：web/app/components/base/chat/chat/chat-input-area/operation.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:35:26,417 [INFO] 回填摘要到结构节点：web/app/components/base/chat/utils.ts，并将 need_traverse 设置为 False
+2025-04-15 21:35:26,417 [INFO] 回填摘要到结构节点：web/app/components/base/chat/types.ts，并将 need_traverse 设置为 False
+2025-04-15 21:35:26,418 [INFO] 回填摘要到结构节点：web/app/components/base/chat/__tests__/utils.spec.ts，并将 need_traverse 设置为 False
+2025-04-15 21:35:26,418 [INFO] 回填摘要到结构节点：web/app/components/base/chat/__tests__/multiRootNodesWithLegacyTestMessages.json，并将 need_traverse 设置为 False
+2025-04-15 21:35:26,418 [INFO] 回填摘要到结构节点：web/app/components/base/chat/__tests__/branchedTestMessages.json，并将 need_traverse 设置为 False
+2025-04-15 21:35:26,419 [INFO] 回填摘要到结构节点：web/app/components/base/chat/__tests__/multiRootNodesMessages.json，并将 need_traverse 设置为 False
+2025-04-15 21:35:26,419 [INFO] 回填摘要到结构节点：web/app/components/base/chat/__tests__/partialMessages.json，并将 need_traverse 设置为 False
+2025-04-15 21:35:26,420 [INFO] 回填摘要到结构节点：web/app/components/base/chat/__tests__/realWorldMessages.json，并将 need_traverse 设置为 False
+2025-04-15 21:35:26,420 [INFO] 回填摘要到结构节点：web/app/components/base/chat/__tests__/legacyTestMessages.json，并将 need_traverse 设置为 False
+2025-04-15 21:35:26,420 [INFO] 回填摘要到结构节点：web/app/components/base/chat/__tests__/mixedTestMessages.json，并将 need_traverse 设置为 False
+2025-04-15 21:35:26,420 [INFO] 进度：已完成 2.2%
+2025-04-15 21:35:26,519 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/dify/project_structure.json
+2025-04-15 21:35:26,520 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/__tests__/__snapshots__/utils.spec.ts.snap 成功，字符数：100902
+2025-04-15 21:35:26,521 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 21:35:34,187 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 21:36:13,393 [INFO] 批量文件摘要生成完成
+2025-04-15 21:36:13,394 [INFO] 回填摘要到结构节点：web/app/components/base/chat/__tests__/__snapshots__/utils.spec.ts.snap，并将 need_traverse 设置为 False
+2025-04-15 21:36:13,394 [INFO] 进度：已完成 2.5%
+2025-04-15 21:36:13,495 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/dify/project_structure.json
+2025-04-15 21:36:13,497 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/constants.ts 成功，字符数：120
+2025-04-15 21:36:13,497 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/embedded-chatbot/inputs-form/view-form-dropdown.tsx 成功，字符数：1930
+2025-04-15 21:36:13,498 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/embedded-chatbot/inputs-form/index.tsx 成功，字符数：2942
+2025-04-15 21:36:13,498 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/embedded-chatbot/inputs-form/content.tsx 成功，字符数：4601
+2025-04-15 21:36:13,499 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/embedded-chatbot/index.tsx 成功，字符数：6811
+2025-04-15 21:36:13,500 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/embedded-chatbot/hooks.tsx 成功，字符数：13860
+2025-04-15 21:36:13,500 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/embedded-chatbot/utils.ts 成功，字符数：79
+2025-04-15 21:36:13,500 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/embedded-chatbot/theme/theme-context.ts 成功，字符数：2846
+2025-04-15 21:36:13,500 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/embedded-chatbot/theme/utils.ts 成功，字符数：900
+2025-04-15 21:36:13,500 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/embedded-chatbot/context.tsx 成功，字符数：2575
+2025-04-15 21:36:13,500 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/embedded-chatbot/chat-wrapper.tsx 成功，字符数：9176
+2025-04-15 21:36:13,500 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/embedded-chatbot/header/index.tsx 成功，字符数：3667
+2025-04-15 21:36:13,501 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 21:37:13,012 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 21:38:04,171 [INFO] 批量文件摘要生成完成
+2025-04-15 21:38:04,172 [INFO] 回填摘要到结构节点：web/app/components/base/chat/constants.ts，并将 need_traverse 设置为 False
+2025-04-15 21:38:04,172 [INFO] 回填摘要到结构节点：web/app/components/base/chat/embedded-chatbot/inputs-form/view-form-dropdown.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:38:04,173 [INFO] 回填摘要到结构节点：web/app/components/base/chat/embedded-chatbot/inputs-form/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:38:04,173 [INFO] 回填摘要到结构节点：web/app/components/base/chat/embedded-chatbot/inputs-form/content.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:38:04,173 [INFO] 回填摘要到结构节点：web/app/components/base/chat/embedded-chatbot/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:38:04,174 [INFO] 回填摘要到结构节点：web/app/components/base/chat/embedded-chatbot/hooks.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:38:04,174 [INFO] 回填摘要到结构节点：web/app/components/base/chat/embedded-chatbot/utils.ts，并将 need_traverse 设置为 False
+2025-04-15 21:38:04,175 [INFO] 回填摘要到结构节点：web/app/components/base/chat/embedded-chatbot/theme/theme-context.ts，并将 need_traverse 设置为 False
+2025-04-15 21:38:04,175 [INFO] 回填摘要到结构节点：web/app/components/base/chat/embedded-chatbot/theme/utils.ts，并将 need_traverse 设置为 False
+2025-04-15 21:38:04,175 [INFO] 回填摘要到结构节点：web/app/components/base/chat/embedded-chatbot/context.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:38:04,176 [INFO] 回填摘要到结构节点：web/app/components/base/chat/embedded-chatbot/chat-wrapper.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:38:04,176 [INFO] 回填摘要到结构节点：web/app/components/base/chat/embedded-chatbot/header/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:38:04,176 [INFO] 进度：已完成 2.8%
+2025-04-15 21:38:04,274 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/dify/project_structure.json
+2025-04-15 21:38:04,276 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat-with-history/inputs-form/view-form-dropdown.tsx 成功，字符数：1820
+2025-04-15 21:38:04,277 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat-with-history/inputs-form/index.tsx 成功，字符数：2933
+2025-04-15 21:38:04,278 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat-with-history/inputs-form/content.tsx 成功，字符数：4601
+2025-04-15 21:38:04,278 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat-with-history/sidebar/index.tsx 成功，字符数：6362
+2025-04-15 21:38:04,278 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat-with-history/sidebar/rename-modal.tsx 成功，字符数：1435
+2025-04-15 21:38:04,278 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat-with-history/sidebar/list.tsx 成功，字符数：956
+2025-04-15 21:38:04,278 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat-with-history/sidebar/item.tsx 成功，字符数：1746
+2025-04-15 21:38:04,278 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat-with-history/sidebar/operation.tsx 成功，字符数：3854
+2025-04-15 21:38:04,278 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat-with-history/index.tsx 成功，字符数：6716
+2025-04-15 21:38:04,279 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat-with-history/hooks.tsx 成功，字符数：17228
+2025-04-15 21:38:04,279 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 21:38:08,305 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 21:38:52,648 [INFO] 批量文件摘要生成完成
+2025-04-15 21:38:52,649 [INFO] 回填摘要到结构节点：web/app/components/base/chat/chat-with-history/inputs-form/view-form-dropdown.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:38:52,650 [INFO] 回填摘要到结构节点：web/app/components/base/chat/chat-with-history/inputs-form/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:38:52,651 [INFO] 回填摘要到结构节点：web/app/components/base/chat/chat-with-history/inputs-form/content.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:38:52,651 [INFO] 回填摘要到结构节点：web/app/components/base/chat/chat-with-history/sidebar/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:38:52,652 [INFO] 回填摘要到结构节点：web/app/components/base/chat/chat-with-history/sidebar/rename-modal.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:38:52,652 [INFO] 回填摘要到结构节点：web/app/components/base/chat/chat-with-history/sidebar/list.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:38:52,653 [INFO] 回填摘要到结构节点：web/app/components/base/chat/chat-with-history/sidebar/item.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:38:52,653 [INFO] 回填摘要到结构节点：web/app/components/base/chat/chat-with-history/sidebar/operation.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:38:52,654 [INFO] 回填摘要到结构节点：web/app/components/base/chat/chat-with-history/hooks.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:38:52,654 [INFO] 进度：已完成 3.1%
+2025-04-15 21:38:52,754 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/dify/project_structure.json
+2025-04-15 21:38:52,757 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat-with-history/context.tsx 成功，字符数：3254
+2025-04-15 21:38:52,757 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat-with-history/header-in-mobile.tsx 成功，字符数：5905
+2025-04-15 21:38:52,757 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat-with-history/chat-wrapper.tsx 成功，字符数：9297
+2025-04-15 21:38:52,757 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat-with-history/header/index.tsx 成功，字符数：6100
+2025-04-15 21:38:52,758 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat-with-history/header/mobile-operation-dropdown.tsx 成功，字符数：1995
+2025-04-15 21:38:52,758 [DEBUG] 读取文件 ../../dify/web/app/components/base/chat/chat-with-history/header/operation.tsx 成功，字符数：2825
+2025-04-15 21:38:52,759 [DEBUG] 读取文件 ../../dify/web/app/components/base/sort/index.tsx 成功，字符数：3475
+2025-04-15 21:38:52,759 [DEBUG] 读取文件 ../../dify/web/app/components/base/app-icon-picker/style.module.css 成功，字符数：313
+2025-04-15 21:38:52,759 [DEBUG] 读取文件 ../../dify/web/app/components/base/app-icon-picker/index.tsx 成功，字符数：4865
+2025-04-15 21:38:52,760 [DEBUG] 读取文件 ../../dify/web/app/components/base/app-icon-picker/ImageInput.tsx 成功，字符数：3959
+2025-04-15 21:38:52,760 [DEBUG] 读取文件 ../../dify/web/app/components/base/app-icon-picker/hooks.tsx 成功，字符数：991
+2025-04-15 21:38:52,761 [DEBUG] 读取文件 ../../dify/web/app/components/base/app-icon-picker/utils.ts 成功，字符数：4775
+2025-04-15 21:38:52,761 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 21:38:58,042 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 21:39:51,401 [INFO] 批量文件摘要生成完成
+2025-04-15 21:39:51,403 [INFO] 回填摘要到结构节点：web/app/components/base/chat/chat-with-history/context.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:39:51,403 [INFO] 回填摘要到结构节点：web/app/components/base/chat/chat-with-history/header-in-mobile.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:39:51,404 [INFO] 回填摘要到结构节点：web/app/components/base/chat/chat-with-history/chat-wrapper.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:39:51,404 [INFO] 回填摘要到结构节点：web/app/components/base/chat/chat-with-history/header/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:39:51,404 [INFO] 回填摘要到结构节点：web/app/components/base/chat/chat-with-history/header/mobile-operation-dropdown.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:39:51,405 [INFO] 回填摘要到结构节点：web/app/components/base/chat/chat-with-history/header/operation.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:39:51,405 [INFO] 回填摘要到结构节点：web/app/components/base/sort/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:39:51,406 [INFO] 回填摘要到结构节点：web/app/components/base/app-icon-picker/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:39:51,406 [INFO] 回填摘要到结构节点：web/app/components/base/app-icon-picker/ImageInput.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:39:51,406 [INFO] 回填摘要到结构节点：web/app/components/base/app-icon-picker/hooks.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:39:51,407 [INFO] 回填摘要到结构节点：web/app/components/base/app-icon-picker/utils.ts，并将 need_traverse 设置为 False
+2025-04-15 21:39:51,407 [INFO] 进度：已完成 3.4%
+2025-04-15 21:39:51,507 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/dify/project_structure.json
+2025-04-15 21:39:51,510 [DEBUG] 读取文件 ../../dify/web/app/components/base/tab-slider/index.tsx 成功，字符数：2692
+2025-04-15 21:39:51,510 [DEBUG] 读取文件 ../../dify/web/app/components/base/markdown.tsx 成功，字符数：11960
+2025-04-15 21:39:51,510 [DEBUG] 读取文件 ../../dify/web/app/components/base/input/index.tsx 成功，字符数：3683
+2025-04-15 21:39:51,511 [DEBUG] 读取文件 ../../dify/web/app/components/base/input/index.spec.tsx 成功，字符数：4435
+2025-04-15 21:39:51,511 [DEBUG] 读取文件 ../../dify/web/app/components/base/block-input/index.tsx 成功，字符数：4626
+2025-04-15 21:39:51,511 [DEBUG] 读取文件 ../../dify/web/app/components/base/skeleton/index.tsx 成功，字符数：1385
+2025-04-15 21:39:51,511 [DEBUG] 读取文件 ../../dify/web/app/components/base/progress-bar/index.tsx 成功，字符数：472
+2025-04-15 21:39:51,511 [DEBUG] 读取文件 ../../dify/web/app/components/base/progress-bar/progress-circle.tsx 成功，字符数：1735
+2025-04-15 21:39:51,511 [DEBUG] 读取文件 ../../dify/web/app/components/base/video-gallery/index.tsx 成功，字符数：336
+2025-04-15 21:39:51,512 [DEBUG] 读取文件 ../../dify/web/app/components/base/video-gallery/VideoPlayer.tsx 成功，字符数：10320
+2025-04-15 21:39:51,512 [DEBUG] 读取文件 ../../dify/web/app/components/base/video-gallery/VideoPlayer.module.css 成功，字符数：3216
+2025-04-15 21:39:51,512 [DEBUG] 读取文件 ../../dify/web/app/components/base/toast/style.module.css 成功，字符数：774
+2025-04-15 21:39:51,513 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 21:39:55,880 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 21:40:47,111 [INFO] 批量文件摘要生成完成
+2025-04-15 21:40:47,111 [INFO] 回填摘要到结构节点：web/app/components/base/tab-slider/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:40:47,111 [INFO] 回填摘要到结构节点：web/app/components/base/markdown.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:40:47,112 [INFO] 回填摘要到结构节点：web/app/components/base/input/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:40:47,112 [INFO] 回填摘要到结构节点：web/app/components/base/block-input/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:40:47,112 [INFO] 回填摘要到结构节点：web/app/components/base/skeleton/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:40:47,112 [INFO] 回填摘要到结构节点：web/app/components/base/progress-bar/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:40:47,112 [INFO] 回填摘要到结构节点：web/app/components/base/progress-bar/progress-circle.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:40:47,113 [INFO] 回填摘要到结构节点：web/app/components/base/video-gallery/index.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:40:47,113 [INFO] 回填摘要到结构节点：web/app/components/base/video-gallery/VideoPlayer.tsx，并将 need_traverse 设置为 False
+2025-04-15 21:40:47,113 [INFO] 进度：已完成 3.6%
+2025-04-15 21:40:47,216 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/dify/project_structure.json
+2025-04-15 21:40:47,220 [DEBUG] 读取文件 ../../dify/web/app/components/base/toast/index.tsx 成功，字符数：5059
+2025-04-15 21:40:47,220 [DEBUG] 读取文件 ../../dify/web/app/components/base/toast/index.spec.tsx 成功，字符数：5486
+2025-04-15 21:40:47,220 [DEBUG] 读取文件 ../../dify/web/app/components/base/action-button/index.tsx 成功，字符数：1820
+2025-04-15 21:40:47,220 [DEBUG] 读取文件 ../../dify/web/app/components/base/action-button/index.css 成功，字符数：967
+2025-04-15 21:40:47,221 [DEBUG] 读取文件 ../../dify/web/app/components/base/chip/index.tsx 成功，字符数：4106
+2025-04-15 21:40:47,221 [DEBUG] 读取文件 ../../dify/web/app/components/base/features/index.tsx 成功，字符数：45
+2025-04-15 21:40:47,221 [DEBUG] 读取文件 ../../dify/web/app/components/base/features/new-feature-panel/index.tsx 成功，字符数：5788
+2025-04-15 21:40:47,221 [DEBUG] 读取文件 ../../dify/web/app/components/base/features/new-feature-panel/image-upload/index.tsx 成功，字符数：4113
+2025-04-15 21:40:47,222 [DEBUG] 读取文件 ../../dify/web/app/components/base/features/new-feature-panel/annotation-reply/index.tsx 成功，字符数：6005
+2025-04-15 21:40:47,222 [DEBUG] 读取文件 ../../dify/web/app/components/base/features/new-feature-panel/annotation-reply/score-slider/index.tsx 成功，字符数：1271
+2025-04-15 21:40:47,222 [DEBUG] 读取文件 ../../dify/web/app/components/base/features/new-feature-panel/annotation-reply/score-slider/base-slider/style.module.css 成功，字符数：238
+2025-04-15 21:40:47,223 [DEBUG] 读取文件 ../../dify/web/app/components/base/features/new-feature-panel/annotation-reply/score-slider/base-slider/index.tsx 成功，字符数：1123
+2025-04-15 21:40:47,223 [DEBUG] 读取文件 ../../dify/web/app/components/base/features/new-feature-panel/annotation-reply/config-param-modal.tsx 成功，字符数：4651
+2025-04-15 21:40:47,223 [DEBUG] 读取文件 ../../dify/web/app/components/base/features/new-feature-panel/annotation-reply/type.ts 成功，字符数：69
+2025-04-15 21:40:47,223 [DEBUG] 读取文件 ../../dify/web/app/components/base/features/new-feature-panel/annotation-reply/use-annotation-config.ts 成功，字符数：3193
+2025-04-15 21:40:47,223 [DEBUG] 读取文件 ../../dify/web/app/components/base/features/new-feature-panel/annotation-reply/annotation-ctrl-button.tsx 成功，字符数：2079
+2025-04-15 21:40:47,223 [DEBUG] 读取文件 ../../dify/web/app/components/base/features/new-feature-panel/annotation-reply/config-param.tsx 成功，字符数：637
+2025-04-15 21:40:47,223 [DEBUG] 读取文件 ../../dify/web/app/components/base/features/new-feature-panel/citation.tsx 成功，字符数：1725
+2025-04-15 21:40:47,224 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 21:40:50,364 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None

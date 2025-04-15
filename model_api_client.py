@@ -38,16 +38,16 @@ def read_model_api_config(config_file="config.ini"):
     config.read(config_file)
     api_key = config.get('step_api_prod', 'key')
     api_url = config.get('step_api_prod', 'url')
-    try:
-        display_llm = config.getboolean("logging", "displayLLM")
-    except Exception:
-        display_llm = False
-    return api_key, api_url, display_llm
+    model_name = config.get('step_api_prod', 'model_name')
+    is_inference_model = config.get('step_api_prod', 'is_inference_model')
+    display_llm = config.getboolean('step_api_prod', 'display_response')
 
-STEP_API_KEY, BASE_URL, DISPLAY_LLM = read_model_api_config()
+    return api_key, api_url, display_llm,model_name, is_inference_model
+
+STEP_API_KEY, BASE_URL, DISPLAY_LLM, model_name, is_inference_model = read_model_api_config()
 
 # 选择使用的模型
-COMPLETION_MODEL = "step-r1-v-mini"
+COMPLETION_MODEL = model_name
 
 def call_model_api(messages, model=COMPLETION_MODEL, stream=False, timeout=60, big_model_log_path="big_model_calls.log"):
     """

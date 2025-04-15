@@ -30,10 +30,10 @@
             ".eslintrc",
             ".prettierrc"
         ],
-        "dependency": ["pom.xml", "build.gradle", "Cargo.toml", "composer.json"],
+        "dependency": ["pom.xml", "build.gradle", "Cargo.toml", "composer.json","IA3.ipynb","semantic_segmentation_peft_lora.ipynb","image_classification_timm_peft_lora.ipynb","peft_poly_seq2seq_with_generate.ipynb","peft_bnb_whisper_large_v2_training.ipynb"],
         "runtime": ["next.config.js", ".env"]
     },
-    "exclude_dirs": ["node_modules", "scan_results","logs","dist", "build", ".git", "__pycache__"],
+    "exclude_dirs": ["node_modules", "scan_results","logs","dist", "build", ".git", "__pycache__","tests","examples"],
     "binary_extensions": [
         ".png", ".jpg", ".jpeg", ".gif", ".bmp", ".pdf", ".mp4", ".avi", ".exe", ".dll", ".zip", ".rar"
     ]

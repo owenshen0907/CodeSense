@@ -4,10 +4,13 @@ import subprocess
 
 # 定义需要分析的项目及其路径（相对于当前脚本所在目录）
 projects = [
-    # {"name": "OpenManus", "path": "../../OpenManus"},
+    {"name": "OpenManus", "path": "../../OpenManus"},
     {"name": "yolov5",   "path": "../../yolov5"},
     # {"name": "dify",     "path": "../../dify"},
-    {"name": "tensorflow", "path": "../../tensorflow"}
+    # {"name": "tensorflow", "path": "../../tensorflow"},
+    {"name": "LLaMA-Factory", "path": "../../LLaMA-Factory"}
+    # {"name": "diffusers", "path": "../../diffusers"},
+    # {"name": "peft", "path": "../../peft"}
 ]
 
 # scenario 参数统一为 "direct"

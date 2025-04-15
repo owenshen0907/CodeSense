@@ -1105,3 +1105,8 @@
 2025-04-15 11:25:57,361 [DEBUG] 读取文件 ../../tensorflow/third_party/xla/xla/pjrt/c/pjrt_c_api_ffi_extension.h 成功，字符数：2725
 2025-04-15 11:25:57,362 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
 2025-04-15 11:26:00,495 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-15 20:45:16,981 [DEBUG] 日志系统初始化完成，日志文件：/Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/debug.log
+2025-04-15 20:45:17,079 [INFO] 成功加载扫描结果 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/tensorflow/project_structure.json
+2025-04-15 20:45:17,079 [INFO] 提取 readme.md 成功：README.md (字符数：12219)
+2025-04-15 20:45:17,079 [INFO] 加载总结工具配置文件：codesense_summarizer_config.json
+2025-04-15 20:45:17,084 [INFO] 待处理文件数量（不包含 .md 文件且 need_traverse 为 True）：32896

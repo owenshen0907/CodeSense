@@ -1805,8 +1805,11 @@
                                 "character_count": 0,
                                 "language": "python",
                                 "category": "code",
-                                "need_traverse": true,
-                                "summaries": {}
+                                "need_traverse": false,
+                                "summaries": {
+                                    "functions": [],
+                                    "summary": "这是一个空的__init__.py文件，用于标记Python包目录，未定义任何函数或类。"
+                                }
                             },
                             {
                                 "type": "file",
@@ -1884,8 +1887,11 @@
                 "character_count": 1071,
                 "language": "unknown",
                 "category": "code",
-                "need_traverse": true,
-                "summaries": {}
+                "need_traverse": false,
+                "summaries": {
+                    "functions": [],
+                    "summary": "MIT许可证声明，包含版权信息（2025 manna_and_poem）及软件使用的权限与限制条款。"
+                }
             },
             {
                 "type": "file",
@@ -1895,8 +1901,11 @@
                 "character_count": 594,
                 "language": "unknown",
                 "category": "config",
-                "need_traverse": true,
-                "summaries": {}
+                "need_traverse": false,
+                "summaries": {
+                    "functions": [],
+                    "summary": "项目依赖清单，列出了如pydantic、openai等第三方库及其版本范围（如~1.66.3表示兼容1.66.x版本）。"
+                }
             },
             {
                 "type": "dir",
@@ -2011,76 +2020,6 @@
                 ]
             },
             {
-                "type": "dir",
-                "name": "tests",
-                "relative_path": "tests",
-                "children": [
-                    {
-                        "type": "dir",
-                        "name": "sandbox",
-                        "relative_path": "tests/sandbox",
-                        "children": [
-                            {
-                                "type": "file",
-                                "name": "test_sandbox_manager.py",
-                                "relative_path": "tests/sandbox/test_sandbox_manager.py",
-                                "is_text": true,
-                                "character_count": 4001,
-                                "language": "python",
-                                "category": "code",
-                                "need_traverse": false,
-                                "summaries": {
-                                    "functions": [],
-                                    "summary": "测试SandboxManager类的功能，包括创建、获取、删除沙箱实例，最大实例限制，闲置清理等。包含多个测试用例，验证沙箱管理的正确性和异常处理。"
-                                }
-                            },
-                            {
-                                "type": "file",
-                                "name": "test_docker_terminal.py",
-                                "relative_path": "tests/sandbox/test_docker_terminal.py",
-                                "is_text": true,
-                                "character_count": 3344,
-                                "language": "python",
-                                "category": "code",
-                                "need_traverse": false,
-                                "summaries": {
-                                    "functions": [],
-                                    "summary": "测试AsyncDockerizedTerminal类的功能，包括基本命令执行、环境变量、工作目录、命令超时处理等。使用Docker容器模拟终端环境。"
-                                }
-                            },
-                            {
-                                "type": "file",
-                                "name": "test_sandbox.py",
-                                "relative_path": "tests/sandbox/test_sandbox.py",
-                                "is_text": true,
-                                "character_count": 4477,
-                                "language": "python",
-                                "category": "code",
-                                "need_traverse": false,
-                                "summaries": {
-                                    "functions": [],
-                                    "summary": "测试DockerSandbox类的功能，包括文件操作、Python执行、网络访问、沙箱清理等。验证沙箱的隔离性和功能性。"
-                                }
-                            },
-                            {
-                                "type": "file",
-                                "name": "test_client.py",
-                                "relative_path": "tests/sandbox/test_client.py",
-                                "is_text": true,
-                                "character_count": 3494,
-                                "language": "python",
-                                "category": "code",
-                                "need_traverse": false,
-                                "summaries": {
-                                    "functions": [],
-                                    "summary": "测试LocalSandboxClient的功能，包括沙箱创建、命令执行、文件操作、卷挂载等。验证本地沙箱客户端的正确性。"
-                                }
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
                 "type": "file",
                 "name": "README_ko.md",
                 "relative_path": "README_ko.md",
@@ -2115,147 +2054,6 @@
                     "functions": [],
                     "summary": "项目的setup脚本，定义包信息、依赖项（如pydantic、openai等）、入口点等，用于打包和安装OpenManus。"
                 }
-            },
-            {
-                "type": "dir",
-                "name": "examples",
-                "relative_path": "examples",
-                "children": [
-                    {
-                        "type": "dir",
-                        "name": "use_case",
-                        "relative_path": "examples/use_case",
-                        "children": [
-                            {
-                                "type": "dir",
-                                "name": "pictures",
-                                "relative_path": "examples/use_case/pictures",
-                                "children": [
-                                    {
-                                        "type": "file",
-                                        "name": "japan-travel-plan-2.png",
-                                        "relative_path": "examples/use_case/pictures/japan-travel-plan-2.png",
-                                        "is_text": false,
-                                        "character_count": null,
-                                        "language": "unknown",
-                                        "category": "code",
-                                        "need_traverse": false,
-                                        "summaries": {
-                                            "functions": [],
-                                            "summary": "日本旅行计划示例用例中的图片资源。"
-                                        }
-                                    },
-                                    {
-                                        "type": "file",
-                                        "name": "japan-travel-plan-1.png",
-                                        "relative_path": "examples/use_case/pictures/japan-travel-plan-1.png",
-                                        "is_text": false,
-                                        "character_count": null,
-                                        "language": "unknown",
-                                        "category": "code",
-                                        "need_traverse": false,
-                                        "summaries": {
-                                            "functions": [],
-                                            "summary": "日本旅行计划示例用例中的图片资源。"
-                                        }
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "dir",
-                                "name": "japan-travel-plan",
-                                "relative_path": "examples/use_case/japan-travel-plan",
-                                "children": [
-                                    {
-                                        "type": "file",
-                                        "name": "japan_travel_handbook_mobile.html",
-                                        "relative_path": "examples/use_case/japan-travel-plan/japan_travel_handbook_mobile.html",
-                                        "is_text": true,
-                                        "character_count": 8138,
-                                        "language": "unknown",
-                                        "category": "code",
-                                        "need_traverse": false,
-                                        "summaries": {
-                                            "functions": [],
-                                            "summary": "移动端优化的日本旅行指南HTML文件，包含响应式设计、触控友好界面、快速访问按钮和暗色模式支持。"
-                                        }
-                                    },
-                                    {
-                                        "type": "file",
-                                        "name": "japan_travel_guide_instructions.txt",
-                                        "relative_path": "examples/use_case/japan-travel-plan/japan_travel_guide_instructions.txt",
-                                        "is_text": true,
-                                        "character_count": 1871,
-                                        "language": "unknown",
-                                        "category": "code",
-                                        "need_traverse": false,
-                                        "summaries": {
-                                            "functions": [],
-                                            "summary": "日本旅行指南的版本说明，详细介绍了不同版本（数字版、打印版、移动端）的用途和设置建议。"
-                                        }
-                                    },
-                                    {
-                                        "type": "file",
-                                        "name": "japan_travel_handbook_print.html",
-                                        "relative_path": "examples/use_case/japan-travel-plan/japan_travel_handbook_print.html",
-                                        "is_text": true,
-                                        "character_count": 5782,
-                                        "language": "unknown",
-                                        "category": "code",
-                                        "need_traverse": false,
-                                        "summaries": {
-                                            "functions": [],
-                                            "summary": "打印友好的日本旅行指南HTML文件，优化排版和分页，适合纸质版参考。"
-                                        }
-                                    },
-                                    {
-                                        "type": "file",
-                                        "name": "japan_travel_handbook.html",
-                                        "relative_path": "examples/use_case/japan-travel-plan/japan_travel_handbook.html",
-                                        "is_text": true,
-                                        "character_count": 5940,
-                                        "language": "unknown",
-                                        "category": "code",
-                                        "need_traverse": false,
-                                        "summaries": {
-                                            "functions": [],
-                                            "summary": "详细的日本旅行指南HTML文件，包含行程规划、日语短语、提案计划等丰富内容。"
-                                        }
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "file",
-                                "name": "readme.md",
-                                "relative_path": "examples/use_case/readme.md",
-                                "is_text": true,
-                                "character_count": 864,
-                                "language": "unknown",
-                                "category": "code",
-                                "need_traverse": true,
-                                "summaries": {}
-                            }
-                        ]
-                    },
-                    {
-                        "type": "dir",
-                        "name": "benchmarks",
-                        "relative_path": "examples/benchmarks",
-                        "children": [
-                            {
-                                "type": "file",
-                                "name": "__init__.py",
-                                "relative_path": "examples/benchmarks/__init__.py",
-                                "is_text": true,
-                                "character_count": 70,
-                                "language": "python",
-                                "category": "code",
-                                "need_traverse": true,
-                                "summaries": {}
-                            }
-                        ]
-                    }
-                ]
             },
             {
                 "type": "file",
@@ -3705,6 +3503,22 @@
         "assets/logo.jpg": {
             "functions": [],
             "summary": "项目Logo图片。"
+        },
+        "app/flow/__init__.py": {
+            "functions": [],
+            "summary": "这是一个空的__init__.py文件，用于标记Python包目录，未定义任何函数或类。"
+        },
+        "LICENSE": {
+            "functions": [],
+            "summary": "MIT许可证声明，包含版权信息（2025 manna_and_poem）及软件使用的权限与限制条款。"
+        },
+        "requirements.txt": {
+            "functions": [],
+            "summary": "项目依赖清单，列出了如pydantic、openai等第三方库及其版本范围（如~1.66.3表示兼容1.66.x版本）。"
+        },
+        "examples/benchmarks/__init__.py": {
+            "functions": [],
+            "summary": "初始化文件，包含文档字符串说明该模块用于OpenManus基准系统，旨在标准化代理评估流程。"
         }
     }
 }

@@ -6,11 +6,13 @@ import sys
 import time
 import configparser
 import datetime
+from concurrent.futures import ThreadPoolExecutor, as_completed
+import math
+
 from model_api_client import call_model_api
 
 # 全局变量，默认大模型调用日志文件路径，后续在 main_wrapper 中会更新
 BIG_MODEL_LOG = "big_model_calls.log"
-
 
 def setup_logging(log_dir):
     """
@@ -36,12 +38,10 @@ def setup_logging(log_dir):
     logger.addHandler(ch)
     logging.debug(f"日志系统初始化完成，日志文件：{log_file}")
 
-
 def save_scan_json(scan_json_path, data):
     with open(scan_json_path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
     logging.info(f"保存扫描结果至 {scan_json_path}")
-
 
 def load_scan_json(scan_json_path):
     if os.path.exists(scan_json_path):
@@ -52,8 +52,12 @@ def load_scan_json(scan_json_path):
     logging.error(f"扫描结果文件 {scan_json_path} 不存在")
     return None
 
-
 def extract_initial_summary_from_project_structure(structure, project_path):
+    """
+    从扫描结果 JSON 中查找项目根目录下的 readme.md（忽略大小写），
+    并读取其内容作为初步总结；如果未找到，则返回空字符串。
+    依据 project_path 构造绝对路径。
+    """
     if not structure or "children" not in structure:
         return ""
     for item in structure["children"]:
@@ -69,7 +73,6 @@ def extract_initial_summary_from_project_structure(structure, project_path):
                 logging.error(f"读取 {abs_file_path} 失败：{e}")
     return ""
 
-
 def read_file_content(file_path):
     try:
         with open(file_path, "r", encoding="utf-8") as f:
@@ -79,7 +82,6 @@ def read_file_content(file_path):
     except Exception as e:
         logging.warning(f"读取文件 {file_path} 失败：{e}")
         return ""
-
 
 def clean_response_text(text):
     text = text.strip()
@@ -91,10 +93,9 @@ def clean_response_text(text):
         text = "\n".join(lines).strip()
     return text
 
-
 def summarize_files_batch(file_paths, project_path, prompt_template):
     """
-    针对一批代码文件生成摘要（不包括 .md 文件）。
+    针对一批代码文件生成摘要（不包含 .md 文件）。
     拼接时采用格式：
       【文件路径：<file_path>】
       【开始】
@@ -102,6 +103,7 @@ def summarize_files_batch(file_paths, project_path, prompt_template):
       【结束】
       ===FILE_SEPARATOR===
     将所有文本填入 prompt_template 的 {batch_content} 部分，调用大模型生成摘要。
+    大模型调用详情写入 BIG_MODEL_LOG 文件，Trace ID 总在终端显示。
     """
     batch_content_list = []
     for fp in file_paths:
@@ -127,18 +129,62 @@ def summarize_files_batch(file_paths, project_path, prompt_template):
         batch_summary = {}
     return batch_summary
 
-
-def aggregate_final_summary(initial_summary, code_summaries, prompt_template):
-    aggregated = "\n\n".join([f"【{fp}】\n{cs}" for fp, cs in code_summaries.items() if cs])
-    prompt = prompt_template.format(initial_summary=initial_summary, code_summaries=aggregated)
-    messages = [{"role": "user", "content": prompt}]
-    response = call_model_api(messages, stream=True, big_model_log_path=BIG_MODEL_LOG)
-    if response:
-        logging.info("最终项目总结报告生成完成")
+def split_and_summarize_final(initial_summary, aggregated, final_summary_prompt, max_len):
+    """
+    生成最终项目总结报告：
+      - 如果 aggregated 长度小于或等于 max_len，则直接带入 prompt 调用大模型生成最终总结；
+      - 否则，将 aggregated 拆分为 n_parts（n_parts = int(len(aggregated) / max_len) + 1）份，
+        分别调用大模型生成每个部分的精简摘要（使用 final_summary_prompt 模板，其中 {code_summaries} 替换为该部分），
+        然后将所有部分的精简结果合并，再调用大模型生成最终总结报告。
+    """
+    if len(aggregated) <= max_len:
+        prompt = final_summary_prompt.format(initial_summary=initial_summary, code_summaries=aggregated)
+        messages = [{"role": "user", "content": prompt}]
+        result = call_model_api(messages, stream=True, big_model_log_path=BIG_MODEL_LOG)
+        return result
     else:
-        logging.error("最终项目总结报告生成失败")
-    return response
+        n_parts = int(len(aggregated) / max_len) + 1
+        logging.info(f"最终代码摘要长度 {len(aggregated)} 超过限制 {max_len}，拆分为 {n_parts} 份")
+        part_size = len(aggregated) // n_parts
+        part_summaries = []
+        for i in range(n_parts):
+            start = i * part_size
+            if i == n_parts - 1:
+                part_text = aggregated[start:]
+            else:
+                part_text = aggregated[start: start + part_size]
+            logging.info(f"第 {i+1} 份摘要原始长度：{len(part_text)}")
+            prompt = final_summary_prompt.format(initial_summary=initial_summary, code_summaries=part_text)
+            messages = [{"role": "user", "content": prompt}]
+            part_result = call_model_api(messages, stream=True, big_model_log_path=BIG_MODEL_LOG)
+            if part_result is None:
+                logging.error(f"第 {i+1} 份摘要生成失败")
+                part_result = ""
+            else:
+                logging.info(f"第 {i+1} 份摘要生成成功，摘要长度：{len(part_result)}")
+            part_summaries.append(part_result)
+        # 合并所有部分摘要，并生成最终总结
+        combined = "\n".join(part_summaries)
+        logging.info(f"合并后摘要总长度：{len(combined)}")
+        final_prompt = final_summary_prompt.format(initial_summary=initial_summary, code_summaries=combined)
+        messages = [{"role": "user", "content": final_prompt}]
+        final_result = call_model_api(messages, stream=True, big_model_log_path=BIG_MODEL_LOG)
+        logging.info(f"最终摘要生成成功，长度：{len(final_result) if final_result else 'None'}")
+        return final_result
 
+def aggregate_final_summary(initial_summary, code_summaries, prompt_template, max_len):
+    """
+    将 readme.md 的内容作为初步总结，与所有代码文件的摘要整合，
+    生成最终的项目总结报告。提示词格式如下：
+      请将以下初步项目总结与所有代码文件的摘要进行整合，
+      生成最终的项目总结报告。报告需要包含标题与功能介绍、代码摘要、技术标签、关键词和编译/运行环境，
+      并给出与初步总结的对比备注。
+    如果最终摘要部分超过 max_len，则对 aggregated 进行拆分求摘要。
+    """
+    aggregated = "\n\n".join([f"【{fp}】\n{cs}" for fp, cs in code_summaries.items() if cs])
+    logging.info(f"最终代码摘要合集初始长度：{len(aggregated)}")
+    final_summary = split_and_summarize_final(initial_summary, aggregated, prompt_template, max_len)
+    return final_summary
 
 def update_structure_summary(node, file_rel, summary):
     if node.get("type") == "file" and node.get("relative_path") == file_rel:
@@ -151,7 +197,6 @@ def update_structure_summary(node, file_rel, summary):
             if update_structure_summary(child, file_rel, summary):
                 return True
     return False
-
 
 def estimate_invocations(file_list, get_file_char_count, batch_threshold):
     pending = file_list[:]  # 复制列表
@@ -171,42 +216,34 @@ def estimate_invocations(file_list, get_file_char_count, batch_threshold):
             count += 1
     return count
 
-
-def extract_files(node, flist):
-    if node.get("type") == "file":
-        if (not node.get("name", "").lower().endswith(".md")) and node.get("need_traverse", True):
-            flist.append(node.get("relative_path"))
-    elif node.get("type") == "dir":
-        for child in node.get("children", []):
-            extract_files(child, flist)
-    return flist
-
-
-def collect_pending_files(node, pending_list=None):
-    if pending_list is None:
-        pending_list = []
-    if node.get("type") == "file":
-        if (not node.get("name", "").lower().endswith(".md")) and node.get("need_traverse", True) and not node.get(
-                "summaries"):
-            pending_list.append(node.get("relative_path"))
-    elif node.get("type") == "dir":
-        for child in node.get("children", []):
-            collect_pending_files(child, pending_list)
-    return pending_list
-
+def group_batches(pending_files, get_file_char_count, batch_threshold):
+    batches = []
+    current_batch = []
+    current_sum = 0
+    for fp in pending_files:
+        count = get_file_char_count(fp)
+        if current_sum + count <= batch_threshold:
+            current_batch.append(fp)
+            current_sum += count
+        else:
+            if current_batch:
+                batches.append(current_batch)
+            current_batch = [fp]
+            current_sum = count
+    if current_batch:
+        batches.append(current_batch)
+    return batches
 
 def main():
     parser = argparse.ArgumentParser(
-        description="CodeSense 项目总结工具：生成项目总结报告（批量处理文件摘要，支持多种场景）"
+        description="CodeSense 项目总结工具：生成项目总结报告（批量处理文件摘要，支持多场景）"
     )
     parser.add_argument("--project_name", type=str, required=True, help="项目名称")
     parser.add_argument("--scan_json", type=str, required=True, help="扫描结果 JSON 文件路径")
-    parser.add_argument("--project_path", type=str, required=True, help="待扫描项目根目录路径")
+    parser.add_argument("--project_path", type=str, required=True, help="待扫描项目的根目录路径")
     parser.add_argument("--summarizer_config", type=str, default="codesense_summarizer_config.json",
                         help="总结工具配置文件路径")
-    # 此处 output 参数仅作基文件名前缀，但最终生成的 md 文件名由场景配置决定并附加日期时间
-    parser.add_argument("--output", type=str, default="final_project_summary.md",
-                        help="最终总结报告输出文件名称（基文件名，含扩展名）")
+    parser.add_argument("--output", type=str, default="final_project_summary.md", help="最终总结报告输出文件名称")
     parser.add_argument("--scenario", type=str, choices=["direct", "correct", "usage", "custom"], default="direct",
                         help="选择总结场景")
     args = parser.parse_args()
@@ -217,7 +254,7 @@ def main():
         logging.error(f"扫描结果文件 {args.scan_json} 不存在或内容为空")
         return
 
-    # 提取原始 readme 内容作为初步总结
+    # 使用 readme.md 的内容作为初步总结
     initial_summary = extract_initial_summary_from_project_structure(scan_data.get("structure", {}), args.project_path)
     if not initial_summary:
         logging.warning("未在扫描结果中找到 readme.md，初步总结为空。")
@@ -227,23 +264,16 @@ def main():
         summarizer_config = json.load(f)
     logging.info(f"加载总结工具配置文件：{args.summarizer_config}")
 
-    # 从配置中选择指定场景的配置项
+    # 根据传入的 scenario 选择对应的配置项
     scenarios = summarizer_config.get("scenarios", {})
     if args.scenario not in scenarios:
         logging.error(f"配置文件中不包含场景 {args.scenario}")
         sys.exit(1)
     scenario_conf = scenarios[args.scenario]
-
-    # 根据场景决定是否使用原始 readme
-    use_initial_readme = scenario_conf.get("use_initial_readme", True)
-    if not use_initial_readme:
-        initial_summary = ""
-
     batch_summary_prompt = scenario_conf.get("batch_summary_prompt", "")
     final_summary_prompt = scenario_conf.get("final_summary_prompt", "")
     if final_summary_prompt == "":
         logging.warning("当前场景的 final_summary_prompt 为空，请在配置文件中配置或选择其他场景。")
-
     max_context = summarizer_config.get("max_context_length", 100000)
     batch_threshold = max_context / 2
 
@@ -260,7 +290,6 @@ def main():
                     if res is not None:
                         return res
             return None
-
         count = recursive_search(scan_data.get("structure", {}), file_rel)
         if count is None:
             abs_fp = os.path.join(args.project_path, file_rel)
@@ -271,93 +300,112 @@ def main():
                 count = 0
         return count
 
+    def collect_pending_files(node, pending_list=None):
+        if pending_list is None:
+            pending_list = []
+        if node.get("type") == "file":
+            if (not node.get("name", "").lower().endswith(".md")) and node.get("need_traverse", True) and not node.get("summaries"):
+                pending_list.append(node.get("relative_path"))
+        elif node.get("type") == "dir":
+            for child in node.get("children", []):
+                collect_pending_files(child, pending_list)
+        return pending_list
+
     pending_files = collect_pending_files(scan_data.get("structure", {}))
-    total_files = len(pending_files)
-    logging.info(f"待处理文件数量（不包含 .md 文件且 need_traverse 为 True）：{total_files}")
+    total_pending = len(pending_files)
+    logging.info(f"待处理文件数量（不包含 .md 文件且 need_traverse 为 True）：{total_pending}")
 
-    estimated_invocations = estimate_invocations(pending_files, lambda fp: get_file_char_count(fp), batch_threshold)
-    total_steps = 1 + estimated_invocations + 1
-    logging.info(f"预估大模型调用总次数：{estimated_invocations}，总步骤数：{total_steps}")
-    logging.info(f"进度：初步总结步骤完成，占总进度 {(1 / total_steps) * 100:.1f}%")
+    batches = group_batches(pending_files, lambda fp: get_file_char_count(fp), batch_threshold)
+    logging.info(f"划分出 {len(batches)} 个批次")
 
-    summaries = scan_data.get("summaries", {})
+    try:
+        max_workers = int(summarizer_config.get("max_concurrent_requests", "1"))
+    except Exception:
+        max_workers = 1
+    logging.info(f"最大并发请求数：{max_workers}")
 
-    batch_files = []
-    batch_char_count = 0
-    i = 0
-    while i < len(pending_files):
-        if max_invocations is not None and invocation_count >= max_invocations:
-            logging.warning(f"达到最大调用次数 {max_invocations}，停止处理剩余文件。")
-            break
-        fp = pending_files[i]
-        char_count = get_file_char_count(fp)
-        if char_count >= batch_threshold:
-            if batch_files:
-                batch_result = summarize_files_batch(batch_files, args.project_path, batch_summary_prompt)
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        future_to_batch = {executor.submit(summarize_files_batch, batch, args.project_path, batch_summary_prompt): batch for batch in batches}
+        for future in as_completed(future_to_batch):
+            batch = future_to_batch[future]
+            try:
+                batch_result = future.result()
                 invocation_count += 1
                 for key, value in batch_result.items():
-                    summaries[key] = value
+                    scan_data["summaries"][key] = value
                     update_structure_summary(scan_data["structure"], key, value)
-                batch_files = []
-                batch_char_count = 0
-                progress = ((1 + invocation_count) / total_steps) * 100
+                progress = ((1 + invocation_count) / (1 + len(batches) + 1)) * 100
                 logging.info(f"进度：已完成 {progress:.1f}%")
                 save_scan_json(args.scan_json, scan_data)
-            batch_result = summarize_files_batch([fp], args.project_path, batch_summary_prompt)
-            invocation_count += 1
-            summary = batch_result.get(fp, "")
-            summaries[fp] = summary
-            update_structure_summary(scan_data["structure"], fp, summary)
-            progress = ((1 + invocation_count) / total_steps) * 100
-            logging.info(f"进度：已完成 {progress:.1f}%")
-            save_scan_json(args.scan_json, scan_data)
-            i += 1
-        else:
-            if batch_char_count + char_count <= batch_threshold:
-                batch_files.append(fp)
-                batch_char_count += char_count
-                i += 1
-            else:
-                batch_result = summarize_files_batch(batch_files, args.project_path, batch_summary_prompt)
-                invocation_count += 1
-                for key, value in batch_result.items():
-                    summaries[key] = value
-                    update_structure_summary(scan_data["structure"], key, value)
-                batch_files = []
-                batch_char_count = 0
-                progress = ((1 + invocation_count) / total_steps) * 100
-                logging.info(f"进度：已完成 {progress:.1f}%")
-                save_scan_json(args.scan_json, scan_data)
-    if batch_files:
-        batch_result = summarize_files_batch(batch_files, args.project_path, batch_summary_prompt)
-        invocation_count += 1
-        for key, value in batch_result.items():
-            summaries[key] = value
-            update_structure_summary(scan_data["structure"], key, value)
-        progress = ((1 + invocation_count) / total_steps) * 100
-        logging.info(f"进度：已完成 {progress:.1f}%")
-        save_scan_json(args.scan_json, scan_data)
-    scan_data["summaries"] = summaries
-    save_scan_json(args.scan_json, scan_data)
+            except Exception as e:
+                logging.error(f"批次处理时发生异常：{e}")
 
-    final_summary = aggregate_final_summary(initial_summary, summaries, final_summary_prompt)
+    # 生成最终项目总结报告：构建代码摘要合集
+    aggregated = "\n\n".join([f"【{fp}】\n{cs}" for fp, cs in scan_data.get("summaries", {}).items() if cs])
+    logging.info(f"聚合后的代码摘要合集长度：{len(aggregated)}")
+    # 如果 aggregated 长度超过阈值，则拆分
+    if len(aggregated) > batch_threshold:
+        logging.info("最终摘要文本超过限制，进行拆分求摘要")
+        final_summary = split_and_summarize_final(initial_summary, aggregated, final_summary_prompt, batch_threshold)
+    else:
+        final_prompt = final_summary_prompt.format(initial_summary=initial_summary, code_summaries=aggregated)
+        messages = [{"role": "user", "content": final_prompt}]
+        final_summary = call_model_api(messages, stream=True, big_model_log_path=BIG_MODEL_LOG)
     invocation_count += 1
-    progress = ((1 + invocation_count) / total_steps) * 100
+    progress = ((1 + invocation_count) / (1 + len(batches) + 1)) * 100
     logging.info(f"进度：已完成 {progress:.1f}%")
-
-    # 根据当前场景配置中的 md_path 生成最终输出文件名
-    base_md = scenario_conf.get("md_path", args.output)
-    base_name = os.path.splitext(base_md)[0]
+    scan_results_dir = os.path.dirname(os.path.abspath(args.scan_json))
+    base_name = os.path.splitext(args.output)[0]
     timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
     final_file_name = f"{base_name}_{timestamp}.md"
-    scan_results_dir = os.path.dirname(os.path.abspath(args.scan_json))
     final_output_path = os.path.join(scan_results_dir, final_file_name)
     with open(final_output_path, "w", encoding="utf-8") as f:
         f.write(final_summary)
     logging.info(f"最终项目总结报告已保存至 {final_output_path}")
 
+def split_and_summarize_final(initial_summary, aggregated, final_summary_prompt, max_len):
+    """
+    如果 aggregated 的长度超过 max_len，则拆分为 n_parts（n_parts = int(len(aggregated) / max_len) + 1）份，
+    分别使用 final_summary_prompt 模板（其中 {code_summaries} 替换为：
+        "部分1：\n{summary_front}\n部分2：\n{summary_back}\n"）
+    对每份调用模型生成部分摘要（每次调用都作为 final_summary 处理），
+    最后将所有部分摘要合并后再调用模型生成最终摘要。
+    """
+    if len(aggregated) <= max_len:
+        prompt = final_summary_prompt.format(initial_summary=initial_summary, code_summaries=aggregated)
+        messages = [{"role": "user", "content": prompt}]
+        return call_model_api(messages, stream=True, big_model_log_path=BIG_MODEL_LOG)
+    else:
+        n_parts = int(len(aggregated) / max_len) + 1
+        logging.info(f"最终摘要聚合文本长度 {len(aggregated)} 超过限制 {max_len}，拆分为 {n_parts} 份")
+        part_size = len(aggregated) // n_parts
+        part_summaries = []
+        for i in range(n_parts):
+            start = i * part_size
+            if i == n_parts - 1:
+                part_text = aggregated[start:]
+            else:
+                part_text = aggregated[start: start + part_size]
+            logging.info(f"第 {i+1} 部分文本长度：{len(part_text)}")
+            # 构造每一部分的 prompt：将原提示模板中的 {code_summaries} 替换为拆分文本，{initial_summary} 保持
+            prompt = final_summary_prompt.format(initial_summary=initial_summary, code_summaries=f"部分1：\n{part_text}\n")
+            messages = [{"role": "user", "content": prompt}]
+            part_result = call_model_api(messages, stream=True, big_model_log_path=BIG_MODEL_LOG)
+            if part_result is None:
+                logging.error(f"第 {i+1} 部分摘要生成失败")
+                part_result = ""
+            else:
+                logging.info(f"第 {i+1} 部分摘要生成成功，摘要长度：{len(part_result)}")
+            part_summaries.append(part_result)
+        # 合并所有部分摘要，并生成一次最终摘要
+        combined_parts = "\n".join(part_summaries)
+        logging.info(f"合并所有部分摘要，总长度：{len(combined_parts)}")
+        final_prompt = final_summary_prompt.format(initial_summary=initial_summary, code_summaries=combined_parts)
+        messages = [{"role": "user", "content": final_prompt}]
+        final_result = call_model_api(messages, stream=True, big_model_log_path=BIG_MODEL_LOG)
+        logging.info(f"最终摘要生成成功，长度：{len(final_result) if final_result else 'None'}")
+        return final_result
 
-# 重新定义 update_structure_summary（保持一致）
 def update_structure_summary(node, file_rel, summary):
     if node.get("type") == "file" and node.get("relative_path") == file_rel:
         node["summaries"] = summary
@@ -369,7 +417,6 @@ def update_structure_summary(node, file_rel, summary):
             if update_structure_summary(child, file_rel, summary):
                 return True
     return False
-
 
 def estimate_invocations(file_list, get_file_char_count, batch_threshold):
     pending = file_list[:]  # 复制列表
@@ -389,6 +436,23 @@ def estimate_invocations(file_list, get_file_char_count, batch_threshold):
             count += 1
     return count
 
+def group_batches(pending_files, get_file_char_count, batch_threshold):
+    batches = []
+    current_batch = []
+    current_sum = 0
+    for fp in pending_files:
+        count = get_file_char_count(fp)
+        if current_sum + count <= batch_threshold:
+            current_batch.append(fp)
+            current_sum += count
+        else:
+            if current_batch:
+                batches.append(current_batch)
+            current_batch = [fp]
+            current_sum = count
+    if current_batch:
+        batches.append(current_batch)
+    return batches
 
 def main_wrapper():
     parser = argparse.ArgumentParser(add_help=False)
@@ -404,7 +468,6 @@ def main_wrapper():
     global BIG_MODEL_LOG
     BIG_MODEL_LOG = os.path.join(output_dir, "big_model_calls.log")
     main()
-
 
 if __name__ == "__main__":
     main_wrapper()

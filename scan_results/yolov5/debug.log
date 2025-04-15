@@ -865,3 +865,61 @@
 2025-04-15 10:38:42,689 [INFO] 最终项目总结报告生成完成
 2025-04-15 10:38:42,689 [INFO] 进度：已完成 100.0%
 2025-04-15 10:38:42,690 [INFO] 最终项目总结报告已保存至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/direct_readme_20250415_103842.md
+2025-04-15 20:44:54,317 [DEBUG] 日志系统初始化完成，日志文件：/Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/debug.log
+2025-04-15 20:44:54,319 [INFO] 成功加载扫描结果 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 20:44:54,319 [INFO] 提取 readme.md 成功：README.md (字符数：49895)
+2025-04-15 20:44:54,320 [INFO] 加载总结工具配置文件：codesense_summarizer_config.json
+2025-04-15 20:44:54,320 [INFO] 待处理文件数量（不包含 .md 文件且 need_traverse 为 True）：0
+2025-04-15 20:44:54,320 [INFO] 预估大模型调用总次数：0，总步骤数：2
+2025-04-15 20:44:54,320 [INFO] 进度：初步总结步骤完成，占总进度 50.0%
+2025-04-15 20:44:54,324 [INFO] 保存扫描结果至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-15 20:44:54,330 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-15 20:44:59,113 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-16 01:01:38,227 [DEBUG] 日志系统初始化完成，日志文件：/Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/debug.log
+2025-04-16 01:01:38,229 [INFO] 成功加载扫描结果 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-16 01:01:38,229 [INFO] 提取 readme.md 成功：README.md (字符数：49895)
+2025-04-16 01:01:38,229 [INFO] 加载总结工具配置文件：codesense_summarizer_config.json
+2025-04-16 01:01:38,229 [INFO] 待处理文件数量（不包含 .md 文件且 need_traverse 为 True）：0
+2025-04-16 01:01:38,229 [INFO] 划分出 0 个批次
+2025-04-16 01:01:38,229 [INFO] 最大并发请求数：4
+2025-04-16 01:01:38,234 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-16 01:01:43,811 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-16 01:02:21,917 [INFO] 最终项目总结报告生成完成
+2025-04-16 01:02:21,917 [INFO] 进度：已完成 100.0%
+2025-04-16 01:02:21,918 [INFO] 最终项目总结报告已保存至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/final_project_summary_20250416_010221.md
+2025-04-16 01:29:20,409 [DEBUG] 日志系统初始化完成，日志文件：/Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/debug.log
+2025-04-16 01:29:20,410 [INFO] 成功加载扫描结果 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-16 01:29:20,410 [INFO] 提取 readme.md 成功：README.md (字符数：49895)
+2025-04-16 01:29:20,411 [INFO] 加载总结工具配置文件：codesense_summarizer_config.json
+2025-04-16 01:29:20,411 [INFO] 待处理文件数量（不包含 .md 文件且 need_traverse 为 True）：0
+2025-04-16 01:29:20,411 [INFO] 划分出 0 个批次
+2025-04-16 01:29:20,411 [INFO] 最大并发请求数：4
+2025-04-16 01:29:20,422 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-16 01:29:25,016 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-16 01:30:01,574 [INFO] 最终项目总结报告生成完成
+2025-04-16 01:30:01,574 [INFO] 进度：已完成 100.0%
+2025-04-16 01:30:01,574 [INFO] 最终项目总结报告已保存至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/final_project_summary_20250416_013001.md
+2025-04-16 03:55:41,418 [DEBUG] 日志系统初始化完成，日志文件：/Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/debug.log
+2025-04-16 03:55:41,420 [INFO] 成功加载扫描结果 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/project_structure.json
+2025-04-16 03:55:41,420 [INFO] 提取 readme.md 成功：README.md (字符数：49895)
+2025-04-16 03:55:41,420 [INFO] 加载总结工具配置文件：codesense_summarizer_config.json
+2025-04-16 03:55:41,420 [INFO] 待处理文件数量（不包含 .md 文件且 need_traverse 为 True）：0
+2025-04-16 03:55:41,420 [INFO] 划分出 0 个批次
+2025-04-16 03:55:41,420 [INFO] 最大并发请求数：1
+2025-04-16 03:55:41,421 [INFO] 聚合后的代码摘要合集长度：54970
+2025-04-16 03:55:41,421 [INFO] 最终摘要文本超过限制，进行拆分求摘要
+2025-04-16 03:55:41,421 [INFO] 最终摘要聚合文本长度 54970 超过限制 50000.0，拆分为 2 份
+2025-04-16 03:55:41,421 [INFO] 第 1 部分文本长度：27485
+2025-04-16 03:55:41,426 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-16 03:55:45,138 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-16 03:56:24,628 [INFO] 第 1 部分摘要生成成功，摘要长度：2253
+2025-04-16 03:56:24,629 [INFO] 第 2 部分文本长度：27485
+2025-04-16 03:56:24,632 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-16 03:56:27,831 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-16 03:57:03,762 [INFO] 第 2 部分摘要生成成功，摘要长度：1878
+2025-04-16 03:57:03,762 [INFO] 合并所有部分摘要，总长度：4132
+2025-04-16 03:57:03,763 [DEBUG] Starting new HTTPS connection (1): api.stepfun.com:443
+2025-04-16 03:57:05,378 [DEBUG] https://api.stepfun.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2025-04-16 03:57:25,194 [INFO] 最终摘要生成成功，长度：2384
+2025-04-16 03:57:25,194 [INFO] 进度：已完成 100.0%
+2025-04-16 03:57:25,195 [INFO] 最终项目总结报告已保存至 /Users/shenting/PycharmProjects/PythonProject/CodeSense/scan_results/yolov5/final_project_summary_20250416_035725.md
